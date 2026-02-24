@@ -1,0 +1,1701 @@
+[
+  {
+    "id": "synthetic-biology",
+    "title": "Synthetic Biology",
+    "category": "ATOMS",
+    "icon": "Dna",
+    "the_matrix_truth": "Biology is becoming programmable. We can treat DNA like code to create organisms that clean up waste or produce new materials.",
+    "the_leverage": "Writing life code unlocks huge power. Anyone who masters this writes the software of nature, solving diseases and food shortages.",
+    "skill_stack": "Molecular biology, genetic editing (CRISPR), bioinformatics, Python.",
+    "economic_reality": "Bioengineer, biotech entrepreneur, researcher. Big R&D budgets, high risk and reward.",
+    "proof_of_work": "Fetch a public genome file and write a script that identifies a useful gene pattern. Publish your code.",
+    "linked_nodes": [
+      "artificial-intelligence",
+      "nanotechnology",
+      "data-science",
+      "material-science"
+    ]
+  },
+  {
+    "id": "quantum-computing",
+    "title": "Quantum Computing",
+    "category": "ATOMS",
+    "icon": "Atom",
+    "the_matrix_truth": "Computers can use the weird rules of quantum physics. Qubits can represent 0 and 1 at the same time, letting us solve problems way faster.",
+    "the_leverage": "Mastering quantum tech means cracking currently unsolvable problems in chemistry and cryptography. It’s like giving yourself superpowers in simulation and security.",
+    "skill_stack": "Quantum mechanics, linear algebra, Python (Qiskit or Cirq), algorithms.",
+    "economic_reality": "Quantum hardware engineer, quantum algorithm researcher. Massive lab costs, cutting-edge startups.",
+    "proof_of_work": "Use a free quantum simulator to run Grover's or Shor’s algorithm. Share how your code scales with more qubits.",
+    "linked_nodes": [
+      "artificial-intelligence",
+      "cryptography",
+      "advanced-materials"
+    ]
+  },
+  {
+    "id": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "category": "BITS",
+    "icon": "Brain",
+    "the_matrix_truth": "AI gives machines the ability to learn and make decisions. Your smartphone, cars, and apps will all use AI to get smarter.",
+    "the_leverage": "If you can build AI, you can automate creative work and decision-making. Every industry needs AI experts to stay competitive in the future.",
+    "skill_stack": "Machine learning (Python, TensorFlow), statistics, data engineering, neural networks.",
+    "economic_reality": "AI engineer, data scientist, tech startup founder. Software side has low setup cost but high competition.",
+    "proof_of_work": "Train a neural network on a simple dataset (e.g., classify images of animals) and post your model and code.",
+    "linked_nodes": [
+      "data-science",
+      "robotics-engineering",
+      "cybersecurity",
+      "digital-marketing"
+    ]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science",
+    "category": "BITS",
+    "icon": "Database",
+    "the_matrix_truth": "Data is the new raw material. Analyzing massive datasets reveals patterns hidden to the human eye.",
+    "the_leverage": "If you can extract insights from data, you guide business and research with facts. It’s like having a microscope on the whole economy.",
+    "skill_stack": "Statistics, Python (pandas, scikit-learn), SQL, data visualization.",
+    "economic_reality": "Data analyst, machine learning engineer, consultant. High demand across industries, moderate entry cost.",
+    "proof_of_work": "Find a public data set (COVID trends, stock prices, sports stats) and build a model that predicts a key outcome. Share your code.",
+    "linked_nodes": [
+      "digital-marketing",
+      "artificial-intelligence",
+      "finance",
+      "supply-chain-automation"
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity",
+    "category": "BITS",
+    "icon": "Shield",
+    "the_matrix_truth": "As everything goes online, security is critical. Every system is a target for hackers and spies, so defenses must be built into the code.",
+    "the_leverage": "An expert hacker can control systems or protect them. It’s one of the highest-value skills as the world guards digital infrastructure.",
+    "skill_stack": "Networking, cryptography, Linux/Python, penetration testing tools.",
+    "economic_reality": "Security engineer, ethical hacker, security consultant. Ever-present demand, high salaries in finance and tech.",
+    "proof_of_work": "Set up a small web server on your computer, then test it for vulnerabilities (like SQL injection) and fix them. Document your process.",
+    "linked_nodes": [
+      "blockchain-technology",
+      "cryptography",
+      "digital-privacy-ethics",
+      "AI-accelerators"
+    ]
+  },
+  {
+    "id": "nanotechnology",
+    "title": "Nanotechnology",
+    "category": "ATOMS",
+    "icon": "Atom",
+    "the_matrix_truth": "We can manipulate matter at the scale of atoms and molecules. This allows creation of ultra-strong materials, targeted drug delivery, and more.",
+    "the_leverage": "Small-scale control leads to huge breakthroughs. Imagine building machines smaller than a cell, or materials 100 times stronger than steel.",
+    "skill_stack": "Materials science, chemistry, microscopy, programming for simulations.",
+    "economic_reality": "Materials scientist, nano-engineering researcher, tech startup founder. Intensive lab work, government grants.",
+    "proof_of_work": "Model a nanomaterial property: use simulation software to see how a tiny lattice structure might filter water or carry medicine.",
+    "linked_nodes": [
+      "materials-science",
+      "renewable-energy",
+      "advanced-manufacturing",
+      "deep-space-propulsion"
+    ]
+  },
+  {
+    "id": "renewable-energy",
+    "title": "Renewable Energy",
+    "category": "ATOMS",
+    "icon": "Sun",
+    "the_matrix_truth": "Energy from the sun, wind, or geothermal heat is now cheapest and fastest-growing. The grid is shifting away from fossil fuels.",
+    "the_leverage": "Experts who scale up clean energy solutions are shaping the climate future. Leading in renewables means energy independence and huge markets.",
+    "skill_stack": "Electrical engineering, power systems, data analysis, sustainable design.",
+    "economic_reality": "Solar engineer, clean-tech entrepreneur, policy advisor. Strong government support, long timelines to profitability.",
+    "proof_of_work": "Build a small solar panel setup or wind turbine model. Measure its power output and optimize angle or design for max energy.",
+    "linked_nodes": [
+      "smart-agriculture",
+      "green-energy-investment",
+      "climate-science",
+      "circular-economy"
+    ]
+  },
+  {
+    "id": "robotics-engineering",
+    "title": "Robotics Engineering",
+    "category": "ATOMS",
+    "icon": "Cpu",
+    "the_matrix_truth": "Robots combine mechanics, electronics, and AI to perform tasks. As components get cheaper, robots move from factories to homes and remote fields.",
+    "the_leverage": "Building robots means automating dangerous or boring jobs. The first person to deploy robots in a new area can dominate that industry.",
+    "skill_stack": "Mechanics, embedded programming (C/C++/Python), sensors/actuators, control theory.",
+    "economic_reality": "Robotics engineer, automation consultant, drone startup founder. Capital-intensive prototyping, rapidly growing demand.",
+    "proof_of_work": "Build a simple robot: for example, a line-following car with Arduino. Share the circuit and code that controls its motors.",
+    "linked_nodes": [
+      "machine-learning-applications",
+      "computer-vision",
+      "smart-manufacturing",
+      "space-technology"
+    ]
+  },
+  {
+    "id": "blockchain-technology",
+    "title": "Blockchain Technology",
+    "category": "BITS",
+    "icon": "Database",
+    "the_matrix_truth": "Blockchain is a distributed ledger that no single party controls. It enables trust-less transactions and smart contracts on the internet.",
+    "the_leverage": "If you master decentralized systems, you can transform finance, supply chains, and property records. It’s a new foundation for digital trust.",
+    "skill_stack": "Cryptography, distributed systems, smart contract programming (Solidity), decentralized apps.",
+    "economic_reality": "Blockchain developer, crypto entrepreneur, financial technologist. Volatile markets, but huge investment flows.",
+    "proof_of_work": "Write a simple smart contract (e.g., a token or voting system) and deploy it on a test blockchain network. Show it working.",
+    "linked_nodes": [
+      "cryptography",
+      "digital-currency",
+      "global-finance",
+      "digital-privacy-ethics"
+    ]
+  },
+  {
+    "id": "cloud-computing",
+    "title": "Cloud Computing",
+    "category": "BITS",
+    "icon": "Cloud",
+    "the_matrix_truth": "All software and data can run on remote servers instead of local machines. Companies like Amazon, Google, and Microsoft provide nearly infinite virtual hardware on demand.",
+    "the_leverage": "Anyone who can architect and manage cloud infrastructure can scale products instantly worldwide. It’s a core skill for any modern tech business.",
+    "skill_stack": "Linux, networking, DevOps (Docker, Kubernetes), AWS/Azure/GCP.",
+    "economic_reality": "Cloud architect, DevOps engineer, SaaS startup founder. High demand across all tech fields, enterprise budgets.",
+    "proof_of_work": "Create a small web app and deploy it on a cloud service (AWS/GCP). Configure auto-scaling or use serverless functions.",
+    "linked_nodes": [
+      "data-science",
+      "internet-of-things",
+      "digital-democracy",
+      "social-robotics"
+    ]
+  },
+  {
+    "id": "climate-technology",
+    "title": "Climate Technology",
+    "category": "ATOMS",
+    "icon": "Globe",
+    "the_matrix_truth": "We need tech to combat climate change: carbon capture, resilient crops, geoengineering. Science and engineering are at war with rising temperatures.",
+    "the_leverage": "Solving climate tech is solving humanity’s biggest crisis. Innovations here get government and private support like nothing else.",
+    "skill_stack": "Environmental science, engineering, data analytics, policy understanding.",
+    "economic_reality": "Climate engineer, environmental startup founder, sustainability consultant. Growing funding, complex regulations.",
+    "proof_of_work": "Analyze local weather or CO2 data (satellite or ground sensors) to spot a trend. Propose a tech solution like a green roof or sensor network.",
+    "linked_nodes": [
+      "renewable-energy",
+      "green-energy-investment",
+      "circular-economy",
+      "socio-technical-systems"
+    ]
+  },
+  {
+    "id": "electric-vehicles",
+    "title": "Electric Vehicles",
+    "category": "ATOMS",
+    "icon": "BatteryCharging",
+    "the_matrix_truth": "Cars and bikes will be electric. Battery tech and power electronics are the new automotive frontier. This trend will disrupt oil, cities, and infrastructure.",
+    "the_leverage": "Master EV tech to reshape transportation. First movers can capture major auto markets as legacy car companies struggle to adapt.",
+    "skill_stack": "Electrical engineering, battery chemistry, embedded systems, mechanical design.",
+    "economic_reality": "EV engineer, charging infrastructure planner, mobility entrepreneur. Rapid industry growth, high R&D costs.",
+    "proof_of_work": "Build a simple electric drivetrain model: attach a motor to a battery and measure power and range under load. Document performance.",
+    "linked_nodes": [
+      "renewable-energy",
+      "autonomous-vehicles",
+      "smart-cities",
+      "supply-chain-automation"
+    ]
+  },
+  {
+    "id": "materials-science",
+    "title": "Materials Science",
+    "category": "ATOMS",
+    "icon": "Beaker",
+    "the_matrix_truth": "New materials (like graphene, nanomaterials, composites) change what’s possible in hardware. Everything from flexible phones to space elevators depends on them.",
+    "the_leverage": "Inventing a stronger, lighter, or smarter material can create new industries. Think of transforming construction, medicine, electronics.",
+    "skill_stack": "Chemistry, physics, nanofabrication, microscopy.",
+    "economic_reality": "Materials engineer, product developer, research scientist. Requires lab facilities, cross-industry demand.",
+    "proof_of_work": "Experiment with common materials: try combining materials (like carbon fiber with resin) or measure strength. Report results.",
+    "linked_nodes": [
+      "advanced-manufacturing",
+      "nanotechnology",
+      "quantum-sensors",
+      "space-technology"
+    ]
+  },
+  {
+    "id": "brain-computer-interface",
+    "title": "Brain-Computer Interface",
+    "category": "NEURONS",
+    "icon": "Monitor",
+    "the_matrix_truth": "Devices can connect directly to our brain signals. This could let disabled people control computers or even enable 'telepathy' between minds.",
+    "the_leverage": "Mastering this tech means bridging biology and machines. It’s a field with huge impact on medicine and human ability.",
+    "skill_stack": "Neuroscience, signal processing, embedded systems, machine learning.",
+    "economic_reality": "BCI researcher, neurotech entrepreneur, medical device engineer. High R&D costs, pioneering field.",
+    "proof_of_work": "Use an open EEG dataset and write code to interpret a brain signal (like distinguishing left vs right imagined movement). Share findings.",
+    "linked_nodes": [
+      "cyber-physical-systems",
+      "neuroscience",
+      "artificial-intelligence",
+      "interactive-design"
+    ]
+  },
+  {
+    "id": "aerospace-engineering",
+    "title": "Aerospace Engineering",
+    "category": "ATOMS",
+    "icon": "Rocket",
+    "the_matrix_truth": "We are in the golden age of space: rockets are reusable, satellites are swarms, and deep-space missions are planned. Space is becoming accessible to private industry.",
+    "the_leverage": "Building rockets or satellites means joining trillion-dollar space markets. It’s ultimate high ground for national security, communications, and exploration.",
+    "skill_stack": "Flight mechanics, propulsion, structural engineering, orbital dynamics.",
+    "economic_reality": "Aerospace engineer, launch startup founder, satellite operator. Huge initial investment, government contracts.",
+    "proof_of_work": "Simulate a simple rocket flight: use software to model trajectory of a rocket or drone. Validate results and refine your design.",
+    "linked_nodes": [
+      "quantum-communication",
+      "satellite-internet",
+      "deep-space-propulsion",
+      "climate-monitoring"
+    ]
+  },
+  {
+    "id": "advanced-manufacturing",
+    "title": "Advanced Manufacturing",
+    "category": "ATOMS",
+    "icon": "Factory",
+    "the_matrix_truth": "Factory processes are going digital: 3D printing, robotics, and AI in production lines. Manufacturing is moving from cheap labor to smart automation.",
+    "the_leverage": "Anyone who masters factory automation can outcompete traditional producers. It’s how countries reclaim industry and how startups can prototype fast.",
+    "skill_stack": "CAD design, robotics, additive manufacturing, control systems.",
+    "economic_reality": "Industrial engineer, 3D printing entrepreneur, operations manager. Capital-intensive but vital for modern economies.",
+    "proof_of_work": "Design and 3D-print a small part (like a bracket). Assemble it into a functional device (like a phone stand) and document the build.",
+    "linked_nodes": [
+      "robotics-engineering",
+      "materials-science",
+      "supply-chain-automation",
+      "data-science"
+    ]
+  },
+  {
+    "id": "biotechnology",
+    "title": "Biotechnology",
+    "category": "ATOMS",
+    "icon": "Flask",
+    "the_matrix_truth": "Engineering living systems at scale: biofuels, engineered bacteria, lab-grown meat. It blends biology with technology for industry and health.",
+    "the_leverage": "Leading in biotech gives access to global pharma and food markets. You turn biology into factories for products that used to be rare or expensive.",
+    "skill_stack": "Genetics, bio-process engineering, fermentation, data analysis.",
+    "economic_reality": "Biotech engineer, pharmaceutical researcher, agritech entrepreneur. Intensive lab work, strict regulation.",
+    "proof_of_work": "Grow yeast with different sugar sources and measure fermentation. Use those results to optimize biofuel or baking processes.",
+    "linked_nodes": [
+      "synthetic-biology",
+      "agri-tech",
+      "renewable-energy",
+      "chemical-engineering"
+    ]
+  },
+  {
+    "id": "virtual-reality",
+    "title": "Virtual Reality",
+    "category": "BITS",
+    "icon": "Headphones",
+    "the_matrix_truth": "We can now immerse users in computer-generated worlds. VR is no longer only games; it will transform training, design, and socializing.",
+    "the_leverage": "Designing VR experiences means shaping how people learn and connect. Early VR leaders set standards for tomorrow’s interfaces.",
+    "skill_stack": "3D modeling, game engines (Unity/Unreal), spatial audio, interaction design.",
+    "economic_reality": "VR developer, simulation trainer, media producer. Hardware costs are dropping, software can be created with consumer tools.",
+    "proof_of_work": "Create a short VR scene or simulation (even a basic 3D room) using Unity or a free VR tool. Share a screen recording of the demo.",
+    "linked_nodes": [
+      "augmented-reality",
+      "interactive-design",
+      "immersive-entertainment",
+      "e-learning-platform"
+    ]
+  },
+  {
+    "id": "augmented-reality",
+    "title": "Augmented Reality",
+    "category": "BITS",
+    "icon": "Smartphone",
+    "the_matrix_truth": "AR overlays digital content onto the real world. With a smartphone or glasses, data becomes part of our physical environment.",
+    "the_leverage": "Creating AR applications changes how people work and play by blending real and virtual. It’s a frontier in marketing, education, and enterprise tech.",
+    "skill_stack": "Computer vision, mobile development, 3D graphics, UX design.",
+    "economic_reality": "AR developer, UX designer, marketing technologist. Platforms like smartphones make entry easier, but hardware limits persist.",
+    "proof_of_work": "Build a simple AR app using a toolkit (like ARKit/ARCore) that places a virtual object on a real surface, like a table. Share your demo.",
+    "linked_nodes": [
+      "computer-vision",
+      "social-media-dynamics",
+      "interactive-design",
+      "future-of-work"
+    ]
+  },
+  {
+    "id": "computer-vision",
+    "title": "Computer Vision",
+    "category": "BITS",
+    "icon": "Eye",
+    "the_matrix_truth": "Machines can now see: detect faces, track objects, interpret images. Video cameras everywhere become intelligent sensors for security, cars, shopping, and health.",
+    "the_leverage": "If you can make software see, you unlock any field that involves images or video: medicine, retail, autonomous cars, security.",
+    "skill_stack": "Deep learning, image processing, OpenCV, Python/Matlab.",
+    "economic_reality": "Computer vision engineer, surveillance tech, autonomous vehicles researcher. High demand in many sectors, continuous advancement.",
+    "proof_of_work": "Write code to detect faces or common objects in photos or video using an existing library (like OpenCV). Show it working on sample images.",
+    "linked_nodes": [
+      "cybersecurity",
+      "robotics-engineering",
+      "VR-experience",
+      "medical-imaging"
+    ]
+  },
+  {
+    "id": "internet-of-things",
+    "title": "Internet of Things",
+    "category": "BITS",
+    "icon": "Wifi",
+    "the_matrix_truth": "Every device from fridges to streetlights can be smart and connected. IoT creates a network of sensors that generate massive data streams.",
+    "the_leverage": "Building IoT solutions means optimizing cities and factories. Early IoT integrators can gain efficiency advantages and new service models.",
+    "skill_stack": "Embedded systems, networking (MQTT/CoAP), data analytics, security.",
+    "economic_reality": "IoT engineer, solutions architect, product manager. Hardware-software blend, partnerships between tech and traditional industries.",
+    "proof_of_work": "Build a simple IoT device: e.g., a sensor (temperature or motion) that sends data to a server or phone and displays results.",
+    "linked_nodes": [
+      "cloud-computing",
+      "smart-cities",
+      "supply-chain-automation",
+      "cyber-physical-systems"
+    ]
+  },
+  {
+    "id": "fintech-innovation",
+    "title": "Fintech Innovation",
+    "category": "CAPITAL",
+    "icon": "CreditCard",
+    "the_matrix_truth": "Finance is being rebuilt on technology. From mobile payments to algorithmic wealth management, fintech disaggregates banks into software.",
+    "the_leverage": "Leading fintech means lowering barriers to capital and payments worldwide. It can create billion-dollar companies by rethinking money flow.",
+    "skill_stack": "Blockchain, data security, app development, financial modeling.",
+    "economic_reality": "Fintech founder, investment banker turned coder, payment startup CTO. Investor-funded, regulatory challenges.",
+    "proof_of_work": "Prototype a simple peer-to-peer payment app or crypto wallet with minimal features. Demonstrate a secure money transfer on a test network.",
+    "linked_nodes": [
+      "blockchain-technology",
+      "digital-currency",
+      "global-finance",
+      "data-privacy-ethics"
+    ]
+  },
+  {
+    "id": "neural-network-architecture",
+    "title": "Neural Network Architecture",
+    "category": "BITS",
+    "icon": "Cpu",
+    "the_matrix_truth": "Designing neural nets (the layers and connections) is an art. New architectures (like transformers) can make AI much more powerful.",
+    "the_leverage": "Innovating on network design can improve every AI application. Mastering this is how research teams stay ahead in image, text, and voice recognition.",
+    "skill_stack": "Deep learning frameworks, math (calculus, linear algebra), Python, GPU computing.",
+    "economic_reality": "AI researcher, ML engineer, tech lead. Research labs and big tech invest heavily in new architectures.",
+    "proof_of_work": "Experiment with an open-source neural net on a dataset (like MNIST or CIFAR). Modify the architecture and compare performance.",
+    "linked_nodes": [
+      "machine-learning-applications",
+      "AI-accelerators",
+      "cognitive-computing",
+      "data-science"
+    ]
+  },
+  {
+    "id": "smart-cities",
+    "title": "Smart Cities",
+    "category": "CAPITAL",
+    "icon": "Building2",
+    "the_matrix_truth": "Cities will be run on data: smart traffic lights, connected public transport, waste sensors. Urban planning will use real-time data for efficiency.",
+    "the_leverage": "If you can build tech for cities, you improve millions of lives and can make huge projects. City contracts can fund large ventures.",
+    "skill_stack": "IoT, data analytics, urban planning, public policy.",
+    "economic_reality": "Smart city consultant, municipal CTO, urban data scientist. Collaboration with governments, mixed public-private funding.",
+    "proof_of_work": "Design a plan: pick a common city problem (traffic, waste) and outline a connected solution using sensors and data analysis. Mock up the data flow.",
+    "linked_nodes": [
+      "internet-of-things",
+      "renewable-energy",
+      "autonomous-vehicles",
+      "urban-mobility"
+    ]
+  },
+  {
+    "id": "deep-space-network",
+    "title": "Deep Space Network",
+    "category": "ATOMS",
+    "icon": "Satellite",
+    "the_matrix_truth": "We now have networks that communicate with spacecraft at vast distances. This enables Mars rovers, interplanetary probes, and future moon bases.",
+    "the_leverage": "Building space communication systems means defining the infrastructure of space exploration. It’s a niche but high-impact field.",
+    "skill_stack": "RF engineering, astronomy, data transmission, network planning.",
+    "economic_reality": "Aerospace engineer, network architect for space, research scientist. Large government and NGO projects.",
+    "proof_of_work": "Simulate a simple satellite link: calculate latency and data rate between Earth and a Mars-distance spacecraft using given formulas.",
+    "linked_nodes": [
+      "aerospace-engineering",
+      "quantum-communication",
+      "space-tourism",
+      "neural-interfaces"
+    ]
+  },
+  {
+    "id": "gene-therapy",
+    "title": "Gene Therapy",
+    "category": "ATOMS",
+    "icon": "Microscope",
+    "the_matrix_truth": "We can now fix genetic diseases by editing the DNA of living cells. Using viruses or nanoparticles, we deliver new genes to treat conditions at the source.",
+    "the_leverage": "Mastering gene therapy means curing diseases that were once hopeless. It’s biotech’s cutting edge with life-saving potential.",
+    "skill_stack": "Genetics, virology, CRISPR gene editing, clinical research.",
+    "economic_reality": "Medical researcher, biotech developer, clinical director. Long trials, heavy regulation, massive potential rewards.",
+    "proof_of_work": "Review a recent gene therapy case study. Write a summary of how they edited the gene and the outcome.",
+    "linked_nodes": [
+      "synthetic-biology",
+      "biotechnology",
+      "neural-science",
+      "data-science"
+    ]
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing",
+    "category": "CAPITAL",
+    "icon": "Megaphone",
+    "the_matrix_truth": "Marketing is now driven by data: social ads, SEO, influencers, and analytics. Companies compete for your attention online using very targeted strategies.",
+    "the_leverage": "Anyone who understands digital reach can start a profitable venture or help businesses grow fast. It’s one of the quickest ways to scale a product today.",
+    "skill_stack": "SEO/SEM, content strategy, analytics tools, social media advertising.",
+    "economic_reality": "Digital marketer, growth hacker, startup founder. Low entry cost, high competition, measurable ROI.",
+    "proof_of_work": "Create a small online campaign: pick a topic and use free tools (like Google Trends and social media) to reach 100 readers or views. Report results.",
+    "linked_nodes": [
+      "content-strategy",
+      "social-media-dynamics",
+      "data-science",
+      "fintech-innovation"
+    ]
+  },
+  {
+    "id": "social-media-dynamics",
+    "title": "Social Media Dynamics",
+    "category": "NEURONS",
+    "icon": "Users",
+    "the_matrix_truth": "Social platforms shape public opinion and culture. Trends spread in seconds, giving rise to new jobs (influencers, community management) and movements.",
+    "the_leverage": "Understanding these networks gives influence. Marketers, politicians, and entrepreneurs use social media mastery to move markets and crowds.",
+    "skill_stack": "Communication, sociology, analytics, psychology.",
+    "economic_reality": "Social strategist, community manager, influencer. Low capital, but requires persistence and adaptability.",
+    "proof_of_work": "Analyze a viral trend: track how a hashtag or meme spread over time and which communities shared it. Present your findings.",
+    "linked_nodes": [
+      "digital-marketing",
+      "digital-democracy",
+      "interactive-design",
+      "neural-network-architecture"
+    ]
+  },
+  {
+    "id": "digital-democracy",
+    "title": "Digital Democracy",
+    "category": "CAPITAL",
+    "icon": "Globe",
+    "the_matrix_truth": "Technology is changing politics: online campaigns, e-voting, and data-driven policy. Voting and governance platforms can engage citizens globally.",
+    "the_leverage": "Building fair digital voting systems or civic tech changes how societies function. It’s high impact for good governance and societal trust.",
+    "skill_stack": "Software development, political science, cybersecurity, UX design.",
+    "economic_reality": "Civic technologist, policy analyst, NGO leader. Influence can come from lean startups or government alliances.",
+    "proof_of_work": "Design a simple voting app mockup with security features (like anonymous tokens). Or propose an online town hall format.",
+    "linked_nodes": [
+      "data-privacy-ethics",
+      "internet-of-things",
+      "open-source-innovation",
+      "regulatory-technology"
+    ]
+  },
+  {
+    "id": "autonomous-robots",
+    "title": "Autonomous Robots",
+    "category": "ATOMS",
+    "icon": "Bot",
+    "the_matrix_truth": "Robots will navigate and act without humans directing every move. From drones to factory bots, autonomy is the next step in robotics.",
+    "the_leverage": "Perfect an autonomous system and you create a 24/7 worker for dangerous or repetitive tasks. Defense, delivery, and exploration industries pay top dollar.",
+    "skill_stack": "AI for robotics, sensor fusion, control systems, path planning.",
+    "economic_reality": "Autonomy engineer, robotics consultant, defense tech developer. Early adopters get big contracts, tech is evolving fast.",
+    "proof_of_work": "Program a robot (like a robot vacuum or small drone) to navigate a simple course using sensors, then improve its efficiency.",
+    "linked_nodes": [
+      "robotics-engineering",
+      "computer-vision",
+      "smart-manufacturing",
+      "urban-mobility"
+    ]
+  },
+  {
+    "id": "quantum-cryptography",
+    "title": "Quantum Cryptography",
+    "category": "BITS",
+    "icon": "Lock",
+    "the_matrix_truth": "Using quantum physics, we can create unbreakable encryption (quantum key distribution). Future networks will be secure against any computer attack.",
+    "the_leverage": "Securing data with quantum means absolute trust in banking, government, and personal privacy. Being a pioneer here means guarding the digital world of tomorrow.",
+    "skill_stack": "Quantum mechanics, information theory, optics, network engineering.",
+    "economic_reality": "Security researcher, quantum network engineer, cryptography consultant. Niche field with government interest.",
+    "proof_of_work": "Simulate a basic quantum key exchange protocol (like BB84) using a programming library, and explain why it’s secure.",
+    "linked_nodes": [
+      "quantum-computing",
+      "cybersecurity",
+      "digital-privacy-ethics",
+      "blockchain-technology"
+    ]
+  },
+  {
+    "id": "biotech-manufacturing",
+    "title": "Biotech Manufacturing",
+    "category": "ATOMS",
+    "icon": "Flask",
+    "the_matrix_truth": "Manufacturing is going biological: using cells to produce drugs, fuels, and materials. Bioreactors replace factories for certain products.",
+    "the_leverage": "Engineering biology to make products cheaply can disrupt oil and pharma industries. It’s like programming factories using living machines.",
+    "skill_stack": "Bioprocess engineering, genetic engineering, fermentation tech, quality control.",
+    "economic_reality": "Process engineer, biomanufacturing manager, pharmaceutical scientist. Large facilities, strict regulations, but high demand.",
+    "proof_of_work": "Plan a small fermentation experiment: grow yeast or bacteria with a target output (like bioethanol) and measure yield changes with conditions.",
+    "linked_nodes": [
+      "synthetic-biology",
+      "renewable-energy",
+      "advanced-manufacturing",
+      "regulatory-technology"
+    ]
+  },
+  {
+    "id": "satellite-internet",
+    "title": "Satellite Internet",
+    "category": "BITS",
+    "icon": "Satellite",
+    "the_matrix_truth": "High-speed internet from space is now real with low-orbit satellite constellations. Remote areas and developing markets can be connected directly from orbit.",
+    "the_leverage": "Building global networks from space leaps ahead of terrestrial limits. Leading it means bridging the digital divide and serving billions.",
+    "skill_stack": "Network engineering, satellite communications, RF engineering, data routing.",
+    "economic_reality": "Network engineer, space startup strategist, telecom analyst. Large capital expense but huge untapped markets.",
+    "proof_of_work": "Calculate the coverage pattern of a constellation: given altitude and separation, find how many satellites cover Earth.",
+    "linked_nodes": [
+      "aerospace-engineering",
+      "cloud-computing",
+      "smart-cities",
+      "digital-currency"
+    ]
+  },
+  {
+    "id": "drone-delivery",
+    "title": "Drone Delivery",
+    "category": "ATOMS",
+    "icon": "ShoppingCart",
+    "the_matrix_truth": "Delivery drones will carry packages and medicine to your home. This requires robotics, logistics, and airspace management all at once.",
+    "the_leverage": "Mastering drone delivery means dominating logistics for e-commerce and healthcare. It’s a new industrial revolution for last-mile transport.",
+    "skill_stack": "Aerodynamics, robotics, logistics software, battery technology.",
+    "economic_reality": "Drone engineer, logistics planner, startup CEO. Highly regulated, but big efficiency gains.",
+    "proof_of_work": "Build or simulate a drone flight path: use Google Maps and tools to plan an obstacle-free route to deliver a package safely.",
+    "linked_nodes": [
+      "autonomous-robots",
+      "supply-chain-automation",
+      "smart-manufacturing",
+      "energy-storage"
+    ]
+  },
+  {
+    "id": "biotech-agriculture",
+    "title": "Biotech Agriculture",
+    "category": "ATOMS",
+    "icon": "Sprout",
+    "the_matrix_truth": "Crops are being engineered for climate and nutrition. From drought-resistant genes to lab-grown meat, biology boosts farming output.",
+    "the_leverage": "Solve food security by engineering plants or cells. You tap into a market of billions and fight hunger with tech.",
+    "skill_stack": "Genetic engineering, plant physiology, data analytics, sustainable farming.",
+    "economic_reality": "Agritech engineer, GMO crop specialist, sustainable farmer. Partnerships with big agriculture, shifting regulations.",
+    "proof_of_work": "Research a drought-resistant crop variant. Analyze how its yield compares under normal vs low-water conditions.",
+    "linked_nodes": [
+      "sustainable-farming",
+      "renewable-energy",
+      "data-science",
+      "climate-resilience"
+    ]
+  },
+  {
+    "id": "personalized-medicine",
+    "title": "Personalized Medicine",
+    "category": "ATOMS",
+    "icon": "Activity",
+    "the_matrix_truth": "Healthcare tailored to your genetics and lifestyle is becoming standard. Doctors use AI and gene data to pick treatments that work for you.",
+    "the_leverage": "Leaders in this field can shift medicine from one-size-fits-all to individually optimized. Huge impact on health outcomes, healthcare costs.",
+    "skill_stack": "Genomics, AI for healthcare, clinical research, data ethics.",
+    "economic_reality": "Medical data analyst, biotech startup founder, clinician-scientist. Stringent privacy laws, big pharma collaborations.",
+    "proof_of_work": "Analyze a toy health dataset (like heart rate or blood test results) and build a model to predict risk factors for a condition.",
+    "linked_nodes": [
+      "genome-editing",
+      "machine-learning-applications",
+      "neural-interfaces",
+      "policy-tech"
+    ]
+  },
+  {
+    "id": "brain-data-analytics",
+    "title": "Brain Data Analytics",
+    "category": "BITS",
+    "icon": "BarChart",
+    "the_matrix_truth": "We can record and analyze brain activity data. This turns raw neural signals into insights about thought patterns or mental states.",
+    "the_leverage": "Mapping mind data can revolutionize education and medicine. The first to crack the code linking signals to outcomes will set the research agenda.",
+    "skill_stack": "Signal processing, machine learning, neuroscience, big data tools.",
+    "economic_reality": "Neurotech engineer, data scientist, startup founder. Requires specialized sensors, interdisciplinary collaboration.",
+    "proof_of_work": "Use a public EEG dataset and apply machine learning to classify simple tasks (like eye open vs closed).",
+    "linked_nodes": [
+      "neural-network-architecture",
+      "brain-computer-interface",
+      "digital-privacy-ethics",
+      "education-technology"
+    ]
+  },
+  {
+    "id": "neural-interfaces",
+    "title": "Neural Interfaces",
+    "category": "ATOMS",
+    "icon": "Headphones",
+    "the_matrix_truth": "Direct interfaces (like smart implants or brain waves on a headset) are merging human and computer. Controlling devices by thought is nearing reality.",
+    "the_leverage": "This tech redefines disability solutions and human capability. It’s the next step in wearable tech and medical devices.",
+    "skill_stack": "Neuroscience, hardware design, machine learning, bio-signal processing.",
+    "economic_reality": "Neuroengineer, biotech startup founder, medical device developer. Requires clinical trials, but high impact funding.",
+    "proof_of_work": "Experiment with EEG: use an open EEG dataset and try to detect basic commands (like imagining movement vs rest).",
+    "linked_nodes": [
+      "brain-computer-interface",
+      "machine-learning-applications",
+      "healthcare-it",
+      "cognitive-computing"
+    ]
+  },
+  {
+    "id": "renewable-grid",
+    "title": "Renewable Grid",
+    "category": "ATOMS",
+    "icon": "Zap",
+    "the_matrix_truth": "Electric grids are moving to 100% renewables with storage and smart distribution. The old coal plants are being replaced by wind, solar, and batteries.",
+    "the_leverage": "Mastering smart grids and storage unlocks the clean energy economy. It’s the foundation for electrifying transport, industry, and homes.",
+    "skill_stack": "Power engineering, smart grid tech, energy storage, data analytics.",
+    "economic_reality": "Power systems engineer, utility technology manager, energy analyst. Heavy infrastructure work, public-private investment.",
+    "proof_of_work": "Model an electricity grid with solar and battery inputs. Show how adding storage smooths out supply variations.",
+    "linked_nodes": [
+      "renewable-energy",
+      "energy-storage",
+      "blockchain-technology",
+      "climate-resilience"
+    ]
+  },
+  {
+    "id": "self-driving-cars",
+    "title": "Self-Driving Cars",
+    "category": "ATOMS",
+    "icon": "Car",
+    "the_matrix_truth": "Vehicles will drive themselves using AI, sensors, and maps. This disrupts taxi, delivery, and personal transport industries.",
+    "the_leverage": "Creating the first safe autonomous system is a path to a massive market. It combines AI, sensors, and controls in a real-world robot.",
+    "skill_stack": "Computer vision, AI, mechanical systems, control theory.",
+    "economic_reality": "Autonomous vehicle engineer, robotics firm founder, sensor specialist. High R&D costs, regulatory hurdles, but the prize is huge.",
+    "proof_of_work": "Use simulation tools (like CARLA) or a scaled model car to implement lane keeping or obstacle avoidance. Share performance data.",
+    "linked_nodes": [
+      "computer-vision",
+      "robotics-engineering",
+      "cyber-physical-systems",
+      "urban-mobility"
+    ]
+  },
+  {
+    "id": "machine-learning-applications",
+    "title": "Machine Learning Applications",
+    "category": "BITS",
+    "icon": "Cpu",
+    "the_matrix_truth": "Machine learning is applied everywhere: recommendation engines, medical image analysis, voice assistants. Every data-rich field uses these algorithms.",
+    "the_leverage": "If you can adapt ML to new problems, you create value in any sector. Being the ML expert in healthcare or agriculture makes you irreplaceable.",
+    "skill_stack": "ML frameworks, Python/R, domain knowledge, data science.",
+    "economic_reality": "AI consultant, domain-specific developer, product manager. Easy to start small (with open-source libraries), growing demand.",
+    "proof_of_work": "Pick a dataset (health, sports, business) and train an ML model (e.g., predict sales). Evaluate its accuracy and improve it.",
+    "linked_nodes": [
+      "data-science",
+      "artificial-intelligence",
+      "self-driving-cars",
+      "financial-engineering"
+    ]
+  },
+  {
+    "id": "climate-economics",
+    "title": "Climate Economics",
+    "category": "CAPITAL",
+    "icon": "LineChart",
+    "the_matrix_truth": "Economic models are adjusting for climate impact and carbon costs. Investments flow into sustainability as we price emissions and build green markets.",
+    "the_leverage": "Designing economic incentives for climate solutions shapes policy worldwide. You enable companies to profit from cleaning the planet.",
+    "skill_stack": "Econometrics, policy analysis, environmental science, finance.",
+    "economic_reality": "Climate economist, sustainability consultant, impact investor. Work with governments or green funds.",
+    "proof_of_work": "Analyze carbon tax or renewable subsidy data from a country. Show its effect on emissions or clean energy growth.",
+    "linked_nodes": [
+      "renewable-energy",
+      "public-policy-tech",
+      "green-energy-investment",
+      "sustainable-farming"
+    ]
+  },
+  {
+    "id": "urban-mobility",
+    "title": "Urban Mobility",
+    "category": "CAPITAL",
+    "icon": "MapPin",
+    "the_matrix_truth": "Cities need smarter transport: electric buses, bike-sharing, on-demand shuttles. Mobility as a service is overtaking private car ownership.",
+    "the_leverage": "Innovating in how people move in cities can reduce pollution and commute times. It’s a big market with government and private interest.",
+    "skill_stack": "Transportation engineering, data analytics, app development, urban planning.",
+    "economic_reality": "Mobility planner, startup CEO, public transit consultant. Often public-private projects, can scale with user base.",
+    "proof_of_work": "Design a mini mobility model: simulate a bike-share system in a city block and optimize station placement based on demand.",
+    "linked_nodes": [
+      "smart-cities",
+      "electric-vehicles",
+      "internet-of-things",
+      "data-science"
+    ]
+  },
+  {
+    "id": "cyber-physical-systems",
+    "title": "Cyber-Physical Systems",
+    "category": "BITS",
+    "icon": "Settings",
+    "the_matrix_truth": "These systems integrate computation with physical processes. Examples include smart factories and robotic assembly lines connected by the Internet.",
+    "the_leverage": "Build expertise in CPS and you can automate entire industries. It’s where software meets machines and yields new efficiency.",
+    "skill_stack": "Embedded systems, real-time software, sensors, control engineering.",
+    "economic_reality": "Systems engineer, industrial automation specialist, IoT solutions architect. Large industrial clients, safety-critical work.",
+    "proof_of_work": "Connect a sensor to a microcontroller and make it trigger an action (like a buzzer). Demonstrate data flow from physical to digital.",
+    "linked_nodes": [
+      "internet-of-things",
+      "robotics-engineering",
+      "advanced-manufacturing",
+      "sustainable-farming"
+    ]
+  },
+  {
+    "id": "digital-twins",
+    "title": "Digital Twins",
+    "category": "BITS",
+    "icon": "Layers",
+    "the_matrix_truth": "A digital twin is a virtual replica of a physical system. Engineers can simulate and optimize factories, buildings, or even organs using this mirror.",
+    "the_leverage": "Creating digital twins cuts R&D costs and downtime. It’s like having a sandbox copy of reality to test improvements safely.",
+    "skill_stack": "Simulation software, IoT, data analytics, system modeling.",
+    "economic_reality": "Simulation engineer, consultant, smart building designer. Used in manufacturing and urban planning.",
+    "proof_of_work": "Model a simple system (like an HVAC unit or machine). Simulate how changing one parameter (speed, size) affects performance.",
+    "linked_nodes": [
+      "smart-cities",
+      "advanced-manufacturing",
+      "climate-technology",
+      "data-privacy-ethics"
+    ]
+  },
+  {
+    "id": "e-learning-platform",
+    "title": "E-Learning Platform",
+    "category": "NEURONS",
+    "icon": "BookOpen",
+    "the_matrix_truth": "Education is moving online: interactive courses, AI tutors, and global classrooms. Knowledge can be accessed anywhere from any device.",
+    "the_leverage": "Building a platform or content means influencing millions of learners. It’s how education scales cheaply and adaptively.",
+    "skill_stack": "Web development, instructional design, multimedia production, analytics.",
+    "economic_reality": "Edtech developer, course creator, education consultant. Low tech cost, high competition but global reach.",
+    "proof_of_work": "Create a short online course or tutorial series on a tech topic you know. Host it on a site like GitHub Pages or YouTube.",
+    "linked_nodes": [
+      "virtual-reality",
+      "interactive-design",
+      "neuro-education",
+      "AI-accelerators"
+    ]
+  },
+  {
+    "id": "data-privacy-ethics",
+    "title": "Data Privacy Ethics",
+    "category": "NEURONS",
+    "icon": "ShieldCheck",
+    "the_matrix_truth": "As we collect more data, ethical rules and privacy laws become key. Misuse of data can lead to scandals; trust and law are critical.",
+    "the_leverage": "Guiding tech development with ethics gains user trust and avoids legal trouble. Experts shape policies and standards in every industry.",
+    "skill_stack": "Ethics, law (GDPR), security, communication.",
+    "economic_reality": "Compliance officer, ethicist, privacy consultant. Often in tech or government roles, increasingly important.",
+    "proof_of_work": "Review a recent data privacy incident (like a major breach). Summarize what went wrong and propose a policy fix.",
+    "linked_nodes": [
+      "cybersecurity",
+      "blockchain-technology",
+      "digital-democracy",
+      "public-policy-tech"
+    ]
+  },
+  {
+    "id": "content-strategy",
+    "title": "Content Strategy",
+    "category": "NEURONS",
+    "icon": "Edit2",
+    "the_matrix_truth": "Content strategy is planning what stories to tell across platforms. Good content attracts attention in social media and marketing.",
+    "the_leverage": "Crafting narratives that resonate can build brands and movements. It’s how ideas gain traction online.",
+    "skill_stack": "Writing, SEO, audience research, analytics.",
+    "economic_reality": "Content strategist, copywriter, marketing consultant. Freelance or agency work, very low initial investment.",
+    "proof_of_work": "Create and publish a blog post or short video on a tech topic, then analyze how many people it reached and why.",
+    "linked_nodes": [
+      "digital-marketing",
+      "social-media-dynamics",
+      "open-source-innovation",
+      "digital-currency"
+    ]
+  },
+  {
+    "id": "biotech-robotics",
+    "title": "Biotech Robotics",
+    "category": "ATOMS",
+    "icon": "HardDrive",
+    "the_matrix_truth": "Combining biotech and robotics: think surgical robots or automated labs. Living systems and machines collaborate at a new level.",
+    "the_leverage": "You can build autonomous labs or smart surgical tools. Being an early expert merges two booming fields.",
+    "skill_stack": "Biomedical engineering, robotics, automation, tissue engineering.",
+    "economic_reality": "Medical robotics engineer, lab automation specialist, biotech startup founder. High-tech healthcare investments.",
+    "proof_of_work": "Design a protocol: how a robot arm could handle cell cultures in a lab, step by step with safety checks.",
+    "linked_nodes": [
+      "robotics-engineering",
+      "biotechnology",
+      "automation",
+      "medical-imaging"
+    ]
+  },
+  {
+    "id": "space-tourism",
+    "title": "Space Tourism",
+    "category": "ATOMS",
+    "icon": "Plane",
+    "the_matrix_truth": "Commercial flights to space orbit or the moon will be reality soon. New companies are making zero-gravity flights and lunar hotels.",
+    "the_leverage": "Being part of this industry now means billionaire-backed projects. It’s not just thrill; it advances rocket tech and science funding.",
+    "skill_stack": "Aerospace engineering, hospitality, safety engineering, project management.",
+    "economic_reality": "Space tourism guide, aerospace tourism entrepreneur, trainer. Ultra high cost product, niche market of the wealthy.",
+    "proof_of_work": "Create a mock itinerary for a week-long space vacation: include transport, lodging, and activities (with technical justifications).",
+    "linked_nodes": [
+      "aerospace-engineering",
+      "advanced-manufacturing",
+      "satellite-internet",
+      "digital-marketing"
+    ]
+  },
+  {
+    "id": "ai-accelerators",
+    "title": "AI Accelerators",
+    "category": "BITS",
+    "icon": "Cpu",
+    "the_matrix_truth": "Special chips (like GPUs and TPUs) speed up AI models enormously. Hardware design is catching up to the needs of deep learning.",
+    "the_leverage": "Designing or using specialized AI hardware gives you a speed advantage. It’s crucial for deploying cutting-edge models in real time.",
+    "skill_stack": "Computer architecture, VLSI design, parallel programming, CUDA/OpenCL.",
+    "economic_reality": "Chip designer, cloud computing architect, AI lab engineer. Large tech companies dominate hardware, but startups innovate too.",
+    "proof_of_work": "Benchmark a small neural network on GPU vs CPU. Show how much faster the GPU is, explaining the parallel computations.",
+    "linked_nodes": [
+      "machine-learning-applications",
+      "quantum-computing",
+      "cloud-computing",
+      "cyber-physical-systems"
+    ]
+  },
+  {
+    "id": "distributed-ledger",
+    "title": "Distributed Ledger",
+    "category": "BITS",
+    "icon": "Layers",
+    "the_matrix_truth": "Beyond Bitcoin: distributed ledgers (blockchains) can record any exchange (digital assets, contracts, identities) without central servers.",
+    "the_leverage": "Mastering ledger tech means reshaping trust in any field (finance, supply chain, identity). Early builders can capture new decentralized markets.",
+    "skill_stack": "Blockchain protocols, consensus algorithms, peer-to-peer networks, security.",
+    "economic_reality": "Blockchain architect, platform developer, consultant. Hype-driven but real applications emerging in finance and logistics.",
+    "proof_of_work": "Set up a private blockchain network (using a platform like Ethereum). Execute a sample transaction or smart contract on it.",
+    "linked_nodes": [
+      "blockchain-technology",
+      "digital-currency",
+      "supply-chain-automation",
+      "data-privacy-ethics"
+    ]
+  },
+  {
+    "id": "global-supply-chain",
+    "title": "Global Supply Chain",
+    "category": "CAPITAL",
+    "icon": "Truck",
+    "the_matrix_truth": "Goods now move across the world in days, not months. Technology optimizes shipping routes, inventory, and tracking from factory to doorstep.",
+    "the_leverage": "Improving supply chains saves massive costs and reduces waste. Tech leaders in logistics (like optimizing Amazon’s network) earn huge market share.",
+    "skill_stack": "Operations research, analytics, logistics software, IoT tracking.",
+    "economic_reality": "Supply chain manager, logistics tech founder, consultant. Backbone of global trade, demand for efficiency.",
+    "proof_of_work": "Map a product’s journey (from raw material to user) and identify two points where technology could speed up or cut cost.",
+    "linked_nodes": [
+      "drone-delivery",
+      "supply-chain-automation",
+      "smart-manufacturing",
+      "green-energy-investment"
+    ]
+  },
+  {
+    "id": "sustainable-farming",
+    "title": "Sustainable Farming",
+    "category": "ATOMS",
+    "icon": "Sprout",
+    "the_matrix_truth": "Farming tech now uses less water and land through techniques like vertical farms, hydroponics, and precision irrigation.",
+    "the_leverage": "Innovating agriculture means feeding more people with fewer resources. It’s critical for future food security and climate adaptation.",
+    "skill_stack": "Agronomy, IoT sensors, data analytics, mechanical systems (greenhouses).",
+    "economic_reality": "Agritech entrepreneur, farm manager, environmental consultant. Often local projects with global interest and grants.",
+    "proof_of_work": "Design a mini hydroponics setup: grow a plant in nutrient solution and monitor growth vs soil. Optimize nutrients or light.",
+    "linked_nodes": [
+      "biotech-agriculture",
+      "smart-agriculture",
+      "renewable-energy",
+      "circular-economy"
+    ]
+  },
+  {
+    "id": "green-manufacturing",
+    "title": "Green Manufacturing",
+    "category": "ATOMS",
+    "icon": "Factory",
+    "the_matrix_truth": "Factories are going green with recycling, solar power, and low-waste processes. Sustainability is a core design goal now.",
+    "the_leverage": "Companies that build eco-friendly production lines save costs and win consumers. It’s also required by increasingly strict regulations.",
+    "skill_stack": "Industrial engineering, energy management, waste reduction tech, lifecycle analysis.",
+    "economic_reality": "Sustainability engineer, operations director, green tech consultant. ROI from efficiency often attractive to investors.",
+    "proof_of_work": "Audit a small production process (like a craft or hobby project). Identify materials and energy use, then suggest greener alternatives.",
+    "linked_nodes": [
+      "advanced-manufacturing",
+      "renewable-energy",
+      "climate-science",
+      "circular-economy"
+    ]
+  },
+  {
+    "id": "interactive-design",
+    "title": "Interactive Design",
+    "category": "NEURONS",
+    "icon": "PenTool",
+    "the_matrix_truth": "Designing interactive products (apps, installations) shapes user behavior. Good UX/UI design bridges technology and psychology.",
+    "the_leverage": "A talented designer can make tech accessible and engaging. They are key in product teams and can launch innovative experiences.",
+    "skill_stack": "UX/UI tools (Sketch, Figma), user research, basic coding (HTML/CSS/JS), psychology.",
+    "economic_reality": "UX designer, product designer, creative director. Freelance or studio work, high demand in software and product companies.",
+    "proof_of_work": "Design a simple app interface for a new idea (sketch on paper or use a design tool) and explain user flow.",
+    "linked_nodes": [
+      "virtual-reality",
+      "content-strategy",
+      "e-learning-platform",
+      "digital-marketing"
+    ]
+  },
+  {
+    "id": "cross-reality",
+    "title": "Cross Reality",
+    "category": "BITS",
+    "icon": "Layers",
+    "the_matrix_truth": "Cross reality blends AR, VR, and MR (mixed reality). It will let users jump between worlds seamlessly or have mixed experiences.",
+    "the_leverage": "Creating cross reality experiences opens new media formats and collaboration spaces. It’s the next evolution of the internet interface.",
+    "skill_stack": "Unity/Unreal, 3D design, spatial computing, networking.",
+    "economic_reality": "XR developer, multimedia artist, tech evangelist. Platforms still maturing, but funding pouring in.",
+    "proof_of_work": "Prototype an AR/VR demo: for example, place a virtual character in your living room using an AR framework. Record and share it.",
+    "linked_nodes": [
+      "augmented-reality",
+      "virtual-reality",
+      "social-media-dynamics",
+      "media-distribution"
+    ]
+  },
+  {
+    "id": "precision-engineering",
+    "title": "Precision Engineering",
+    "category": "ATOMS",
+    "icon": "Ruler",
+    "the_matrix_truth": "Building parts with micron accuracy: semiconductors, micro-optics, custom prosthetics. High precision tech underlies modern chips and sensors.",
+    "the_leverage": "Experts here build the critical components for cutting-edge devices. If you enable micro-nano fabrication, you fuel tech advances everywhere.",
+    "skill_stack": "Mechanical design, optics, CAD/CAM, quality control.",
+    "economic_reality": "Precision engineer, semiconductor fab technician, aerospace component designer. High barriers, but key industry roles.",
+    "proof_of_work": "Design a simple precision part (like a tiny gear or lens holder) in CAD and simulate its fit or tolerance.",
+    "linked_nodes": [
+      "nanotechnology",
+      "materials-science",
+      "biotech-fabrication",
+      "critical-infrastructure"
+    ]
+  },
+  {
+    "id": "immersive-entertainment",
+    "title": "Immersive Entertainment",
+    "category": "NEURONS",
+    "icon": "Film",
+    "the_matrix_truth": "Movies, games, and live events will become fully interactive experiences. Think VR concerts or holographic theater, not passive screens.",
+    "the_leverage": "Creating new forms of media sets cultural trends. Industry leaders here redefine how people consume content and spend leisure time.",
+    "skill_stack": "Storytelling, game/audio design, VR/AR tech, event production.",
+    "economic_reality": "Creative director, game designer, event technologist. Heavy R&D in XR, but exploding interest from media companies.",
+    "proof_of_work": "Write and film a short 360° video or VR experience (smartphone 360 camera). Share the link so others can view it in VR.",
+    "linked_nodes": [
+      "virtual-reality",
+      "cross-reality",
+      "social-media-dynamics",
+      "interactive-design"
+    ]
+  },
+  {
+    "id": "global-finance",
+    "title": "Global Finance",
+    "category": "CAPITAL",
+    "icon": "Globe",
+    "the_matrix_truth": "Money moves internationally with digital trade and investment. Understanding currency flows and macroeconomic trends is key for big decisions.",
+    "the_leverage": "Mastering global capital flows can create massive wealth (or fortune if you fail). It’s power to influence markets worldwide.",
+    "skill_stack": "Economics, financial modeling, international law, analytics.",
+    "economic_reality": "Investment banker, economist, hedge fund manager. High barrier (advanced degrees), but unlimited upside.",
+    "proof_of_work": "Build a simple currency conversion app or currency risk model using real exchange rates to illustrate global trade.",
+    "linked_nodes": [
+      "digital-currency",
+      "algorithmic-trading",
+      "cryptocurrency",
+      "regulatory-technology"
+    ]
+  },
+  {
+    "id": "digital-currency",
+    "title": "Digital Currency",
+    "category": "CAPITAL",
+    "icon": "DollarSign",
+    "the_matrix_truth": "Cryptocurrencies and central bank digital currencies are changing money. Cash is moving to secure digital forms controlled by code or government.",
+    "the_leverage": "Understanding digital money lets you create new financial products and markets. It’s a chance to redefine how value is stored and exchanged.",
+    "skill_stack": "Cryptography, economics, blockchain development, regulation.",
+    "economic_reality": "Crypto trader, blockchain startup founder, central bank analyst. Wild volatility, high risk, but major hedge funds involved.",
+    "proof_of_work": "Simulate a simple cryptocurrency transaction between wallets using a small blockchain library and explain each step.",
+    "linked_nodes": [
+      "blockchain-technology",
+      "fintech-innovation",
+      "financial-engineering",
+      "cryptography"
+    ]
+  },
+  {
+    "id": "climate-science",
+    "title": "Climate Science",
+    "category": "ATOMS",
+    "icon": "Globe2",
+    "the_matrix_truth": "Studying the climate system and human impact on it is urgent. Modeling weather, ice melt, and carbon cycles informs every policy.",
+    "the_leverage": "Scientists who predict climate outcomes guide global strategy. It’s both academic prestige and lifesaving work as the planet changes.",
+    "skill_stack": "Climate modeling, oceanography, physics, data analysis.",
+    "economic_reality": "Climate modeler, environmental consultant, research scientist. Mostly funded by governments and NGOs.",
+    "proof_of_work": "Run a basic climate model (many open tools exist) to see how CO2 levels affect temperature over decades. Plot your results.",
+    "linked_nodes": [
+      "climate-technology",
+      "renewable-energy",
+      "data-science",
+      "green-energy-investment"
+    ]
+  },
+  {
+    "id": "ocean-technology",
+    "title": "Ocean Technology",
+    "category": "ATOMS",
+    "icon": "Droplets",
+    "the_matrix_truth": "The oceans cover most of Earth and hold potential energy, minerals, and data (sensors). Submersibles and marine robotics explore this frontier.",
+    "the_leverage": "If you can harness the sea (like tidal energy or mining seabed), you open a vast resource. Ocean tech advances help climate resilience and resources.",
+    "skill_stack": "Marine engineering, robotics, geology, renewable energy.",
+    "economic_reality": "Marine engineer, oceanographer, clean energy developer. Challenges from harsh environment, but huge untapped value.",
+    "proof_of_work": "Design a concept of a wave-energy device or underwater sensor network, explaining how it would survive ocean conditions.",
+    "linked_nodes": [
+      "renewable-energy",
+      "drone-delivery",
+      "space-technology",
+      "climate-resilience"
+    ]
+  },
+  {
+    "id": "biotech-fabrication",
+    "title": "Biotech Fabrication",
+    "category": "ATOMS",
+    "icon": "Factory",
+    "the_matrix_truth": "Fabrication using living cells: growing leather in vats, printing organs on bio-printers. Biology is the new manufacturing material.",
+    "the_leverage": "A biotech fab specialist can create sustainable products of any kind. It’s like programming factories made of cells.",
+    "skill_stack": "Tissue engineering, bioprinting, synthetic biology, process engineering.",
+    "economic_reality": "Bioprinting engineer, clean protein producer, biotech CEO. Very capital-intensive, but biotech labs are springing up.",
+    "proof_of_work": "Research a bioprinting method and draft a plan to print a simple tissue (like a liver patch) outlining materials and steps.",
+    "linked_nodes": [
+      "biotechnology",
+      "materials-science",
+      "healthcare-technology",
+      "open-source-innovation"
+    ]
+  },
+  {
+    "id": "future-of-work",
+    "title": "Future of Work",
+    "category": "NEURONS",
+    "icon": "Briefcase",
+    "the_matrix_truth": "Automation and remote tools change how we work. Knowledge work can be done anywhere; lifelong learning is the norm.",
+    "the_leverage": "Figuring out new work models (like AI-coached teams) shapes entire industries. Thought leaders here can advise governments and companies.",
+    "skill_stack": "Data analysis, sociology, HR tech, leadership.",
+    "economic_reality": "Workplace consultant, HR tech founder, policy advisor. High demand to solve unemployment and productivity.",
+    "proof_of_work": "Survey a workplace or study a remote work tool’s impact on a team. Present findings on productivity or morale.",
+    "linked_nodes": [
+      "AI-accelerators",
+      "digital-democracy",
+      "professional-networking",
+      "cognitive-computing"
+    ]
+  },
+  {
+    "id": "quantum-sensors",
+    "title": "Quantum Sensors",
+    "category": "ATOMS",
+    "icon": "Satellite",
+    "the_matrix_truth": "Sensors using quantum effects achieve extreme precision (like detecting minute magnetic fields). They are used in navigation, medical imaging, and more.",
+    "the_leverage": "If you build devices with quantum sensitivity, you can revolutionize measurements. This unlocks new science and better tech (like MRI or brain scans).",
+    "skill_stack": "Quantum physics, optics, electronics, instrumentation.",
+    "economic_reality": "Sensor physicist, R&D engineer, medical device innovator. Specialized markets (health, defense, space) with high R&D investment.",
+    "proof_of_work": "Demonstrate a principle: for example, use a magnet and wire to show how a tiny change in magnetic field induces a voltage.",
+    "linked_nodes": [
+      "quantum-computing",
+      "climate-monitoring",
+      "neural-interfaces",
+      "advanced-manufacturing"
+    ]
+  },
+  {
+    "id": "autonomous-ships",
+    "title": "Autonomous Ships",
+    "category": "ATOMS",
+    "icon": "Ship",
+    "the_matrix_truth": "We are developing ships that sail themselves, using sensors and AI. This could make shipping safer and cheaper.",
+    "the_leverage": "Command of maritime autonomy means control of global trade routes. It’s like having a robot fleet for cargo or exploration.",
+    "skill_stack": "Naval architecture, AI, control systems, marine robotics.",
+    "economic_reality": "Marine automation engineer, shipping tech executive, offshore consultant. Slow adoption, but huge fuel cost savings.",
+    "proof_of_work": "Plot an autonomous route: use software to find a path from one port to another avoiding obstacles, then optimize for fuel.",
+    "linked_nodes": [
+      "drone-delivery",
+      "smart-cities",
+      "supply-chain-automation",
+      "climate-resilience"
+    ]
+  },
+  {
+    "id": "smart-agriculture",
+    "title": "Smart Agriculture",
+    "category": "ATOMS",
+    "icon": "Tractor",
+    "the_matrix_truth": "Farms are getting smarter with sensors, drones, and AI. Every plant can be monitored and optimized (precision farming).",
+    "the_leverage": "Optimizing every square meter of farmland drastically increases yield. It’s tech meeting nature to feed a growing population.",
+    "skill_stack": "IoT (sensors), data science, robotics, agronomy.",
+    "economic_reality": "Agri-tech startup, farm data analyst, automated equipment engineer. Farmers and companies invest in proven ROI.",
+    "proof_of_work": "Set up a simple soil moisture sensor with Arduino. Use the data to show how irrigation could be timed to save water.",
+    "linked_nodes": [
+      "renewable-energy",
+      "biotech-agriculture",
+      "data-science",
+      "circular-economy"
+    ]
+  },
+  {
+    "id": "deep-space-propulsion",
+    "title": "Deep Space Propulsion",
+    "category": "ATOMS",
+    "icon": "Rocket",
+    "the_matrix_truth": "Beyond chemical rockets: ion drives, nuclear thermal, or light sails. These advanced engines could reach other planets in months or years.",
+    "the_leverage": "If you develop a breakthrough engine, you open interplanetary travel. It’s both a national prestige and a commercial space frontier.",
+    "skill_stack": "Plasma physics, aerospace engineering, nuclear engineering, simulations.",
+    "economic_reality": "Aerospace propulsion researcher, space startup CTO. High R&D budgets (space agencies), long development.",
+    "proof_of_work": "Simulate a rocket: use a model to compare chemical vs ion propulsion over long distances, showing travel time differences.",
+    "linked_nodes": [
+      "space-tourism",
+      "satellite-internet",
+      "climate-science",
+      "quantum-sensors"
+    ]
+  },
+  {
+    "id": "energy-storage",
+    "title": "Energy Storage",
+    "category": "ATOMS",
+    "icon": "Battery",
+    "the_matrix_truth": "Storing energy (batteries, supercapacitors) solves intermittency of renewables. Better batteries power phones, cars, and grids sustainably.",
+    "the_leverage": "Mastering storage means unleashing full potential of renewable energy. It’s a bottleneck solution that the world is racing to solve.",
+    "skill_stack": "Electrochemistry, materials science, systems engineering, safety testing.",
+    "economic_reality": "Battery R&D engineer, grid storage planner, EV company executive. Huge investments (gigafactories), competitive field.",
+    "proof_of_work": "Charge and discharge a battery (even small ones) while measuring efficiency. Try different charge rates and note changes.",
+    "linked_nodes": [
+      "electric-vehicles",
+      "renewable-grid",
+      "neural-interfaces",
+      "mobile-networks"
+    ]
+  },
+  {
+    "id": "full-stack-engineering",
+    "title": "Full Stack Engineering",
+    "category": "BITS",
+    "icon": "Code",
+    "the_matrix_truth": "A full stack engineer handles front-end, back-end, and databases. This breadth allows startups to move fast without hiring many specialists.",
+    "the_leverage": "Knowing the whole stack means building end-to-end products yourself. For a founder, this skill reduces costs and accelerates development.",
+    "skill_stack": "HTML/CSS/JavaScript, server-side language (Node/Python), databases, devops.",
+    "economic_reality": "Startup CTO, product developer, freelance engineer. Quickly valuable in small teams, salaries competitive in tech.",
+    "proof_of_work": "Build a complete web app: e.g., a todo app with a web UI and a backend database. Deploy it online and open-source the code.",
+    "linked_nodes": [
+      "cloud-computing",
+      "data-science",
+      "interactive-design",
+      "open-source-innovation"
+    ]
+  },
+  {
+    "id": "critical-infrastructure",
+    "title": "Critical Infrastructure",
+    "category": "CAPITAL",
+    "icon": "HardDrive",
+    "the_matrix_truth": "Power grids, water supply, and communications are critical infrastructure. Digitizing and protecting them is national security.",
+    "the_leverage": "Working here means you influence basic services. Investing in infrastructure tech yields stable returns and strategic importance.",
+    "skill_stack": "Civil engineering, network security, systems engineering, policy knowledge.",
+    "economic_reality": "Infrastructure planner, utility engineer, security auditor. Government-regulated, long-term projects.",
+    "proof_of_work": "Analyze your city’s power grid or water system: map components and suggest where sensors or analytics could improve reliability.",
+    "linked_nodes": [
+      "renewable-grid",
+      "cybersecurity",
+      "public-policy-tech",
+      "critical-manufacturing"
+    ]
+  },
+  {
+    "id": "social-robotics",
+    "title": "Social Robotics",
+    "category": "NEURONS",
+    "icon": "Users",
+    "the_matrix_truth": "Robots can interact with humans using speech and gestures. Social robots assist in care, education, and entertainment.",
+    "the_leverage": "Creating robots that people trust and relate to opens markets in healthcare and services. It’s engineering plus psychology.",
+    "skill_stack": "AI, machine learning, human-robot interaction, design.",
+    "economic_reality": "Robotics designer, product manager, therapy tech founder. Niche field combining tech and human factors.",
+    "proof_of_work": "Program a chatbot or virtual agent (like using Dialogflow) and test it with friends, then refine to improve its responses.",
+    "linked_nodes": [
+      "robotics-engineering",
+      "psychology",
+      "interactive-design",
+      "education-tech"
+    ]
+  },
+  {
+    "id": "cognitive-computing",
+    "title": "Cognitive Computing",
+    "category": "BITS",
+    "icon": "Cpu",
+    "the_matrix_truth": "This is AI that mimics human thought (like IBM Watson). It involves language understanding, reasoning, and memory in software.",
+    "the_leverage": "Building cognitive systems allows automation of expert tasks (like medical diagnosis). It’s next-level AI for decision support.",
+    "skill_stack": "Machine learning, NLP, knowledge representation, software architecture.",
+    "economic_reality": "AI researcher, enterprise AI consultant, tech product manager. Often tied to big data analytics in corporations.",
+    "proof_of_work": "Use a library (NLTK or spaCy) to build a simple Q&A chatbot or sentiment analyzer. Share example interactions.",
+    "linked_nodes": [
+      "neural-network-architecture",
+      "human-computer-interaction",
+      "healthcare-analytics",
+      "smart-cities"
+    ]
+  },
+  {
+    "id": "neuro-education",
+    "title": "Neuro Education",
+    "category": "NEURONS",
+    "icon": "Book",
+    "the_matrix_truth": "Using neuroscience to teach better: memory techniques, brain-training games, or personalized learning based on how people think.",
+    "the_leverage": "If you apply brain science to learning, you can dramatically improve education. Corporations and schools pay for evidence-based methods.",
+    "skill_stack": "Neuroscience, pedagogy, data analysis, software development.",
+    "economic_reality": "Educational psychologist, edtech founder, curriculum designer. Mixed funding (schools, grants, startups).",
+    "proof_of_work": "Test a learning technique on yourself: for example, try spaced repetition for vocabulary and track retention improvement.",
+    "linked_nodes": [
+      "e-learning-platform",
+      "cognitive-science",
+      "psychology",
+      "interactive-design"
+    ]
+  },
+  {
+    "id": "microfinance",
+    "title": "Microfinance",
+    "category": "CAPITAL",
+    "icon": "CreditCard",
+    "the_matrix_truth": "Small loans and financial services for low-income entrepreneurs. Microfinance empowers people excluded from traditional banking.",
+    "the_leverage": "Scaling microfinance means pulling people out of poverty and unlocking rural economies. It’s high social impact with financial innovation.",
+    "skill_stack": "Finance, social entrepreneurship, risk analysis, mobile payments.",
+    "economic_reality": "Microfinance banker, NGO leader, fintech entrepreneur. Often nonprofit or social enterprise models with reinvestment focus.",
+    "proof_of_work": "Research a successful microloan case (like a farmer who got a loan for equipment). Analyze how the loan was repaid and its effects.",
+    "linked_nodes": [
+      "global-finance",
+      "fintech-innovation",
+      "sustainable-farming",
+      "digital-currency"
+    ]
+  },
+  {
+    "id": "regulatory-technology",
+    "title": "Regulatory Technology",
+    "category": "CAPITAL",
+    "icon": "Settings",
+    "the_matrix_truth": "RegTech uses software to comply with financial and data regulations. It makes legal compliance automated and cost-effective.",
+    "the_leverage": "Companies that simplify compliance can serve every regulated industry. Governments are outsourcing rule enforcement to code.",
+    "skill_stack": "Finance law, software development, data security, analytics.",
+    "economic_reality": "RegTech developer, compliance officer, policy startup CEO. Growing field as regulations expand globally.",
+    "proof_of_work": "Build a form validator that checks a fake financial report against simple compliance rules (like correct fields present).",
+    "linked_nodes": [
+      "digital-finance",
+      "data-privacy-ethics",
+      "financial-technology",
+      "economic-modeling"
+    ]
+  },
+  {
+    "id": "professional-networking",
+    "title": "Professional Networking",
+    "category": "NEURONS",
+    "icon": "Users",
+    "the_matrix_truth": "Building relationships is essential. Platforms like LinkedIn and networking events connect talent with opportunity faster than cold outreach.",
+    "the_leverage": "Mastering networking accelerates your career and business growth. Top professionals often attribute success to who they know.",
+    "skill_stack": "Communication, social media, personal branding, empathy.",
+    "economic_reality": "Recruiter, business development, community manager. Low tech cost, high personal effort needed.",
+    "proof_of_work": "Create a strong online professional profile, join two interest groups, and attend a virtual networking meetup. Reflect on new connections made.",
+    "linked_nodes": [
+      "social-media-dynamics",
+      "digital-marketing",
+      "open-source-innovation",
+      "public-policy-tech"
+    ]
+  },
+  {
+    "id": "open-source-innovation",
+    "title": "Open Source Innovation",
+    "category": "NEURONS",
+    "icon": "GitBranch",
+    "the_matrix_truth": "Open source software drives tech forward. Projects like Linux, Python, and countless libraries are freely shared and improved by communities.",
+    "the_leverage": "Leading an open source project can influence entire industries. It builds reputation, and successful OSS often turns into commercial products.",
+    "skill_stack": "Version control (Git), programming, collaboration, documentation.",
+    "economic_reality": "OSS maintainer, startup CTO, consultant. Often volunteer-driven initially, companies may sponsor successful projects.",
+    "proof_of_work": "Contribute to a small open source project on GitHub. Fix a bug or add a feature and submit a pull request.",
+    "linked_nodes": [
+      "cloud-computing",
+      "full-stack-engineering",
+      "crowd-innovation",
+      "distributed-ledger"
+    ]
+  },
+  {
+    "id": "public-policy-tech",
+    "title": "Public Policy Tech",
+    "category": "CAPITAL",
+    "icon": "Landmark",
+    "the_matrix_truth": "Technology in government: data-driven policy, digital services, and online voting. States are modernizing with tech to better serve citizens.",
+    "the_leverage": "Tech-savvy policy experts can reshape society. Governments adopt tech that improves public welfare and drives national competitiveness.",
+    "skill_stack": "Political science, data analysis, software, ethics.",
+    "economic_reality": "Tech policy advisor, civic tech founder, think-tank researcher. Work intersects public sector and tech companies.",
+    "proof_of_work": "Draft a concept for a government website or app (like for public health updates), focusing on accessibility and data privacy.",
+    "linked_nodes": [
+      "digital-democracy",
+      "data-privacy-ethics",
+      "cybersecurity",
+      "smart-cities"
+    ]
+  },
+  {
+    "id": "algorithmic-trading",
+    "title": "Algorithmic Trading",
+    "category": "CAPITAL",
+    "icon": "TrendingUp",
+    "the_matrix_truth": "Stocks and crypto are now often traded by algorithms reacting in milliseconds. Complex math models scan data and execute trades without human intervention.",
+    "the_leverage": "A good trading model can make or lose millions. Mastering it means financial markets are at your fingertips.",
+    "skill_stack": "Statistics, machine learning, financial markets, Python/R.",
+    "economic_reality": "Quantitative analyst, hedge fund trader, fintech entrepreneur. High-risk/high-reward, needs real market data.",
+    "proof_of_work": "Backtest a simple trading strategy (like moving average crossover) on historical stock data. Show the results of your simulation.",
+    "linked_nodes": [
+      "data-science",
+      "digital-currency",
+      "global-finance",
+      "cryptography"
+    ]
+  },
+  {
+    "id": "biotech-ethics",
+    "title": "Biotech Ethics",
+    "category": "NEURONS",
+    "icon": "Scale",
+    "the_matrix_truth": "As biotech advances, ethical questions arise (e.g., designer babies, bio-hacking). Society debates what should be allowed.",
+    "the_leverage": "Guiding ethical biotech development is crucial for public acceptance. Experts influence regulations and public opinion.",
+    "skill_stack": "Philosophy, biology basics, law, public speaking.",
+    "economic_reality": "Bioethicist, policy advisor, academic researcher. Often in advisory roles or NGOs.",
+    "proof_of_work": "Write a reasoned essay on one biotech ethical dilemma (like CRISPR babies) presenting pros and cons.",
+    "linked_nodes": [
+      "synthetic-biology",
+      "neural-interfaces",
+      "regulatory-technology",
+      "public-policy-tech"
+    ]
+  },
+  {
+    "id": "human-computer-interaction",
+    "title": "Human-Computer Interaction",
+    "category": "NEURONS",
+    "icon": "Monitor",
+    "the_matrix_truth": "HCI studies how people use technology. It ensures devices and software are intuitive, accessible, and satisfying to use.",
+    "the_leverage": "Innovators here make tech that people actually want to use. It spans all products, from phones to AR goggles.",
+    "skill_stack": "UX design, psychology, prototyping, coding.",
+    "economic_reality": "UX researcher, interface designer, product manager. All tech products need HCI expertise.",
+    "proof_of_work": "Run a quick usability test: have 3 people try an unfamiliar app or site and record their difficulties. Suggest improvements.",
+    "linked_nodes": [
+      "interactive-design",
+      "virtual-reality",
+      "digital-marketing",
+      "cognitive-computing"
+    ]
+  },
+  {
+    "id": "supply-chain-automation",
+    "title": "Supply Chain Automation",
+    "category": "CAPITAL",
+    "icon": "Box",
+    "the_matrix_truth": "Robots and software now manage warehouses and shipments. Automation streamlines getting products to customers.",
+    "the_leverage": "Automating logistics cuts costs for big retailers and manufacturers. Leaders here dictate e-commerce and global trade efficiency.",
+    "skill_stack": "Robotics, ERP systems, data analytics, operations research.",
+    "economic_reality": "Logistics engineer, warehouse automation specialist, supply chain analyst. Adoption by major companies, ROI-driven.",
+    "proof_of_work": "Map a warehouse process and propose a robotic solution: e.g., an AGV path or sorting algorithm, showing time saved.",
+    "linked_nodes": [
+      "robotics-engineering",
+      "drone-delivery",
+      "data-science",
+      "critical-infrastructure"
+    ]
+  },
+  {
+    "id": "immersive-healthcare",
+    "title": "Immersive Healthcare",
+    "category": "NEURONS",
+    "icon": "Stethoscope",
+    "the_matrix_truth": "VR and AR are used in medical training and therapy (like VR for pain management). Healthcare is becoming a digital, interactive experience.",
+    "the_leverage": "Building tech for health has life-or-death stakes and big budgets. It’s the most impactful way to apply innovation to saving lives.",
+    "skill_stack": "Medical knowledge, VR/AR dev, psychology, UX design.",
+    "economic_reality": "Medical app developer, hospital tech lead, wellness startup founder. Gains support from health systems, regulatory approval needed.",
+    "proof_of_work": "Prototype an AR overlay for a simple medical procedure (e.g., a digital guide on surgery). Explain its benefits.",
+    "linked_nodes": [
+      "virtual-reality",
+      "brain-data-analytics",
+      "medical-devices",
+      "digital-democracy"
+    ]
+  },
+  {
+    "id": "financial-engineering",
+    "title": "Financial Engineering",
+    "category": "CAPITAL",
+    "icon": "BarChart",
+    "the_matrix_truth": "Using math and computer models to create new financial instruments. Complex derivatives or risk models can hedge and speculate at scale.",
+    "the_leverage": "If you can design a better financial product, firms will pay handsomely. It’s quantitative finance for big banks and hedge funds.",
+    "skill_stack": "Probability, stochastic calculus, programming (C++, Python), finance theory.",
+    "economic_reality": "Quant, risk manager, Wall Street developer. High entry barrier (often PhDs), extremely high salaries for top performers.",
+    "proof_of_work": "Implement a Monte Carlo simulation to price an option (or simple derivative). Show how price changes with volatility.",
+    "linked_nodes": [
+      "algorithmic-trading",
+      "data-science",
+      "blockchain-technology",
+      "global-markets"
+    ]
+  },
+  {
+    "id": "knowledge-graph",
+    "title": "Knowledge Graph",
+    "category": "BITS",
+    "icon": "Layers",
+    "the_matrix_truth": "Knowledge graphs structure information (entities and relationships). Google and AI use them to answer questions and link data.",
+    "the_leverage": "Building or using big knowledge graphs means unlocking deep insights. It’s like giving computers common sense about the world.",
+    "skill_stack": "Semantic web, graph databases, NLP, data integration.",
+    "economic_reality": "Data engineer, AI product manager, tech researcher. Used in enterprise and search companies.",
+    "proof_of_work": "Create a small knowledge graph of a topic (like a family tree or tech ecosystem) using a graph database or Python network library.",
+    "linked_nodes": [
+      "data-science",
+      "digital-democracy",
+      "AI-accelerators",
+      "open-source-innovation"
+    ]
+  },
+  {
+    "id": "climate-resilience",
+    "title": "Climate Resilience",
+    "category": "CAPITAL",
+    "icon": "Umbrella",
+    "the_matrix_truth": "Designing systems (cities, agriculture, infrastructure) to withstand climate impacts (floods, heat). Resilience means adapting to change, not just preventing it.",
+    "the_leverage": "Experts here help societies survive disasters. You’ll collaborate with governments and companies on multi-billion dollar infrastructure.",
+    "skill_stack": "Risk analysis, civil engineering, urban planning, environmental science.",
+    "economic_reality": "Consultant, policy advisor, city planner. Often publicly funded projects with long timelines.",
+    "proof_of_work": "Model an extreme weather event impact: e.g., simulate how a city’s drainage holds up in a heavy rain and suggest improvements.",
+    "linked_nodes": [
+      "renewable-energy",
+      "sustainable-farming",
+      "critical-infrastructure",
+      "public-policy-tech"
+    ]
+  },
+  {
+    "id": "media-distribution",
+    "title": "Media Distribution",
+    "category": "NEURONS",
+    "icon": "Tv",
+    "the_matrix_truth": "Streaming platforms and social apps have replaced TV networks. Content distribution is instantaneous and global, and algorithms decide what we watch.",
+    "the_leverage": "Innovating in distribution (like new streaming tech) can disrupt entire entertainment industries. Content demand is unlimited.",
+    "skill_stack": "Content delivery networks, UX/UI, video compression, data analytics.",
+    "economic_reality": "Product manager at a streaming service, content strategist, startup founder. Backed by big media budgets.",
+    "proof_of_work": "Set up a small video streaming server (using open-source tools) and play video to a friend. Track buffering vs network speed.",
+    "linked_nodes": [
+      "social-media-dynamics",
+      "immersive-entertainment",
+      "cloud-computing",
+      "interactive-design"
+    ]
+  },
+  {
+    "id": "socio-technical-systems",
+    "title": "Socio-Technical Systems",
+    "category": "NEURONS",
+    "icon": "Users",
+    "the_matrix_truth": "These are networks where technology and social structures co-evolve (like social networks or workplace tech cultures). They require understanding both people and tech.",
+    "the_leverage": "Masters of socio-technical design build sustainable solutions that work in society, not just tech. It’s key for any large-scale project adoption.",
+    "skill_stack": "Systems thinking, sociology, software, management.",
+    "economic_reality": "Systems engineer, change manager, consultant. Companies use this lens to improve collaboration and technology rollout.",
+    "proof_of_work": "Choose a technology (like remote work tools) and analyze how it changes social behavior at work. Present recommendations.",
+    "linked_nodes": [
+      "digital-democracy",
+      "sustainable-farming",
+      "cyber-physical-systems",
+      "professional-networking"
+    ]
+  },
+  {
+    "id": "digital-twin-cities",
+    "title": "Digital Twin Cities",
+    "category": "BITS",
+    "icon": "MapPin",
+    "the_matrix_truth": "Creating a full digital replica of a city to simulate traffic, energy, and infrastructure scenarios. Urban planning goes virtual.",
+    "the_leverage": "Leaders here let cities test policies and designs in silico before real-world changes. It’s the ultimate smart-city tool.",
+    "skill_stack": "GIS, simulation software, data integration, IoT.",
+    "economic_reality": "Urban tech planner, smart city consultant, software platform developer. Often public-private partnerships, high impact.",
+    "proof_of_work": "Collect open data of your city (map, traffic, weather) and use a simple simulator to predict traffic flow after a road change.",
+    "linked_nodes": [
+      "smart-cities",
+      "digital-twins",
+      "sensor-networks",
+      "climate-monitoring"
+    ]
+  },
+  {
+    "id": "circular-economy",
+    "title": "Circular Economy",
+    "category": "CAPITAL",
+    "icon": "Recycle",
+    "the_matrix_truth": "Economics designed to reuse all resources: recycling, upcycling, and waste-to-energy. Products are designed for durability and recyclability from the start.",
+    "the_leverage": "Creating circular business models means winning in sustainability. Consumers and governments push for it, rewarding innovators.",
+    "skill_stack": "Supply chain, materials science, design, environmental economics.",
+    "economic_reality": "Sustainability consultant, startup founder, government advisor. Supported by green policies and emerging markets.",
+    "proof_of_work": "Analyze the lifecycle of a common product (like a phone): how materials flow and what recycling would involve. Suggest improvements.",
+    "linked_nodes": [
+      "green-manufacturing",
+      "waste-management",
+      "environmental-policy",
+      "data-science"
+    ]
+  },
+  {
+    "id": "remote-sensing",
+    "title": "Remote Sensing",
+    "category": "ATOMS",
+    "icon": "Satellite",
+    "the_matrix_truth": "Satellites and drones gather data about Earth: climate patterns, crop health, or natural disasters. We monitor the planet remotely.",
+    "the_leverage": "Working in remote sensing means contributing to climate science and security. All big companies and governments use this data.",
+    "skill_stack": "Geospatial analysis, sensor tech, data science, environmental science.",
+    "economic_reality": "Remote sensing analyst, GIS specialist, drone data startup. Platforms like NASA or Google Earth Engine provide data, driving innovation.",
+    "proof_of_work": "Use a public satellite image and analyze it (e.g., NDVI for vegetation). Show how changes in the image indicate an environmental factor.",
+    "linked_nodes": [
+      "climate-science",
+      "ocean-technology",
+      "smart-cities",
+      "global-markets"
+    ]
+  },
+  {
+    "id": "brain-emulation",
+    "title": "Brain Emulation",
+    "category": "NEURONS",
+    "icon": "Cpu",
+    "the_matrix_truth": "The long-term goal: simulate a whole human brain in a computer. This is extremely complex, but even partial models advance neuroscience and AI.",
+    "the_leverage": "Leading brain emulation projects could redefine AI by recreating intelligence. It’s a moonshot that attracts top neuroscientists and engineers.",
+    "skill_stack": "Neuroscience, computational modeling, high-performance computing, data management.",
+    "economic_reality": "Neuroscientist, AI research lead, supercomputing engineer. Mostly academic and national projects.",
+    "proof_of_work": "Simulate a small neural network that mimics a simple brain function (like pattern recognition). Explain how it parallels biology.",
+    "linked_nodes": [
+      "neuroscience",
+      "AI-accelerators",
+      "cloud-computing",
+      "education-technology"
+    ]
+  },
+  {
+    "id": "precision-education",
+    "title": "Precision Education",
+    "category": "NEURONS",
+    "icon": "Target",
+    "the_matrix_truth": "Education tailored to each learner’s needs: adaptive learning systems, brain-based study plans, and targeted interventions.",
+    "the_leverage": "Mastering personalized learning gives students exactly what they need. It can close gaps and amplify talent, funded by edtech growth.",
+    "skill_stack": "Educational psychology, AI, analytics, curriculum design.",
+    "economic_reality": "Edtech developer, curriculum specialist, learning analyst. Often startup-funded with quick feedback from users.",
+    "proof_of_work": "Use a spaced repetition app to test how quiz timing affects memory retention. Document the improvement.",
+    "linked_nodes": [
+      "neuro-education",
+      "machine-learning-applications",
+      "e-learning-platform",
+      "cognitive-science"
+    ]
+  },
+  {
+    "id": "wealth-management-tech",
+    "title": "Wealth Management Tech",
+    "category": "CAPITAL",
+    "icon": "PieChart",
+    "the_matrix_truth": "Robo-advisors and fintech are making high-end investment management available via algorithms. Portfolios are now optimized by software.",
+    "the_leverage": "Creating better robo-advisors can democratize wealth growth. It’s an intersection of finance and AI where small apps can manage billions.",
+    "skill_stack": "Finance, machine learning, web development, regulatory knowledge.",
+    "economic_reality": "Fintech developer, financial advisor, wealth tech entrepreneur. Competition from banks, but big opportunity in emerging markets.",
+    "proof_of_work": "Build a simple portfolio optimizer: input stock returns and variances, output an efficient mix. Compare two strategies.",
+    "linked_nodes": [
+      "algorithmic-trading",
+      "digital-currency",
+      "data-science",
+      "open-source-innovation"
+    ]
+  },
+  {
+    "id": "multilingual-ai",
+    "title": "Multilingual AI",
+    "category": "BITS",
+    "icon": "Globe",
+    "the_matrix_truth": "AI models that speak many languages at once. Tools like automatic translation and cross-lingual search break language barriers.",
+    "the_leverage": "Training AI on diverse languages opens massive global markets. It’s key for globalized tech (like international social networks).",
+    "skill_stack": "NLP, linguistics, multilingual data, deep learning.",
+    "economic_reality": "Machine translation engineer, global tech firm researcher, localization startup founder. Rapid advances thanks to big data.",
+    "proof_of_work": "Use an open translation API (like Google Translate) to translate a paragraph across several languages and analyze consistency.",
+    "linked_nodes": [
+      "digital-democracy",
+      "neural-network-architecture",
+      "global-finance",
+      "digital-marketing"
+    ]
+  },
+  {
+    "id": "green-energy-investment",
+    "title": "Green Energy Investment",
+    "category": "CAPITAL",
+    "icon": "DollarSign",
+    "the_matrix_truth": "Investing in wind, solar, and battery companies is booming. The world is funding projects that save the planet.",
+    "the_leverage": "If you can analyze and fund the right green projects, you make profits and change the world. It’s finance with a mission.",
+    "skill_stack": "Finance, energy markets, project evaluation, policy analysis.",
+    "economic_reality": "Venture capitalist, energy fund manager, cleantech analyst. Rapidly growing market with government incentives.",
+    "proof_of_work": "Review a green energy IPO or project report. Identify the key financial metrics and risks.",
+    "linked_nodes": [
+      "renewable-energy",
+      "climate-economics",
+      "financial-engineering",
+      "smart-cities"
+    ]
+  },
+  {
+    "id": "intelligent-manufacturing",
+    "title": "Intelligent Manufacturing",
+    "category": "ATOMS",
+    "icon": "Factory",
+    "the_matrix_truth": "Factories using AI and robots to self-optimize. Production lines that sense, predict failures, and adapt on the fly.",
+    "the_leverage": "Leading this means replacing old factories with smart ones. It reduces waste and downtime, giving companies a huge edge.",
+    "skill_stack": "AI, robotics, sensor networks, industrial automation.",
+    "economic_reality": "AI robotics engineer, factory manager, automation startup. Major corporations investing billions.",
+    "proof_of_work": "Simulate a smart assembly line: use basic rules (e.g., pause if stress is high) and show output efficiency improvements.",
+    "linked_nodes": [
+      "advanced-manufacturing",
+      "robotics-engineering",
+      "data-science",
+      "sustainable-farming"
+    ]
+  },
+  {
+    "id": "matrix-summit",
+    "title": "Matrix Summit",
+    "category": "NEURONS",
+    "icon": "Users",
+    "the_matrix_truth": "A hackathon summit where the top thinkers in all fields meet and collaborate. It’s where cross-disciplinary ideas explode.",
+    "the_leverage": "Attending or organizing such an event connects innovators across all domains. It’s an intense idea generator and networking goldmine.",
+    "skill_stack": "All of the above, plus leadership and synthesis.",
+    "economic_reality": "Conference organizer, keynote speaker, innovation catalyst. Networks built here lead to startups and partnerships.",
+    "proof_of_work": "Plan and host a small local hackathon or summit on a tech topic. Gather participants from diverse fields and document key outcomes.",
+    "linked_nodes": [
+      "open-source-innovation",
+      "professional-networking",
+      "digital-marketing",
+      "public-policy-tech"
+    ]
+  }
+]

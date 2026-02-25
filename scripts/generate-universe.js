@@ -23,28 +23,28 @@ jsonFiles.forEach(jsonFile => {
   jsonFilesParsed++;
 
   nodes.forEach(node => {
-    const { id, title, icon, category, the_matrix_truth, the_leverage, skill_stack, economic_reality, proof_of_work, linked_nodes } = node;
+    const { id, title, icon, domain, the_invisible_reality, the_mind_blowing_hook, the_players_life, the_skill_tree, the_rabbit_hole, linked_nodes } = node;
 
     let markdownContent = `---
 title: "${title}"
 icon: "${icon || 'Hexagon'}"
-category: "${category}"
+domain: "${domain}"
 ---
 
-## The Matrix Truth
-${the_matrix_truth}
+## The Invisible Reality
+${the_invisible_reality}
 
-## The Leverage
-${the_leverage}
+## The Mind-Blowing Hook
+${the_mind_blowing_hook}
 
-## Skill Stack
-${skill_stack}
+## The Player's Life
+${the_players_life}
 
-## Economic Reality
-${economic_reality}
+## The Skill Tree
+${the_skill_tree}
 
-## Proof of Work
-${proof_of_work}
+## The Rabbit Hole
+${the_rabbit_hole}
 
 ## Linked Possibilities
 `;

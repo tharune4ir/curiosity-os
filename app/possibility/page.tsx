@@ -27,7 +27,7 @@ export default function PossibilityOS() {
         nodes.push({
             id: nodeId,
             name: data.title,
-            group: data.pillar,
+            group: data.domain,
             icon: data.icon,
             content: content.trim()
         });
@@ -65,13 +65,10 @@ export default function PossibilityOS() {
                 </Link>
             </div>
 
-            <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10 z-50 text-right pointer-events-none">
+            <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-50 pointer-events-none">
                 <h2 className="text-white font-mono tracking-[0.2em] text-sm md:text-base drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
-                    POSSIBILITY OS
+                    POSSIBILITY UNIVERSE
                 </h2>
-                <p className="text-cyan-400 font-mono text-[10px] uppercase tracking-widest mt-1 opacity-70">
-                    NEURAL MAP // ACTIVE
-                </p>
             </div>
         </main>
     );

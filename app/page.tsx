@@ -5,11 +5,12 @@ import { Compass, Sigma, Atom, Dna, Activity, Terminal, Cog, LineChart, Brain, C
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import NeuralCore3D from "@/components/NeuralCore3D";
 
 const domains = [
   { id: 'math', label: 'MATHEMATICS', icon: Sigma },
-  { id: 'physics', label: 'PHYSICS', icon: Atom },
+  { id: 'physics', label: 'PHYSICS', icon: Atom, href: '/physics' },
   { id: 'biology', label: 'BIOLOGY', icon: Dna },
   { id: 'medicine', label: 'MEDICINE', icon: Activity },
   { id: 'cs', label: 'COMPUTER SCIENCE', icon: Terminal },
@@ -79,6 +80,7 @@ function TerminalLogs() {
 
 
 export default function Home() {
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [radius, setRadius] = useState(250);
   const [activeDomain, setActiveDomain] = useState<string | null>(null);
@@ -162,7 +164,11 @@ export default function Home() {
               key={domain.id}
               onClick={(e) => {
                 e.stopPropagation();
-                setActiveDomain(activeDomain === domain.id ? null : domain.id);
+                if (domain.href) {
+                  router.push(domain.href);
+                } else {
+                  setActiveDomain(activeDomain === domain.id ? null : domain.id);
+                }
               }}
               className={cn(
                 "absolute flex flex-col items-center justify-center w-14 h-14 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 text-slate-400 hover:text-cyan-300 hover:from-cyan-900/60 hover:to-slate-900/90 hover:border-cyan-400/50 hover:shadow-[inset_0_2px_10px_rgba(255,255,255,0.2),_0_0_30px_rgba(0,240,255,0.4)] transition-all duration-300 group cursor-pointer pointer-events-auto",
@@ -181,12 +187,12 @@ export default function Home() {
 
               <div className={cn(
                 "absolute top-1/2 left-1/2 -translate-x-1/2 mt-10 md:mt-14 transition-opacity duration-300 whitespace-nowrap bg-slate-950/90 px-3 py-1.5 md:px-4 md:py-2 rounded-md border border-cyan-500/50 pointer-events-none shadow-[0_0_15px_rgba(0,240,255,0.2)] z-[100] backdrop-blur-md flex flex-col items-center gap-1",
-                activeDomain === domain.id ? "opacity-100" : "opacity-0 md:group-hover:opacity-100"
+                activeDomain === domain.id && !domain.href ? "opacity-100" : "opacity-0 md:group-hover:opacity-100"
               )}>
                 <span className="text-[9px] md:text-[10px] tracking-widest text-cyan-100 font-mono">
                   {domain.label}
                 </span>
-                {activeDomain === domain.id && (
+                {activeDomain === domain.id && !domain.href && (
                   <span className="text-[7px] md:text-[8px] text-cyan-400 font-mono tracking-widest bg-cyan-950/50 px-2 py-0.5 rounded border border-cyan-500/30">
                     COMING SOON
                   </span>

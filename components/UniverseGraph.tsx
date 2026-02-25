@@ -12,7 +12,7 @@ import SpriteText from "three-spritetext";
 import dynamic from "next/dynamic";
 const ForceGraph3D = dynamic(() => import("react-force-graph-3d"), { ssr: false });
 
-export default function UniverseGraph({ graphData }: { graphData: any }) {
+export default function UniverseGraph({ graphData, storageNamespace = "possibility" }: { graphData: any, storageNamespace?: string }) {
     const [mounted, setMounted] = useState(false);
     const [selectedNode, setSelectedNode] = useState<any>(null);
     const [unlockedNodes, setUnlockedNodes] = useState<Set<string>>(new Set());
@@ -22,7 +22,7 @@ export default function UniverseGraph({ graphData }: { graphData: any }) {
 
     useEffect(() => {
         setMounted(true);
-        const saved = localStorage.getItem('disha_unlocked_nodes');
+        const saved = localStorage.getItem(`disha_unlocked_${storageNamespace}`);
         if (saved) {
             setUnlockedNodes(new Set(JSON.parse(saved)));
         }
@@ -32,7 +32,7 @@ export default function UniverseGraph({ graphData }: { graphData: any }) {
         setSelectedNode(node);
         setUnlockedNodes(prev => {
             const newSet = new Set(prev).add(node.id);
-            localStorage.setItem('disha_unlocked_nodes', JSON.stringify([...newSet]));
+            localStorage.setItem(`disha_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
             return newSet;
         });
         // Fly-to animation logic
@@ -66,7 +66,7 @@ export default function UniverseGraph({ graphData }: { graphData: any }) {
 
         setUnlockedNodes(prev => {
             const newSet = new Set(prev).add(node.id);
-            localStorage.setItem('disha_unlocked_nodes', JSON.stringify([...newSet]));
+            localStorage.setItem(`disha_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
             return newSet;
         });
 
@@ -108,7 +108,7 @@ export default function UniverseGraph({ graphData }: { graphData: any }) {
         setSelectedNode(randomNode);
         setUnlockedNodes(prev => {
             const newSet = new Set(prev).add(randomNode.id);
-            localStorage.setItem('disha_unlocked_nodes', JSON.stringify([...newSet]));
+            localStorage.setItem(`disha_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
             return newSet;
         });
 
@@ -125,7 +125,7 @@ export default function UniverseGraph({ graphData }: { graphData: any }) {
 
     const wipeMemory = () => {
         if (window.confirm("WARNING: This will sever all neural pathways and plunge the universe back into darkness. Proceed?")) {
-            localStorage.removeItem('disha_unlocked_nodes');
+            localStorage.removeItem(`disha_unlocked_${storageNamespace}`);
             setUnlockedNodes(new Set());
             setSelectedNode(null); // Close the HUD
 

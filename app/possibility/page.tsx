@@ -47,7 +47,6 @@ export default function PossibilityOS() {
 
     return (
         <main className="relative flex h-screen w-full bg-[#020617] overflow-hidden">
-
             {/* Dynamic 3D Graph (Client-Side Only) */}
             <UniverseGraph graphData={graphData} />
         </main>

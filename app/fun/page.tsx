@@ -6,7 +6,7 @@ import UniverseGraph from "@/components/UniverseGraph";
 
 export default function FunOS() {
     // 1. Path to our markdown files
-    const mdDirectory = path.join(process.cwd(), "content", "4_Fun");
+    const mdDirectory = path.join(process.cwd(), "content", "4_fun");
     const filenames = fs.readdirSync(mdDirectory).filter(f => f.endsWith('.md'));
 
     // 2. Map data natively from Markdown files using gray-matter

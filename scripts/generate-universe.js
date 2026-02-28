@@ -8,7 +8,7 @@ const CONTENT_SOURCES = [
   { dir: '1_possibilities', label: 'Possibilities' },
   { dir: '2_biosystem',     label: 'Biosystem' },
   { dir: '3_cognition',     label: 'Cognition' },
-  { dir: '4_Fun',           label: 'Fun' },
+  { dir: '4_fun',           label: 'Fun' },
   // Add new domains here: { dir: '5_logic', label: 'Logic' },
 ];
 

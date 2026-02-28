@@ -1,22 +1,21 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Compass, Sigma, Atom, Dna, Activity, Terminal, Cog, LineChart, Brain, Cpu, Orbit } from "lucide-react";
+import { Compass, Activity, Brain, Sigma, Radio, Database, Terminal, Sparkles, Gamepad2, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import NeuralCore3D from "@/components/NeuralCore3D";
 
 const domains = [
-  { id: 'math', label: 'MATHEMATICS', icon: Sigma },
-  { id: 'physics', label: 'PHYSICS', icon: Atom, href: '/physics' },
-  { id: 'biology', label: 'BIOLOGY', icon: Dna },
-  { id: 'medicine', label: 'MEDICINE', icon: Activity },
-  { id: 'cs', label: 'COMPUTER SCIENCE', icon: Terminal },
-  { id: 'engineering', label: 'ENGINEERING', icon: Cog },
-  { id: 'economics', label: 'ECONOMICS', icon: LineChart },
-  { id: 'ai', label: 'AI', icon: Cpu },
+  { id: 'biosystem', label: 'BIOSYSTEM', icon: Activity, href: '/biosystem' },
+  { id: 'cognition', label: 'COGNITION', icon: Brain, href: '/cognition' },
+  { id: 'logic', label: 'LOGIC', icon: Sigma },
+  { id: 'signal', label: 'SIGNAL', icon: Radio },
+  { id: 'capital', label: 'CAPITAL', icon: Database },
+  { id: 'digital', label: 'DIGITAL', icon: Terminal },
+  { id: 'ai-nexus', label: 'AI NEXUS', icon: Sparkles },
+  { id: 'fun', label: 'FUN', icon: Gamepad2, href: '/fun' },
 ];
 
 // Helper components for the Density Layer
@@ -80,14 +79,13 @@ function TerminalLogs() {
 
 
 export default function Home() {
-  const router = useRouter();
   const [mounted, setMounted] = useState(false);
-  const [radius, setRadius] = useState(250);
+  const [radius, setRadius] = useState(210);
   const [activeDomain, setActiveDomain] = useState<string | null>(null);
 
   useEffect(() => {
     const updateRadius = () => {
-      setRadius(window.innerWidth < 768 ? 140 : 250); // 140px for mobile, 250px for desktop
+      setRadius(window.innerWidth < 768 ? 150 : 210); // 150px for mobile, 210px for desktop
     };
     updateRadius();
     window.addEventListener('resize', updateRadius);
@@ -104,59 +102,58 @@ export default function Home() {
       {/* 3D WebGL Background Level - Massive Energy Wireframe */}
       {mounted && <NeuralCore3D />}
 
-      {/* Dark Matter Vignette */}
-      {mounted && <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-950/90 via-slate-950/40 to-transparent pointer-events-none z-0" />}
-
-
-      {/* System Metadata - High Contrast Text on Dark Void */}
+      {/* Header Overlay */}
       {mounted && (
         <div className="absolute inset-0 pointer-events-none z-50">
-          <div className="absolute top-4 left-4 md:top-8 md:left-8 font-mono text-[9px] md:text-xs text-slate-400 font-medium tracking-widest z-50 flex items-center gap-2">
-            STATUS: <span className="text-cyan-400 font-bold flex items-center gap-2 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)] before:content-[''] before:block before:w-2 before:h-2 before:rounded-full before:bg-sys-success before:shadow-[0_0_12px_rgba(16,185,129,1)]">CONCEPT</span>
+          <div className="absolute top-4 left-4 md:top-8 md:left-8 font-mono text-[9px] md:text-xs text-slate-400 font-medium tracking-widest z-50 flex flex-col gap-0.5">
+            <div className="flex items-center gap-2">
+              <Compass className="w-3.5 h-3.5 md:w-4 md:h-4 text-cyan-400 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)]" strokeWidth={1.5} />
+              <span className="text-cyan-300 font-bold drop-shadow-[0_0_4px_rgba(34,211,238,0.3)]">DISHA OS</span>
+            </div>
+            <span className="text-[7px] md:text-[9px] text-slate-500/60 tracking-[0.3em] pl-[22px] md:pl-[24px] font-light">by Tharun</span>
           </div>
-          <div className="absolute top-4 right-4 md:top-8 md:right-8 font-mono text-[9px] md:text-xs text-slate-400 font-bold tracking-widest z-50">
-            <LiveTime />
-          </div>
-          <div className="absolute bottom-4 left-16 md:bottom-8 md:left-8 text-[9px] md:text-[10px] text-slate-500 font-mono tracking-widest uppercase z-[100]">
-            BY THARUN KUMAR GAJULA
-          </div>
-          <div className="absolute bottom-4 right-4 md:bottom-8 md:right-8 text-[9px] md:text-[10px] text-slate-500 font-mono tracking-widest uppercase z-[100]">
-            © 2026 RENAFORGE SYSTEMS
+          <div className="absolute top-4 right-4 md:top-8 md:right-8 font-mono text-[9px] md:text-xs text-slate-400 font-medium tracking-widest z-50 flex items-center gap-2">
+            STATUS: <span className="text-cyan-400 font-bold flex items-center gap-2 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)] before:content-[''] before:block before:w-2 before:h-2 before:rounded-full before:bg-amber-500 before:shadow-[0_0_8px_rgba(245,158,11,0.8)]">CONCEPT (WIP)</span>
           </div>
         </div>
       )}
 
-      {/* Radial UI Wrapper - Locked to 1:1 Aspect Ratio to force perfect circular orbits */}
-      <div className="relative w-[300px] h-[300px] md:w-[600px] md:h-[600px] rounded-full flex items-center justify-center z-10 pointer-events-none mt-12 md:mt-0">
+      {/* Dark Matter Vignette */}
+      {mounted && <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-950/90 via-slate-950/40 to-transparent pointer-events-none z-0" />}
 
-        {/* The Central Core (Project Disha) - 3D Hyper Glass Well */}
+
+
+      {/* Radial UI Wrapper - Locked to 1:1 Aspect Ratio to force perfect circular orbits */}
+      <div className="relative w-[300px] h-[300px] md:w-[480px] md:h-[480px] rounded-full flex items-center justify-center z-10 pointer-events-none">
+
         <motion.div
           onClick={(e) => e.stopPropagation()}
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
           className="absolute flex items-center justify-center flex-col w-48 h-48 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 shadow-[inset_0_2px_20px_rgba(255,255,255,0.1),_0_0_40px_rgba(0,240,255,0.3)] hover:border-cyan-400/50 hover:from-cyan-900/60 hover:to-slate-900/90 hover:shadow-[inset_0_2px_20px_rgba(255,255,255,0.2),_0_0_60px_rgba(0,240,255,0.5)] transition-colors duration-500 z-20 pointer-events-auto"
         >
-          <Compass className="w-8 h-8 md:w-12 md:h-12 text-cyan-400 mb-1.5 md:mb-3 drop-shadow-[0_0_15px_rgba(34,211,238,0.8)]" strokeWidth={1.5} />
-
-          <h1 className="text-white font-bold tracking-[0.4em] text-center text-[10px] md:text-lg whitespace-nowrap drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
-            DISHA
+          <h1 className="text-center uppercase leading-snug" style={{ fontFamily: 'var(--font-outfit), sans-serif' }}>
+            <span className="block text-[11px] md:text-lg tracking-[0.4em] font-light text-slate-300/80">INFINITE</span>
+            <span className="block text-[13px] md:text-xl tracking-[0.35em] font-semibold bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(0,240,255,0.25)]">POSSIBILITIES</span>
           </h1>
 
-          {/* Restored Portal Button */}
+          {/* Pulsing Divider */}
           <motion.div
             animate={{ opacity: [0.5, 1, 0.5], boxShadow: ["0 0 10px rgba(34,211,238,0)", "0 0 20px rgba(34,211,238,0.8)", "0 0 10px rgba(34,211,238,0)"] }}
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-            className="w-14 h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent my-2.5 md:my-4"
+            className="w-14 h-[1px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent my-2 md:my-3"
           />
 
-          <Link href="/possibility" className="text-[7px] md:text-[9px] font-mono font-medium px-4 py-1.5 md:px-6 md:py-2.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-100 tracking-[0.2em] uppercase whitespace-nowrap hover:bg-cyan-400/20 hover:text-white hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all duration-300 active:scale-95">
-            POSSIBILITIES
+          {/* Search Button */}
+          <Link href="/possibility" className="flex items-center gap-2 text-[7px] md:text-[9px] font-mono font-medium px-4 py-1.5 md:px-5 md:py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-100 tracking-[0.15em] uppercase whitespace-nowrap hover:bg-cyan-400/20 hover:text-white hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all duration-300 active:scale-95">
+            <Search className="w-3 h-3 md:w-3.5 md:h-3.5" strokeWidth={1.5} />
+            SEARCH
           </Link>
         </motion.div>
 
         {/* The Orbital Ring */}
         {mounted && domains.map((domain, index) => {
-          const angle = (index * 45 * Math.PI) / 180; // 360 / 8 = 45 degrees
+          const angle = ((index * 45 + 22.5) * Math.PI) / 180; // offset by 22.5° so no node lands at exact bottom
           const x = Math.cos(angle) * radius; // Restore full radius to prevent overlap
           const y = Math.sin(angle) * radius;
           return (
@@ -165,7 +162,7 @@ export default function Home() {
               onClick={(e) => {
                 e.stopPropagation();
                 if (domain.href) {
-                  router.push(domain.href);
+                  window.location.href = domain.href;
                 } else {
                   setActiveDomain(activeDomain === domain.id ? null : domain.id);
                 }
@@ -185,16 +182,22 @@ export default function Home() {
             >
               <domain.icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={1.5} />
 
+              {/* Hover Tooltip — always on top on web */}
               <div className={cn(
-                "absolute top-1/2 left-1/2 -translate-x-1/2 mt-10 md:mt-14 transition-opacity duration-300 whitespace-nowrap bg-slate-950/90 px-3 py-1.5 md:px-4 md:py-2 rounded-md border border-cyan-500/50 pointer-events-none shadow-[0_0_15px_rgba(0,240,255,0.2)] z-[100] backdrop-blur-md flex flex-col items-center gap-1",
-                activeDomain === domain.id && !domain.href ? "opacity-100" : "opacity-0 md:group-hover:opacity-100"
+                "absolute top-1/2 left-1/2 -translate-x-1/2 mt-10 md:mt-14 transition-all duration-300 whitespace-nowrap bg-slate-950/95 px-3 py-1.5 md:px-4 md:py-2 rounded-lg border border-cyan-500/50 pointer-events-none shadow-[0_0_20px_rgba(0,240,255,0.3)] z-[200] backdrop-blur-xl flex flex-col items-center gap-1",
+                activeDomain === domain.id ? "opacity-100 scale-100" : "opacity-0 scale-90 md:group-hover:opacity-100 md:group-hover:scale-100"
               )}>
-                <span className="text-[9px] md:text-[10px] tracking-widest text-cyan-100 font-mono">
+                <span className="text-[9px] md:text-[11px] tracking-[0.2em] text-cyan-100 font-mono font-semibold">
                   {domain.label}
                 </span>
                 {activeDomain === domain.id && !domain.href && (
                   <span className="text-[7px] md:text-[8px] text-cyan-400 font-mono tracking-widest bg-cyan-950/50 px-2 py-0.5 rounded border border-cyan-500/30">
                     COMING SOON
+                  </span>
+                )}
+                {domain.href && (
+                  <span className="text-[7px] md:text-[8px] text-emerald-400 font-mono tracking-widest bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-500/30">
+                    ENTER
                   </span>
                 )}
               </div>

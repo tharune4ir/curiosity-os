@@ -1,0 +1,962 @@
+[
+  {
+    "id": "chaotic-board-games",
+    "title": "Chaotic Board Games (The War Room)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Dices",
+    "the_core_joy": "Your brain loves safe drama. A game gives rules, so you can compete, argue, form alliances, and feel big emotions... without real damage. That shared emotional spike glues people together.",
+    "the_memory_maker": "Sunday afternoon. Cousins everywhere. Uno or Ludo on the floor. Someone plays a +4, someone screams 'CHEATER!', and five minutes later everybody is laughing at the same table.",
+    "the_hidden_upgrade": "You practice quick thinking, reading faces, and losing without melting down. You also learn how to come back after a fail.",
+    "the_matrix_trap": "Everyone in the same room, but each person is alone in their own scroll-loop, laughing quietly at different reels.",
+    "the_weekend_mission": "Start a 30-minute 'phone stack' rule: phones in one pile. Pick any game (cards, carrom, Ludo). Play one full round, no excuses.",
+    "linked_nodes": [
+      "inside-jokes",
+      "the-power-of-losing",
+      "family-game-night"
+    ]
+  },
+  {
+    "id": "inside-jokes",
+    "title": "Inside Jokes (The Secret Password)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Laugh",
+    "the_core_joy": "Inside jokes feel like a secret badge: 'We get each other.' Your brain reads that as safety + belonging, so it feels warm and powerful.",
+    "the_memory_maker": "In class group chat, one silly typo becomes a legendary meme. Two weeks later, someone says one word and your whole squad starts giggling for no reason.",
+    "the_hidden_upgrade": "You build friendship glue, group identity, and the skill of making people feel included (not excluded).",
+    "the_matrix_trap": "Spamming random memes to strangers for likes, but feeling empty because no one really knows you.",
+    "the_weekend_mission": "Create ONE wholesome inside joke: a funny codeword for 'let's meet' or 'I need backup.' Make sure everyone understands it and no one gets targeted.",
+    "linked_nodes": [
+      "playful-trash-talk",
+      "story-circle",
+      "compliment-raid"
+    ]
+  },
+  {
+    "id": "gully-cricket-chaos",
+    "title": "Gully Cricket Chaos (Stumps = Bricks)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Cricket",
+    "the_core_joy": "Team games mix two happiness fuels: belonging (tribe) and challenge (skills). Every ball gives instant feedback, so your brain stays fully awake.",
+    "the_memory_maker": "Evening in the lane. One slipper is the crease. The 'six' hits aunty's gate, everyone freezes, then runs, then laughs like it's a movie scene.",
+    "the_hidden_upgrade": "You learn teamwork, leadership, fairness, and how to handle pressure when everyone is watching you bat.",
+    "the_matrix_trap": "Watching match highlights for hours and feeling like you played, even though your body never moved.",
+    "the_weekend_mission": "Organize a 20-over (or 20-minutes) gully match. Make clear rules: safe bowling, respect neighbors, and stop if someone is annoyed.",
+    "linked_nodes": [
+      "sprint-chase-runners-high",
+      "playful-trash-talk",
+      "breath-and-calm-after-sport"
+    ]
+  },
+  {
+    "id": "carrom-court",
+    "title": "Carrom Court (The Quiet Rivalry)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Carrom",
+    "the_core_joy": "Carrom is focus + mini victory. Small wins release a 'yes!' feeling, and the calm competition keeps everyone close without shouting.",
+    "the_memory_maker": "Power cut night. Candle on the side. You flick the striker, the queen miraculously drops, and the whole family goes 'OHHHH!' together.",
+    "the_hidden_upgrade": "You build patience, hand-eye control, and calm confidence. Also: you learn to win without showing off.",
+    "the_matrix_trap": "Hyper-fast mobile games that give fake wins every 10 seconds, then leave you restless and irritated.",
+    "the_weekend_mission": "Teach someone younger (or older) one carrom trick. Then play best-of-3 with a 'good game' handshake at the end.",
+    "linked_nodes": [
+      "chaotic-board-games",
+      "family-game-night",
+      "the-power-of-losing"
+    ]
+  },
+  {
+    "id": "street-food-quest",
+    "title": "Street Food Quest (The Mini-Adventure Run)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "MapPin",
+    "the_core_joy": "A tiny quest makes normal life feel like a story. Mixing movement, novelty, and friends turns your brain from 'routine mode' into 'adventure mode.'",
+    "the_memory_maker": "After exams, you and two friends walk to the market for pani puri or momos. You debate the best stall like it's a world championship and take one epic group selfie.",
+    "the_hidden_upgrade": "You learn planning, budgeting, social courage (talking to vendors), and how to enjoy simple things deeply.",
+    "the_matrix_trap": "Food reels + ASMR eating videos that make you hungry, jealous, and still stuck on the bed.",
+    "the_weekend_mission": "Plan a Rs 50-Rs 100 food quest with permission. Rule: you must walk (not ride) at least 15 minutes, and you must try one new item.",
+    "linked_nodes": [
+      "explore-your-colony",
+      "group-photo-time-capsule",
+      "family-walk-and-talk"
+    ]
+  },
+  {
+    "id": "team-chores-speedrun",
+    "title": "Team Chores Speedrun (Co-op Mode)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Timer",
+    "the_core_joy": "Turning boring work into a game gives you agency. Your brain likes 'missions' with clear start and finish, especially with teammates.",
+    "the_memory_maker": "Saturday cleaning. You put on one song, set a 10-minute timer, and everyone races to fold clothes or arrange the bookshelf. Chaos, jokes, and a surprise dance break.",
+    "the_hidden_upgrade": "You build discipline without feeling punished. You also learn coordination and how to lead without being bossy.",
+    "the_matrix_trap": "Watching productivity videos while your room stays the same and guilt grows bigger.",
+    "the_weekend_mission": "Pick ONE chore. Make it co-op: 2 people, 12 minutes, timer ON. Winner chooses the next snack or music.",
+    "linked_nodes": [
+      "chores-as-coop-game",
+      "compliment-raid",
+      "conflict-repair"
+    ]
+  },
+  {
+    "id": "the-power-of-losing",
+    "title": "The Power of Losing (Respawn Skill)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Refresh",
+    "the_core_joy": "Real fun includes small losses. Your brain learns: 'I can feel bad, and still be okay.' That's emotional strength, like a character leveling up after defeat.",
+    "the_memory_maker": "You miss an easy catch. Everyone groans. You feel the heat in your face. Then someone says 'next ball!' and you try again... and later you laugh about it.",
+    "the_hidden_upgrade": "You learn resilience, sportsmanship, and self-control. This helps in exams too: one bad test doesn't end your story.",
+    "the_matrix_trap": "Only choosing content where you always 'win' instantly, so real life feels unbearable the moment it gets hard.",
+    "the_weekend_mission": "Play any game where you might lose. Your rule: if you lose, you must say 'GG' (good game) and ask for one tip to improve.",
+    "linked_nodes": [
+      "chaotic-board-games",
+      "gully-cricket-chaos",
+      "conflict-repair"
+    ]
+  },
+  {
+    "id": "playful-trash-talk",
+    "title": "Playful Trash Talk (Spice, Not Poison)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Chat",
+    "the_core_joy": "Friendly teasing is like adding masala: it makes things exciting. The joy comes from closeness-everyone knows it's not real hate, it's play.",
+    "the_memory_maker": "During badminton you say, 'Bro your smash is like a wet dosa.' They reply, 'Still better than your footwork.' Everyone laughs and plays harder.",
+    "the_hidden_upgrade": "You learn social intelligence: where the line is, how to read comfort, and how to keep competition fun, not cruel.",
+    "the_matrix_trap": "Comment wars with strangers online where jokes become attacks and nobody feels safe.",
+    "the_weekend_mission": "Try 'tease with permission': only tease about game skills, never body/looks/family. If someone says 'stop', you stop immediately and say sorry.",
+    "linked_nodes": [
+      "inside-jokes",
+      "gully-cricket-chaos",
+      "conflict-repair"
+    ]
+  },
+  {
+    "id": "story-circle",
+    "title": "Story Circle (The Campfire Without Fire)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "BookOpen",
+    "the_core_joy": "Stories create shared imagination. When your group imagines the same scene, it feels like you all stepped into one world together.",
+    "the_memory_maker": "Terrace evening. Power cut. Someone starts, 'Bro, the funniest thing happened in tuition...' and suddenly everyone is acting out the characters.",
+    "the_hidden_upgrade": "You build communication, humor, confidence, and the skill of making boring moments entertaining.",
+    "the_matrix_trap": "Bingeing random stories alone until 2 a.m., then waking up tired and blank.",
+    "the_weekend_mission": "Start a 15-minute story circle: each person tells one 'small story' from the week (funny, awkward, or proud). No interrupting.",
+    "linked_nodes": [
+      "inside-jokes",
+      "fiction-worldbuilding",
+      "photo-album-archive"
+    ]
+  },
+  {
+    "id": "group-photo-time-capsule",
+    "title": "Group Photo Time Capsule (Future You Will Thank You)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Camera",
+    "the_core_joy": "Photos lock a moment. Your brain loves meaning and nostalgia, so 'capturing the squad' turns normal days into 'this mattered.'",
+    "the_memory_maker": "After a colony match, everyone is sweaty and happy. You take a silly photo with the bat like a trophy. Next month you see it and instantly smile.",
+    "the_hidden_upgrade": "You train gratitude and memory-building. You also learn to notice good moments while they are happening.",
+    "the_matrix_trap": "Posting for strangers' likes, deleting if it doesn't perform, and forgetting the real fun that happened.",
+    "the_weekend_mission": "Make a 'time capsule' album: 10 photos only. Rule: no filters-needed, just real moments (friends, family, terrace, street).",
+    "linked_nodes": [
+      "street-food-quest",
+      "photo-album-archive",
+      "stop-motion-movie"
+    ]
+  },
+  {
+    "id": "compliment-raid",
+    "title": "Compliment Raid (Buff Your Teammates)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Sparkles",
+    "the_core_joy": "Making someone feel seen gives you social power in a good way. Kindness boosts connection, and connection boosts joy.",
+    "the_memory_maker": "Your friend is quiet after a bad test. You say, 'Bro, you always help everyone. That's rare.' Their face changes like a light turned on.",
+    "the_hidden_upgrade": "You build empathy, leadership, and the ability to create a 'safe squad' where people relax and be real.",
+    "the_matrix_trap": "Fishing for compliments online, refreshing notifications, and feeling worse when nothing comes.",
+    "the_weekend_mission": "Send 3 real compliments in 24 hours: one to a friend, one to a sibling/cousin, one to a parent/teacher. Make it specific, not generic.",
+    "linked_nodes": [
+      "inside-jokes",
+      "gratitude-to-parents-letter",
+      "family-service-mission"
+    ]
+  },
+  {
+    "id": "conflict-repair",
+    "title": "Conflict Repair (Patch Notes for Friendship)",
+    "domain": "THE TRIBE (SOCIAL)",
+    "icon": "Handshake",
+    "the_core_joy": "Fights happen in real groups. Repairing after conflict feels good because your brain loves safety and trust returning. It's like fixing a crack before it spreads.",
+    "the_memory_maker": "You snapped at a friend during a match. Later you message: 'Sorry, I went too far. Are we good?' They reply with a joke, and the tension melts.",
+    "the_hidden_upgrade": "You learn apology skills, boundary respect, and emotional control-super useful for friendships, family, and future relationships.",
+    "the_matrix_trap": "Silent unfollowing, ghosting, or posting indirect statuses instead of solving the real issue.",
+    "the_weekend_mission": "Pick one small conflict (even at home). Do a 3-step patch: (1) name it, (2) say sorry for your part, (3) ask what would help.",
+    "linked_nodes": [
+      "the-power-of-losing",
+      "playful-trash-talk",
+      "no-screen-dinner"
+    ]
+  },
+  {
+    "id": "bicycle-freedom",
+    "title": "Bicycle Freedom (Open-World Travel)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Bicycle",
+    "the_core_joy": "Cycling gives you control + speed. Your body moves, your brain wakes up, and the world feels bigger-like you unlocked a new map area.",
+    "the_memory_maker": "Late afternoon. You ride with a friend to the park, racing over speed breakers, laughing when your uniform gets dusty, feeling like the main character.",
+    "the_hidden_upgrade": "You build stamina, courage, and real independence (planning routes, handling tiny problems, staying calm).",
+    "the_matrix_trap": "Playing 'open world' games for hours but never feeling the wind or learning real-world confidence.",
+    "the_weekend_mission": "With permission, plan a safe 20-40 minute cycle loop. Rule: one new lane/park you've never explored, and one water break.",
+    "linked_nodes": [
+      "explore-your-colony",
+      "street-food-quest",
+      "mini-hike-park-trail"
+    ]
+  },
+  {
+    "id": "explore-your-colony",
+    "title": "Explore Your Colony (Local Explorer Mode)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Compass",
+    "the_core_joy": "Exploring makes your brain release 'curiosity energy.' New streets and tiny discoveries feel rewarding because novelty makes memories stronger.",
+    "the_memory_maker": "You find a shortcut lane, a quiet temple tree, and a new stationery shop. Suddenly your 'boring area' feels like a hidden level.",
+    "the_hidden_upgrade": "You build observation, navigation, and confidence to move through the world (not just through screens).",
+    "the_matrix_trap": "Endless travel vlogs that make you feel like you traveled, but you never left your chair.",
+    "the_weekend_mission": "Make a 'local map' walk: 30 minutes, phone only for safety. Find 3 things you never noticed and name them like game locations.",
+    "linked_nodes": [
+      "bicycle-freedom",
+      "street-food-quest",
+      "solo-exploration-walk"
+    ]
+  },
+  {
+    "id": "rain-adventure",
+    "title": "Rain Adventure (Monsoon Side Quest)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "CloudRain",
+    "the_core_joy": "Safe messiness feels amazing. Rain changes the world's texture, smell, and sound-your brain loves that sensory reset.",
+    "the_memory_maker": "First rain after summer. You step outside, feel the cool drops, jump over small puddles, and come home smelling like wet mitti.",
+    "the_hidden_upgrade": "You build flexibility: enjoying imperfect days instead of waiting for 'perfect' days. That's a happiness skill.",
+    "the_matrix_trap": "Watching rain 'ambience' videos while staying indoors and feeling more bored.",
+    "the_weekend_mission": "If it rains, do a 10-minute rain walk with slippers and permission. If not, do a 'water-splash mission' by washing the cycle/car with music.",
+    "linked_nodes": [
+      "messy-water-fight",
+      "nature-sit-20-min",
+      "photo-album-archive"
+    ]
+  },
+  {
+    "id": "sprint-chase-runners-high",
+    "title": "Sprint Chase (Runner's High Lite)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Run",
+    "the_core_joy": "Hard movement can flip your mood. After a good run, your body releases chemicals that reduce stress and can create a calm, proud glow.",
+    "the_memory_maker": "You and friends play pakda-pakdi in the park. You're dying, then suddenly you feel light, fast, and unstoppable for 30 seconds.",
+    "the_hidden_upgrade": "You build stamina, stress relief skills, and the belief: 'I can push through discomfort and still smile.'",
+    "the_matrix_trap": "Doomscrolling when stressed, getting more tired, and still feeling anxious.",
+    "the_weekend_mission": "Do a 12-minute run/walk mix: 30 seconds run, 60 seconds walk. Finish with 2 deep breaths and water.",
+    "linked_nodes": [
+      "gully-cricket-chaos",
+      "dance-battle",
+      "breath-and-calm-after-sport"
+    ]
+  },
+  {
+    "id": "rooftop-sunrise-walk",
+    "title": "Rooftop Sunrise Walk (Quiet Boss Mode)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Sunrise",
+    "the_core_joy": "Early light + movement gives your brain a clean restart. Quiet mornings reduce noise, so you can actually hear your own thoughts.",
+    "the_memory_maker": "You wake up before everyone, walk on the terrace, watch the sky turn orange, and feel strangely powerful-like you unlocked a secret time slot.",
+    "the_hidden_upgrade": "You build self-control, calm focus, and a strong morning mood that can protect your whole day.",
+    "the_matrix_trap": "Staying up late on shorts, waking up groggy, and feeling like the day already beat you.",
+    "the_weekend_mission": "One day only: wake up 30 minutes earlier. No phone. Terrace walk + 5 minutes just staring at the sky.",
+    "linked_nodes": [
+      "stargazing-terrace",
+      "journaling-brain-dump",
+      "nature-sit-20-min"
+    ]
+  },
+  {
+    "id": "dance-battle",
+    "title": "Dance Battle (Body = Music Visualizer)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Music",
+    "the_core_joy": "Dancing is joy because it mixes rhythm, expression, and social energy. Your body gets to 'speak' without perfect words.",
+    "the_memory_maker": "Family function. Someone plays a Bollywood hit. You and cousins do one dumb move, it becomes a signature, and everyone copies it.",
+    "the_hidden_upgrade": "You build confidence, body comfort, and emotional release. Also: you become the person who can lift the room's mood.",
+    "the_matrix_trap": "Watching dance reels and judging yourself instead of letting your body have fun.",
+    "the_weekend_mission": "Create a 30-second 'signature move' with a friend or sibling. Record it if you want, but the goal is laughter, not perfection.",
+    "linked_nodes": [
+      "diy-music-instrument",
+      "music-lie-down-listening",
+      "compliment-raid"
+    ]
+  },
+  {
+    "id": "messy-water-fight",
+    "title": "Messy Water Fight (Splash Arena)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Droplet",
+    "the_core_joy": "Water play is pure sensory fun. It's safe chaos, and laughter in a group boosts bonding fast.",
+    "the_memory_maker": "Summer afternoon. Bucket, mugs, maybe a small pichkari. Everyone is wet, the floor is a lake, and the only rule is: no targeting eyes.",
+    "the_hidden_upgrade": "You build playfulness, stress release, and the skill of setting safety rules while still having fun.",
+    "the_matrix_trap": "Watching prank videos where people get humiliated, then feeling gross and still bored.",
+    "the_weekend_mission": "Plan a 10-minute water game with family/cousins. Make 3 safety rules first. End with a towel race and chai/juice.",
+    "linked_nodes": [
+      "rain-adventure",
+      "inside-jokes",
+      "conflict-repair"
+    ]
+  },
+  {
+    "id": "mini-hike-park-trail",
+    "title": "Mini Hike (Nature Loot Run)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "TreePine",
+    "the_core_joy": "Nature gives your attention a break. Walking with trees and open sky can restore focus and reduce stress, like rebooting your brain.",
+    "the_memory_maker": "You walk in a nearby park, notice ants carrying food, smell leaves, and suddenly your mind feels less crowded.",
+    "the_hidden_upgrade": "You build mental clarity, patience, and the habit of using movement to reset your mood.",
+    "the_matrix_trap": "Sitting all day, then trying to 'relax' with more screen time and feeling even more full in the head.",
+    "the_weekend_mission": "Go to the greenest place you can reach safely. Walk 20 minutes. No headphones for the first 5 minutes-listen to the world.",
+    "linked_nodes": [
+      "bicycle-freedom",
+      "nature-sit-20-min",
+      "solo-exploration-walk"
+    ]
+  },
+  {
+    "id": "skill-grind",
+    "title": "Skill Grind (Trick Unlock)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Target",
+    "the_core_joy": "Learning a physical skill is satisfying because your brain loves progress. Tiny improvements feel like XP points.",
+    "the_memory_maker": "You practice football juggling or a cycle turn. Day 1: 3 tries. Day 3: 10 tries. You feel proud in a quiet, solid way.",
+    "the_hidden_upgrade": "You build patience, grit, and confidence that comes from practice-not from praise.",
+    "the_matrix_trap": "Only consuming other people's highlight reels and feeling like you are 'behind' in life.",
+    "the_weekend_mission": "Pick one skill: skipping rope, juggling, dribble, or a dance step. Practice 8 minutes daily for 5 days. Track your 'high score.'",
+    "linked_nodes": [
+      "the-power-of-losing",
+      "curiosity-experiment",
+      "mindful-breath-90-seconds"
+    ]
+  },
+  {
+    "id": "breath-and-calm-after-sport",
+    "title": "Breath After Sport (Cooldown Magic)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Wind",
+    "the_core_joy": "After you move hard, your body wants to settle. Slow breathing tells your nervous system: 'We are safe.' That calm feels like a reward.",
+    "the_memory_maker": "Match ends. You sit on the boundary wall, drink water, breathe slowly, and feel your heart go from 'drum solo' to 'peace mode.'",
+    "the_hidden_upgrade": "You learn emotion regulation: how to come down from anger, stress, or exam panic using your own breath.",
+    "the_matrix_trap": "Jumping from high-energy content to more high-energy content, never letting your brain settle.",
+    "the_weekend_mission": "After any play, do 6 slow breaths: inhale 4 counts, exhale 6 counts. Notice how your mood changes.",
+    "linked_nodes": [
+      "sprint-chase-runners-high",
+      "mindful-breath-90-seconds",
+      "do-nothing-without-guilt"
+    ]
+  },
+  {
+    "id": "kite-flying",
+    "title": "Kite Flying (Sky PvP Without Screens)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Kite",
+    "the_core_joy": "Kites mix skill, wind-reading, and suspense. You are literally playing with the sky, which feels epic even from a terrace.",
+    "the_memory_maker": "Makar Sankranti vibes (or any windy day). You shout 'kati!' as threads cross, and the whole terrace becomes a stadium.",
+    "the_hidden_upgrade": "You build patience, focus, and quick reactions. Also: you learn to enjoy waiting, not just clicking.",
+    "the_matrix_trap": "Watching other people's 'epic wins' and feeling jealous instead of building your own.",
+    "the_weekend_mission": "If you have a kite: fly for 30 minutes with safety (watch wires). If not: make a paper glider and run 20 throws, improving each time.",
+    "linked_nodes": [
+      "explore-your-colony",
+      "family-walk-and-talk",
+      "nature-sit-20-min"
+    ]
+  },
+  {
+    "id": "balance-and-climb-playground",
+    "title": "Balance & Climb (Safe Risk, Big Thrill)",
+    "domain": "THE KINETIC (PHYSICAL)",
+    "icon": "Mountain",
+    "the_core_joy": "Your brain loves small safe risks. Climbing, balancing, jumping-your body says 'I survived!' and confidence grows.",
+    "the_memory_maker": "You try the monkey bars at the park. First you slip. Then you figure it out. When you reach the end, you feel like you beat a mini-boss.",
+    "the_hidden_upgrade": "You build courage, body trust, and risk judgment (knowing what's safe and what's not).",
+    "the_matrix_trap": "Chasing fake adrenaline with shocking videos that only stress your brain.",
+    "the_weekend_mission": "Do a 'playground circuit' (safe): 3 rounds of climb, hang, balance, jump. Stop if it hurts. Bring a friend to cheer.",
+    "linked_nodes": [
+      "mini-hike-park-trail",
+      "skill-grind",
+      "the-power-of-losing"
+    ]
+  },
+  {
+    "id": "cardboard-city",
+    "title": "Cardboard City (Build a World)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Blocks",
+    "the_core_joy": "Making something with your hands turns ideas into reality. Your brain feels powerful: 'I can create, not just consume.'",
+    "the_memory_maker": "You collect Amazon boxes, tape, and markers. In two hours you have a tiny city: roads, a 'tea stall', a stadium, and secret tunnels.",
+    "the_hidden_upgrade": "You build creativity, problem solving, and patience. Also: you learn to start messy and improve later.",
+    "the_matrix_trap": "Scrolling perfect DIY videos and never starting because your first version won't look 'Instagram-ready.'",
+    "the_weekend_mission": "Build ONE thing from waste: a mini city, a pen stand, or a phone holder. Rule: no buying materials-only what\u2019s at home.",
+    "linked_nodes": [
+      "fiction-worldbuilding",
+      "build-your-own-board-game",
+      "stop-motion-movie"
+    ]
+  },
+  {
+    "id": "useless-invention-jugaad",
+    "title": "Useless Invention (Jugaad Genius)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Wrench",
+    "the_core_joy": "Useless inventions are secretly great because there is no pressure. Play + curiosity makes your brain explore new solutions.",
+    "the_memory_maker": "You make a 'biscuit lifter' from a spoon and rubber bands. It's silly. It works badly. Everyone laughs. You feel like a mad scientist.",
+    "the_hidden_upgrade": "You build innovation muscles: experimenting, failing safely, and not getting scared of mistakes.",
+    "the_matrix_trap": "Copy-paste hacks that look cool online but teach you nothing because you didn't think or test.",
+    "the_weekend_mission": "Invent something ridiculous for home life: a cool-bookmark, a cable organizer, or a snack tray. Bonus: give it a dramatic name.",
+    "linked_nodes": [
+      "repair-rescue",
+      "curiosity-experiment",
+      "explore-your-colony"
+    ]
+  },
+  {
+    "id": "messy-cooking-lab",
+    "title": "Messy Cooking Lab (Kitchen Alchemy)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "ChefHat",
+    "the_core_joy": "Cooking experiments hit all senses-smell, taste, heat, sound. When you create food, your brain feels pride plus comfort.",
+    "the_memory_maker": "You try 'Maggi but spicy-chaat style' or 'bread pizza.' It's not perfect, but everyone steals bites and gives reviews like judges.",
+    "the_hidden_upgrade": "You learn planning, patience, and confidence. Also: you learn to clean up your own chaos (rare hero skill).",
+    "the_matrix_trap": "Ordering junk while watching mukbang, then feeling heavy and bored.",
+    "the_weekend_mission": "Cook one small thing with permission: lemonade, egg bhurji, toast sandwich, or fruit chaat. Rule: you must plate it like a restaurant.",
+    "linked_nodes": [
+      "family-recipe-passdown",
+      "no-screen-dinner",
+      "craft-gift"
+    ]
+  },
+  {
+    "id": "draw-badly-on-purpose",
+    "title": "Drawing Badly on Purpose (No-Pressure Art)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Pencil",
+    "the_core_joy": "When you allow yourself to be bad, you become free. Freedom is fun. Your brain stops judging and starts playing.",
+    "the_memory_maker": "You draw your friend as a potato with glasses. Everyone laughs. Then they draw you as a flying chai cup. It becomes a wall of terrible legends.",
+    "the_hidden_upgrade": "You build confidence, creativity, and the habit of trying-without waiting to be 'talented.'",
+    "the_matrix_trap": "Comparing your normal life to perfect creator content and feeling 'not enough.'",
+    "the_weekend_mission": "Do a 10-minute 'ugly art challenge': draw 5 things as badly as possible (fan, auto, teacher, dog, your own face). Share with one safe person.",
+    "linked_nodes": [
+      "boredom-incubation",
+      "journaling-brain-dump",
+      "compliment-raid"
+    ]
+  },
+  {
+    "id": "diy-comic-strip",
+    "title": "DIY Comic Strip (Make Your Life a Meme)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Comic",
+    "the_core_joy": "Turning real moments into comics turns embarrassment into comedy. Your brain feels control: 'I can rewrite the story.'",
+    "the_memory_maker": "You draw a 4-panel comic about tuition drama or sibling fights. Your friend reads it and laughs so hard they snort.",
+    "the_hidden_upgrade": "You build storytelling, humor, and emotional resilience-because you learn to laugh at problems.",
+    "the_matrix_trap": "Only reposting memes made by strangers, slowly losing your own creativity voice.",
+    "the_weekend_mission": "Make one 4-panel comic from a real event this week. Stick figures are allowed. Bonus: give it a title like a movie.",
+    "linked_nodes": [
+      "inside-jokes",
+      "story-circle",
+      "book-portal-reading"
+    ]
+  },
+  {
+    "id": "stop-motion-movie",
+    "title": "Stop-Motion Movie (Tiny Film Studio)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Film",
+    "the_core_joy": "Making a movie teaches your brain long attention. You create movement out of stillness-like magic you control.",
+    "the_memory_maker": "You use toys or erasers as characters. 50 photos later, the 'eraser monster' walks. You and friends scream like you created Pixar.",
+    "the_hidden_upgrade": "You build patience, planning, and teamwork. Also: you learn that boring steps create cool results.",
+    "the_matrix_trap": "Auto-playing endless videos where you never build anything that lasts.",
+    "the_weekend_mission": "Make a 10-second stop-motion: a coin 'walking', a paper plane 'flying', or snacks 'dancing'. Keep it simple and fun.",
+    "linked_nodes": [
+      "group-photo-time-capsule",
+      "cardboard-city",
+      "diy-comic-strip"
+    ]
+  },
+  {
+    "id": "build-your-own-board-game",
+    "title": "Build Your Own Board Game (Design the Rules)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Gamepad",
+    "the_core_joy": "Designing rules gives you god-mode creativity. Your brain loves systems: if you create the rules, you feel smart and powerful.",
+    "the_memory_maker": "A4 paper, markers, coins as tokens. You make 'School Escape' where you must dodge homework monsters. Everyone argues about rules like real game designers.",
+    "the_hidden_upgrade": "You learn logic, fairness, and how to explain ideas clearly so others can play.",
+    "the_matrix_trap": "Buying skins/upgrades in games that don't change your real-world skills at all.",
+    "the_weekend_mission": "Design a simple board game with 12 squares and 6 action cards. Test it with family for 15 minutes and fix one rule.",
+    "linked_nodes": [
+      "chaotic-board-games",
+      "cardboard-city",
+      "the-power-of-losing"
+    ]
+  },
+  {
+    "id": "diy-music-instrument",
+    "title": "DIY Music Instrument (Jugaad Beats)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Drum",
+    "the_core_joy": "Making rhythm together syncs people. Even alone, tapping a beat gives your brain a steady, calming pattern.",
+    "the_memory_maker": "You fill a dabba with rice to make a shaker. Someone uses steel plates like a drum. Suddenly the kitchen becomes a concert.",
+    "the_hidden_upgrade": "You build timing, confidence, and group energy skills (starting, stopping, listening).",
+    "the_matrix_trap": "Only consuming music with no output-like eating without ever cooking.",
+    "the_weekend_mission": "Build 1 instrument (shaker, box drum, spoon claps). Teach 1 beat to someone. Do a 60-second jam.",
+    "linked_nodes": [
+      "dance-battle",
+      "music-lie-down-listening",
+      "craft-gift"
+    ]
+  },
+  {
+    "id": "repair-rescue",
+    "title": "Repair Rescue (Fix the Broken Thing)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Tools",
+    "the_core_joy": "Repair feels awesome because you reverse sadness. Your brain loves turning 'dead' into 'alive'-it feels like real power.",
+    "the_memory_maker": "A toy car wheel is loose. You find tape, glue, or a clip. It works again. Someone says, 'Wow, you fixed it!' Instant pride.",
+    "the_hidden_upgrade": "You build problem-solving, patience, and responsibility. Also: you learn that many problems are fixable.",
+    "the_matrix_trap": "Throwing things away fast and buying new stuff, never learning the skill of saving.",
+    "the_weekend_mission": "Fix ONE small thing at home: a loose button, a wobbly chair screw, a broken pen. Ask permission, be safe, and clean up.",
+    "linked_nodes": [
+      "useless-invention-jugaad",
+      "chores-as-coop-game",
+      "gratitude-to-parents-letter"
+    ]
+  },
+  {
+    "id": "terrace-micro-garden",
+    "title": "Terrace Micro Garden (Tiny Jungle Build)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Leaf",
+    "the_core_joy": "Growing something gives long-term joy. Your brain likes watching progress over days-it feels meaningful, not instant and empty.",
+    "the_memory_maker": "You plant methi or coriander in an old container. One week later, tiny green shoots appear and you feel weirdly proud like a parent.",
+    "the_hidden_upgrade": "You build patience, care, and responsibility. Also: you learn that small daily actions create big change.",
+    "the_matrix_trap": "Chasing instant dopamine hits and then feeling bored again in 30 seconds.",
+    "the_weekend_mission": "Start a micro garden: 1 pot only. Use kitchen seeds (methi, mustard) or a small plant. Name it like a pet.",
+    "linked_nodes": [
+      "nature-sit-20-min",
+      "family-walk-and-talk",
+      "stargazing-terrace"
+    ]
+  },
+  {
+    "id": "craft-gift",
+    "title": "Craft Gift (Make Love Physical)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Gift",
+    "the_core_joy": "Giving a handmade thing feels good because it creates connection. Your brain gets joy from making someone else smile.",
+    "the_memory_maker": "You make a small card for your mom, or a friendship bracelet for your cousin. They keep it in a drawer like treasure.",
+    "the_hidden_upgrade": "You build empathy, generosity, and confidence in your ability to bring joy to others.",
+    "the_matrix_trap": "Buying random stuff online to feel happy, then feeling guilty or empty later.",
+    "the_weekend_mission": "Make a tiny gift with zero money: a note, DIY bookmark, tiny drawing, or snack plate. Deliver it like a secret agent.",
+    "linked_nodes": [
+      "gratitude-to-parents-letter",
+      "compliment-raid",
+      "messy-cooking-lab"
+    ]
+  },
+  {
+    "id": "curiosity-experiment",
+    "title": "Curiosity Experiment (Kitchen Science)",
+    "domain": "THE MAKER (CREATIVE)",
+    "icon": "Flask",
+    "the_core_joy": "Experiments feel fun because your brain loves 'what will happen?' Curiosity is a natural happiness engine-like opening loot boxes in real life (but healthier).",
+    "the_memory_maker": "You test what floats in water, or make a simple paper bridge strong enough for coins. When it works, you feel like a wizard.",
+    "the_hidden_upgrade": "You build scientific thinking: observe, test, improve. This makes school learning easier too.",
+    "the_matrix_trap": "Watching 'satisfying experiments' videos without ever touching or trying anything yourself.",
+    "the_weekend_mission": "Do one safe experiment: paper airplane contest, coin bridge, or vinegar+baking soda in a bottle (with adult permission). Write what you expected vs what happened.",
+    "linked_nodes": [
+      "skill-grind",
+      "useless-invention-jugaad",
+      "nature-sit-20-min"
+    ]
+  },
+  {
+    "id": "grandparent-quest-interview",
+    "title": "Grandparent Quest (Time Travel Interview)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Mic",
+    "the_core_joy": "Humans love stories and belonging. When you learn your family history, you feel rooted-like you're part of a bigger team across time.",
+    "the_memory_maker": "You ask Nani/Nana: 'What games did you play at 14?' They tell you wild stories about school, bus rides, and old festivals. You realize they were teenagers too.",
+    "the_hidden_upgrade": "You build empathy, listening skills, and confidence talking to adults. Also: you collect life wisdom without boring lectures.",
+    "the_matrix_trap": "Ignoring family in the room while you watch strangers' lives online.",
+    "the_weekend_mission": "Ask 5 questions to one elder: best friend, biggest trouble, favorite food, one fear, one proud moment. Record notes and share one story to someone else.",
+    "linked_nodes": [
+      "story-circle",
+      "photo-album-archive",
+      "gratitude-to-parents-letter"
+    ]
+  },
+  {
+    "id": "family-recipe-passdown",
+    "title": "Family Recipe Passdown (Legacy Cooking)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Bowl",
+    "the_core_joy": "Food is love you can taste. Cooking a family recipe connects you to home and builds comfort + pride at the same time.",
+    "the_memory_maker": "You learn to make your dad's chai style or your mom's poha/upma tricks. You feel like you unlocked a family secret.",
+    "the_hidden_upgrade": "You build life skills, patience, and teamwork. Also: you start respecting how much effort 'simple food' takes.",
+    "the_matrix_trap": "Comparing your life to perfect influencer photos and feeling like your real life is 'too normal.'",
+    "the_weekend_mission": "Pick ONE family recipe and learn one step (not whole dish). Example: cutting onions safely, tempering, or making chutney. Ask for tips like a student.",
+    "linked_nodes": [
+      "messy-cooking-lab",
+      "no-screen-dinner",
+      "photo-album-archive"
+    ]
+  },
+  {
+    "id": "no-screen-dinner",
+    "title": "No-Screen Dinner (Family Co-op Lobby)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Utensils",
+    "the_core_joy": "Shared meals create connection and emotional safety. Talking while eating turns a normal day into a small 'we are together' ritual.",
+    "the_memory_maker": "Dinner table. No TV. Someone tells a school story, someone laughs, someone complains about onions. It's messy, real, and weirdly comforting.",
+    "the_hidden_upgrade": "You build conversation skills, family trust, and a calmer nervous system at home.",
+    "the_matrix_trap": "Eating alone with videos, then feeling like the day disappeared without any real moment.",
+    "the_weekend_mission": "Do one meal with a 'phone basket' rule for 15 minutes. Ask one fun question: 'If our family was a movie, what genre?'",
+    "linked_nodes": [
+      "family-recipe-passdown",
+      "compliment-raid",
+      "conflict-repair"
+    ]
+  },
+  {
+    "id": "family-walk-and-talk",
+    "title": "Family Walk & Talk (Low-Stress Bonding)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Footprints",
+    "the_core_joy": "Walking side-by-side makes talking easier. No eye contact pressure, just movement and shared scenery-perfect for real conversation.",
+    "the_memory_maker": "Evening walk after dinner. You point at random dogs, buy a small ice cream, and suddenly your parent tells you a funny story from their childhood.",
+    "the_hidden_upgrade": "You build connection and trust with family, which becomes a safe base when life gets stressful.",
+    "the_matrix_trap": "Sitting in the same house but everyone separated by screens and silence.",
+    "the_weekend_mission": "Invite one parent/guardian for a 15-minute walk. Your mission: ask them ONE question about their teenage life.",
+    "linked_nodes": [
+      "street-food-quest",
+      "kite-flying",
+      "terrace-micro-garden"
+    ]
+  },
+  {
+    "id": "cousin-mini-olympics",
+    "title": "Cousin Mini-Olympics (Festival of Chaos)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Medal",
+    "the_core_joy": "Family games create belonging + laughter. When competition stays playful, it becomes a memory machine.",
+    "the_memory_maker": "Cousins visit in holidays. You do silly events: spoon race, pillow dodge, cricket one-hand catch challenge. Everyone screams like it's IPL finals.",
+    "the_hidden_upgrade": "You learn leadership, fairness, and how to include younger kids and older cousins without making anyone feel small.",
+    "the_matrix_trap": "Cousins visiting but everyone only watching separate videos, then saying 'time flew' with no real memory.",
+    "the_weekend_mission": "Create 3 events that need zero equipment. Make simple rules + one funny prize (like 'Snack King'). Take one group photo.",
+    "linked_nodes": [
+      "gully-cricket-chaos",
+      "messy-water-fight",
+      "group-photo-time-capsule"
+    ]
+  },
+  {
+    "id": "family-game-night",
+    "title": "Family Game Night (Boss Battle: Parents)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Controller",
+    "the_core_joy": "When family plays, the hierarchy softens. For a moment, everyone is just players, and laughter rewires the home mood.",
+    "the_memory_maker": "You convince parents to play cards or carrom. Dad gets too competitive. Mom makes a comeback. You realize they are funny humans, not only rule-machines.",
+    "the_hidden_upgrade": "You build closeness and communication. Also: you practice handling authority figures in a friendly way.",
+    "the_matrix_trap": "Only doing 'parallel play': everyone near each other but each person trapped in their own screen world.",
+    "the_weekend_mission": "Pick one easy game and invite family for 20 minutes. Your job: be the host (rules, fairness, snacks).",
+    "linked_nodes": [
+      "chaotic-board-games",
+      "carrom-court",
+      "no-screen-dinner"
+    ]
+  },
+  {
+    "id": "teach-tech-trade-stories",
+    "title": "Teach Tech, Trade Stories (Generation Bridge)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Bridge",
+    "the_core_joy": "Teaching someone makes you feel competent. And trading stories makes elders feel seen. Both sides win, like a perfect co-op trade.",
+    "the_memory_maker": "You help Dadi save a contact or use WhatsApp call. In return she tells you how she made friends without phones and what mischief they did.",
+    "the_hidden_upgrade": "You build patience, communication, and respect. You also learn to explain stuff clearly-great for teaching anyone anything.",
+    "the_matrix_trap": "Calling elders 'outdated' and living in an online bubble where you only see your own age group.",
+    "the_weekend_mission": "Teach one simple tech skill to an elder (volume, torch, call). Then ask them to teach you one 'old school' skill or story.",
+    "linked_nodes": [
+      "grandparent-quest-interview",
+      "book-portal-reading",
+      "conflict-repair"
+    ]
+  },
+  {
+    "id": "festival-ritual-maker",
+    "title": "Festival Ritual Maker (Hands-on Culture)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Diya",
+    "the_core_joy": "Rituals feel joyful because they create meaning and togetherness. Doing rituals with your hands makes it real, not just 'watching.'",
+    "the_memory_maker": "You help make rangoli, tie toran, light diyas, or set up a small puja corner. Everyone is busy, and the house feels alive.",
+    "the_hidden_upgrade": "You build identity, belonging, and a sense of 'I know where I come from.' That confidence is quiet but strong.",
+    "the_matrix_trap": "Only watching festival content online, then feeling FOMO while doing nothing at home.",
+    "the_weekend_mission": "Create one tiny home ritual this week: chai-on-terrace, diya at window, rangoli sticker art, or cleaning one corner with music.",
+    "linked_nodes": [
+      "craft-gift",
+      "terrace-micro-garden",
+      "photo-album-archive"
+    ]
+  },
+  {
+    "id": "photo-album-archive",
+    "title": "Photo Album Archive (Family Memory Vault)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Album",
+    "the_core_joy": "Looking at old photos creates gratitude and connection. Your brain stitches past and present into one story: 'I belong here.'",
+    "the_memory_maker": "You open an old album. You see your parents in school uniforms. Everyone laughs at haircuts. Then someone tells the story behind the photo.",
+    "the_hidden_upgrade": "You build perspective and empathy. You also learn that everyone had awkward phases-and survived.",
+    "the_matrix_trap": "Comparing your life to perfect influencer photos and feeling like your real life is 'too normal.'",
+    "the_weekend_mission": "Spend 20 minutes with family photos (digital or paper). Pick 3 photos and write 1 line each: where, who, what funny detail.",
+    "linked_nodes": [
+      "group-photo-time-capsule",
+      "grandparent-quest-interview",
+      "stop-motion-movie"
+    ]
+  },
+  {
+    "id": "gratitude-to-parents-letter",
+    "title": "Gratitude Note (Unexpected Power Move)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Letter",
+    "the_core_joy": "Gratitude creates warmth because it strengthens bonds. Saying 'I see you' makes relationships safer and happier for both sides.",
+    "the_memory_maker": "You write one small note: 'Thanks for waking me up for school every day.' Your parent reads it, pretends it's nothing, but you can tell it hit the heart.",
+    "the_hidden_upgrade": "You build emotional maturity and the skill of strengthening relationships on purpose, not by accident.",
+    "the_matrix_trap": "Only expressing feelings through status posts and hoping someone guesses it's about them.",
+    "the_weekend_mission": "Write a 3-sentence gratitude note to one parent/guardian/elder. Hide it in a book, wallet, or tiffin bag like a secret loot drop.",
+    "linked_nodes": [
+      "craft-gift",
+      "grandparent-quest-interview",
+      "compliment-raid"
+    ]
+  },
+  {
+    "id": "chores-as-coop-game",
+    "title": "Chores as a Co-op Game (Home = Team Base)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Home",
+    "the_core_joy": "When home work becomes teamwork, it stops feeling like punishment. Shared effort creates belonging-and the home mood becomes lighter.",
+    "the_memory_maker": "You and sibling wash dishes with a timer. One dries, one washes. You argue about soap, then laugh, then finish faster than expected.",
+    "the_hidden_upgrade": "You build responsibility and teamwork. Bonus: parents trust you more, which often means more freedom later.",
+    "the_matrix_trap": "Escaping chores by going online, then still getting scolded and feeling trapped.",
+    "the_weekend_mission": "Choose one chore and do it co-op with music for 15 minutes. End by cleaning the 'battlefield' (the mess).",
+    "linked_nodes": [
+      "team-chores-speedrun",
+      "repair-rescue",
+      "no-screen-dinner"
+    ]
+  },
+  {
+    "id": "family-service-mission",
+    "title": "Family Service Mission (Real-Life XP)",
+    "domain": "THE ROOTS (FAMILY)",
+    "icon": "Heart",
+    "the_core_joy": "Helping others creates 'earned happiness.' Your brain feels meaning: 'I mattered today.' That kind of joy lasts longer than quick entertainment.",
+    "the_memory_maker": "You help a neighbor carry groceries, teach a kid a topic, or clean a small shared space. People smile at you like you upgraded as a human.",
+    "the_hidden_upgrade": "You build purpose, social courage, and pride that doesn't depend on likes or grades.",
+    "the_matrix_trap": "Watching 'inspiration' videos and feeling emotional, but doing nothing in real life.",
+    "the_weekend_mission": "Do one service mission with family permission: help at home extra, assist a neighbor, or donate old books/clothes. Keep it simple and real.",
+    "linked_nodes": [
+      "compliment-raid",
+      "family-walk-and-talk",
+      "kindness-savoring"
+    ]
+  },
+  {
+    "id": "stargazing-terrace",
+    "title": "Stargazing Terrace (Awe Cheat Code)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Stars",
+    "the_core_joy": "Looking at the night sky creates awe. Awe makes your problems feel smaller, not by denying them, but by zooming you out to a bigger picture.",
+    "the_memory_maker": "You lie on the terrace. One star moves-it's a plane. You spot Orion or just make your own constellations. The air feels quiet and infinite.",
+    "the_hidden_upgrade": "You build calm, perspective, and curiosity. It's like mental stretching that makes life feel lighter.",
+    "the_matrix_trap": "Late-night scrolling until your eyes burn, then sleeping with a busy, over-stimulated brain.",
+    "the_weekend_mission": "One night this week: 10 minutes on the terrace/balcony. No phone. Count 20 stars (or as many as your city allows).",
+    "linked_nodes": [
+      "rooftop-sunrise-walk",
+      "nature-sit-20-min",
+      "fiction-worldbuilding"
+    ]
+  },
+  {
+    "id": "fiction-worldbuilding",
+    "title": "Fiction Worldbuilding (Your Private Universe)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Planet",
+    "the_core_joy": "Imagination is a safe playground. Building a world lets your brain explore without real danger, and it feels deeply satisfying.",
+    "the_memory_maker": "You create a city where exams are illegal, or a cricket academy on Mars. You name streets, heroes, and villains like a game designer.",
+    "the_hidden_upgrade": "You build creativity, problem solving, and emotional processing (your brain quietly sorts feelings through stories).",
+    "the_matrix_trap": "Only consuming other people's worlds and never practicing making your own.",
+    "the_weekend_mission": "Build one world page: 1 map, 3 rules, 2 characters, 1 conflict. Keep it messy. Show nobody if you don't want.",
+    "linked_nodes": [
+      "story-circle",
+      "cardboard-city",
+      "book-portal-reading"
+    ]
+  },
+  {
+    "id": "book-portal-reading",
+    "title": "Book Portal (Escape That Leaves You Stronger)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Book",
+    "the_core_joy": "Good stories give you 'safe adventure.' Reading can reduce stress and also grows your brain's imagination and empathy.",
+    "the_memory_maker": "Exam holiday. Fan on full speed. You read one chapter and forget time. Suddenly it's dark outside and you feel peaceful, not drained.",
+    "the_hidden_upgrade": "You build attention span, vocabulary, and empathy-skills that help in school and friendships.",
+    "the_matrix_trap": "Jumping between 10 short clips, never sinking into one deep story, and feeling scattered.",
+    "the_weekend_mission": "Pick one book/comic/story. Read 20 minutes daily for 3 days. After reading, write one line: 'Best part was...'",
+    "linked_nodes": [
+      "fiction-worldbuilding",
+      "diy-comic-strip",
+      "do-nothing-without-guilt"
+    ]
+  },
+  {
+    "id": "do-nothing-without-guilt",
+    "title": "Doing Nothing Without Guilt (Rest = Strategy)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Cloud",
+    "the_core_joy": "Real rest feels good because your brain finally stops fighting. Rest is not laziness; it's recovery-like charging your phone so it can work again.",
+    "the_memory_maker": "You just sit near the window with chai and do nothing for 7 minutes. No music, no scrolling. Your shoulders drop and your mind unclenches.",
+    "the_hidden_upgrade": "You build self-trust: 'I don't need constant stimulation to be okay.' That's a superpower against stress.",
+    "the_matrix_trap": "'Fake rest' where you scroll for an hour and still feel tired and more noisy inside.",
+    "the_weekend_mission": "Try a 7-minute 'nothing break' once a day for 3 days. Set a timer. If thoughts come, let them pass like clouds.",
+    "linked_nodes": [
+      "boredom-incubation",
+      "mindful-breath-90-seconds",
+      "breath-and-calm-after-sport"
+    ]
+  },
+  {
+    "id": "boredom-incubation",
+    "title": "Boredom Incubation (Idea Oven)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Lightbulb",
+    "the_core_joy": "Boredom is your brain saying, 'I want new stimulation.' If you don't feed it with screens, your mind starts creating its own ideas.",
+    "the_memory_maker": "Power cut. No Wi-Fi. You stare at the ceiling, then suddenly you get a cool idea for a comic, a prank, or a new way to study.",
+    "the_hidden_upgrade": "You build creativity and problem solving through mind-wandering-your brain connects dots in the background.",
+    "the_matrix_trap": "Killing every empty second with scrolling, so your brain never has space to create.",
+    "the_weekend_mission": "Do a 'boredom challenge': 10 minutes with no phone and no task. Then write down 5 random ideas that appear.",
+    "linked_nodes": [
+      "journaling-brain-dump",
+      "draw-badly-on-purpose",
+      "do-nothing-without-guilt"
+    ]
+  },
+  {
+    "id": "solo-exploration-walk",
+    "title": "Solo Exploration Walk (Main Character Walk)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "PersonWalking",
+    "the_core_joy": "A solo walk is freedom + calm. You get space from everyone's opinions, and your brain can reset and sort thoughts.",
+    "the_memory_maker": "You walk to a nearby shop alone, notice small details-smells, sounds, sky color-and feel grounded like you returned to yourself.",
+    "the_hidden_upgrade": "You build independence, emotional clarity, and confidence being alone without feeling lonely.",
+    "the_matrix_trap": "Being alone physically but glued to a screen, still feeling anxious and restless.",
+    "the_weekend_mission": "With safety and permission, do a 15-minute solo walk in a safe area (or on terrace). No headphones for first 5 minutes. Observe 10 details.",
+    "linked_nodes": [
+      "explore-your-colony",
+      "mini-hike-park-trail",
+      "sketch-what-you-see"
+    ]
+  },
+  {
+    "id": "journaling-brain-dump",
+    "title": "Journaling Brain Dump (Clear the RAM)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Notebook",
+    "the_core_joy": "Writing clears mental clutter. When thoughts leave your head and land on paper, your brain feels lighter, like closing 20 tabs.",
+    "the_memory_maker": "Night before school. You feel stressed. You write: 'What I'm worried about' and 'What I can do.' After 5 minutes, your chest feels less tight.",
+    "the_hidden_upgrade": "You build self-awareness and problem solving. You learn to talk to yourself like a supportive coach.",
+    "the_matrix_trap": "Overthinking in circles while scrolling, getting more anxious and doing nothing to solve it.",
+    "the_weekend_mission": "Do a 5-minute brain dump: (1) mood today, (2) one win, (3) one worry, (4) one tiny next step. Keep it private.",
+    "linked_nodes": [
+      "boredom-incubation",
+      "rooftop-sunrise-walk",
+      "the-power-of-losing"
+    ]
+  },
+  {
+    "id": "music-lie-down-listening",
+    "title": "Lie-Down Music (Headphones as Meditation)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Headphones",
+    "the_core_joy": "Music can shift emotions fast. Lying down and listening deeply turns it into a mini-reset, not just background noise.",
+    "the_memory_maker": "You put one song, close eyes, and imagine a movie scene. For 3 minutes, life feels softer and your mind stops racing.",
+    "the_hidden_upgrade": "You build emotional regulation: choosing music to calm, energize, or process feelings without drama.",
+    "the_matrix_trap": "Playing random autoplay for hours while multitasking and still feeling empty.",
+    "the_weekend_mission": "Pick 3 songs: calm, hype, comfort. Try one per day. After the song, name your emotion in one word.",
+    "linked_nodes": [
+      "diy-music-instrument",
+      "dance-battle",
+      "mindful-breath-90-seconds"
+    ]
+  },
+  {
+    "id": "mindful-breath-90-seconds",
+    "title": "90-Second Mindful Breath (Instant Reset Button)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Zen",
+    "the_core_joy": "Breathing slowly tells your body, 'No danger right now.' That creates calm. Calm is not boring-it's the base that makes fun and focus possible.",
+    "the_memory_maker": "You're angry after a scolding. You step aside, do slow breaths, and feel the anger cool down like hot tea becoming drinkable.",
+    "the_hidden_upgrade": "You build self-control. This helps with exam stress, fights, and even stage fear.",
+    "the_matrix_trap": "Trying to 'calm down' with more stimulation-more videos, more noise, more chaos.",
+    "the_weekend_mission": "Try the '4-6' breath: inhale 4 counts, exhale 6 counts, 6 times. Do it once after school, once before sleep.",
+    "linked_nodes": [
+      "breath-and-calm-after-sport",
+      "do-nothing-without-guilt",
+      "kindness-savoring"
+    ]
+  },
+  {
+    "id": "sketch-what-you-see",
+    "title": "Sketch What You See (Real-Life Screenshot)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Sketch",
+    "the_core_joy": "Sketching makes you slow down and notice details. Noticing is a joy skill-your brain starts seeing beauty in normal things.",
+    "the_memory_maker": "You draw your balcony plant, your school bottle, or the street dog sleeping. It looks messy, but you feel calm and present.",
+    "the_hidden_upgrade": "You build attention, patience, and creative confidence. Also: you train your brain to focus without needing loud entertainment.",
+    "the_matrix_trap": "Watching aesthetic videos and feeling like life is only beautiful on other people's screens.",
+    "the_weekend_mission": "Sketch 3 'boring' objects in 15 minutes. Rule: no erasing. Write one funny caption under each drawing.",
+    "linked_nodes": [
+      "nature-sit-20-min",
+      "draw-badly-on-purpose",
+      "solo-exploration-walk"
+    ]
+  },
+  {
+    "id": "kindness-savoring",
+    "title": "Kindness Savoring (Replay the Good)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Smile",
+    "the_core_joy": "Savoring is when you replay a good moment on purpose. Your brain learns: 'Good things exist.' That boosts joy and resilience.",
+    "the_memory_maker": "You remember your friend's laugh from the match and you smile again. The day feels less heavy, even if homework is waiting.",
+    "the_hidden_upgrade": "You build gratitude and emotional strength. It helps you not get trapped in only negative thinking.",
+    "the_matrix_trap": "Replaying cringe moments and comparing yourself to others, until your mood drops.",
+    "the_weekend_mission": "Each night for 3 nights, write 1 good moment from the day and relive it for 10 seconds in your mind like a highlight clip.",
+    "linked_nodes": [
+      "compliment-raid",
+      "family-service-mission",
+      "mindful-breath-90-seconds"
+    ]
+  },
+  {
+    "id": "nature-sit-20-min",
+    "title": "Nature Sit (Attention Restore Station)",
+    "domain": "THE SOLO (ZEN)",
+    "icon": "Tree",
+    "the_core_joy": "Nature is 'softly interesting.' It holds your attention without forcing it. That helps your brain recover from heavy focus and stress.",
+    "the_memory_maker": "You sit near a tree or on the terrace with plants. You watch leaves move and birds hop. After 10 minutes, your mind feels cleaner.",
+    "the_hidden_upgrade": "You build focus recovery and calm. This can improve attention for studying later.",
+    "the_matrix_trap": "Trying to rest with short videos that keep pulling your attention every 5 seconds.",
+    "the_weekend_mission": "Do a 20-minute nature sit this week (park, balcony plants, terrace). Rule: no phone. If bored, just count leaves or sounds.",
+    "linked_nodes": [
+      "mini-hike-park-trail",
+      "terrace-micro-garden",
+      "stargazing-terrace"
+    ]
+  }
+]

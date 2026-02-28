@@ -1,15 +1,12 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
-import dynamic from "next/dynamic";
-import { ArrowLeft } from "lucide-react";
 import matter from "gray-matter";
 
 import UniverseGraph from "@/components/UniverseGraph";
 
 export default function PossibilityOS() {
     // 1. Path to our markdown files
-    const mdDirectory = path.join(process.cwd(), "content", "possibility_os");
+    const mdDirectory = path.join(process.cwd(), "content", "1_possibilities");
     const filenames = fs.readdirSync(mdDirectory).filter(f => f.endsWith('.md'));
 
     // 2. Map data natively from Markdown files using gray-matter
@@ -49,27 +46,10 @@ export default function PossibilityOS() {
     const graphData = { nodes, links: validLinks };
 
     return (
-        <main className="relative flex min-h-screen w-full bg-[#020617] overflow-hidden">
+        <main className="relative flex h-screen w-full bg-[#020617] overflow-hidden">
 
             {/* Dynamic 3D Graph (Client-Side Only) */}
             <UniverseGraph graphData={graphData} />
-
-            {/* Persistent UI Overlay */}
-            <div className="absolute top-6 left-6 md:top-10 md:left-10 z-50">
-                <Link
-                    href="/"
-                    className="group flex items-center gap-2 text-cyan-400 font-mono text-xs tracking-widest bg-slate-900/60 backdrop-blur-md px-4 py-2 rounded-full border border-cyan-500/30 hover:bg-cyan-500/20 hover:text-white transition-all shadow-[0_0_15px_rgba(0,240,255,0.1)]"
-                >
-                    <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-                    SYSTEM_RETURN
-                </Link>
-            </div>
-
-            <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-50 pointer-events-none">
-                <h2 className="text-white font-mono tracking-[0.2em] text-sm md:text-base drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
-                    POSSIBILITY UNIVERSE
-                </h2>
-            </div>
         </main>
     );
 }

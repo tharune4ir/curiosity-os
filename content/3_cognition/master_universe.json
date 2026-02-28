@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "brain-ram-vs-storage",
+    "title": "Brain RAM vs Brain Storage (Why You Blank Out)",
+    "domain": "FOUNDATIONS",
+    "icon": "Cpu",
+    "the_invisible_rule": "Your brain has tiny “RAM” (working memory). It can hold only about 4 chunks at a time, like a phone with low RAM. Real learning is moving ideas from RAM into long-term storage by building patterns (schemas). citeturn3search0turn0search3",
+    "the_matrix_trap": "You try to swallow a full chapter in one sitting. It feels okay at home, but in the exam hall your mind freezes—like a game crashing at the boss fight.",
+    "the_escape_hatch": "Study like a data-transfer: take one small piece, understand it, then do 2 minutes of active recall (close book, say/write from memory). That recall is the “save button.” citeturn0search6turn0search1",
+    "the_superpower": "You stop feeling “I’m dumb.” You simply stop overloading RAM, so learning becomes calmer and faster.",
+    "the_level_up_action": "Pick ONE topic. Write 4 bullet points from memory. Open the book only to fix the bullets you missed.",
+    "linked_nodes": [
+      "working-memory-4-chunks",
+      "cognitive-load-3-types",
+      "forgetting-curve",
+      "active-recall-core"
+    ]
+  },
+  {
+    "id": "working-memory-4-chunks",
+    "title": "Working Memory is Tiny (The 4-Chunk Limit)",
+    "domain": "FOUNDATIONS",
+    "icon": "RamChip",
+    "the_invisible_rule": "Most people can hold only a few “chunks” in mind at once (around 4). If you try to juggle 10 pieces, you drop them. citeturn3search0",
+    "the_matrix_trap": "You read a solution and think, “Yes yes I get it,” but when you try alone, you forget Step 2 and Step 3 instantly.",
+    "the_escape_hatch": "Turn many pieces into fewer chunks: give a name to a group. Like in PUBG: “loot → rotate → fight.” Now your brain holds 3 chunks, not 30 items. citeturn3search0turn0search3",
+    "the_superpower": "You become faster in maths/science because your brain doesn’t overflow mid-problem.",
+    "the_level_up_action": "Take any 10-line answer. Group it into 3 headings and name each heading in 1 word.",
+    "linked_nodes": [
+      "brain-ram-vs-storage",
+      "attention-spotlight",
+      "chunking",
+      "phone-brain-drain"
+    ]
+  },
+  {
+    "id": "cognitive-load-3-types",
+    "title": "Cognitive Load (Your Brain’s Weight Limit)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Weight",
+    "the_invisible_rule": "Learning fails when your mental load is too heavy. Some load is real difficulty (intrinsic), and some is “waste load” from messy studying (extraneous). Good study reduces the waste load. citeturn0search3turn0search7",
+    "the_matrix_trap": "You study with 5 tabs open, WhatsApp pings, and loud lyrics. You feel tired fast and blame yourself.",
+    "the_escape_hatch": "Make it easier to focus: one resource, one page, one question at a time. Remove distractions first; then your brain spends energy on understanding, not on fighting noise. citeturn0search3turn10search0",
+    "the_superpower": "Same study time, but 2× understanding—because your brain stops “wasting” power.",
+    "the_level_up_action": "Right now: close extra tabs. Keep only ONE book/app open for the next 15 minutes.",
+    "linked_nodes": [
+      "working-memory-4-chunks",
+      "chunking",
+      "study-setup-fast-start",
+      "self-explanation"
+    ]
+  },
+  {
+    "id": "schemas-skill-trees",
+    "title": "Schemas are Skill Trees (Why Experts Look Fast)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "SkillTree",
+    "the_invisible_rule": "Your brain stores “patterns” (schemas), like a game skill tree. When you build a schema, problems feel easy because your brain sees the pattern quickly. citeturn0search3turn0search15",
+    "the_matrix_trap": "You memorize steps like a robot. If the question changes a little, you get stuck.",
+    "the_escape_hatch": "Build a mini skill tree: “If I see THIS kind of question → I use THIS method → I check THIS.” That turns random facts into a pattern. citeturn0search3",
+    "the_superpower": "You stop panicking with “new” questions because you can recognize the category and choose the right tool.",
+    "the_level_up_action": "After solving one problem, write: “This problem type = _____. Steps = 1) __ 2) __ 3) __.”",
+    "linked_nodes": [
+      "cognitive-load-3-types",
+      "chunking",
+      "first-principles-thinking",
+      "concept-maps"
+    ]
+  },
+  {
+    "id": "attention-spotlight",
+    "title": "Attention is a Spotlight (Not a Floodlight)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Flashlight",
+    "the_invisible_rule": "Attention is narrow. When you try to do two hard things, the brain usually switches back and forth, and performance drops. citeturn1search0turn4search3",
+    "the_matrix_trap": "You keep the phone beside you “just in case.” Every 2 minutes your spotlight gets pulled away.",
+    "the_escape_hatch": "Use the spotlight on purpose: one task, full screen, for a short sprint. If a thought comes, write it on a “parking list” and return. citeturn10search0turn10search16",
+    "the_superpower": "You start finishing homework faster than friends who study longer but keep breaking focus.",
+    "the_level_up_action": "Make a tiny “parking list” on the side. Next 15 minutes: each time you want to check something, write it there instead.",
+    "linked_nodes": [
+      "single-tasking-mode",
+      "task-switching-cost",
+      "flow-state-zone",
+      "phone-brain-drain"
+    ]
+  },
+  {
+    "id": "single-tasking-mode",
+    "title": "Single-Tasking Mode (Like Single-Player Campaign)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Target",
+    "the_invisible_rule": "When you keep one goal in mind, the brain doesn’t pay repeated “switching fees.” Switching is costly, even if it feels small. citeturn1search0turn4search3",
+    "the_matrix_trap": "You study in “battle royale mode”: maths + Insta + YouTube + snacks + random thoughts.",
+    "the_escape_hatch": "Go single-player: choose ONE mission (example: ‘10 MCQs’). No switching until the mission ends. citeturn1search0",
+    "the_superpower": "You get more done in less time, and you feel less tired after studying.",
+    "the_level_up_action": "Write your next mission in 7 words or less. Example: “Solve 8 linear equations + check.”",
+    "linked_nodes": [
+      "attention-spotlight",
+      "attention-residue",
+      "pomodoro-sprint",
+      "notification-nuke"
+    ]
+  },
+  {
+    "id": "task-switching-cost",
+    "title": "Context Switching Cost (The Hidden Time Leak)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Shuffle",
+    "the_invisible_rule": "Switching tasks creates “switch costs” (slower time, more errors). Heavy media multitaskers can be more distracted by irrelevant info. citeturn1search0turn1search1",
+    "the_matrix_trap": "You do 2 minutes of physics, then 2 minutes of chatting, then back. After 1 hour, you covered almost nothing.",
+    "the_escape_hatch": "Switch only at checkpoints: finish a small unit, then switch. Planned switching is okay; random switching is the real enemy. citeturn1search0turn10search0",
+    "the_superpower": "You gain “extra time” every day without waking up earlier.",
+    "the_level_up_action": "Before you start: decide your next switch time (example: after 25 minutes). Don’t switch earlier.",
+    "linked_nodes": [
+      "attention-spotlight",
+      "attention-residue",
+      "multitasking-myth",
+      "interleaving-mix"
+    ]
+  },
+  {
+    "id": "attention-residue",
+    "title": "Attention Residue (Your Brain’s Ghost Tab)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "GhostTab",
+    "the_invisible_rule": "After you switch tasks, part of your mind keeps thinking about the old task. That leftover “residue” makes you slower on the new task. citeturn10search0turn10search16",
+    "the_matrix_trap": "You stop maths in the middle, reply to a message, come back, and reread the same line 5 times.",
+    "the_escape_hatch": "Do a 10-second “close-out”: write one line—“I stopped at step ___; next I will ___.” Then switch. citeturn10search0",
+    "the_superpower": "Even when life interrupts (doorbell, parents), you can return without losing your place.",
+    "the_level_up_action": "Right now, write: “Current task: ____. Next step: ____.” Keep it on top of the page.",
+    "linked_nodes": [
+      "task-switching-cost",
+      "single-tasking-mode",
+      "break-reset-rule",
+      "pomodoro-sprint"
+    ]
+  },
+  {
+    "id": "phone-brain-drain",
+    "title": "Phone Brain-Drain (Even When You Don’t Touch It)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "PhoneOff",
+    "the_invisible_rule": "Some studies found that just having your smartphone nearby can reduce available mental capacity, even if you don’t use it. But at least one close replication found the effect did not show up the same way, so treat it as “often risky,” not magic. citeturn1search2turn1search22",
+    "the_matrix_trap": "Phone on the desk, screen down. You tell yourself, “I won’t check.” Your brain still keeps watching it like a baby watching candy.",
+    "the_escape_hatch": "Put the phone out of sight and out of reach (bag/drawer/other room). If it’s harder to grab, you interrupt yourself less. citeturn1search2turn4search3",
+    "the_superpower": "More brainpower for maths and writing—because your brain stops “guarding” the phone.",
+    "the_level_up_action": "For the next 25 minutes: phone in another room or inside a closed bag. Not on the table.",
+    "linked_nodes": [
+      "hide-your-phone-friction",
+      "notification-nuke",
+      "attention-spotlight",
+      "working-memory-4-chunks"
+    ]
+  },
+  {
+    "id": "hide-your-phone-friction",
+    "title": "Friction Design (Make Bad Habits Harder)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Lock",
+    "the_invisible_rule": "Willpower is unreliable. Changing the environment (making distractions harder to access) often works better than “trying harder.” Planning “if-then” actions also helps you start and stick. citeturn10search13turn1search2",
+    "the_matrix_trap": "You trust your mood: “I’ll study seriously today.” Then one notification comes and the day is gone.",
+    "the_escape_hatch": "Add friction: keep phone far; keep book and notebook already open. Also set an if-then: “If I feel urge to check, then I will stand up and drink water.” citeturn10search13turn10search17",
+    "the_superpower": "You don’t need to be ‘motivated.’ Your setup does the work for you.",
+    "the_level_up_action": "Decide your friction trick now: drawer, high shelf, or give phone to a family member for 30 minutes.",
+    "linked_nodes": [
+      "phone-brain-drain",
+      "study-setup-fast-start",
+      "two-minute-start",
+      "notification-nuke"
+    ]
+  },
+  {
+    "id": "notification-nuke",
+    "title": "Notification Nuke (Stop Getting Spawn-Killed)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "BellOff",
+    "the_invisible_rule": "Interruptions force task switching, and switching has costs. Each ping is like an enemy that pulls you out of your mission. citeturn4search3turn10search0",
+    "the_matrix_trap": "You study with notifications on and keep “quick checking.” Your focus never becomes deep.",
+    "the_escape_hatch": "Nuke notifications: DND + airplane mode + only allow calls from parents. You decide when to check, not the phone. citeturn4search3",
+    "the_superpower": "You can enter deep focus faster, so even 30 minutes feels powerful.",
+    "the_level_up_action": "Turn on DND right now for 30 minutes. Put the phone screen facing down and away.",
+    "linked_nodes": [
+      "phone-brain-drain",
+      "single-tasking-mode",
+      "flow-state-zone",
+      "decision-fatigue"
+    ]
+  },
+  {
+    "id": "study-setup-fast-start",
+    "title": "Fast Start Setup (Beat the ‘Starting Boss’)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Rocket",
+    "the_invisible_rule": "People fail more at “starting” than at “doing.” If-then planning (implementation intentions) increases the chance you actually begin. citeturn10search13turn10search17",
+    "the_matrix_trap": "You wait for the perfect mood, the perfect playlist, the perfect pen… and 45 minutes disappear.",
+    "the_escape_hatch": "Make a default start: “If it’s 7:00 pm, then I sit, open notebook, and do Q1.” No debate. Same start daily. citeturn10search13turn10search9",
+    "the_superpower": "You become consistent—even if you’re not ‘in the mood.’ Consistency beats genius in exams.",
+    "the_level_up_action": "Write your if-then start line now: “If it is ____, then I will ____.” Keep it on your desk.",
+    "linked_nodes": [
+      "hide-your-phone-friction",
+      "two-minute-start",
+      "choice-overload",
+      "cognitive-load-3-types"
+    ]
+  },
+  {
+    "id": "flow-state-zone",
+    "title": "Flow State (The ‘In the Zone’ Cheat Code)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Wave",
+    "the_invisible_rule": "Flow is deep focus where you feel fully absorbed. It is more likely when distractions are low and the task is challenging but doable. citeturn1search19turn1search3",
+    "the_matrix_trap": "You either do easy copying (boring) or jump to super-hard questions (stress). Both kill flow.",
+    "the_escape_hatch": "Make a ‘Goldilocks mission’: slightly hard, clear goal, quick feedback (like checking answers). Keep the environment quiet and simple. citeturn1search19",
+    "the_superpower": "You can study longer with less pain because the work feels like a game level, not torture.",
+    "the_level_up_action": "Pick ONE ‘slightly hard’ question right now. Start a 15-minute timer and try it without help.",
+    "linked_nodes": [
+      "challenge-skill-balance",
+      "clear-goals-feedback",
+      "single-tasking-mode",
+      "focus-music-instrumental"
+    ]
+  },
+  {
+    "id": "challenge-skill-balance",
+    "title": "Challenge–Skill Balance (Level Scaling)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Balance",
+    "the_invisible_rule": "Flow studies often find a link between feeling challenged and feeling skilled (the balance matters). It’s not perfect, but it’s a useful rule. citeturn1search3",
+    "the_matrix_trap": "You always stay in the comfort zone (only easy sums), so you never grow. Or you go too hard and quit.",
+    "the_escape_hatch": "Use level scaling: Warm-up (easy) → Main (medium) → Boss (hard). This keeps you in the ‘growth zone.’ citeturn3search3",
+    "the_superpower": "You build confidence AND real skill, not fake confidence.",
+    "the_level_up_action": "Choose 3 questions: 1 easy, 1 medium, 1 hard. Do them in that order.",
+    "linked_nodes": [
+      "flow-state-zone",
+      "desirable-difficulties",
+      "two-minute-start",
+      "clear-goals-feedback"
+    ]
+  },
+  {
+    "id": "clear-goals-feedback",
+    "title": "Clear Goals + Fast Feedback (Your Brain Loves Scoreboards)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Scoreboard",
+    "the_invisible_rule": "Flow and learning improve when you know the goal and you get feedback. Without feedback, your brain can’t correct errors. citeturn1search19turn0search6",
+    "the_matrix_trap": "You ‘study’ by staring at pages with no target—no questions, no checking, no score.",
+    "the_escape_hatch": "Play with a scoreboard: “10 questions → check → mark wrong → fix.” Feedback turns studying into skill-building. citeturn0search14turn0search6",
+    "the_superpower": "You improve faster because you train exactly what the exam asks you to do.",
+    "the_level_up_action": "Write today’s goal as a number: “I will do ___ questions / ___ flashcards / ___ answers.”",
+    "linked_nodes": [
+      "flow-state-zone",
+      "mistake-log",
+      "past-papers-boss-fights",
+      "answer-writing-muscle"
+    ]
+  },
+  {
+    "id": "pomodoro-sprint",
+    "title": "Pomodoro Sprint (Focus in Rounds, Not Marathons)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Timer",
+    "the_invisible_rule": "Attention gets depleted during learning. Rest breaks can restore directed attention and support learning—especially on complex topics. citeturn10search3turn10search11",
+    "the_matrix_trap": "You force a 3-hour sitting. After 40 minutes, you start doom-scrolling as a ‘break.’",
+    "the_escape_hatch": "Do rounds: 25–45 min focus → 5–10 min real rest (no phone). Treat rest as part of training, not a guilty pleasure. citeturn10search3",
+    "the_superpower": "You can study longer in total because you don’t burn out early.",
+    "the_level_up_action": "Set one timer: 25 minutes. One task only. When it rings, stand up for 2 minutes.",
+    "linked_nodes": [
+      "single-tasking-mode",
+      "break-reset-rule",
+      "two-minute-start",
+      "decision-fatigue"
+    ]
+  },
+  {
+    "id": "break-reset-rule",
+    "title": "Breaks that Actually Reset (Not Breaks that Trap You)",
+    "domain": "FOCUS & ATTENTION",
+    "icon": "Reset",
+    "the_invisible_rule": "Breaking at the right time helps attention and learning. Some studies also find that nature-like breaks can restore attention. citeturn10search11turn10search23",
+    "the_matrix_trap": "You take a ‘5-minute break’ on Instagram and return after 45 minutes with a fried brain.",
+    "the_escape_hatch": "Use a clean break: water + stretch + look far away (window) + 5 deep breaths. Save phone breaks for AFTER the study block ends. citeturn10search11",
+    "the_superpower": "You keep your study momentum. Your brain feels ‘fresh’ more often.",
+    "the_level_up_action": "Next break: keep the phone in the same place. Stand up and drink water instead.",
+    "linked_nodes": [
+      "pomodoro-sprint",
+      "boredom-idea-factory",
+      "sleep-memory-save",
+      "attention-residue"
+    ]
+  },
+  {
+    "id": "boredom-idea-factory",
+    "title": "Analog Boredom (The Secret Creativity Recharge)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "Cloud",
+    "the_invisible_rule": "Boring moments can push the mind into daydreaming, which can boost creativity and new connections. Brain networks active in mind-wandering are linked with imaginative thinking. citeturn5search3turn5search10",
+    "the_matrix_trap": "Every tiny boredom moment (bus, waiting, toilet) gets filled with shorts/reels. Your brain never gets quiet time to connect ideas.",
+    "the_escape_hatch": "Take a “boredom snack”: 3 minutes with no screen. Just stare out the window or walk slowly. Then write 1 new idea or analogy. citeturn5search3",
+    "the_superpower": "You start getting ‘aha!’ moments that rote students never get, because they never give the brain quiet space.",
+    "the_level_up_action": "Today: do ONE 3-minute screen-free boredom break and write ONE idea right after.",
+    "linked_nodes": [
+      "break-reset-rule",
+      "analogy-engine",
+      "write-to-think",
+      "flow-state-zone"
+    ]
+  },
+  {
+    "id": "forgetting-curve",
+    "title": "The Forgetting Curve (Why Cramming Breaks)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "DownGraph",
+    "the_invisible_rule": "Memory drops quickly after learning if you don’t revisit it. The classic forgetting curve was replicated in modern analysis, showing rapid early forgetting. citeturn8search1",
+    "the_matrix_trap": "You study today, feel confident, then touch the chapter again only at exam time—when your brain says, “Who are you?”",
+    "the_escape_hatch": "Do tiny reviews before forgetting wins: 2–5 minutes of recall today, then again after a few days, then again later. citeturn0search1turn8search8",
+    "the_superpower": "You don’t need last-night panic. Your memory stays alive with small effort.",
+    "the_level_up_action": "Pick one topic you studied this week. Without notes, write 5 points from memory right now.",
+    "linked_nodes": [
+      "spaced-repetition-ladder",
+      "active-recall-core",
+      "sleep-memory-save",
+      "memory-interference"
+    ]
+  },
+  {
+    "id": "spaced-repetition-ladder",
+    "title": "Spaced Repetition (Small Reviews, Big Memory)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Steps",
+    "the_invisible_rule": "Spacing study sessions beats massed cramming across many experiments (meta-analysis). The timing matters, but the big idea is simple: spread it out. citeturn0search1turn8search8",
+    "the_matrix_trap": "You do ‘revision day’ like a festival and forget most of it two weeks later.",
+    "the_escape_hatch": "Use a ladder: Day 0 (learn) → Day 1 (quick recall) → Day 3–4 (recall) → Day 7 (mixed quiz). citeturn0search1",
+    "the_superpower": "You remember chapters months later, not just “for tomorrow.”",
+    "the_level_up_action": "Make 3 reminder dates for one chapter (write them in your calendar/diary).",
+    "linked_nodes": [
+      "forgetting-curve",
+      "flashcards-right-way",
+      "desirable-difficulties",
+      "interleaving-mix"
+    ]
+  },
+  {
+    "id": "active-recall-core",
+    "title": "Active Recall (The Main Upgrade)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "QuestionMark",
+    "the_invisible_rule": "Trying to retrieve information strengthens memory more than passive restudy. This is the testing effect / retrieval practice idea. citeturn0search6turn0search12",
+    "the_matrix_trap": "You reread notes and highlight. It feels smooth, so you think you learned. But the exam asks you to pull answers from memory.",
+    "the_escape_hatch": "Close the book and pull answers out: write, speak, or quiz yourself. Struggle (a little) is the point. citeturn0search6turn3search3",
+    "the_superpower": "Less exam fear—because you trained the exact skill the exam uses: recall under pressure.",
+    "the_level_up_action": "Do the “Blank Page Test” for 5 minutes on one topic right now.",
+    "linked_nodes": [
+      "testing-effect",
+      "illusion-of-competence",
+      "exam-simulation",
+      "past-papers-boss-fights"
+    ]
+  },
+  {
+    "id": "testing-effect",
+    "title": "Testing Effect (Quizzes are Not Just Measurement)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Quiz",
+    "the_invisible_rule": "Testing improves later retention, not just grades. Classroom studies also show quizzing can improve learning over time. citeturn0search6turn0search14",
+    "the_matrix_trap": "You avoid quizzes because they feel scary, so you only read and feel safe.",
+    "the_escape_hatch": "Do low-stakes quizzes: tiny, frequent, no pressure. Wrong answers are data, not shame. citeturn0search6",
+    "the_superpower": "You become that student who stays calm in exams because you’ve ‘been there’ many times.",
+    "the_level_up_action": "Make 5 questions from today’s topic and answer them without looking.",
+    "linked_nodes": [
+      "active-recall-core",
+      "flashcards-right-way",
+      "past-papers-boss-fights",
+      "desirable-difficulties"
+    ]
+  },
+  {
+    "id": "flashcards-right-way",
+    "title": "Flashcards Done Right (Not Pretty Cards, Useful Cards)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Cards",
+    "the_invisible_rule": "Flashcards work when they force retrieval practice and when you space reviews. Research reviews rate practice testing and spaced practice as strong techniques. citeturn0search12turn0search1",
+    "the_matrix_trap": "You spend 2 hours making colorful cards and 0 minutes testing. Or you write huge answers on one card and hate reviewing.",
+    "the_escape_hatch": "Make small cards: one clear question, one short answer. Review daily in small batches. Keep it boring and fast. citeturn0search6turn7search10",
+    "the_superpower": "Daily 15 minutes keeps your memory alive without marathon revision.",
+    "the_level_up_action": "Create 5 cards from one page: ‘Q’ on front, ‘A’ in 1–2 lines on back.",
+    "linked_nodes": [
+      "spaced-repetition-ladder",
+      "testing-effect",
+      "generation-effect",
+      "dual-coding"
+    ]
+  },
+  {
+    "id": "interleaving-mix",
+    "title": "Interleaving (Mixing Topics Like Mixed Practice)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Mixer",
+    "the_invisible_rule": "Interleaving mixes different problem types, forcing you to choose the right method. Studies show it can improve math learning compared to blocked practice. citeturn2search3turn2search11",
+    "the_matrix_trap": "You do 20 identical sums in a row. You get fast… but only because you already know the method. In the exam, you don’t know which method to use.",
+    "the_escape_hatch": "Mix 3 types in one set (example: linear equation, inequality, word problem). Now you train method-selection, not just repetition. citeturn2search3",
+    "the_superpower": "You become better at ‘surprise questions’ because your brain practiced choosing the tool.",
+    "the_level_up_action": "Take your homework set and rearrange it: no two same-type questions back-to-back.",
+    "linked_nodes": [
+      "spaced-repetition-ladder",
+      "desirable-difficulties",
+      "memory-interference",
+      "task-switching-cost"
+    ]
+  },
+  {
+    "id": "desirable-difficulties",
+    "title": "Desirable Difficulties (Hard Now, Easy Later)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Mountain",
+    "the_invisible_rule": "Some difficulties are ‘desirable’: they feel harder during study but create stronger long-term learning (spacing, retrieval, interleaving). citeturn3search3turn9search3",
+    "the_matrix_trap": "You only use easy methods that feel good (rereading, copying). You feel progress, but it disappears later.",
+    "the_escape_hatch": "Choose a little struggle on purpose: recall before looking, mix questions, space sessions. If it’s slightly uncomfortable, it’s often working. citeturn3search3",
+    "the_superpower": "You build memory that lasts beyond the exam—useful for competitive exams and real life.",
+    "the_level_up_action": "For the next concept, try to answer first for 30 seconds before you peek at notes.",
+    "linked_nodes": [
+      "testing-effect",
+      "spaced-repetition-ladder",
+      "interleaving-mix",
+      "generation-effect"
+    ]
+  },
+  {
+    "id": "generation-effect",
+    "title": "Generation Effect (Guess First, Then Learn Faster)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Pencil",
+    "the_invisible_rule": "When you generate an answer yourself (even imperfectly), you often remember better than when you only read the answer. citeturn2search1turn2search13",
+    "the_matrix_trap": "You watch solution videos and feel smart. But your brain did not ‘generate,’ so it didn’t build strong memory.",
+    "the_escape_hatch": "Before seeing the answer, guess for 30–60 seconds. Then check and correct. Wrong guesses become sticky lessons. citeturn2search1",
+    "the_superpower": "You learn quickly from fewer questions because each question becomes a stronger memory.",
+    "the_level_up_action": "Next time: cover the solution and attempt Step 1 from memory before you look.",
+    "linked_nodes": [
+      "flashcards-right-way",
+      "self-explanation",
+      "write-to-think",
+      "desirable-difficulties"
+    ]
+  },
+  {
+    "id": "self-explanation",
+    "title": "Self-Explanation (Talk to Your Brain Like a Coach)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "SpeechBubble",
+    "the_invisible_rule": "Explaining to yourself helps you integrate new info with what you already know and improves understanding, especially with worked examples. citeturn3search2turn3search10",
+    "the_matrix_trap": "You read a solved example silently. It feels obvious. Then you can’t solve a similar one alone.",
+    "the_escape_hatch": "Be a commentator: “Why did they do this step? What does it mean?” If you can’t explain, you don’t fully understand yet. citeturn3search2",
+    "the_superpower": "You stop memorizing steps and start understanding reasons. That’s what top students do secretly.",
+    "the_level_up_action": "Solve one example and speak every step in simple words (even quietly).",
+    "linked_nodes": [
+      "feynman-technique",
+      "elaborative-interrogation-why",
+      "concept-maps",
+      "cognitive-load-3-types"
+    ]
+  },
+  {
+    "id": "elaborative-interrogation-why",
+    "title": "Elaborative Interrogation (The ‘Why?’ Power)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "Why",
+    "the_invisible_rule": "Asking “Why is this true?” builds connections and deeper processing. It’s a researched learning technique (useful especially with facts and concepts). citeturn0search12turn8search9",
+    "the_matrix_trap": "You memorize lines like a parrot. Two weeks later, it feels like a foreign language.",
+    "the_escape_hatch": "For each key line, ask: “Why?” and “How do I know?” Then answer in your own words with one example. citeturn0search12",
+    "the_superpower": "You can write better answers because you actually understand reasons, not just words.",
+    "the_level_up_action": "Pick one definition. Write: “This is true because ____.” Add one real-life example.",
+    "linked_nodes": [
+      "self-explanation",
+      "first-principles-thinking",
+      "analogy-engine",
+      "illusion-of-competence"
+    ]
+  },
+  {
+    "id": "feynman-technique",
+    "title": "Feynman Technique (Explain Like a 10-Year-Old)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "Teacher",
+    "the_invisible_rule": "Explaining simply forces you to notice gaps, organize ideas, and connect them—very similar to self-explanation and learning-by-teaching effects. citeturn3search2turn2search12",
+    "the_matrix_trap": "You use big words from the book and think that means you understand. In the exam, you can’t produce a clean answer.",
+    "the_escape_hatch": "Teach the idea using only simple words and one example. If you get stuck, that spot is your real weak point. citeturn3search2",
+    "the_superpower": "You become the student who can explain anything clearly—teachers love that, and exams reward that.",
+    "the_level_up_action": "Pick one concept and record a 60-second audio explaining it in your simplest English.",
+    "linked_nodes": [
+      "self-explanation",
+      "teach-the-wall",
+      "protege-effect",
+      "illusion-of-competence"
+    ]
+  },
+  {
+    "id": "first-principles-thinking",
+    "title": "First Principles Thinking (Break It, Then Build It)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "Atom",
+    "the_invisible_rule": "When you break a topic into basic parts and rebuild it, you create stronger schemas and deeper understanding than copying steps. citeturn0search3turn0search12",
+    "the_matrix_trap": "You memorize a formula without knowing what each part means. One twist in the question and you panic.",
+    "the_escape_hatch": "Ask: “What are the parts? What does each part do? Why does it change the result?” Then rebuild the formula in words. citeturn0search3",
+    "the_superpower": "You can solve unfamiliar questions because you understand the engine, not just the button.",
+    "the_level_up_action": "Take one formula and write a one-line meaning for each symbol/term.",
+    "linked_nodes": [
+      "elaborative-interrogation-why",
+      "schemas-skill-trees",
+      "analogy-engine",
+      "concept-maps"
+    ]
+  },
+  {
+    "id": "chunking",
+    "title": "Chunking (Turn 20 Things Into 4 Things)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "Blocks",
+    "the_invisible_rule": "Chunking helps because working memory has a small capacity (a few chunks). Better chunks = less overload. citeturn3search0",
+    "the_matrix_trap": "You keep rewriting notes because you can’t hold the full process in mind.",
+    "the_escape_hatch": "Compress: group steps into named blocks (like ‘setup’, ‘solve’, ‘check’). Then practice recalling the blocks first, details later. citeturn3search0turn0search3",
+    "the_superpower": "You can do long problems without losing the thread mid-way.",
+    "the_level_up_action": "Pick one long answer and convert it into 4 headings only. No extra words.",
+    "linked_nodes": [
+      "working-memory-4-chunks",
+      "schemas-skill-trees",
+      "concept-maps",
+      "cognitive-load-3-types"
+    ]
+  },
+  {
+    "id": "analogy-engine",
+    "title": "Analogy Engine (Use What You Know to Learn New Stuff)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "Bridge",
+    "the_invisible_rule": "Learning improves when new ideas connect to existing knowledge. Self-explaining helps this integration, and analogies are a simple way to do it. citeturn3search2",
+    "the_matrix_trap": "You treat school like ‘random facts.’ So every chapter feels separate and heavy.",
+    "the_escape_hatch": "Make one analogy: “This is like ___ in a game/cricket/phone.” Even a rough analogy creates a hook for memory and understanding.",
+    "the_superpower": "You remember faster and can explain better, because your brain has a ‘bridge’ to walk on.",
+    "the_level_up_action": "Take one science concept and write: “This is like ____ because ____.”",
+    "linked_nodes": [
+      "first-principles-thinking",
+      "dual-coding",
+      "storytelling-memory-hook",
+      "boredom-idea-factory"
+    ]
+  },
+  {
+    "id": "dual-coding",
+    "title": "Dual Coding (Words + Pictures = Stronger Memory)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "ImageText",
+    "the_invisible_rule": "Dual coding theory says we can store info as words and as images. Using both can improve recall because you get two routes to the same idea. citeturn7search4turn7search19",
+    "the_matrix_trap": "You keep only text notes. Later, everything looks the same and nothing stands out.",
+    "the_escape_hatch": "Add tiny visuals: arrows, boxes, a quick sketch, a simple diagram. Not art—just a memory handle.",
+    "the_superpower": "You recall faster in exams because you can ‘see’ the answer structure in your head.",
+    "the_level_up_action": "For one topic today, draw one 30-second diagram (even ugly).",
+    "linked_nodes": [
+      "concept-maps",
+      "memory-palace-method-of-loci",
+      "flashcards-right-way",
+      "keyword-mnemonic"
+    ]
+  },
+  {
+    "id": "memory-palace-method-of-loci",
+    "title": "Memory Palace (Use Your House as Storage)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "House",
+    "the_invisible_rule": "The method of loci (memory palace) uses familiar places to store items in imagined locations. Reviews and meta-analyses find it can enhance recall. citeturn2search2turn2search18",
+    "the_matrix_trap": "You try to memorize lists (biology, history) in plain order. Your brain mixes items.",
+    "the_escape_hatch": "Use your house route: gate → hall → kitchen → bedroom. Put one crazy image per spot. Walk the route in your mind to recall.",
+    "the_superpower": "You can remember long lists and sequences that other students struggle with.",
+    "the_level_up_action": "Choose 5 places in your house and store 5 terms there with silly images.",
+    "linked_nodes": [
+      "dual-coding",
+      "context-dependent-memory",
+      "storytelling-memory-hook",
+      "keyword-mnemonic"
+    ]
+  },
+  {
+    "id": "keyword-mnemonic",
+    "title": "Keyword Mnemonic (Use Only for ‘Stubborn’ Words)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Key",
+    "the_invisible_rule": "Keyword mnemonics can help for some tasks (like vocabulary), but research reviews warn it doesn’t generalize perfectly to everything and can waste time if overused. citeturn0search12turn8search3",
+    "the_matrix_trap": "You make mnemonics for every single line and spend more time creating jokes than learning.",
+    "the_escape_hatch": "Use mnemonics only for ‘stubborn’ items: formulas, dates, scientific names. Then test with active recall the next day. citeturn0search6turn0search1",
+    "the_superpower": "You save time and still get the memory boost where it matters.",
+    "the_level_up_action": "Pick ONE tough term today and create ONE mnemonic. Then test it from memory after 10 minutes.",
+    "linked_nodes": [
+      "flashcards-right-way",
+      "dual-coding",
+      "spaced-repetition-ladder",
+      "memory-palace-method-of-loci"
+    ]
+  },
+  {
+    "id": "storytelling-memory-hook",
+    "title": "Storytelling as a Memory Tool (Turn Facts into a Movie)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "Story",
+    "the_invisible_rule": "Processing information in a story format can improve recall compared to shallow processing. Story structure gives your brain a path to follow. citeturn7search2turn7search16",
+    "the_matrix_trap": "History/civics becomes 50 disconnected facts that fall out of your head after the exam.",
+    "the_escape_hatch": "Convert to story: Who is the main character? What do they want? What problem happens? What changes after? Now the facts become scenes.",
+    "the_superpower": "You can write long answers with flow because you remember the story order.",
+    "the_level_up_action": "Pick 5 facts and connect them into a 4-line story: Start → Problem → Action → Result.",
+    "linked_nodes": [
+      "write-to-think",
+      "memory-palace-method-of-loci",
+      "answer-writing-muscle",
+      "analogy-engine"
+    ]
+  },
+  {
+    "id": "context-dependent-memory",
+    "title": "Context-Dependent Memory (Your Brain Loves Matching Rooms)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "MapPin",
+    "the_invisible_rule": "Recall can improve when the learning context and testing context match (encoding specificity). Classic work showed better recall when study and test environments matched. citeturn9search1turn9search0",
+    "the_matrix_trap": "You always study on the bed with music. In the exam hall (silence + desk), you feel strange and forget.",
+    "the_escape_hatch": "Do some study in ‘exam mode’: sitting at a desk, quiet, timed writing. You’re training the same context cues. citeturn9search0",
+    "the_superpower": "Your brain feels familiar in the exam hall, so recall becomes smoother.",
+    "the_level_up_action": "Do one 10-minute ‘exam mode’ mini-test today: no music, no phone, write answers.",
+    "linked_nodes": [
+      "exam-simulation",
+      "memory-palace-method-of-loci",
+      "active-recall-core",
+      "focus-music-instrumental"
+    ]
+  },
+  {
+    "id": "exam-simulation",
+    "title": "Exam Simulation (Train Like You Fight)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "ExamSheet",
+    "the_invisible_rule": "Your study should match your test demands. Retrieval practice builds recall skill, and matching contexts can help memory. citeturn0search6turn9search0",
+    "the_matrix_trap": "You only read notes. Then in writing exam, your hand and brain are not trained to produce answers fast.",
+    "the_escape_hatch": "Simulate: timer + past questions + no notes. Then check, correct, and rewrite the weak part. citeturn0search14turn0search6",
+    "the_superpower": "Exam becomes just another practice session, not a scary first-time experience.",
+    "the_level_up_action": "Set a 12-minute timer and answer ONE past question fully (even if imperfect).",
+    "linked_nodes": [
+      "active-recall-core",
+      "past-papers-boss-fights",
+      "context-dependent-memory",
+      "metacognition-reality-check"
+    ]
+  },
+  {
+    "id": "memory-interference",
+    "title": "Memory Interference (Why Similar Chapters Mix Up)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "CrossedArrows",
+    "the_invisible_rule": "Forgetting often happens because memories interfere with each other (proactive and retroactive interference), especially when material is similar. citeturn9search14turn9search2",
+    "the_matrix_trap": "You study two similar topics back-to-back (like two biology cycles) and later mix steps and names.",
+    "the_escape_hatch": "Use ‘compare & contrast’ and spaced recall. Interleave with clear labels: “Cycle A vs Cycle B: 3 differences.” citeturn2search23turn0search1",
+    "the_superpower": "You stop mixing similar topics and start choosing the correct concept quickly.",
+    "the_level_up_action": "Pick two similar topics and write 3 differences from memory (then check).",
+    "linked_nodes": [
+      "forgetting-curve",
+      "interleaving-mix",
+      "spaced-repetition-ladder",
+      "chunking"
+    ]
+  },
+  {
+    "id": "sleep-memory-save",
+    "title": "Sleep is the Save Button (Memory Consolidation)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "Moon",
+    "the_invisible_rule": "Sleep supports memory consolidation—helping stabilize and organize what you learned. Cutting sleep can reduce learning quality. citeturn5search30turn5search8",
+    "the_matrix_trap": "You do an all-nighter, thinking “more hours = more marks,” then forget and make silly mistakes next day.",
+    "the_escape_hatch": "Sleep first, then study. Do a quick 3-minute recall before bed, sleep, then do a 3-minute recall in the morning. citeturn5search30turn0search6",
+    "the_superpower": "You feel sharper, recall faster, and your mood is steadier during exams.",
+    "the_level_up_action": "Tonight: stop studying 20 minutes earlier and do 10 minutes of revision + sleep instead of scrolling.",
+    "linked_nodes": [
+      "forgetting-curve",
+      "break-reset-rule",
+      "spaced-repetition-ladder",
+      "decision-fatigue"
+    ]
+  },
+  {
+    "id": "illusion-of-competence",
+    "title": "The Illusion of Competence (Fake Knowing)",
+    "domain": "MEMORY MECHANICS",
+    "icon": "BrainCircuit",
+    "the_invisible_rule": "Rereading and highlighting can feel effective, but research reviews rate them as low-utility compared to practice testing and spacing. Feeling familiar is not the same as being able to recall. citeturn8search3turn0search12",
+    "the_matrix_trap": "You read your chapter 5 times the night before. You feel prepared. In the exam hall, you look at the question and your mind goes blank.",
+    "the_escape_hatch": "The ‘Blank Page Test’: close the book and explain on a blank sheet (or to your wall). If you get stuck, that’s the real gap. citeturn0search6turn3search2",
+    "the_superpower": "You stop wasting time on fake study and start focusing only on what you can’t recall yet.",
+    "the_level_up_action": "Tonight: study one page and then close the book and teach it out loud for 60 seconds.",
+    "linked_nodes": [
+      "active-recall-core",
+      "fluency-is-not-mastery",
+      "feynman-technique",
+      "metacognition-reality-check"
+    ]
+  },
+  {
+    "id": "fluency-is-not-mastery",
+    "title": "Fluency ≠ Mastery (Easy Feeling Can Be a Lie)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "Smooth",
+    "the_invisible_rule": "When something feels easy while reading, you may overestimate learning. Some research on “illusion of competence” shows students’ confidence can mis-match actual performance, especially with weak strategies. citeturn8search7turn0search12",
+    "the_matrix_trap": "You stop practicing because “I understand everything.” Then the paper asks you to write/solve, and you can’t.",
+    "the_escape_hatch": "Make learning slightly harder on purpose: timer, mixed questions, blank-page recall. Difficulty is feedback, not failure. citeturn3search3turn0search6",
+    "the_superpower": "You become accurate about what you know. That accuracy is a superpower in exams.",
+    "the_level_up_action": "For one topic you feel ‘easy,’ do a 3-question quiz without notes to prove it.",
+    "linked_nodes": [
+      "illusion-of-competence",
+      "active-recall-core",
+      "micro-summaries",
+      "metacognition-reality-check"
+    ]
+  },
+  {
+    "id": "metacognition-reality-check",
+    "title": "Metacognition Reality Check (Stop Studying by Feelings)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "Mirror",
+    "the_invisible_rule": "Good learners monitor what they truly know using feedback (like practice tests), not just feelings of familiarity. Practice testing is a top-rated technique in major reviews. citeturn0search12turn0search6",
+    "the_matrix_trap": "Your plan is based on vibes: “This chapter is easy so I’ll skip.” Then it becomes your weak chapter in the exam.",
+    "the_escape_hatch": "Use a scoreboard: quiz yourself and track scores. Red/yellow/green should be based on results, not confidence. citeturn0search6",
+    "the_superpower": "You study the right thing at the right time—so you improve faster than rote learners.",
+    "the_level_up_action": "Make a 3-column list: Red (weak), Yellow (ok), Green (strong). Put ONE topic in each now.",
+    "linked_nodes": [
+      "illusion-of-competence",
+      "mistake-log",
+      "exam-simulation",
+      "active-recall-core"
+    ]
+  },
+  {
+    "id": "error-based-learning",
+    "title": "Error-Based Learning (Mistakes Teach Faster Than Perfection)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "BugFix",
+    "the_invisible_rule": "Struggling and then correcting can strengthen learning. ‘Desirable difficulties’ often improve long-term memory even if they feel worse short-term. citeturn3search3turn0search6",
+    "the_matrix_trap": "You avoid hard questions because you hate getting wrong answers, so you never meet your real weak points.",
+    "the_escape_hatch": "Celebrate useful mistakes: attempt first, then check, then write the correction rule. Wrong → corrected = strong memory.",
+    "the_superpower": "You grow faster than students who only do easy work to protect ego.",
+    "the_level_up_action": "Do one hard question now. If wrong, write: “I was wrong because _____. Next time I will ____.”",
+    "linked_nodes": [
+      "desirable-difficulties",
+      "testing-effect",
+      "mistake-log",
+      "generation-effect"
+    ]
+  },
+  {
+    "id": "mistake-log",
+    "title": "Mistake Log (Your Personal ‘Boss Fight Diary’)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "Notebook",
+    "the_invisible_rule": "Tracking mistakes gives you targeted feedback and improves self-monitoring. Retrieval practice works best when it guides what you review next. citeturn0search6turn0search12",
+    "the_matrix_trap": "You keep doing questions, but repeat the same silly mistakes because you never study your mistakes.",
+    "the_escape_hatch": "Make a 3-line log: (1) Mistake type (2) Why it happened (3) Fix rule. Review the log before the next practice set.",
+    "the_superpower": "Your weak points shrink quickly because you attack them directly.",
+    "the_level_up_action": "From today’s work, write ONE mistake log entry (even if small).",
+    "linked_nodes": [
+      "error-based-learning",
+      "clear-goals-feedback",
+      "past-papers-boss-fights",
+      "metacognition-reality-check"
+    ]
+  },
+  {
+    "id": "protege-effect",
+    "title": "Protégé Effect (Learn by Teaching)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "Mentor",
+    "the_invisible_rule": "When you expect to teach, you organize and understand better. Research on learning-by-teaching shows benefits from preparing to teach and from explaining. citeturn2search12turn2search0",
+    "the_matrix_trap": "You study silently and never practice explaining, so knowledge stays fuzzy.",
+    "the_escape_hatch": "Teach someone (or pretend): “I’m the teacher, you’re the student.” Teaching forces structure and clarity.",
+    "the_superpower": "You become confident in viva, oral answers, and long writing because you practiced explaining clearly.",
+    "the_level_up_action": "Take 2 minutes and teach ONE idea to a sibling/friend (or imaginary student).",
+    "linked_nodes": [
+      "teach-the-wall",
+      "feynman-technique",
+      "write-to-think",
+      "active-recall-core"
+    ]
+  },
+  {
+    "id": "teach-the-wall",
+    "title": "Teach the Wall (No Friend Needed)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "Wall",
+    "the_invisible_rule": "Learning-by-teaching can work even with a fictitious peer (like recording an explanation). What matters is that you create and organize an explanation. citeturn2search12turn2search28",
+    "the_matrix_trap": "You say, “I have nobody to teach, so I can’t use this technique.”",
+    "the_escape_hatch": "Teach your wall, teddy, or camera. Record a 90-second explanation. If you stammer, that’s your exact weak point.",
+    "the_superpower": "You build strong understanding without needing a tutor or group study.",
+    "the_level_up_action": "Record ONE 60-second voice note explaining today’s concept in simple words.",
+    "linked_nodes": [
+      "protege-effect",
+      "feynman-technique",
+      "illusion-of-competence",
+      "answer-writing-muscle"
+    ]
+  },
+  {
+    "id": "write-to-think",
+    "title": "Write to Think (Writing is a Thinking Tool)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "Pen",
+    "the_invisible_rule": "Writing-to-learn research shows writing can support understanding and engagement, and meta-analytic work finds small positive effects on achievement. citeturn7search0turn7search6",
+    "the_matrix_trap": "You keep everything in your head. It feels ‘understood’ until you try to write answers and nothing comes.",
+    "the_escape_hatch": "Do tiny writing: explain the concept, list steps, make a mini-argument. Writing forces clear structure, not fuzzy thinking.",
+    "the_superpower": "Your answers become sharper, longer, and clearer—exactly what board exams reward.",
+    "the_level_up_action": "Write a 5-sentence explanation of one concept without looking at the book.",
+    "linked_nodes": [
+      "micro-summaries",
+      "zettelkasten-atomic-notes",
+      "generation-effect",
+      "storytelling-memory-hook"
+    ]
+  },
+  {
+    "id": "micro-summaries",
+    "title": "Micro-Summaries (Not Copy-Paste Notes)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "StickyNote",
+    "the_invisible_rule": "Summarization can be weak if it becomes copying. Research reviews rate summarization as lower-utility than practice testing and spacing when done poorly. citeturn0search12turn8search3",
+    "the_matrix_trap": "You write 4 pages of summary that looks exactly like the textbook. Your hand worked, your brain slept.",
+    "the_escape_hatch": "Use tiny summaries that force choices: “3 facts + 2 reasons + 1 question.” Keep it short enough that you must understand. citeturn7search0turn3search2",
+    "the_superpower": "You create notes that are actually usable for revision and actually improve understanding.",
+    "the_level_up_action": "For one page, write a 6-line summary: 3 facts, 2 why, 1 question.",
+    "linked_nodes": [
+      "write-to-think",
+      "self-explanation",
+      "fluency-is-not-mastery",
+      "concept-maps"
+    ]
+  },
+  {
+    "id": "zettelkasten-atomic-notes",
+    "title": "Zettelkasten Atomic Notes (One Idea Per Note)",
+    "domain": "FOUNDATIONS",
+    "icon": "Nodes",
+    "the_invisible_rule": "Zettelkasten is a method of building a personal slip-box of ideas where notes are small and linkable, so you can grow knowledge like a network, not a pile. citeturn11search0turn11search6",
+    "the_matrix_trap": "One huge notebook becomes a graveyard: you wrote notes once, then never used them again.",
+    "the_escape_hatch": "Make atomic notes: ONE idea, in YOUR words, plus one example. This makes review and linking easy.",
+    "the_superpower": "Your notes become a ‘second brain’ you can actually use for revision, essays, and understanding.",
+    "the_level_up_action": "Create ONE atomic note today: title + 3 lines + 1 example.",
+    "linked_nodes": [
+      "linking-notes",
+      "write-to-think",
+      "micro-summaries",
+      "spaced-repetition-ladder"
+    ]
+  },
+  {
+    "id": "linking-notes",
+    "title": "Linking Notes (Your Brain Learns Through Connections)",
+    "domain": "FOUNDATIONS",
+    "icon": "Link",
+    "the_invisible_rule": "Linking ideas supports sense-making. Tools like concept maps are network-like representations that help organize relationships and can support learning. citeturn11search21turn11search20",
+    "the_matrix_trap": "You learn chapters as islands. In exams, you can’t connect ideas, so your answers stay weak.",
+    "the_escape_hatch": "After every note, link to 2 others: “similar to ___” and “different from ___.” This builds a brain-network, not a memory-list.",
+    "the_superpower": "You can write ‘application’ answers and higher-order answers because you see relationships.",
+    "the_level_up_action": "Pick one note and add two links: one ‘same family’ link and one ‘opposite’ link.",
+    "linked_nodes": [
+      "zettelkasten-atomic-notes",
+      "concept-maps",
+      "schemas-skill-trees",
+      "analogy-engine"
+    ]
+  },
+  {
+    "id": "concept-maps",
+    "title": "Concept Maps (See the Whole Chapter on One Page)",
+    "domain": "SYNTHESIS & UNDERSTANDING",
+    "icon": "Network",
+    "the_invisible_rule": "Meta-analytic research on concept/knowledge maps shows they can improve learning and help students build structure from information. citeturn11search21turn11search8",
+    "the_matrix_trap": "You only read line-by-line. You never see how ideas connect, so you forget or confuse topics.",
+    "the_escape_hatch": "Draw a concept map: central idea → branches → sub-branches → examples. Add arrows like “causes,” “depends on,” “leads to.”",
+    "the_superpower": "You revise faster because you can ‘zoom out’ and see the chapter like a map.",
+    "the_level_up_action": "Make a mini concept map for one topic using only 7 boxes and 6 arrows.",
+    "linked_nodes": [
+      "chunking",
+      "linking-notes",
+      "self-explanation",
+      "schemas-skill-trees"
+    ]
+  },
+  {
+    "id": "past-papers-boss-fights",
+    "title": "Past Papers as Boss Fights (Train What the Exam Actually Asks)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "Gamepad",
+    "the_invisible_rule": "Practice testing improves learning, and classroom work shows frequent quizzing can improve retention. Past papers are practice tests with perfect realism. citeturn0search6turn0search14",
+    "the_matrix_trap": "You collect notes like Pokémon cards but never battle. Then the exam becomes your first real fight.",
+    "the_escape_hatch": "Treat each past paper as a boss fight: timer + full focus + score. After, study only your mistakes (boss fight diary).",
+    "the_superpower": "You gain exam instincts: time control, question selection, and calm under pressure.",
+    "the_level_up_action": "Do ONE past-paper question today under a timer. Mark it strictly.",
+    "linked_nodes": [
+      "testing-effect",
+      "exam-simulation",
+      "mistake-log",
+      "answer-writing-muscle"
+    ]
+  },
+  {
+    "id": "answer-writing-muscle",
+    "title": "Answer-Writing Muscle (Knowing is Not Enough)",
+    "domain": "EXPRESSION & CREATION",
+    "icon": "Keyboard",
+    "the_invisible_rule": "School exams reward retrieval plus clear expression. Writing-to-learn research supports writing as a tool for understanding, and retrieval practice strengthens what you can produce. citeturn7search0turn0search6",
+    "the_matrix_trap": "You understand the concept in your head, but your answers are short, messy, and lose marks.",
+    "the_escape_hatch": "Use an answer template: Definition → Reason → Example → Diagram/Equation → Conclusion. Practice makes it automatic.",
+    "the_superpower": "You stop losing marks from poor presentation and incomplete answers.",
+    "the_level_up_action": "Rewrite ONE answer using the template above. Keep it under 10 lines but complete.",
+    "linked_nodes": [
+      "past-papers-boss-fights",
+      "write-to-think",
+      "teach-the-wall",
+      "storytelling-memory-hook"
+    ]
+  },
+  {
+    "id": "multitasking-myth",
+    "title": "The Multitasking Myth (Your Brain is Not 8-Core CPU)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "Tabs",
+    "the_invisible_rule": "People usually can’t do two demanding tasks at once; they switch. Switching reduces efficiency and can create big time costs. citeturn4search3turn1search0",
+    "the_matrix_trap": "You say, “I can study with YouTube on.” But your brain keeps paying switching fees, so recall becomes weak.",
+    "the_escape_hatch": "One-tab rule: one task only. If you need music, choose instrumental and keep volume low. citeturn6search6turn6search0",
+    "the_superpower": "You become faster than ‘multitaskers’ because you don’t waste brainpower.",
+    "the_level_up_action": "For the next 20 minutes, close all extra tabs/apps. Only one stays open.",
+    "linked_nodes": [
+      "task-switching-cost",
+      "phone-brain-drain",
+      "single-tasking-mode",
+      "attention-residue"
+    ]
+  },
+  {
+    "id": "decision-fatigue",
+    "title": "Decision Fatigue (Too Many Choices = Weak Brain Battery)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "BatteryLow",
+    "the_invisible_rule": "Decision quality can be influenced by extraneous factors like time and breaks; some findings suggest patterns that look like “fatigue,” but newer work shows effects can be smaller or inconsistent depending on context. citeturn4search1turn4search21",
+    "the_matrix_trap": "You spend 30 minutes deciding: “Which chapter? Which app? Which timetable?” Then you feel tired and do nothing.",
+    "the_escape_hatch": "Pre-decide your defaults: same study time, same first subject, same first task. Reduce decisions, save battery for solving and writing.",
+    "the_superpower": "You start studying automatically, like brushing teeth—no daily drama.",
+    "the_level_up_action": "Decide your default first 10 minutes: “I will always start with ____.” Write it and follow it today.",
+    "linked_nodes": [
+      "choice-overload",
+      "pomodoro-sprint",
+      "sleep-memory-save",
+      "notification-nuke"
+    ]
+  },
+  {
+    "id": "choice-overload",
+    "title": "Choice Overload (Too Many Options = Freeze Mode)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "Menu",
+    "the_invisible_rule": "When options are many and the choice feels complex, people can feel overloaded and delay choosing; meta-analytic work shows the effect depends on factors like complexity and uncertainty. citeturn12search0turn12search10",
+    "the_matrix_trap": "You keep saving 50 “best study tips” videos and 20 timetables. You feel busy, but you don’t study.",
+    "the_escape_hatch": "Limit choices on purpose: choose ONE plan for 7 days. Treat other options like ads—ignore.",
+    "the_superpower": "You move from ‘planning addict’ to ‘execution machine.’",
+    "the_level_up_action": "Pick ONE study method for today (example: active recall + 25-min sprints). Commit for 24 hours.",
+    "linked_nodes": [
+      "decision-fatigue",
+      "study-setup-fast-start",
+      "two-minute-start",
+      "zettelkasten-atomic-notes"
+    ]
+  },
+  {
+    "id": "perfectionism-paralysis",
+    "title": "Perfectionism Paralysis (The Trap of ‘I Must Do It Perfect’)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "Freeze",
+    "the_invisible_rule": "Some research links higher perfectionism with more academic procrastination—fear of mistakes can cause delay instead of action. citeturn4search2turn4search14",
+    "the_matrix_trap": "You say, “I will start when I can do it perfectly.” So you don’t start. Then you panic later and cram.",
+    "the_escape_hatch": "Use the ‘ugly first draft’ rule: first attempt is allowed to be messy. Perfection comes on attempt 2 or 3, not attempt 1.",
+    "the_superpower": "You start faster, practice more, and improve more—because you actually do the reps.",
+    "the_level_up_action": "Do one ‘ugly’ attempt now: solve one question without caring about neatness. Neatness comes later.",
+    "linked_nodes": [
+      "procrastination-loop",
+      "two-minute-start",
+      "mistake-log",
+      "metacognition-reality-check"
+    ]
+  },
+  {
+    "id": "procrastination-loop",
+    "title": "Procrastination Loop (Pain Now vs Pain Later)",
+    "domain": "COGNITIVE TRAPS",
+    "icon": "Loop",
+    "the_invisible_rule": "Procrastination is often tied to emotions (fear, stress) and can be linked with perfectionism. Planning tools like if-then intentions can help people start actions more reliably. citeturn4search2turn10search13",
+    "the_matrix_trap": "You delay for ‘just 10 minutes’ and suddenly it’s 11 pm and you hate yourself.",
+    "the_escape_hatch": "Break the loop with a tiny start + clear plan: “If it is 7 pm, then I will do 2 minutes of Q1.” Starting is the victory. citeturn10search13turn10search17",
+    "the_superpower": "You become consistent even on bad days, so you don’t need last-week panic.",
+    "the_level_up_action": "Right now: do a 2-minute start on your hardest subject (no pressure to finish).",
+    "linked_nodes": [
+      "perfectionism-paralysis",
+      "two-minute-start",
+      "decision-fatigue",
+      "hide-your-phone-friction"
+    ]
+  },
+  {
+    "id": "two-minute-start",
+    "title": "The 2-Minute Start (Beat Inertia)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "Spark",
+    "the_invisible_rule": "Starting improves when you pre-plan the exact moment and action (if-then planning). Tiny actions reduce the mental barrier to begin. citeturn10search13turn10search17",
+    "the_matrix_trap": "You think you need 2 hours to start, so you never start.",
+    "the_escape_hatch": "Make it stupidly small: open the notebook, write the date, and solve just Step 1. Once moving, continuing is easier.",
+    "the_superpower": "You become the student who starts early and wins over time.",
+    "the_level_up_action": "Set a 2-minute timer. Start your task until the timer ends. Then decide if you want to continue (most people continue).",
+    "linked_nodes": [
+      "procrastination-loop",
+      "pomodoro-sprint",
+      "study-setup-fast-start",
+      "gamify-xp-levels"
+    ]
+  },
+  {
+    "id": "gamify-xp-levels",
+    "title": "Gamify Your Study (XP, Levels, and Streaks)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "XP",
+    "the_invisible_rule": "Gamification in education is often associated with improved motivation and learning outcomes in meta-analytic research (effects depend on design, but the direction is often positive). citeturn10search14turn10search18",
+    "the_matrix_trap": "Studying feels like punishment, so you avoid it and rely on cramming.",
+    "the_escape_hatch": "Turn study into a game: +10 XP per pomodoro, +30 XP per past-paper question, streak bonus if you study 5 days. Reward yourself after checkpoints.",
+    "the_superpower": "You study more consistently because your brain gets small wins every day.",
+    "the_level_up_action": "Create an XP rule now: “1 pomodoro = 10 XP.” Track XP for just one day.",
+    "linked_nodes": [
+      "two-minute-start",
+      "spaced-repetition-ladder",
+      "past-papers-boss-fights",
+      "mistake-log"
+    ]
+  },
+  {
+    "id": "focus-music-instrumental",
+    "title": "Focus Music (Why Video Game Soundtracks Can Help)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "Headphones",
+    "the_invisible_rule": "Background music with lyrics can hurt reading and verbal tasks, while instrumental music is often less distracting. Effects depend on task and person. citeturn6search6turn6search0",
+    "the_matrix_trap": "You play loud songs with lyrics while reading English/history. Your brain starts processing lyrics instead of the chapter.",
+    "the_escape_hatch": "Use instrumental, steady music (many game soundtracks are designed to loop without grabbing attention). If you’re reading, keep it low or use no music.",
+    "the_superpower": "You can build a ‘focus ritual’: headphones on = study mode, so starting becomes easier.",
+    "the_level_up_action": "Try this once: 20 minutes reading with no lyrics (instrumental only). Compare your recall with a 5-question quiz.",
+    "linked_nodes": [
+      "flow-state-zone",
+      "white-noise-brown-noise",
+      "single-tasking-mode",
+      "attention-spotlight"
+    ]
+  },
+  {
+    "id": "white-noise-brown-noise",
+    "title": "White Noise / Brown Noise (The ‘Focus Shield’)",
+    "domain": "FUN SOLUTIONS",
+    "icon": "Noise",
+    "the_invisible_rule": "Research on noise is mixed, but some work finds small attention benefits from certain noise conditions, especially for people with ADHD or high ADHD symptoms; for others, benefits may be small or none. citeturn6search5turn6search2",
+    "the_matrix_trap": "You try to study in a noisy house and keep getting pulled away by small sounds and conversations.",
+    "the_escape_hatch": "Use low-volume white/brown noise to mask sudden distractions. If it makes you sleepy or irritated, stop—your brain decides.",
+    "the_superpower": "You can focus even in imperfect environments (hostel, joint family home) without fighting every sound.",
+    "the_level_up_action": "Test it: 15 minutes with low brown noise while doing maths. If you feel worse, switch it off.",
+    "linked_nodes": [
+      "focus-music-instrumental",
+      "phone-brain-drain",
+      "break-reset-rule",
+      "attention-spotlight"
+    ]
+  }
+]

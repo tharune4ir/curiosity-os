@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Search, Command, CheckCircle2, Zap, PowerOff } from "lucide-react";
+import { X, Search, Command, CheckCircle2, Zap, PowerOff, ArrowLeft, RotateCcw } from "lucide-react";
 import * as LucideIcons from "lucide-react";
 import * as THREE from "three";
 import ReactMarkdown from "react-markdown";
@@ -138,18 +138,218 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
 
     if (!mounted) return null;
 
+    // Fallback map for icon names not directly available in lucide-react
+    const iconFallbackMap: Record<string, string> = {
+        "ComedyTragedyMasks": "Drama",
+        "Fossil": "Bone",
+        "VR": "Glasses",
+        "Blueprint": "FileText",
+        "SunCloud": "CloudSun",
+        "MicrophoneStand": "Mic",
+        "Bullhorn": "Megaphone",
+        "CricketBat": "Swords",
+        "Dance": "Music",
+        "Tooth": "SmilePlus",
+        "LightBulb": "Lightbulb",
+        "GameController": "Gamepad2",
+        "RaceCar": "Car",
+        "Dress": "Shirt",
+        "FighterJet": "Plane",
+        "FireTruck": "Flame",
+        "Football": "Trophy",
+        "PaintPalette": "Palette",
+        "Gymnast": "PersonStanding",
+        "Gavel": "Scale",
+        "VideoCamera": "Video",
+        "Medal": "Award",
+        "Gear": "Settings",
+        "Bridge": "Building2",
+        "ChartLine": "LineChart",
+        "Guitar": "Music2",
+        "Surfboard": "Waves",
+        "ChefHat": "CookingPot",
+        "ClapperBoard": "Clapperboard",
+        "Tractor": "Wheat",
+        "Robot": "Bot",
+        "Calculator": "Hash",
+        "Laptop": "Monitor",
+        "Stethoscope": "HeartPulse",
+        "Flask": "FlaskConical",
+        // Biosystem v1 icons (legacy)
+        "Battery": "BatteryFull",
+        "WaterDrop": "Droplets",
+        "Crown": "Crown",
+        "Lightning": "Zap",
+        "Coin": "Coins",
+        "Water": "Waves",
+        "Drop": "Droplet",
+        "Block": "Box",
+        "TrendDown": "TrendingDown",
+        "Bug": "Bug",
+        // Biosystem v2 icons (Material-style → lucide-react)
+        "Alarm": "AlarmClock",
+        "Hotel": "BedDouble",
+        "Bed": "BedDouble",
+        "Energy": "Zap",
+        "Network": "Network",
+        "FlashOn": "Zap",
+        "Spa": "Flower2",
+        "Bolt": "Zap",
+        "LocalDining": "UtensilsCrossed",
+        "Nutrition": "Apple",
+        "RiceBowl": "Soup",
+        "Egg": "Egg",
+        "OliveOil": "Droplet",
+        "Vitamin": "Pill",
+        "Restaurant": "UtensilsCrossed",
+        "Pill": "Pill",
+        "ForkKnife": "Utensils",
+        "OverflowMenu": "MoreHorizontal",
+        "LocalHospital": "Cross",
+        "Candy": "Candy",
+        "InBox": "Inbox",
+        "BatteryHigh": "BatteryFull",
+        "Power": "Power",
+        "FitnessCenter": "Dumbbell",
+        "Accessibility": "Accessibility",
+        "Favorite": "Heart",
+        "AirlineSeatFlat": "BedDouble",
+        "SwapHoriz": "ArrowLeftRight",
+        "FavoriteBorder": "Heart",
+        "DirectionsRun": "PersonStanding",
+        "CenterFocusWeak": "Focus",
+        "EmojiEvents": "SmilePlus",
+        "Grass": "Leaf",
+        "WbSunny": "Sun",
+        "Bloodtype": "Droplets",
+        "TrendingUp": "TrendingUp",
+        "DoNotDisturbOff": "Ban",
+        "Tv": "Monitor",
+        "Schedule": "Clock",
+        "Opacity": "Droplet",
+        "Visibility": "Eye",
+        "LocalPizza": "Pizza",
+        "CalendarToday": "Calendar",
+        "Hospital": "Cross",
+        "Thermostat": "Thermometer",
+        "Whatshot": "Flame",
+        "FlashAuto": "Zap",
+        "Accessible": "Accessibility",
+        "Healing": "HeartPulse",
+        "Gesture": "Hand",
+        "AutoAwesome": "Sparkles",
+        "Balance": "Scale",
+        "Kitchen": "ChefHat",
+        "Memory": "Brain",
+        // Cognition icons (creative names → lucide-react)
+        "RamChip": "Cpu",
+        "Weight": "Dumbbell",
+        "SkillTree": "GitBranch",
+        "Flashlight": "Flashlight",
+        "GhostTab": "Ghost",
+        "PhoneOff": "PhoneOff",
+        "Wave": "Waves",
+        "Reset": "RotateCcw",
+        "DownGraph": "TrendingDown",
+        "Steps": "Footprints",
+        "QuestionMark": "HelpCircle",
+        "Quiz": "ClipboardCheck",
+        "Cards": "Layers",
+        "Mixer": "Shuffle",
+        "Mountain": "Mountain",
+        "Pencil": "Pencil",
+        "SpeechBubble": "MessageSquare",
+        "Why": "HelpCircle",
+        "Teacher": "GraduationCap",
+        "Blocks": "Boxes",
+        "ImageText": "ImagePlus",
+        "House": "Home",
+        "Story": "BookOpen",
+        "ExamSheet": "FileCheck",
+        "CrossedArrows": "ArrowUpDown",
+        "BrainCircuit": "BrainCircuit",
+        "Smooth": "Gauge",
+        "Mirror": "ScanFace",
+        "BugFix": "Bug",
+        "Notebook": "BookOpen",
+        "Mentor": "Users",
+        "Wall": "SquareStack",
+        "Pen": "PenTool",
+        "StickyNote": "StickyNote",
+        "Nodes": "Network",
+        "Tabs": "AppWindow",
+        "BatteryLow": "BatteryLow",
+        "Menu": "Menu",
+        "Freeze": "Snowflake",
+        "Loop": "RefreshCw",
+        "Spark": "Sparkle",
+        "XP": "Trophy",
+        "Headphones": "Headphones",
+        "Noise": "Volume2",
+        "Scoreboard": "BarChart3",
+        // Fun universe icons (creative names → lucide-react)
+        "Dices": "Dice5",
+        "Laugh": "Laugh",
+        "Cricket": "CircleDot",
+        "Carrom": "Circle",
+        "Refresh": "RefreshCw",
+        "Chat": "MessageCircle",
+        "Bicycle": "Bike",
+        "Run": "PersonStanding",
+        "Sunrise": "Sunrise",
+        "Drum": "Disc3",
+        "Tools": "Wrench",
+        "Bowl": "Soup",
+        "Utensils": "UtensilsCrossed",
+        "Controller": "Gamepad2",
+        "Diya": "Flame",
+        "Album": "BookImage",
+        "Letter": "Mail",
+        "Mic": "Mic",
+        "Planet": "Globe",
+        "Stars": "Star",
+        "Kite": "Wind",
+        "Film": "Film",
+        "Comic": "BookOpen",
+        "Handshake": "Handshake",
+    };
+
     // Helper to render dynamic icon
     const renderIcon = () => {
         if (!selectedNode || !selectedNode.icon) return <LucideIcons.Hexagon className="w-8 h-8 text-cyan-400" />;
+        const iconName = iconFallbackMap[selectedNode.icon] || selectedNode.icon;
         // @ts-ignore
-        const IconComponent = LucideIcons[selectedNode.icon];
+        const IconComponent = LucideIcons[iconName];
         return IconComponent ? <IconComponent className="w-8 h-8 text-cyan-400" /> : <LucideIcons.Hexagon className="w-8 h-8 text-cyan-400" />;
     };
 
     return (
         <div className="relative w-screen h-screen overflow-hidden">
+            {/* Back to Home Button - Top Left */}
+            <div className="absolute top-6 left-6 md:top-10 md:left-10 z-40">
+                <a
+                    href="/"
+                    className="group flex items-center gap-2 text-cyan-400 font-mono text-xs tracking-widest bg-slate-900/60 backdrop-blur-md px-4 py-2 rounded-full border border-cyan-500/30 hover:bg-cyan-500/20 hover:text-white transition-all shadow-[0_0_15px_rgba(0,240,255,0.1)]"
+                >
+                    <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+                    <span className="hidden md:block">SYSTEM_RETURN</span>
+                </a>
+            </div>
+
             {/* The Floating Top-Right Arsenal */}
             <div className="absolute top-6 right-6 md:top-10 md:right-10 z-40 flex items-center gap-3">
+                <button
+                    onClick={() => {
+                        setSelectedNode(null);
+                        if (fgRef.current) {
+                            fgRef.current.cameraPosition({ x: 0, y: 0, z: 250 }, { x: 0, y: 0, z: 0 }, 2000);
+                        }
+                    }}
+                    className="flex items-center gap-2 px-3 py-2 md:px-4 md:py-2 rounded-full bg-slate-900/60 backdrop-blur-md border border-slate-500/30 text-slate-300 hover:bg-slate-800/60 hover:text-white hover:border-slate-400 hover:shadow-[0_0_20px_rgba(255,255,255,0.2)] transition-all duration-300"
+                >
+                    <RotateCcw className="w-4 h-4 md:w-4 md:h-4" />
+                    <span className="hidden md:block text-[10px] tracking-widest uppercase font-mono">Reset View</span>
+                </button>
                 <button
                     onClick={initiateRandomJump}
                     className="flex items-center gap-2 px-3 py-2 md:px-4 md:py-2 rounded-full bg-slate-900/60 backdrop-blur-md border border-slate-500/30 text-slate-300 hover:bg-slate-800/60 hover:text-white hover:border-slate-400 hover:shadow-[0_0_20px_rgba(255,255,255,0.2)] transition-all duration-300"
@@ -201,12 +401,16 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                         const core = new THREE.Mesh(coreGeo, coreMat);
                         group.add(core);
 
-                        // 3. Floating Holographic Data (SpriteText)
+                        // 3. Floating Holographic Data (SpriteText) — ALWAYS ON TOP
                         const sprite = new SpriteText(node.name || "");
-                        sprite.color = 'rgba(255, 255, 255, 0.4)'; // Dimmed text
-                        sprite.textHeight = isActive ? 3 : 2.5; // Slightly larger text on active
+                        sprite.color = isActive ? 'rgba(255, 255, 255, 0.95)' : 'rgba(255, 255, 255, 0.6)';
+                        sprite.textHeight = isActive ? 3.5 : 2.5;
                         sprite.fontFace = 'monospace';
-                        sprite.position.set(0, isActive ? -12 : -10, 0); // Push text lower if geometry is larger
+                        sprite.position.set(0, isActive ? 12 : 10, 0);
+                        // CRITICAL: Disable depth testing so text renders ON TOP of ALL geometry
+                        sprite.material.depthTest = false;
+                        sprite.material.depthWrite = false;
+                        sprite.renderOrder = 999; // Draw last, always visible
                         group.add(sprite);
 
                         return group;
@@ -217,7 +421,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
             </div>
 
             {/* Neural Ledger HUD */}
-            <div className="absolute bottom-6 md:bottom-10 right-6 md:right-10 z-40 flex flex-col items-end gap-1 pointer-events-none text-right">
+            <div className="absolute bottom-20 md:bottom-10 right-6 md:right-10 z-40 flex flex-col items-end gap-1 pointer-events-none text-right">
                 <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">Neural Pathways Unlocked</span>
                 <span className="text-xl md:text-2xl font-bold text-white tracking-widest">{unlockedNodes.size} <span className="text-sm text-slate-500">/ {graphData.nodes?.length || 0}</span></span>
                 <button

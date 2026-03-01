@@ -426,6 +426,14 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
         "ShieldTrash": "Trash2",
         "ShieldInfo": "Info",
         "ShieldMic": "Mic2",
+        // AI universe icons
+        "Trash": "Trash2",
+        "CheckCircle": "CheckCircle2",
+        "Edit3": "PenLine",
+        "Droplet": "Droplets",
+        "Smile": "SmilePlus",
+        "ArrowDown": "ArrowDown",
+        "BarChart": "BarChart3",
         // Wealth universe icons
         "Seeds": "Sprout",
         "Snowball": "IterationCcw",

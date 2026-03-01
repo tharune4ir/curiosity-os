@@ -10,9 +10,9 @@ import NeuralCore3D from "@/components/NeuralCore3D";
 const domains = [
   { id: 'biosystem', label: 'BIOSYSTEM', icon: Activity, href: '/biosystem' },
   { id: 'cognition', label: 'COGNITION', icon: Brain, href: '/cognition' },
-  { id: 'logic', label: 'LOGIC', icon: Sigma },
-  { id: 'signal', label: 'SIGNAL', icon: Radio },
-  { id: 'capital', label: 'CAPITAL', icon: Database },
+  { id: 'logic', label: 'LOGIC', icon: Sigma, href: '/logic' },
+  { id: 'signal', label: 'SIGNAL', icon: Radio, href: '/signal' },
+  { id: 'wealth', label: 'WEALTH', icon: Database, href: '/wealth' },
   { id: 'digital', label: 'DIGITAL', icon: Terminal },
   { id: 'ai-nexus', label: 'AI NEXUS', icon: Sparkles },
   { id: 'fun', label: 'FUN', icon: Gamepad2, href: '/fun' },

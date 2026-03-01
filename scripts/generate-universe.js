@@ -9,7 +9,9 @@ const CONTENT_SOURCES = [
   { dir: '2_biosystem',     label: 'Biosystem' },
   { dir: '3_cognition',     label: 'Cognition' },
   { dir: '4_fun',           label: 'Fun' },
-  // Add new domains here: { dir: '5_logic', label: 'Logic' },
+  { dir: '5_logic',         label: 'Logic' },
+  { dir: '6_signal',        label: 'Signal' },
+  { dir: '7_wealth',        label: 'Wealth' },
 ];
 
 // Fields that go into YAML frontmatter (not rendered as ## sections)
@@ -101,7 +103,7 @@ let totalParsed = 0;
 let totalGenerated = 0;
 
 CONTENT_SOURCES.forEach(source => {
-  const dir = path.join(__dirname, '../content', source.dir);
+  const dir = path.join(process.cwd(), 'content', source.dir);
   const result = processDirectory(dir);
   totalParsed += result.parsed;
   totalGenerated += result.generated;

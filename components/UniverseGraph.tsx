@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Search, Command, CheckCircle2, Zap, PowerOff, ArrowLeft, RotateCcw } from "lucide-react";
+import { X, Search, Command, CheckCircle2, Zap, PowerOff, ArrowLeft, RotateCcw, Cpu, MemoryStick, Binary, HardDrive, Lightbulb, Settings, Navigation, Atom, Monitor, GitMerge, Package, MapPin, BookOpen, GitBranch, Globe, Globe2, Activity, Box, Layers, RefreshCw, GitFork, FunctionSquare, Languages, List, Repeat, Gauge, Database, FileStack, Cloud, Waypoints, Network, ServerCog, Layout, Server, Boxes, PenTool, Code, Shield, UserX, Terminal, ShieldCheck, Fingerprint, EyeOff, AlertTriangle, Syringe, Wifi, AppWindow, CheckSquare, Hash, Minimize2 } from "lucide-react";
 import * as LucideIcons from "lucide-react";
 import * as THREE from "three";
 import ReactMarkdown from "react-markdown";

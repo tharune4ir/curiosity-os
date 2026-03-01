@@ -22,4 +22,3 @@ Browse a freelance site to see what simple digital tasks people are actively buy
 ## Linked Possibilities
 - [[solving-painful-problems]]
 - [[media-as-leverage]]
-	

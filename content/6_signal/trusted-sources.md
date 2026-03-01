@@ -1,25 +1,25 @@
 ---
-title: "Trusted Sources (Who to Believe Online)"
-icon: "ShieldVerified"
+title: "Trusted Sources (Finding Real News)"
+icon: "ShieldLibrary"
 domain: "INFORMATION HYGIENE"
 ---
 
 ## The Invisible Code
-The internet is like a massive library with no librarian. Some books are true, some are fantasy, and some are just plain lies. Trusted sources are like your reliable friends: they are websites, organizations, or news outlets that have a track record of telling the truth and fact-checking. Identifying them is key to not falling for online tricks.
+Trusted sources are like gold: news sites that have to check facts before publishing (like BBC, Reuters, NDTV). Think of them as teachers: they've been approved. If a story comes from unknown site or a random social media post, it's like an unverified classmate gossiping.
 
 ## The Digital Trap
-You see a post from an unknown site: 'Scientific study finds that eating chocolate for breakfast makes you smarter!' Excited, you believe it and share it with your friends. But a quick search reveals the site is just a blog with no real scientists. You realize you believed something just because it sounded fun, but it wasn't a trusted source.
+You read an article on a small blog about a celebrity scandal, and it's all over social media. You believe it. But no big news site reports it. It turns out the blog made it up. You feel fooled by listening to an unknown 'expert.'
 
 ## The Shield Protocol
-Look for signs of trust: Is the website well-known? (e.g., BBC, NASA, or your local university). Does it cite its sources? Are there a lot of ads and pop-ups? (Red flag!). Also, check if other trusted sites are reporting the same thing. Treat information from random people on social media with a healthy dose of skepticism until you've verified it with a trusted source.
+Always ask: 'Where did this info come from?' If a post or message doesn’t mention official news sites, be suspicious. Instead of just reading what's given, go directly to a trusted news site or official account to see if it's there. If it's not reported on major news websites or apps you trust, treat it like a rumour.
 
 ## The Lifeline
-If you're not sure if a source is reliable, ask an adult: 'Is this website trustworthy?' They can help you identify sources that have a history of telling the truth. They'll appreciate that you're being a smart consumer of information. Learning together who to trust online is a great way to stay informed and safe.
+If you shared news that wasn't from a trusted source, simply correct it: 'Oops, that was from a random blog, not real news.' People will respect you more for verifying. It teaches them to also rely on reliable sources, and you all stay correctly informed.
 
 ## The Empowerment Move
-Right now, find three websites you use for news or info and check if they are well-known or have an 'About Us' page. If you find a site that's weird or full of ads, don't trust its information. Make a list of your top three 'Trusted Sources' today!
+Make a list of 3 reliable news websites/apps (like BBC, NDTV, FactCheck.org). Bookmark them on your phone. Now whenever you hear 'breaking news', check one of them first before believing it.
 
 ## Linked Possibilities
-- [[fact-check-tool]]
 - [[lateral-reading]]
-- [[whatsapp-rumors]]
+- [[fact-check-tool]]
+- [[verify-forward]]

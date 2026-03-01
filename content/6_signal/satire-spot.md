@@ -1,25 +1,25 @@
 ---
-title: "Satire Spot (When the News is a Joke)"
+title: "Satire Spot (Is This Just a Joke?)"
 icon: "ShieldLaugh"
 domain: "INFORMATION HYGIENE"
 ---
 
 ## The Invisible Code
-Satire is when someone writes a fake story meant to be funny or to make a point about a real problem. It's like a comedy show in newspaper form. Sometimes, people take these stories seriously because they look like real news. Understanding satire means you can enjoy the joke without falling for the fake 'facts.'
+Some 'news' sites are actually satire—they pretend to be news to make a joke. If you take satire seriously, it's like thinking cartoon characters are real people. Always check if the site is known for jokes (like The Onion). If it sounds too silly, it's probably a spoof.
 
 ## The Digital Trap
-You read a headline: 'New Law Bans Broccoli for Everyone Under 18!' You get super excited and start telling everyone. But later you find out the site is a well-known satire site (like The Onion or a local one). You feel embarrassed and realize you missed the joke. You fell for a 'news' story that was never meant to be real.
+You read an article claiming a famous actor will replace a world leader, and it’s hilarious. You laugh and share it with your class group. Some classmates panic thinking it's true. You realize it was meant as a joke, but now people are confused.
 
 ## The Shield Protocol
-Check the website’s name and 'About' page. If it says 'Satire,' 'Humor,' or 'Comedy,' then the stories are fake on purpose. Also, look at the other stories on the site: if they all sound like jokes, this one is too. If a story sounds too ridiculous to be true, it might just be someone trying to make you laugh!
+Look at the website name and about page. Many satire sites say clearly 'for entertainment purposes'. If not obvious, search the site name plus 'satire'. If it's a joke, you'll find mentions. If in doubt, ask yourself 'Does this sound like a real news headline or a cartoon?' If it's cartoonish, it's likely not real.
 
 ## The Lifeline
-If you've shared a satirical story as real news, it's okay! Everyone does it sometimes. Tell a parent or teacher: 'I shared this funny story but it turns out it was a joke.' They'll probably laugh with you and show you how to find other funny things. There's no shame in missing a joke; it just shows you're paying attention to the world!
+If a friend gets upset by your shared satire, calmly say, 'Wait, this was a joke site. See the sign [show page] says it’s satire.' You correct misinformation, and your friend will thank you for clarifying. You all laugh it off together, learning together.
 
 ## The Empowerment Move
-Find a popular satire website (like The Onion or a local one) and read a few of their headlines right now. Notice how they sound like real news but are too silly. From now on, whenever you see a bizarre story, check the site’s name first. You're becoming a joke-spotting expert!
+Bookmark a known satire site (like The Onion or an Indian satire page). The next time you see something crazy, check if the link or image matches one from that site. You'll quickly spot jokes.
 
 ## Linked Possibilities
-- [[clickbait-bait]]
+- [[verify-forward]]
 - [[fact-check-tool]]
-- [[trusted-sources]]
+- [[rumor-mill]]

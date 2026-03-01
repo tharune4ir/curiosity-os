@@ -1,24 +1,24 @@
 ---
 title: "Labor Leverage"
-icon: "Users"
-domain: "THE ARCHIMEDES LEVER"
+icon: "Team Captain"
+domain: "LEVERAGE VECTORS"
 ---
 
 ## The Wealth Secret
-Having other people work with you to achieve a goal. It is the oldest form of leverage, but the hardest to manage.
+Using other people's time to accomplish a task. It is the oldest and most fought-over form of leverage in human history.
 
 ## The Middle Class Trap
-Thinking you have to do everything yourself ('Solo-preneur'), which limits your growth to only what two hands can do.
+Believing that managing a massive team of people is the only way to look successful, creating massive stress and overhead.
 
 ## The Leverage Play
-Asking a friend who is better at math to help you with your startup's finances in exchange for a piece of the future project.
+Outsourcing a boring data-entry task to a cheaper freelancer online so you can focus entirely on high-value creative coding.
 
 ## The Superpower
-Collective intelligence.
+Time reclamation.
 
 ## The Actionable Cent
-Find one person you can collaborate with on a project this week.
+Calculate what your time is worth per hour. Refuse to do tasks worth less than that.
 
 ## Linked Possibilities
-- [[capital-leverage]]
-- [[permissionless-leverage]]
+- [[teen-freelancing]]
+- [[permissioned-leverage]]

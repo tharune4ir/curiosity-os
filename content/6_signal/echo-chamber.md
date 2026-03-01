@@ -14,7 +14,7 @@ You like a certain sports team, so you click on posts that praise them and ignor
 Remember, just because your feed shows something a lot doesn't mean it's the whole truth. Try to notice if you're only getting one side of a story. Deliberately look for voices that disagree or visit other news sources. It's like putting your head outside the cave and listening. Checking different sources or talking to people who believe differently helps you get the full picture.
 
 ## The Lifeline
-It might feel proud at first, but it’s okay if seeing just one side made you feel stuck. Everyone lives in an echo chamber sometimes. Talking to someone else (like a teacher) about what you found on your feed can help you learn if there's another side. There's no shame in realizing you don't know everything; in fact, asking questions shows you're smart.
+You might feel proud at first, but it’s okay if seeing just one side made you feel stuck. Everyone lives in an echo chamber sometimes. Talking to someone else (like a teacher) about what you found on your feed can help you learn if there's another side. There's no shame in realizing you don't know everything; in fact, asking questions shows you're smart.
 
 ## The Empowerment Move
 Next time you read something that everyone seems to agree with, try searching the opposite opinion on the internet or ask an elder, 'Is this really how it is?' or find a news site you don’t usually visit. You could also ask one friend who likes something different from you to share a post from their feed so you hear a new perspective.

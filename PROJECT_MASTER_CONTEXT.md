@@ -68,6 +68,15 @@ The heavy-lifter for all universe sub-pages (e.g., `/wealth`, `/signal`):
 
 ---
 
+## 🚨 CRITICAL VERCEL DEPLOYMENT RULES (DO NOT IGNORE) 🚨
+**Next.js 16.1.6 & React 19 Requirement:**
+- Vercel actively blocks deployments of **Next 15.x** and **Next 14.x** via aggressive security vulnerabilities (CVE-2025-66478 and CVE-2025-12-11) or component caching crashes (`reading 'S'`, `HMR updates`).
+- **NEVER DOWNGRADE Next.js.** The project must ALWAYS remain on `next@16.1.6` and `react@19.2.3` (or strictly higher Next 16 canaries).
+- **NEVER EDIT CONFIG FORMATS:** The project is locked to `next.config.ts` and Flat Config `eslint.config.mjs`. Attempting to revert to `.mjs` or `.eslintrc.json` will trigger build failures in this Next 16 environment.
+- If future AI assistants suggest downgrading Next.js to fix a Vercel warning, **ABORT IMMEDIATELY**. The Next 16.x setup was hard-fought and is the *only* version combination that successfully clears all Vercel compilation steps for this codebase.
+
+---
+
 ## 📝 Deployment & Replication Notes
 To replicate or scale this project:
 1. Define new concepts in a `master_universe.json` within a new folder in `content/`.

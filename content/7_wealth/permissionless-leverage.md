@@ -1,23 +1,23 @@
 ---
 title: "Permissionless Leverage"
-icon: "Giant's Stick"
-domain: "THE ARCHIMEDES LEVER"
+icon: "Open Door"
+domain: "LEVERAGE VECTORS"
 ---
 
 ## The Wealth Secret
-Leverage that doesn't require anyone's 'Yes.' You don't need a boss, a bank, or a parent to let you write code or record a video.
+Code and Media require absolutely no one's permission. You can create them from your bedroom with just a laptop and Wi-Fi.
 
 ## The Middle Class Trap
-Waiting for permission. Waiting to be hired, waiting for a loan, or waiting for a 'lucky break' before starting a project.
+Waiting for a gatekeeper—like a book publisher, a TV network, or a boss—to give you permission to show your work to the world.
 
 ## The Leverage Play
-Writing a blog post or a piece of open-source code tonight. You are using the world's most powerful levers without asking for any permission.
+Writing a brilliant sci-fi short story and publishing it directly to a free blog where anyone on Earth can read it instantly.
 
 ## The Superpower
-Absolute autonomy.
+Unrestricted creation.
 
 ## The Actionable Cent
-Start a digital project today where you are the only person who can say 'No.'
+Publish one piece of original content on the internet today without asking anyone.
 
 ## Linked Possibilities
 - [[code-as-leverage]]

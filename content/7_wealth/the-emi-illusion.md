@@ -5,22 +5,20 @@ domain: "MONEY TRAPS"
 ---
 
 ## The Wealth Secret
-'Equated Monthly Installment.' It is a trick that makes a ₹1 Lakh phone look like it only costs ₹5,000. It is a debt trap disguised as a convenience.
+Equated Monthly Installments trick your brain into thinking a 1,00,000 purchase only costs 5,000, masking the true financial drain.
 
 ## The Middle Class Trap
-Thinking they can 'afford' anything as long as the monthly payment fits in their salary, ignoring the massive total cost and interest.
+Focusing entirely on whether the monthly payment is 'affordable,' completely ignoring the massive interest paid and the depreciating asset.
 
 ## The Leverage Play
-Only using EMIs for things that make more money than the interest cost (like a laptop for work), never for toys or clothes.
+Adopting a strict rule: 'If I cannot buy it twice in cash, I cannot afford it' for all consumer electronics and luxury goods.
 
 ## The Superpower
-Interest avoidance.
+Cash dominance.
 
 ## The Actionable Cent
-Calculate the total amount you pay for a phone on 'No Cost EMI' including all the processing fees.
+Multiply a monthly EMI amount by its tenure to see the actual, inflated cost of the item.
 
 ## Linked Possibilities
 - [[bad-debt]]
-- [[opportunity-cost]]
-	Snapshot: 
-	
+- [[lifestyle-creep]]

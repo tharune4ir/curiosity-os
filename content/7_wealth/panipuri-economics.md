@@ -5,7 +5,7 @@ domain: "VALUE CREATION"
 ---
 
 ## The Wealth Secret
-Buying raw ingredients for ₹10, applying labor, and selling the experience for ₹50. The markup is the reward for assembly.
+Buying raw ingredients for 10, applying labor, and selling the experience for 50. The markup is the reward for assembly.
 
 ## The Middle Class Trap
 Never understanding how local businesses actually make money, viewing transactions purely as a consumer.
@@ -22,4 +22,3 @@ Calculate the cost of ingredients for a local street food item versus its sellin
 ## Linked Possibilities
 - [[cash-flow-mechanics]]
 - [[solving-painful-problems]]
-	

@@ -1,14 +1,14 @@
 ---
-title: "Chatbot Alert (When You’re Talking to a Machine)"
-icon: "ShieldBot"
+title: "Chatbot Alert (Robots Talking as People)"
+icon: "ShieldRobot"
 domain: "INFORMATION HYGIENE"
 ---
 
 ## The Invisible Code
-Many online profiles and chat services use 'bots' (computer programs) that can talk like real people. It’s like a mechanical puppet that can answer questions and have a conversation. Sometimes bots are helpful (like for customer service), but they can also be used to spread lies or trick people into sharing personal info.
+Advanced AI 'chatbots' can talk and write like real humans. They’re like super smart parrots that can hold long conversations. These bots can spread misinformation by chatting and pretending to be people who know everything.
 
 ## The Digital Trap
-You see a post on social media and start a fun conversation with the user. They seem very nice and share similar interests. Then they start pushing a weird news story or ask you to 'click this link for more info.' You realize the person you've been talking to might not be a human at all. The computer program used kindness and conversation to lower your guard.
+You see comments on a post from 'Alex', a user who posts detailed conspiracy stuff. You think Alex is real and start believing their claims. Later you learn Alex was a chatbot auto-posting those messages.
 
 ## The Shield Protocol
 If someone online seems to have no profile picture, or only generic posts, or always copies news without adding personal touches, they might be bots. They usually don't have real interactions with others. If you suspect a bot, don't engage. Check if their account has a history of normal human comments.

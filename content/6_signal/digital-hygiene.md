@@ -1,25 +1,25 @@
 ---
-title: "Digital Hygiene (Keeping Your Online World Clean)"
-icon: "ShieldTrash"
-domain: "DIGITAL SAFETY"
+title: "Digital Hygiene (Cleaning Up Your Info Diet)"
+icon: "ShieldSponge"
+domain: "INFORMATION HYGIENE"
 ---
 
 ## The Invisible Code
-Just like brushing your teeth, you should regularly clean your online accounts. Digital hygiene means deleting old apps, updating passwords, and removing posts you don't like anymore. It keeps your digital life healthy and reduces the risk of someone stealing your info or hacking old accounts.
+Digital hygiene means regularly cleaning what you consume online, like clearing old files or 'washing' your news feed. It’s like brushing your teeth to prevent cavities: regularly removing junk info prevents bad stuff from piling up in your mind.
 
 ## The Digital Trap
-You have an old game app you haven't used in years. One day, that game is hacked, and your old email and password are stolen. You suddenly get weird emails on your main account. You realize you should have deleted that old account long ago. Now your 'digital dirt' is causing real trouble.
+You keep checking the same shocking news over and over, getting anxious. Your mind feels dirty with fear and misinformation. It’s like eating sweets non-stop; eventually you feel sick.
 
 ## The Shield Protocol
-Set a 'cleaning day' once a month to go through your apps and accounts. Delete any you don't use. Update your passwords for your most important accounts. Clear your browser history and cookies. Think of it as tidying up your room—it makes everything run better and keeps you safe.
+Set aside time each week to 'clean up': unfollow sensational pages, delete old posts with personal info, clear cache or browsing history. Also, refill your feed with positive or educational content (like following a science page). This keeps the junk from building up.
 
 ## The Lifeline
-If you feel overwhelmed by too many apps or accounts, talk to a parent: 'I have so many old accounts, can you help me clean them up?' They can help search for your info and show you how to delete things properly. It’s a great way to learn about safety together. Staying clean online is a superpower!
+Tell a family member: 'Let's clean out my WhatsApp chats and delete these forwards.' Doing it together makes it easier and fun, like a group chore. Afterward, you'll feel lighter, just as if you cleaned your room. The clutter is gone, and you feel safer and clearer.
 
 ## The Empowerment Move
-Right now, find three apps on your phone that you don't use and delete them. Then, go to your main social media profile and delete one post that you don't think is necessary anymore. You've just started your digital hygiene routine!
+Delete or archive at least one old message, photo, or app that you no longer need right now. It could be a gossip forward or an old social app. Each removal is like a small cleaning step that keeps your mind uncluttered.
 
 ## Linked Possibilities
-- [[password-guardian]]
-- [[privacy-armor]]
-- [[digital-footprint]]
+- [[verify-forward]]
+- [[whatsapp-rumors]]
+- [[cookie-crumbs]]

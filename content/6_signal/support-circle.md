@@ -1,25 +1,25 @@
 ---
-title: "Support Circle (Your Team of Trusted Adults)"
-icon: "ShieldHeart"
+title: "Support Circle (Your Online Bodyguard Squad)"
+icon: "ShieldStar"
 domain: "DIGITAL SAFETY"
 ---
 
 ## The Invisible Code
-You shouldn't handle online problems alone. Your 'support circle' is a team of trusted adults—like parents, teachers, or relatives—who you can turn to when things go wrong. They are your safety net, ready to help you navigate tricky online situations.
+Your support circle is your group of trusted people who have your back online—like your digital bodyguards. This includes parents, friends, teachers, or even online safety allies. They will step in when you're down or being attacked, just like a soccer team defends its goal together.
 
 ## The Digital Trap
-You see a post online that makes you very sad or scared. You try to fix it yourself by replying, but it only gets worse. You feel alone and stressed. Then you remember your teacher said you can always talk to her. You tell her, and she helps you report the post and makes you feel much better. You realize you had a team all along.
+You face something unfair online, but think 'I shouldn’t bother anyone, I’ll handle this alone.' You don't realize that friends could help take away the problem.
 
 ## The Shield Protocol
-Identify three adults you trust and know you can talk to about anything. If you encounter something weird, scary, or confusing online, go to one of them immediately. Don't worry about being a 'snitch'—sharing concerns helps keep everyone safe. Your support circle is there to back you up!
+Think of at least two people you trust and draw a circle with their names around you. These are your protectors. When something happens, tell any one of them immediately. They’ll form a stronger shield around you together.
 
 ## The Lifeline
-If you're feeling scared or unsure about something online, reach out to your support circle: 'I saw something online that I didn't like.' They are there to listen and help, not judge. Knowing you have people who care about you is the best defense against online stress. You’re never alone in the digital world.
+When you reach out, you get immediate backup. Your 'circle' will surround you with help and comfort. You won't be fighting the problem by yourself anymore. Remember, even heroes need their team sometimes.
 
 ## The Empowerment Move
-Write down the names of three adults in your life who you trust and can talk to if anything goes wrong online. Keep this list in your mind or a safe place. Tell one of them today: 'You're in my support circle!'
+Say 'ring, ring' to yourself out loud now and pretend you're calling a trusted adult or friend to say 'I need help'. This funny rehearsal will make it easier to actually pick up the phone in a real situation.
 
 ## Linked Possibilities
-- [[no-secrets-rule]]
+- [[rescue-network]]
 - [[speak-up-superpower]]
-- [[safe-friend-zone]]
+- [[share-and-calm]]

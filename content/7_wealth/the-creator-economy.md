@@ -22,4 +22,3 @@ Turn off your phone for 24 hours and write a script instead of consuming one.
 ## Linked Possibilities
 - [[media-as-leverage]]
 - [[audience-as-asset]]
-	

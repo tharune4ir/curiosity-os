@@ -17,7 +17,7 @@ Taking your paper points and quickly trading them for real assets—like softwar
 Systemic understanding.
 
 ## The Actionable Cent
-Realize that a ₹500 note is just an IOU from the RBI.
+Realize that a 500 note is just an IOU from the RBI.
 
 ## Linked Possibilities
 - [[inflation-the-invisible-thief]]

@@ -22,4 +22,3 @@ Research the difference between an employee's salary and a shareholder's dividen
 ## Linked Possibilities
 - [[assets-vs-liabilities]]
 - [[permissionless-leverage]]
-	

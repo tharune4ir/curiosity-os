@@ -1,23 +1,23 @@
 ---
 title: "Media as Leverage"
 icon: "Broadcasting"
-domain: "THE ARCHIMEDES LEVER"
+domain: "LEVERAGE VECTORS"
 ---
 
 ## The Wealth Secret
-Content is code for humans. One video can 'talk' to 1 million people at the same time, even while the creator is taking a nap.
+Books, podcasts, and videos replicate themselves infinitely. They act as your tireless digital clones teaching the world.
 
 ## The Middle Class Trap
-Thinking that 'fame' is just for vanity, not realizing that attention is the modern currency that can be traded for anything.
+Consuming thousands of hours of YouTube but never utilizing its incredible power to project your own specific knowledge to an audience.
 
 ## The Leverage Play
-Starting a podcast or a newsletter. Every person who joins your audience is a tiny bit of leverage added to your machine.
+Recording a 5-minute tutorial video explaining a difficult math concept and putting it on YouTube, where it teaches millions of students forever.
 
 ## The Superpower
-Massive reach.
+Infinite reach.
 
 ## The Actionable Cent
-Record a 60-second video explaining one thing you learned today and post it.
+Outline a script for a short video teaching something you are incredibly good at.
 
 ## Linked Possibilities
 - [[the-creator-economy]]

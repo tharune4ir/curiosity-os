@@ -1,25 +1,25 @@
 ---
-title: "Speak-Up Superpower (Defeating Bullies with Your Voice)"
-icon: "ShieldMic"
+title: "Speak-Up Superpower (Why Telling is Winning)"
+icon: "ShieldVoice"
 domain: "DIGITAL SAFETY"
 ---
 
 ## The Invisible Code
-Your voice is a powerful tool to stop bullying and keep others safe. By speaking up when you see something wrong, you're not just helping yourself; you're helping everyone. This is your 'speak-up superpower'—it can stop bad behavior and encourage others to be kind.
+Sharing scary or embarrassing things with others isn’t a weakness, it’s like sending a flare for help. Bullies and scammers want you to stay silent. But telling someone is the ultimate power move—like revealing the secret of a magic trick and removing its effect forever.
 
 ## The Digital Trap
-You see a group chat where a few people are making fun of a classmate. Everyone else is staying quiet. You feel bad for the person being bullied but you're afraid to say something. Then you remember your superpower! You send a message: 'Hey guys, let's just be nice and talk about something else.' Suddenly, others agree with you, and the bullying stops. You realize your voice changed everything.
+You get a message from someone pretending to be your classmate and it’s really scary. You feel too embarrassed to tell anyone. So you stay quiet, and the person keeps threatening you, knowing you'll stay silent.
 
 ## The Shield Protocol
-If you see someone being mean online, don't join in and don't just watch. Use your voice to stand up for them or report the behavior to an adult. Encourage your friends to do the same. Being an 'upstander' instead of a bystander is how we build a better online world together.
+Remember: telling someone is the strongest thing you can do. As soon as you share what’s happening, the online bully or scammer loses their power over you. Practice telling yourself, 'I'm going to tell my parent or teacher', and imagine how much stronger you'll feel.
 
 ## The Lifeline
-If you're ever afraid to speak up, talk to an adult in your support circle: 'I saw someone being treated badly online and I didn't know what to do.' they can help you figure out the best way to use your superpower. They might even help you report it anonymously. Speaking up is always the right move, even if it feels a little scary.
+When you do tell someone, you will feel like a weight has been lifted. Your trusted person will help you see that you're safe and not alone. They'll be glad you confided in them and will help fix the problem. It's a superpower to have, and you should use it proudly.
 
 ## The Empowerment Move
-The next time you see something unkind or unfair online, say something helpful or report it. Tell one friend about your 'Speak-Up Superpower' so they can use theirs too. Your voice is a force for good!
+Right now, make a short list in your phone of 3 people you trust with a star next to their name. Keep it hidden if needed. This is your 'flaring' list. If you need help, you'll already know exactly who to reach out to fast.
 
 ## Linked Possibilities
-- [[cyberbullying-blast]]
-- [[support-circle]]
+- [[rescue-network]]
+- [[the-silence-trap]]
 - [[no-secrets-rule]]

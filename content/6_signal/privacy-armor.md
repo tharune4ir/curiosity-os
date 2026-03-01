@@ -1,25 +1,25 @@
 ---
-title: "Privacy Armor (Strong Settings for Safety)"
-icon: "ShieldCheck"
+title: "Privacy Armor (Shielding Your Info)"
+icon: "ShieldLock"
 domain: "DIGITAL SAFETY"
 ---
 
 ## The Invisible Code
-Privacy settings are like a shield for your online profile. They control who can see your photos, posts, and location. By setting everything to 'private' or 'friends only,' you're putting on armor to stay safe from strangers and stalkers.
+Think of your personal information (like your photos, password, and address) as treasure. Privacy settings on apps and phones are like armor that protects your treasure. Without this armor, anyone can grab your treasure. Apps have doors (settings) that you can lock to keep your info safe.
 
 ## The Digital Trap
-You posted a photo of your new dog on a public profile. A week later, a stranger comments on your photo, knowing your dog’s name and your neighborhood. You feel creeped out. You didn't realize that anyone in the world could see your life. You've been sharing everything without your armor on.
+You leave your Facebook or Instagram profile open to 'Public' for fun. One day, someone you don't know uses your holiday picture to create a fake profile in your name. Later you find messages from random people on your school group asking if you posted them. Your personal info was taken because there was no armor.
 
 ## The Shield Protocol
-Go into the settings of every app you use and set everything to Private. This includes your posts, friend list, and pictures. Also, avoid sharing sensitive details like your phone number or school in your bio. Treat your profile like a private diary that only your trusted friends can read.
+Always set your social accounts to 'friends only' and avoid giving out personal details online (like your school name or address). Create strong passwords and don't share them. This is like always locking your house doors, even when you're home. Check your account privacy settings with a parent if you're unsure.
 
 ## The Lifeline
-If you're unsure how to change your settings or if someone is seeing things they shouldn't, ask an adult: 'How do I make my profile private?' They will be happy to help. They know how to protect privacy and will show you the best ways to keep strangers out. You’re doing the right thing by putting on your armor!
+If someone tricks you with your own info (like a fake profile), tell someone you trust immediately. They might help you report and delete the fake profile. You did not do anything wrong by using social media as most people do; just make sure to use your shield stronger next time.
 
 ## The Empowerment Move
-Take 10 minutes right now to go through the privacy settings of all your apps. Make sure only your friends can see your posts and that strangers can't find your profile in searches. You'll feel much more secure once your armor is on.
+Go to your social media account settings right now and switch everything to private or friends-only. Turn on any privacy features (like 'approved friends only'). Also make a quick habit: whenever you create a new account, set it to private immediately.
 
 ## Linked Possibilities
 - [[digital-footprint]]
-- [[location-leak]]
-- [[safe-friend-zone]]
+- [[catfishing-fakes]]
+- [[password-guardian]]

@@ -5,7 +5,7 @@ domain: "CORE PHYSICS OF MONEY"
 ---
 
 ## The Wealth Secret
-A ₹100 note today is worth way more than a ₹100 note ten years from now because today's money can be planted and grown.
+A 100 note today is worth way more than a 100 note ten years from now because today's money can be planted and grown.
 
 ## The Middle Class Trap
 Caring only about how much you save, completely ignoring when you start saving.

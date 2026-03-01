@@ -13,7 +13,7 @@ const domains = [
   { id: 'logic', label: 'LOGIC', icon: Sigma, href: '/logic' },
   { id: 'signal', label: 'SIGNAL', icon: Radio, href: '/signal' },
   { id: 'wealth', label: 'WEALTH', icon: Database, href: '/wealth' },
-  { id: 'digital', label: 'DIGITAL', icon: Terminal },
+  { id: 'digital', label: 'DIGITAL', icon: Terminal, href: '/digital' },
   { id: 'ai-nexus', label: 'AI NEXUS', icon: Sparkles },
   { id: 'fun', label: 'FUN', icon: Gamepad2, href: '/fun' },
 ];

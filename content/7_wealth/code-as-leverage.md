@@ -1,26 +1,24 @@
 ---
 title: "Code as Leverage"
 icon: "Code Brackets"
-domain: "THE ARCHIMEDES LEVER"
+domain: "LEVERAGE VECTORS"
 ---
 
 ## The Wealth Secret
-Code is an army of robots that never sleeps, never complains, and works for you for free 24/7 once you write the instructions.
+Code is an army of robots packed in server farms, waiting to execute your instructions for fractions of a penny, 24/7.
 
 ## The Middle Class Trap
-Only working jobs where you have to be physically present to earn. If you aren't there, the money machine stops.
+Assuming coding is just a boring IT job for a faceless corporation, rather than the ultimate tool to build your own digital empire.
 
 ## The Leverage Play
-Learning Python to automate a boring task at your internship, or building a simple website that sells a digital product while you are at school.
+Writing a simple Python script that automatically scrapes data for your school project, turning five hours of boring work into five seconds.
 
 ## The Superpower
-Infinite scalability.
+Limitless automation.
 
 ## The Actionable Cent
-Learn how to write a simple 'Hello World' program in a new language today.
+Look up a basic logic flowchart to understand how computer instructions actually work.
 
 ## Linked Possibilities
+- [[vibe-coding-ai]]
 - [[permissionless-leverage]]
-- [[marginal-cost-of-replication]]
-	Snapshot: 
-	

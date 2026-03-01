@@ -12,6 +12,7 @@ const CONTENT_SOURCES = [
   { dir: '5_logic',         label: 'Logic' },
   { dir: '6_signal',        label: 'Signal' },
   { dir: '7_wealth',        label: 'Wealth' },
+  { dir: '8_digital',       label: 'Digital' },
 ];
 
 // Fields that go into YAML frontmatter (not rendered as ## sections)

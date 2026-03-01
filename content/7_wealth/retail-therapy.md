@@ -1,26 +1,24 @@
 ---
 title: "Retail Therapy"
-icon: "Shopping Bag"
+icon: "Sadness Tax"
 domain: "MONEY TRAPS"
 ---
 
 ## The Wealth Secret
-Using shopping to fix an emotional problem. You buy things you don't need to fill a hole in your heart that isn't made of money.
+Using the brief dopamine rush of buying physical goods to temporarily escape the stress of a job you dislike.
 
 ## The Middle Class Trap
-Going to the mall when they are sad or bored, ending up with less money and more clutter, while the sadness remains.
+Having a terrible week at work and blowing half a paycheck on clothes you don't need, ensuring you have to stay at the terrible job forever.
 
 ## The Leverage Play
-Finding a zero-cost hobby—like reading or sports—to deal with stress, keeping your money for building your future.
+Recognizing the emotional trigger and substituting the shopping spree with a free activity like exercising or working on a passion project.
 
 ## The Superpower
-Emotional resilience.
+Emotional independence.
 
 ## The Actionable Cent
-The next time you are bored and want to buy something, go for a walk instead.
+Institute a mandatory 24-hour waiting period for any purchase made when feeling stressed or sad.
 
 ## Linked Possibilities
 - [[opportunity-cost]]
-- [[status-games-vs-wealth-games]]
-	Snapshot: 
-	
+- [[lifestyle-creep]]

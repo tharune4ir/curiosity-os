@@ -1,25 +1,24 @@
 ---
 title: "Capital Leverage"
 icon: "Bank Vault"
-domain: "THE ARCHIMEDES LEVER"
+domain: "LEVERAGE VECTORS"
 ---
 
 ## The Wealth Secret
-Money is a lever that moves things. You can use your money to hire other people's time or other people's robots (servers).
+Using money to make more money. An investor uses massive pools of capital to amplify the returns of their good decisions.
 
 ## The Middle Class Trap
-Using capital to buy toys (liabilities) instead of using it to buy more leverage (assets).
+Taking out personal loans to buy shiny consumer goods, rather than using borrowed capital to acquire income-producing machines.
 
 ## The Leverage Play
-Using ₹10,000 of your savings to pay a professional editor to fix your videos, freeing up your time to create ten more videos.
+Pooling pocket money with three friends to buy a slightly better 3D printer that allows everyone to produce higher-quality products to sell.
 
 ## The Superpower
-Force multiplication.
+Financial scale.
 
 ## The Actionable Cent
-Identify one thing you do that you could pay someone else ₹100 to do better.
+Observe how massive corporations use investor funds to build giant factories.
 
 ## Linked Possibilities
-- [[labor-leverage]]
-- [[assets-vs-liabilities]]
-	
+- [[good-debt]]
+- [[permissioned-leverage]]

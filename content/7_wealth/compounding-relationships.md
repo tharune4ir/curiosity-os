@@ -1,24 +1,24 @@
 ---
 title: "Compounding Relationships"
-icon: "Heart"
-domain: "SOCIAL WEALTH"
+icon: "Trust Bank"
+domain: "LEVERAGE VECTORS"
 ---
 
 ## The Wealth Secret
-Relationships compound just like money. Helping someone today creates a 'seed' of trust that grows into massive opportunities ten years later.
+Treating professional relationships as long-term assets. Trust compounds over decades, creating a massive network of opportunities.
 
 ## The Middle Class Trap
-Thinking that networking is 'using people' or trying to get something for nothing today, instead of building long-term bridges.
+Treating people transactionally, extracting quick favors and burning bridges, forcing you to constantly start over with strangers.
 
 ## The Leverage Play
-Consistently helping people in your field without asking for anything back. Over time, you become the most connected person in the room.
+Consistently helping your peers with their projects without expecting an immediate reward, building a reputation as a generous collaborator.
 
 ## The Superpower
-Opportunity magnet.
+Network leverage.
 
 ## The Actionable Cent
-Send a genuine 'Thank You' note to someone who helped you this month.
+Reach out to a classmate and offer genuine help on something without asking for anything.
 
 ## Linked Possibilities
-- [[trust-the-ultimate-currency]]
-- [[the-reputation-bank]]
+- [[ethical-wealth]]
+- [[iterated-games]]

@@ -22,4 +22,3 @@ Ensure any savings account you have leaves the interest inside to grow.
 ## Linked Possibilities
 - [[compound-interest]]
 - [[the-rule-of-72]]
-	

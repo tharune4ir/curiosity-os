@@ -5,20 +5,20 @@ domain: "MONEY TRAPS"
 ---
 
 ## The Wealth Secret
-When your income goes up, and you immediately increase your expenses to match. You are running faster on a treadmill but staying in the same place.
+As your income goes up, your desires magically expand to consume it all. You run faster just to stay in the same place.
 
 ## The Middle Class Trap
-Getting a promotion and moving to a bigger house with a bigger EMI, effectively staying just as broke as before but with nicer curtains.
+Getting a salary raise and immediately upgrading from a perfectly fine apartment to a luxury flat, leaving zero extra money to invest.
 
 ## The Leverage Play
-Keeping your lifestyle exactly the same for two years after every raise. You use the extra money to buy assets, not upgrades.
+Getting a raise but intentionally keeping your expenses exactly the same, funneling 100% of the new money into wealth-generating assets.
 
 ## The Superpower
-Financial gap expansion.
+Margin expansion.
 
 ## The Actionable Cent
-If you get a gift of ₹1,000, save ₹500 before you even think about spending the rest.
+Commit to saving at least 50% of any unexpected cash gift you receive.
 
 ## Linked Possibilities
 - [[cash-flow-mechanics]]
-- [[the-illusion-of-status]]
+- [[savings-rate]]

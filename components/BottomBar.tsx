@@ -59,7 +59,7 @@ export default function BottomDock() {
                         "absolute bottom-full left-1/2 -translate-x-1/2 mb-3 whitespace-nowrap bg-slate-950/90 px-3 py-1.5 rounded-md border border-cyan-500/50 shadow-[0_0_15px_rgba(0,240,255,0.2)] backdrop-blur-md transition-all duration-200 pointer-events-none flex flex-col items-center gap-0.5",
                         activeTooltip === "ai" ? "opacity-100 translate-y-0" : "opacity-0 translate-y-1"
                     )}>
-                        <span className="text-[9px] md:text-[10px] tracking-widest text-cyan-100 font-mono">DISHA AI</span>
+                        <span className="text-[9px] md:text-[10px] tracking-widest text-cyan-100 font-mono">CURIOSITY AI</span>
                         <span className="text-[7px] md:text-[8px] text-cyan-400 font-mono tracking-widest bg-cyan-950/50 px-2 py-0.5 rounded border border-cyan-500/30">COMING SOON</span>
                     </div>
                 </button>

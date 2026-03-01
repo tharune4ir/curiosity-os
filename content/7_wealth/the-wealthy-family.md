@@ -17,7 +17,7 @@ Having a monthly 'family meeting' to talk about assets, liabilities, and upcomin
 Generational momentum.
 
 ## The Actionable Cent
-Share one thing you learned from Disha OS with your parents today.
+Share one thing you learned from Curiosity OS with your parents today.
 
 ## Linked Possibilities
 - [[human-capital]]

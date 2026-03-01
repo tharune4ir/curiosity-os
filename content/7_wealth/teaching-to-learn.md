@@ -17,7 +17,7 @@ Applying the 'Feynman Technique.' You learn a concept like 'Liquidity' and try t
 Conceptual clarity.
 
 ## The Actionable Cent
-Explain one concept from DISHA OS to a family member tonight.
+Explain one concept from CURIOSITY OS to a family member tonight.
 
 ## Linked Possibilities
 - [[human-capital]]

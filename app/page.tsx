@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Compass, Activity, Brain, Sigma, Radio, Database, Terminal, Sparkles, Gamepad2, Search } from "lucide-react";
+import { Orbit, Activity, Brain, Sigma, Radio, Database, Terminal, Sparkles, Gamepad2, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -43,9 +43,9 @@ function LiveTime() {
 
 function TerminalLogs() {
   const logs = [
-    "> INITIALIZING LEARN_OS...",
+    "> INITIALIZING CURIOSITY_OS...",
     "> SECURING NEURAL LINK...",
-    "> MAPPING POSSIBILITIES...",
+    "> MAPPING CURIOSITY...",
     "> CALIBRATING HUD...",
     "> AWAITING USER INPUT...",
   ];
@@ -107,8 +107,10 @@ export default function Home() {
         <div className="absolute inset-0 pointer-events-none z-50">
           <div className="absolute top-4 left-4 md:top-8 md:left-8 font-mono text-[9px] md:text-xs text-slate-400 font-medium tracking-widest z-50 flex flex-col gap-0.5">
             <div className="flex items-center gap-2">
-              <Compass className="w-3.5 h-3.5 md:w-4 md:h-4 text-cyan-400 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)]" strokeWidth={1.5} />
-              <span className="text-cyan-300 font-bold drop-shadow-[0_0_4px_rgba(34,211,238,0.3)]">DISHA OS</span>
+              <Orbit className="w-3.5 h-3.5 md:w-4 md:h-4 text-cyan-400 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)]" strokeWidth={1.5} />
+              <span className="text-sm md:text-base font-bold tracking-widest bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,240,255,0.3)]">
+                Curiosity-OS
+              </span>
             </div>
             <span className="text-[7px] md:text-[9px] text-slate-500/60 tracking-[0.3em] pl-[22px] md:pl-[24px] font-light">by Tharun</span>
           </div>

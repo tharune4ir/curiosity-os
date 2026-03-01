@@ -22,7 +22,7 @@ export default function NavBar() {
                     <div className="flex items-center justify-center w-8 h-8 md:w-9 md:h-9 rounded-full bg-gradient-to-br from-cyan-500/20 to-slate-900/80 border border-cyan-500/30 shadow-[0_0_12px_rgba(0,240,255,0.15)] group-hover:shadow-[0_0_20px_rgba(0,240,255,0.3)] group-hover:border-cyan-400/50 transition-all duration-300">
                         <Compass className="w-4 h-4 md:w-[18px] md:h-[18px] text-cyan-400 drop-shadow-[0_0_6px_rgba(34,211,238,0.6)]" strokeWidth={1.5} />
                     </div>
-                    <span className="hidden md:block text-[10px] font-mono tracking-[0.3em] text-slate-300 font-medium">DISHA</span>
+                    <span className="hidden md:block text-[10px] font-mono tracking-[0.3em] text-slate-300 font-medium">CURIOSITY</span>
                 </Link>
 
                 {/* Nav Items */}

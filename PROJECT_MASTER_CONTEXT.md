@@ -1,7 +1,7 @@
-# PROJECT MASTER CONTEXT: DISHA OS (The Neural Navigator)
+# PROJECT MASTER CONTEXT: CURIOSITY OS (The Neural Navigator)
 
 ## 📌 Executive Summary
-**DISHA OS** is a massive, immersive 3D visually-gamified Neural Map and Zettelkasten engine. It maps nearly 500 unique conceptual pathways across seven distinct "Universes." Designed with a premium "Cyber-Laboratory" aesthetic (glassmorphism, neon cyan, high-contrast dark modes), it allows users to navigate a complex web of interconnected skills, philosophies, and career insights using a 3D hyperspace interface.
+**CURIOSITY OS** is a massive, immersive 3D visually-gamified Neural Map and Zettelkasten engine. It maps nearly 500 unique conceptual pathways across seven distinct "Universes." Designed with a premium "Cyber-Laboratory" aesthetic (glassmorphism, neon cyan, high-contrast dark modes), it allows users to navigate a complex web of interconnected skills, philosophies, and career insights using a 3D hyperspace interface.
 
 ---
 
@@ -36,7 +36,7 @@ Total Intelligence Nodes: **~493**
 
 ### 1. The Orbital Landing (`app/page.tsx`)
 - **NeuralCore3D:** A pulsing 3D wireframe energy core background.
-- **The DISHA Orb:** A central gateway pulsator.
+- **The CURIOSITY Orb:** A central gateway pulsator (formerly DISHA Orb).
 - **Dynamic Domains:** 8 interactive orbital spheres. As universes are completed, placeholders move from "COMING SOON" to "ENTER" with functional `href` routing.
 - **Density Layer:** A terminal-style log feed (`TerminalLogs`) and live UTC clock (`LiveTime`) providing real-time system feedback.
 
@@ -46,7 +46,7 @@ The heavy-lifter for all universe sub-pages (e.g., `/wealth`, `/signal`):
 - **Icon Collision Strategy:** Custom icon names (e.g., `WealthScoreboard`) are used to prevent `lucide-react` name collisions across different universes.
 - **Fog of War (Gamification):**
   - **Discovery Loop:** Nodes start as hollow shells and ignite into glowing cores only upon discovery.
-  - **Persistence:** Progress is saved to `localStorage` under `disha_unlocked_nodes`.
+  - **Persistence:** Progress is saved to `localStorage` under `curiosity_unlocked_nodes`.
   - **HUD Metrics:** Live tracking of `Nodes Discovered / Total Nodes`.
   - **Wormhole Jump:** A random discovery script that cinematically flies the camera to a new undiscovered node.
   - **Command Palette:** A full-screen searchable directory to jump to any node instantly.

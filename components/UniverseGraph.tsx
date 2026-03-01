@@ -22,7 +22,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
 
     useEffect(() => {
         setMounted(true);
-        const saved = localStorage.getItem(`disha_unlocked_${storageNamespace}`);
+        const saved = localStorage.getItem(`curiosity_unlocked_${storageNamespace}`);
         if (saved) {
             setUnlockedNodes(new Set(JSON.parse(saved)));
         }
@@ -32,7 +32,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
         setSelectedNode(node);
         setUnlockedNodes(prev => {
             const newSet = new Set(prev).add(node.id);
-            localStorage.setItem(`disha_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
+            localStorage.setItem(`curiosity_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
             return newSet;
         });
         // Fly-to animation logic
@@ -66,7 +66,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
 
         setUnlockedNodes(prev => {
             const newSet = new Set(prev).add(node.id);
-            localStorage.setItem(`disha_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
+            localStorage.setItem(`curiosity_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
             return newSet;
         });
 
@@ -108,7 +108,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
         setSelectedNode(randomNode);
         setUnlockedNodes(prev => {
             const newSet = new Set(prev).add(randomNode.id);
-            localStorage.setItem(`disha_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
+            localStorage.setItem(`curiosity_unlocked_${storageNamespace}`, JSON.stringify([...newSet]));
             return newSet;
         });
 
@@ -125,7 +125,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
 
     const wipeMemory = () => {
         if (window.confirm("WARNING: This will sever all neural pathways and plunge the universe back into darkness. Proceed?")) {
-            localStorage.removeItem(`disha_unlocked_${storageNamespace}`);
+            localStorage.removeItem(`curiosity_unlocked_${storageNamespace}`);
             setUnlockedNodes(new Set());
             setSelectedNode(null); // Close the HUD
 

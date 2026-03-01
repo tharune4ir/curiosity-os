@@ -14,7 +14,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Disha OS // Digital Laboratory",
+  title: "Curiosity OS // Digital Laboratory",
   description: "Cognition OS Experience",
 };
 

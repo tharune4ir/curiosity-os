@@ -223,32 +223,32 @@ export default function Home() {
       {/* Deep Space Controls & Attribution */}
       {mounted && (
         <>
-          <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-50 flex items-center gap-4">
+          <div className="absolute bottom-28 left-1/2 -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 z-50 flex items-center justify-center pointer-events-none">
             <button
               onClick={() => {
                 setIsMuted(!isMuted);
                 setVideoOpacity(isMuted ? 0.8 : 0.5);
               }}
               className={cn(
-                "flex items-center gap-3 px-5 py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 group pointer-events-auto",
+                "flex items-center gap-2 md:gap-3 px-4 py-2 md:px-5 md:py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 group pointer-events-auto",
                 isMuted
                   ? "border-cyan-500/30 bg-cyan-500/5 text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-400"
                   : "border-emerald-500/50 bg-emerald-500/20 text-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.3)]"
               )}
             >
               {isMuted ? (
-                <VolumeX className="w-4 h-4" />
+                <VolumeX className="w-3.5 h-3.5 md:w-4 md:h-4" />
               ) : (
-                <Volume2 className="w-4 h-4 animate-pulse" />
+                <Volume2 className="w-3.5 h-3.5 md:w-4 md:h-4 animate-pulse" />
               )}
-              <span className="text-[10px] md:text-xs font-mono tracking-[0.2em] font-bold">
+              <span className="text-[9px] md:text-xs font-mono tracking-[0.2em] font-bold whitespace-nowrap">
                 {isMuted ? "// INITIATE TRANSMISSION" : "// TRANSMISSION ACTIVE"}
               </span>
             </button>
           </div>
 
-          <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10 z-50 pointer-events-none">
-            <span className="text-[8px] md:text-[9px] font-mono tracking-[0.3em] text-slate-500 uppercase opacity-60">
+          <div className="absolute bottom-20 left-1/2 -translate-x-1/2 md:bottom-10 md:right-10 md:left-auto md:translate-x-0 w-full text-center md:text-right z-50 pointer-events-none">
+            <span className="text-[7px] md:text-[9px] font-mono tracking-[0.3em] text-slate-500 uppercase opacity-60 px-4 md:px-0">
               // ARCHIVE_FOOTAGE: MELODYSHEEP x FEYNMAN
             </span>
           </div>

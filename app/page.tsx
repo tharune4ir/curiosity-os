@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import NeuralCore3D from "@/components/NeuralCore3D";
+import VideoBackground from "@/components/VideoBackground";
+import { Volume2, VolumeX } from "lucide-react";
 
 const domains = [
   { id: 'biosystem', label: 'BIOSYSTEM', icon: Activity, href: '/biosystem' },
@@ -82,6 +84,8 @@ export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [radius, setRadius] = useState(210);
   const [activeDomain, setActiveDomain] = useState<string | null>(null);
+  const [isMuted, setIsMuted] = useState(true);
+  const [videoOpacity, setVideoOpacity] = useState(0.5);
 
   useEffect(() => {
     const updateRadius = () => {
@@ -96,11 +100,19 @@ export default function Home() {
   return (
     <main
       onClick={() => setActiveDomain(null)}
-      className="relative flex min-h-screen w-full items-center justify-center p-6 bg-[#030712] overflow-hidden bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-cyan-900/10 via-[#030712] to-[#030712]"
+      className="relative flex min-h-screen w-full items-center justify-center p-6 overflow-hidden bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-cyan-900/10 via-[#030712]/50 to-[#030712]"
       style={{ perspective: 1200 }}
     >
       {/* 3D WebGL Background Level - Massive Energy Wireframe */}
       {mounted && <NeuralCore3D />}
+
+      {/* Deep Space Hologram Video Layer */}
+      {mounted && (
+        <VideoBackground
+          isMuted={isMuted}
+          opacity={videoOpacity}
+        />
+      )}
 
       {/* Header Overlay */}
       {mounted && (
@@ -207,6 +219,41 @@ export default function Home() {
           );
         })}
       </div>
+
+      {/* Deep Space Controls & Attribution */}
+      {mounted && (
+        <>
+          <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-50 flex items-center gap-4">
+            <button
+              onClick={() => {
+                setIsMuted(!isMuted);
+                setVideoOpacity(isMuted ? 0.8 : 0.5);
+              }}
+              className={cn(
+                "flex items-center gap-3 px-5 py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 group pointer-events-auto",
+                isMuted
+                  ? "border-cyan-500/30 bg-cyan-500/5 text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-400"
+                  : "border-emerald-500/50 bg-emerald-500/20 text-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.3)]"
+              )}
+            >
+              {isMuted ? (
+                <VolumeX className="w-4 h-4" />
+              ) : (
+                <Volume2 className="w-4 h-4 animate-pulse" />
+              )}
+              <span className="text-[10px] md:text-xs font-mono tracking-[0.2em] font-bold">
+                {isMuted ? "// INITIATE TRANSMISSION" : "// TRANSMISSION ACTIVE"}
+              </span>
+            </button>
+          </div>
+
+          <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10 z-50 pointer-events-none">
+            <span className="text-[8px] md:text-[9px] font-mono tracking-[0.3em] text-slate-500 uppercase opacity-60">
+              // ARCHIVE_FOOTAGE: MELODYSHEEP x FEYNMAN
+            </span>
+          </div>
+        </>
+      )}
     </main>
   );
 }

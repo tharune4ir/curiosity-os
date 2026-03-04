@@ -226,7 +226,7 @@ export default function Home() {
 
       {/* Deep Space Controls & Attribution - Unified Horizontal Boundary */}
       {mounted && (
-        <div className="absolute bottom-[90px] md:bottom-6 left-4 right-4 md:left-8 md:right-8 flex justify-between items-center z-50 pointer-events-none">
+        <div className="fixed bottom-[140px] md:absolute md:bottom-6 left-4 right-4 md:left-8 md:right-8 flex justify-between items-center z-50 pointer-events-none">
           <div className="pointer-events-auto">
             <button
               onClick={() => {

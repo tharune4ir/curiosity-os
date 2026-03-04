@@ -25,12 +25,12 @@ The project is organized into nine core realms, each with its own dedicated 3D m
 3.  **3_cognition** (63 Nodes): Learning, mental models, and brain-states.
 4.  **4_fun** (60 Nodes): Creative outlets, gamification, and leisure.
 5.  **5_logic** (58 Nodes): Mathematical principles, coding physics, and engineering.
-6.  **6_signal** (70 Nodes): Information hygiene, digital safety, and algorithmic defense.
-7.  **7_wealth** (80 Nodes): Financial physics, leverage, and value creation.
+6.  **6_signal** (96 Nodes): Information hygiene, digital safety, and algorithmic defense.
+7.  **7_wealth** (123 Nodes): Financial physics, leverage, and value creation.
 8.  **8_digital** (82 Nodes): The digital architect realm, mastering cyber-tools and digital presence.
 9.  **9_ai** (80 Nodes): AI Nexus platform, symbiotically leveraging superintelligence.
 
-Total Intelligence Nodes: **~658**
+Total Intelligence Nodes: **~727**
 
 ---
 
@@ -55,10 +55,21 @@ The heavy-lifter for all universe sub-pages (e.g., `/wealth`, `/signal`):
 
 ---
 
-## 🔧 Automated Workflow & Data Flow
-- **Markdown Generation:** `scripts/generate-universe.js` reads `content/[universe]/master_universe.json` and creates a flat file-system of `.md` nodes.
-- **Content Cleaning:** The script automatically strips research artifacts and citation markers (e.g., `citeturn0...`) to ensure a clean UI.
-- **SSG Integration:** Next.js pre-builds all node content for near-instant 3D interaction.
+## 🎨 Advanced UI/UX Space Mechanics & Polishing
+- **Orbital Tooltips:** Tooltips strictly render vertically stacked above their nodes to prevent Z-index collisions with the bottom navigation dock.
+- **Interactive Double-Tap Navigation:** On touch displays, clicking an orbital node reveals the tooltip. Users must explicitly click the 'ENTER' gateway button to jump, preventing misclicks in the 3D map.
+- **Z-Index Layering Override:** Nodes dynamically spike to `z-50` upon hover, completely bypassing stacking context issues caused by absolute DOM ordering.
+- **Microscopic HUD Typography:** Title typography in the Universe maps (e.g., "COGNITION UNIVERSE") has been scaled down to strict `text-[10px]` styling, mirroring realistic aviation/tech instrumentation.
+- **Global Contrast Glow:** Bottom Dock layouts use deep slate gradients and powerful cyan shadow underglows (`_0_0_30px_rgba(0,240,255,0.2)`) to remain heavily contrasted and legible against pitch-black WebGL void backgrounds.
+- **Mobile Clearance Bounds:** Mobile device layouts physically elevate UI overlay elements (like target labels and ledger bounds) to `bottom-[100px]`, effectively vaulting over the fixed `NavBar` dock spacing.
+
+---
+
+## 🔧 Automated Workflow & Data Engine
+- **Markdown Matrix Generation:** `npm run generate:universe` executes `scripts/generate-universe.js`, reading `content/[universe]/master_universe.json` to synthesize a flat file-system of pristine `.md` nodes.
+- **Content Cleaning:** The pipeline automatically strips research artifacts and citation markers.
+- **Master Textbook Compilation:** `npm run generate-textbook` actively scrapes specifically all 727 fully-rendered `.md` nodes across the Universes (ignoring raw JSONs). It extracts domains and titles, natively readjusts header hierarchy depth, perfectly strips HTML/CSS remnants, and compiles a single, massive, clean `Curiosity_OS_Textbook.md` knowledge-base document.
+- **SSG Integration:** Next.js pre-builds all node content for near-instant 3D interaction and zero-latency loading.
 
 ---
 

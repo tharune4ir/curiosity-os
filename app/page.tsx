@@ -114,10 +114,10 @@ export default function Home() {
         />
       )}
 
-      {/* Header Overlay */}
+      {/* Header Overlay - Perfect Horizontal Alignment */}
       {mounted && (
-        <div className="absolute inset-0 pointer-events-none z-50">
-          <div className="absolute top-4 left-4 md:top-8 md:left-8 font-mono text-[9px] md:text-xs text-slate-400 font-medium tracking-widest z-50 flex flex-col gap-0.5">
+        <div className="absolute top-4 left-4 right-4 md:top-8 md:left-8 md:right-8 flex justify-between items-start pointer-events-none z-50">
+          <div className="flex flex-col gap-0.5">
             <div className="flex items-center gap-2">
               <Orbit className="w-3.5 h-3.5 md:w-4 md:h-4 text-cyan-400 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)]" strokeWidth={1.5} />
               <span className="text-sm md:text-base font-bold tracking-widest bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,240,255,0.3)]">
@@ -126,8 +126,8 @@ export default function Home() {
             </div>
             <span className="text-[7px] md:text-[9px] text-slate-500/60 tracking-[0.3em] pl-[22px] md:pl-[24px] font-light">by Tharun</span>
           </div>
-          <div className="absolute top-4 right-4 md:top-8 md:right-8 font-mono text-[9px] md:text-xs text-slate-400 font-medium tracking-widest z-50 flex items-center gap-2">
-            STATUS: <span className="text-cyan-400 font-bold flex items-center gap-2 drop-shadow-[0_0_4px_rgba(34,211,238,0.5)] before:content-[''] before:block before:w-2 before:h-2 before:rounded-full before:bg-amber-500 before:shadow-[0_0_8px_rgba(245,158,11,0.8)]">CONCEPT (WIP)</span>
+          <div className="font-mono text-[9px] md:text-[11px] text-slate-400 font-medium tracking-widest flex items-center gap-2 mt-1 md:mt-1.5">
+            STATUS: <span className="text-emerald-400 font-bold flex items-center gap-2 drop-shadow-[0_0_4px_rgba(16,185,129,0.5)] before:content-[''] before:block before:w-1.5 before:h-1.5 md:before:w-2 md:before:h-2 before:rounded-full before:bg-emerald-500 before:shadow-[0_0_8px_rgba(16,185,129,0.8)] animate-pulse">CONCEPT (V 1.0)</span>
           </div>
         </div>
       )}
@@ -170,20 +170,21 @@ export default function Home() {
           const angle = ((index * 45 + 22.5) * Math.PI) / 180; // offset by 22.5° so no node lands at exact bottom
           const x = Math.cos(angle) * radius; // Restore full radius to prevent overlap
           const y = Math.sin(angle) * radius;
+
           return (
             <motion.div
               key={domain.id}
               onClick={(e) => {
                 e.stopPropagation();
-                if (domain.href) {
-                  window.location.href = domain.href;
+                if (activeDomain !== domain.id) {
+                  setActiveDomain(domain.id);
                 } else {
-                  setActiveDomain(activeDomain === domain.id ? null : domain.id);
+                  setActiveDomain(null);
                 }
               }}
               className={cn(
-                "absolute flex flex-col items-center justify-center w-14 h-14 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 text-slate-400 hover:text-cyan-300 hover:from-cyan-900/60 hover:to-slate-900/90 hover:border-cyan-400/50 hover:shadow-[inset_0_2px_10px_rgba(255,255,255,0.2),_0_0_30px_rgba(0,240,255,0.4)] transition-all duration-300 group cursor-pointer pointer-events-auto",
-                activeDomain === domain.id ? "z-30" : "z-10"
+                "absolute flex flex-col items-center justify-center w-14 h-14 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 text-slate-400 hover:text-cyan-300 hover:from-cyan-900/60 hover:to-slate-900/90 hover:border-cyan-400/50 hover:shadow-[inset_0_2px_10px_rgba(255,255,255,0.2),_0_0_30px_rgba(0,240,255,0.4)] transition-all duration-300 group cursor-pointer pointer-events-auto hover:z-50",
+                activeDomain === domain.id ? "z-50 shadow-[0_0_30px_rgba(0,240,255,0.6)] border-cyan-400" : "z-10"
               )}
               initial={{ x: `${x}px`, y: `${y}px`, opacity: 1 }}
               animate={{
@@ -196,23 +197,26 @@ export default function Home() {
             >
               <domain.icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={1.5} />
 
-              {/* Hover Tooltip — always on top on web */}
-              <div className={cn(
-                "absolute top-1/2 left-1/2 -translate-x-1/2 mt-10 md:mt-14 transition-all duration-300 whitespace-nowrap bg-slate-950/95 px-3 py-1.5 md:px-4 md:py-2 rounded-lg border border-cyan-500/50 pointer-events-none shadow-[0_0_20px_rgba(0,240,255,0.3)] z-[200] backdrop-blur-xl flex flex-col items-center gap-1",
-                activeDomain === domain.id ? "opacity-100 scale-100" : "opacity-0 scale-90 md:group-hover:opacity-100 md:group-hover:scale-100"
-              )}>
+              {/* Hover Tooltip — Smart Y Positioning */}
+              <div
+                onClick={(e) => e.stopPropagation()}
+                className={cn(
+                  "absolute left-1/2 -translate-x-1/2 transition-all duration-300 whitespace-nowrap bg-slate-950/95 px-3 py-2 md:px-4 md:py-2.5 rounded-lg border border-cyan-500/50 shadow-[0_0_20px_rgba(0,240,255,0.3)] backdrop-blur-xl flex flex-col items-center gap-1.5 bottom-1/2 mb-10 md:mb-14",
+                  activeDomain === domain.id ? "opacity-100 scale-100 pointer-events-auto z-[200]" : "opacity-0 scale-90 md:group-hover:opacity-100 md:group-hover:scale-100 pointer-events-auto md:group-hover:z-[200] -z-10"
+                )}
+              >
                 <span className="text-[9px] md:text-[11px] tracking-[0.2em] text-cyan-100 font-mono font-semibold">
                   {domain.label}
                 </span>
-                {activeDomain === domain.id && !domain.href && (
+                {!domain.href && (
                   <span className="text-[7px] md:text-[8px] text-cyan-400 font-mono tracking-widest bg-cyan-950/50 px-2 py-0.5 rounded border border-cyan-500/30">
                     COMING SOON
                   </span>
                 )}
                 {domain.href && (
-                  <span className="text-[7px] md:text-[8px] text-emerald-400 font-mono tracking-widest bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-500/30">
+                  <Link href={domain.href} className="text-[8px] md:text-[9px] text-emerald-400 font-mono tracking-[0.2em] font-bold bg-emerald-950/40 hover:bg-emerald-500/20 px-4 py-1.5 rounded border border-emerald-500/30 hover:border-emerald-400 hover:shadow-[0_0_15px_rgba(16,185,129,0.4)] transition-all cursor-pointer active:scale-95">
                     ENTER
-                  </span>
+                  </Link>
                 )}
               </div>
             </motion.div>
@@ -220,17 +224,17 @@ export default function Home() {
         })}
       </div>
 
-      {/* Deep Space Controls & Attribution */}
+      {/* Deep Space Controls & Attribution - Unified Horizontal Boundary */}
       {mounted && (
-        <>
-          <div className="absolute bottom-28 left-1/2 -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 z-50 flex items-center justify-center pointer-events-none">
+        <div className="absolute bottom-[90px] md:bottom-6 left-4 right-4 md:left-8 md:right-8 flex justify-between items-center z-50 pointer-events-none">
+          <div className="pointer-events-auto">
             <button
               onClick={() => {
                 setIsMuted(!isMuted);
                 setVideoOpacity(isMuted ? 0.8 : 0.5);
               }}
               className={cn(
-                "flex items-center gap-2 md:gap-3 px-4 py-2 md:px-5 md:py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 group pointer-events-auto",
+                "flex items-center gap-2 md:gap-3 px-3 py-1.5 md:px-5 md:py-2.5 rounded-full border backdrop-blur-md transition-all duration-500 group pointer-events-auto",
                 isMuted
                   ? "border-cyan-500/30 bg-cyan-500/5 text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-400"
                   : "border-emerald-500/50 bg-emerald-500/20 text-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.3)]"
@@ -241,18 +245,18 @@ export default function Home() {
               ) : (
                 <Volume2 className="w-3.5 h-3.5 md:w-4 md:h-4 animate-pulse" />
               )}
-              <span className="text-[9px] md:text-xs font-mono tracking-[0.2em] font-bold whitespace-nowrap">
+              <span className="hidden sm:inline-block text-[8px] md:text-xs font-mono tracking-[0.2em] font-bold whitespace-nowrap">
                 {isMuted ? "// INITIATE TRANSMISSION" : "// TRANSMISSION ACTIVE"}
               </span>
             </button>
           </div>
 
-          <div className="absolute bottom-20 left-1/2 -translate-x-1/2 md:bottom-10 md:right-10 md:left-auto md:translate-x-0 w-full text-center md:text-right z-50 pointer-events-none">
-            <span className="text-[7px] md:text-[9px] font-mono tracking-[0.3em] text-slate-500 uppercase opacity-60 px-4 md:px-0">
+          <div className="pointer-events-none text-right">
+            <span className="text-[6px] md:text-[9px] font-mono tracking-[0.3em] text-slate-400 md:text-slate-500 uppercase opacity-70 md:opacity-60 bg-slate-950/40 md:bg-transparent px-2 py-1 rounded">
               // ARCHIVE_FOOTAGE: MELODYSHEEP x FEYNMAN
             </span>
           </div>
-        </>
+        </div>
       )}
     </main>
   );

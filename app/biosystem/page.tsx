@@ -49,7 +49,7 @@ export default function BiosystemOS() {
         <main className="relative flex h-screen w-full bg-[#020617] overflow-hidden">
 
             {/* Dynamic 3D Graph (Client-Side Only) */}
-            <UniverseGraph graphData={graphData} />
+            <UniverseGraph graphData={graphData} storageNamespace="biosystem" />
         </main>
     );
 }

@@ -11,7 +11,7 @@ export default function BottomDock() {
 
     return (
         <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-[200] w-[320px] md:w-[520px] pointer-events-auto">
-            <div className="flex items-center justify-center gap-1.5 md:gap-2 px-3 py-1.5 md:px-5 md:py-1.5 rounded-2xl bg-slate-950/60 backdrop-blur-2xl border border-white/[0.08] shadow-[0_8px_32px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.05)]">
+            <div className="flex items-center justify-center gap-1.5 md:gap-2 px-3 py-1.5 md:px-5 md:py-1.5 rounded-2xl bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-2xl border border-white/10 shadow-[inset_0_1px_10px_rgba(255,255,255,0.1),_0_0_30px_rgba(0,240,255,0.2)]">
 
                 {/* About */}
                 <Link

@@ -46,7 +46,7 @@ export default function CognitionOS() {
 
     return (
         <main className="relative flex h-screen w-full bg-[#020617] overflow-hidden">
-            <UniverseGraph graphData={graphData} />
+            <UniverseGraph graphData={graphData} storageNamespace="cognition" />
         </main>
     );
 }

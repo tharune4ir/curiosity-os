@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "generate-textbook": "node scripts/generate-textbook.js",
     "generate:universe": "node scripts/generate-universe.js"
   },
   "dependencies": {

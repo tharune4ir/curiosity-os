@@ -606,8 +606,18 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                 />
             </div>
 
-            {/* Neural Ledger HUD */}
-            <div className="absolute bottom-20 md:bottom-10 right-6 md:right-10 z-40 flex flex-col items-end gap-1 pointer-events-none text-right">
+            {/* Universe Title HUD (Bottom Left) */}
+            <div className="absolute bottom-[100px] md:bottom-10 left-6 md:left-10 z-40 flex flex-col gap-1 pointer-events-none text-left">
+                <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">
+                    {storageNamespace.replace('-', ' ')} UNIVERSE
+                </span>
+                <span className="text-[7px] md:text-[8px] text-slate-500/60 tracking-[0.3em] font-light uppercase">
+                    concept phase
+                </span>
+            </div>
+
+            {/* Neural Ledger HUD (Bottom Right) */}
+            <div className="absolute bottom-[100px] md:bottom-10 right-6 md:right-10 z-40 flex flex-col items-end gap-1 pointer-events-none text-right">
                 <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">Neural Pathways Unlocked</span>
                 <span className="text-xl md:text-2xl font-bold text-white tracking-widest">{unlockedNodes.size} <span className="text-sm text-slate-500">/ {graphData.nodes?.length || 0}</span></span>
                 <button

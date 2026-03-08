@@ -5,19 +5,10 @@ const path = require('path');
 // Add new content directories here as they are created.
 // Each entry: { dir: 'folder_name_inside_content', label: 'Human Label' }
 const CONTENT_SOURCES = [
-  { dir: '1_possibilities', label: 'Possibilities' },
-  { dir: '2_biosystem',     label: 'Biosystem' },
-  { dir: '3_cognition',     label: 'Cognition' },
-  { dir: '4_fun',           label: 'Fun' },
-  { dir: '5_logic',         label: 'Logic' },
-  { dir: '6_signal',        label: 'Signal' },
-  { dir: '7_wealth',        label: 'Wealth' },
-  { dir: '8_digital',       label: 'Digital' },
-  { dir: '9_ai',            label: 'AI' },
+  { dir: '1_another_point_of_view', label: 'Another Point of View' }
 ];
 
-// Fields that go into YAML frontmatter (not rendered as ## sections)
-const FRONTMATTER_KEYS = new Set(['id', 'title', 'icon', 'domain', 'linked_nodes']);
+const FRONTMATTER_KEYS = new Set(['name', 'universe_category', 'domain', 'linked_nodes']);
 
 // ─── Helpers ────────────────────────────────────────────────────────
 
@@ -71,8 +62,11 @@ function processDirectory(contentDir) {
     parsed++;
 
     nodes.forEach(node => {
+      // Create a slug for the file name
+      const slug = (node.name || 'untitled').replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+
       // ── YAML Frontmatter ──
-      let md = `---\ntitle: "${node.title}"\nicon: "${node.icon || 'Hexagon'}"\ndomain: "${node.domain}"\n---\n\n`;
+      let md = `---\ntitle: "${node.name}"\nuniverse_category: "${node.universe_category || ''}"\ndomain: "${node.domain}"\n---\n\n`;
 
       // ── Auto-detect content fields (any key NOT in FRONTMATTER_KEYS) ──
       const contentKeys = Object.keys(node).filter(k => !FRONTMATTER_KEYS.has(k));
@@ -91,7 +85,7 @@ function processDirectory(contentDir) {
       }
 
       // ── Write file ──
-      const outputFilePath = path.join(contentDir, `${node.id}.md`);
+      const outputFilePath = path.join(contentDir, `${slug}.md`);
       fs.writeFileSync(outputFilePath, md, 'utf8');
       generated++;
     });

@@ -17,6 +17,19 @@
 
 ---
 
+## 🎨 Design System & Visual Palette
+Any AI or engineer replicating this project MUST adhere strictly to these physical design parameters:
+- **Core Backgrounds:** Pure deep-space void (`bg-[#020617]`) layered with mesh gradients (`from-slate-950/90 via-slate-950/40 to-transparent`).
+- **Glassmorphism (The 'Lab' Feel):** Panels use `bg-slate-950/60` or `bg-slate-900/40` combined heavily with `backdrop-blur-xl` and `backdrop-blur-2xl`. Borders are universally micro-thin (`border-white/10` or `border-white/[0.08]`).
+- **Primary Accent (Neon Cyan):** Used for standard data and tech-readouts. Glowing box-shadows are engineered via `shadow-[0_0_30px_rgba(0,240,255,0.2)]`. Text elements use `text-cyan-400` or `text-cyan-500`.
+- **Secondary Accent (Emerald Green):** Used exclusively to signify active status, verification, or system readiness (e.g., "ENTER" buttons, `CONCEPT (V 1.0)` badging). Engineered via `rgba(16,185,129,x)`.
+- **Typography Matrix:**
+  - **Headers & Massive Text:** `var(--font-outfit)` (Outfit) — lightweight, highly tracked (`tracking-[0.3em]`), geometric.
+  - **Micro-Readouts & HUDs:** `font-mono` (Geist Mono) — used for all `text-[9px]` or `text-[10px]` technical labels perfectly echoing aviation/cyber instrumentation.
+  - **Body Text:** Standard sans-serif (`Inter`) with `text-slate-300` and high leading (`leading-relaxed`).
+
+---
+
 ## 🌌 The Nine Integrated Universes
 The project is organized into nine core realms, each with its own dedicated 3D map:
 
@@ -56,14 +69,27 @@ The heavy-lifter for all universe sub-pages (e.g., `/wealth`, `/signal`):
 ---
 
 ## 🎨 Advanced UI/UX Space Mechanics & Polishing
-- **Orbital Tooltips:** Tooltips strictly render vertically stacked above their nodes to prevent Z-index collisions with the bottom navigation dock.
-- **Interactive Double-Tap Navigation:** On touch displays, clicking an orbital node reveals the tooltip. Users must explicitly click the 'ENTER' gateway button to jump, preventing misclicks in the 3D map.
-- **Z-Index Layering Override:** Nodes dynamically spike to `z-50` upon hover, completely bypassing stacking context issues caused by absolute DOM ordering.
-- **Microscopic HUD Typography:** Title typography in the Universe maps (e.g., "COGNITION UNIVERSE") has been scaled down to strict `text-[10px]` styling, mirroring realistic aviation/tech instrumentation.
-- **Global Contrast Glow:** Bottom Dock layouts use deep slate gradients and powerful cyan shadow underglows (`_0_0_30px_rgba(0,240,255,0.2)`) to remain heavily contrasted and legible against pitch-black WebGL void backgrounds.
-- **Mobile Clearance Bounds:** Mobile device layouts physically elevate UI overlay elements (like target labels and ledger bounds) to `bottom-[100px]`, effectively vaulting over the fixed `NavBar` dock spacing.
+- **Orbital Tooltips (Symmetric Math):** Tooltips strictly render vertically stacked above their nodes to prevent Z-index collisions with the bottom navigation dock. Their absolute distance geometrically perfectly matches the counterpart downwards tooltips via `bottom-1/2 mb-10 md:mb-14` spacing geometry.
+- **Interactive Double-Tap Navigation (Mobile PWA):** On touch displays, CSS `:hover` states fail. Therefore, clicking an orbital node intercepts routing and instead triggers the tooltip gateway interface. Users must explicitly click the glowing 'ENTER' button to jump, mathematically eliminating misclicks.
+- **Z-Index Layering Override:** Because 10 absolute nodes render sequentially in the DOM, later nodes physically overlap tooltips of earlier nodes. We bypass this stack context by forcing nodes to dynamically spike to `z-50` upon hover.
+- **Microscopic HUD Typography:** Title typography in the Universe maps (e.g., "COGNITION UNIVERSE") is strictly `text-[10px] text-cyan-500 font-mono uppercase tracking-widest`, mirroring realistic jet-fighter/tech instrumentation readouts.
+- **Global Contrast Glow:** Bottom Dock layouts utilize hyper-deep slate gradients (`bg-gradient-to-br from-slate-800/80 to-slate-950/90`) coupled with powerful cyan shadow underglows (`shadow-[0_0_30px_rgba(0,240,255,0.2)]`). This guarantees legibility against the unpredictable canvas of pitch-black WebGL backgrounds.
+- **Mobile Clearance Bounds (The 140px Rule):** Due to `100vh` scaling dynamically failing against native Android/iOS Chrome URL bars, all physical HUD and Information layers are fully decapitated from `absolute bottom-X` relative positioning. Instead, all lower bounds are physically locked to the viewport using `fixed bottom-[140px]`. This guarantees exact margin clearance over global navigation bars regardless of scrolling interference or screen-size stretching.
 
 ---
+
+## 🧠 Data Schema Protocol (`master_universe.json`)
+Every Universe's content originates linearly from a JSON block array. Any system extension must strictly follow this data model format:
+```json
+[
+  {
+    "title": "Node Name",
+    "domain": "DOMAIN_CATEGORY",
+    "icon": "LucideIconName",
+    "content": "Deep markdown chunk here. Internal linking utilizes standard [[target-node-title]] syntax."
+  }
+]
+```
 
 ## 🔧 Automated Workflow & Data Engine
 - **Markdown Matrix Generation:** `npm run generate:universe` executes `scripts/generate-universe.js`, reading `content/[universe]/master_universe.json` to synthesize a flat file-system of pristine `.md` nodes.

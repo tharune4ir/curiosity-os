@@ -12,6 +12,16 @@ import SpriteText from "three-spritetext";
 import dynamic from "next/dynamic";
 const ForceGraph3D = dynamic(() => import("react-force-graph-3d"), { ssr: false });
 
+const getCategoryColor = (category: string) => {
+    switch (category) {
+        case "1": return "#00f0ff"; // Neon Cyan (Cognitive Engine)
+        case "2": return "#10b981"; // Emerald Green (Cybernetic Arsenal)
+        case "3": return "#8b5cf6"; // Deep Violet/Purple (Human Ecosystem)
+        case "4": return "#f59e0b"; // Amber/Gold (Sandbox/Fun)
+        default: return "#00f0ff";
+    }
+};
+
 export default function UniverseGraph({ graphData, storageNamespace = "possibility" }: { graphData: any, storageNamespace?: string }) {
     const [mounted, setMounted] = useState(false);
     const [selectedNode, setSelectedNode] = useState<any>(null);
@@ -502,11 +512,12 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
 
     // Helper to render dynamic icon
     const renderIcon = () => {
-        if (!selectedNode || !selectedNode.icon) return <LucideIcons.Hexagon className="w-8 h-8 text-cyan-400" />;
+        const catColor = selectedNode ? getCategoryColor(selectedNode.universe_category) : "#00f0ff";
+        if (!selectedNode || !selectedNode.icon) return <LucideIcons.Hexagon className="w-8 h-8" style={{ color: catColor }} />;
         const iconName = iconFallbackMap[selectedNode.icon] || selectedNode.icon;
         // @ts-ignore
         const IconComponent = LucideIcons[iconName];
-        return IconComponent ? <IconComponent className="w-8 h-8 text-cyan-400" /> : <LucideIcons.Hexagon className="w-8 h-8 text-cyan-400" />;
+        return IconComponent ? <IconComponent className="w-8 h-8" style={{ color: catColor }} /> : <LucideIcons.Hexagon className="w-8 h-8" style={{ color: catColor }} />;
     };
 
     return (
@@ -564,11 +575,12 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                     nodeThreeObject={(node: any) => {
                         const group = new THREE.Group();
                         const isActive = selectedNode?.id === node.id;
+                        const catColor = getCategoryColor(node.universe_category);
 
                         // 1. The Mathematical Shell (Wireframe Icosahedron)
                         const shellGeo = new THREE.IcosahedronGeometry(isActive ? 8 : 6, 1);
                         const shellMat = new THREE.MeshBasicMaterial({
-                            color: '#00F0FF', // Signature Cyan
+                            color: catColor,
                             wireframe: true,
                             transparent: true,
                             opacity: isActive ? 0.3 : 0.15
@@ -580,7 +592,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                         const coreGeo = new THREE.SphereGeometry(isActive ? 3 : 2, 16, 16);
                         const isUnlocked = unlockedNodes.has(node.id);
                         const coreMat = new THREE.MeshBasicMaterial({
-                            color: isActive ? '#00FF9D' : (isUnlocked ? '#FFFFFF' : '#002244'), // Bright Neon Green active state, pure white unlocked, dim cyan locked
+                            color: isActive ? '#FFFFFF' : (isUnlocked ? catColor : '#002244'),
                             transparent: !isUnlocked && !isActive,
                             opacity: isActive || isUnlocked ? 1 : 0.6
                         });
@@ -637,18 +649,22 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                         animate={{ x: 0 }}
                         exit={{ x: '100%' }}
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                        className="absolute top-0 right-0 h-full w-full md:w-[450px] bg-slate-950/80 backdrop-blur-2xl border-l border-cyan-500/30 shadow-[-20px_0_50px_rgba(0,0,0,0.5)] p-8 overflow-y-auto z-[100] flex flex-col gap-6"
+                        style={{ borderLeftColor: getCategoryColor(selectedNode.universe_category) }}
+                        className="absolute top-0 right-0 h-full w-full md:w-[450px] bg-slate-950/80 backdrop-blur-2xl border-l-[2px] shadow-[-20px_0_50px_rgba(0,0,0,0.5)] p-8 overflow-y-auto z-[100] flex flex-col gap-6"
                     >
                         <div className="flex justify-between items-start mb-2">
                             <div className="flex items-center gap-4 mb-2 pb-4">
                                 {renderIcon()}
-                                <h2 className="text-xl font-bold tracking-[0.1em] uppercase bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(0,240,255,0.2)] m-0">
+                                <h2
+                                    style={{ color: getCategoryColor(selectedNode.universe_category), filter: `drop-shadow(0 0 15px ${getCategoryColor(selectedNode.universe_category)}40)` }}
+                                    className="text-xl font-bold tracking-[0.1em] uppercase m-0"
+                                >
                                     {selectedNode.name}
                                 </h2>
                             </div>
                             <button
                                 onClick={() => setSelectedNode(null)}
-                                className="text-cyan-400 hover:text-white transition-colors p-1 rounded-md hover:bg-cyan-500/10"
+                                className="text-slate-400 hover:text-white transition-colors p-1 rounded-md hover:bg-slate-800"
                             >
                                 <X className="w-5 h-5" />
                             </button>
@@ -656,7 +672,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                         <div className="prose prose-invert prose-cyan max-w-none">
                             <ReactMarkdown
                                 components={{
-                                    h2: ({ node, ...props }: any) => <h2 className="text-cyan-400 text-[10px] md:text-xs tracking-[0.2em] font-mono uppercase mt-8 mb-3 border-b border-white/10 pb-2 drop-shadow-md" {...props} />,
+                                    h2: ({ node, ...props }: any) => <h2 className="text-slate-400 text-[10px] md:text-xs tracking-[0.2em] font-mono uppercase mt-8 mb-3 border-b border-white/10 pb-2 drop-shadow-md" {...props} />,
                                     p: ({ node, ...props }: any) => <p className="text-slate-300 text-xs md:text-sm leading-relaxed mb-4 font-sans" {...props} />,
                                     ul: ({ node, ...props }: any) => <ul className="flex flex-col gap-2 mt-4" {...props} />,
                                     li: ({ node, ...props }: any) => <li className="text-cyan-100 text-xs font-mono bg-slate-900/50 px-3 py-2 rounded border border-cyan-500/20" {...props} />,
@@ -679,8 +695,39 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                                     }
                                 }}
                             >
-                                {selectedNode.content?.replace(/\[\[(.*?)\]\]/g, '[$1](#$1)') || ''}
+                                {selectedNode.description || ''}
                             </ReactMarkdown>
+
+                            {selectedNode.linked_nodes && selectedNode.linked_nodes.length > 0 && (
+                                <div className="mt-8 border-t border-white/10 pt-6 block clear-both">
+                                    <h3
+                                        style={{ color: getCategoryColor(selectedNode.universe_category) }}
+                                        className="text-[10px] md:text-xs font-mono tracking-widest uppercase mb-4 opacity-80"
+                                    >
+                                        Linked Nodes
+                                    </h3>
+                                    <div className="flex flex-wrap gap-2">
+                                        {selectedNode.linked_nodes.map((link: string) => {
+                                            const targetNode = graphData?.nodes?.find((n: any) => n.id === link);
+                                            if (!targetNode) return null;
+                                            const catColor = getCategoryColor(targetNode.universe_category);
+                                            return (
+                                                <button
+                                                    key={link}
+                                                    onClick={(e) => {
+                                                        e.preventDefault();
+                                                        handleNodeClick(targetNode);
+                                                    }}
+                                                    style={{ borderColor: catColor, color: catColor }}
+                                                    className="bg-slate-950/40 hover:bg-slate-900/80 border px-3 py-1.5 rounded-md text-[10px] md:text-xs font-mono transition-all opacity-80 hover:opacity-100 hover:shadow-[0_0_15px_rgba(255,255,255,0.1)] text-left"
+                                                >
+                                                    {link}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </motion.div>
                 )}

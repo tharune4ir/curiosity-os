@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Orbit, Activity, Brain, Sigma, Radio, Database, Terminal, Sparkles, Gamepad2, Search } from "lucide-react";
+import { Orbit, Activity, Brain, Sigma, Radio, Database, Terminal, Sparkles, Gamepad2, Search, Cpu, Navigation } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -10,14 +10,10 @@ import VideoBackground from "@/components/VideoBackground";
 import { Volume2, VolumeX } from "lucide-react";
 
 const domains = [
-  { id: 'biosystem', label: 'BIOSYSTEM', icon: Activity, href: '/biosystem' },
-  { id: 'cognition', label: 'COGNITION', icon: Brain, href: '/cognition' },
-  { id: 'logic', label: 'LOGIC', icon: Sigma, href: '/logic' },
-  { id: 'signal', label: 'SIGNAL', icon: Radio, href: '/signal' },
-  { id: 'wealth', label: 'WEALTH', icon: Database, href: '/wealth' },
-  { id: 'digital', label: 'DIGITAL', icon: Terminal, href: '/digital' },
-  { id: 'ai-nexus', label: 'AI NEXUS', icon: Sparkles, href: '/ai' },
-  { id: 'fun', label: 'FUN', icon: Gamepad2, href: '/fun' },
+  { id: 'cognition', label: 'THE COGNITIVE ENGINE', icon: Brain, href: null, status: 'locked' },
+  { id: 'cybernetic', label: 'THE CYBERNETIC ARSENAL', icon: Cpu, href: null, status: 'locked' },
+  { id: 'human-eco', label: 'THE HUMAN ECOSYSTEM', icon: Navigation, href: null, status: 'locked' },
+  { id: 'sandbox', label: 'THE SANDBOX / FUN OS', icon: Gamepad2, href: null, status: 'locked' },
 ];
 
 // Helper components for the Density Layer
@@ -147,8 +143,8 @@ export default function Home() {
           className="absolute flex items-center justify-center flex-col w-48 h-48 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 shadow-[inset_0_2px_20px_rgba(255,255,255,0.1),_0_0_40px_rgba(0,240,255,0.3)] hover:border-cyan-400/50 hover:from-cyan-900/60 hover:to-slate-900/90 hover:shadow-[inset_0_2px_20px_rgba(255,255,255,0.2),_0_0_60px_rgba(0,240,255,0.5)] transition-colors duration-500 z-20 pointer-events-auto"
         >
           <h1 className="text-center uppercase leading-snug" style={{ fontFamily: 'var(--font-outfit), sans-serif' }}>
-            <span className="block text-[11px] md:text-lg tracking-[0.4em] font-light text-slate-300/80">INFINITE</span>
-            <span className="block text-[13px] md:text-xl tracking-[0.35em] font-semibold bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(0,240,255,0.25)]">POSSIBILITIES</span>
+            <span className="block text-[11px] md:text-lg tracking-[0.4em] font-light text-slate-300/80">ANOTHER</span>
+            <span className="block text-[13px] md:text-xl tracking-[0.35em] font-semibold bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(0,240,255,0.25)]">POINT OF VIEW</span>
           </h1>
 
           {/* Pulsing Divider */}
@@ -159,9 +155,9 @@ export default function Home() {
           />
 
           {/* Search Button */}
-          <Link href="/possibility" className="flex items-center gap-2 text-[7px] md:text-[9px] font-mono font-medium px-4 py-1.5 md:px-5 md:py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-100 tracking-[0.15em] uppercase whitespace-nowrap hover:bg-cyan-400/20 hover:text-white hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all duration-300 active:scale-95">
+          <Link href="/another_point_of_view" className="flex items-center gap-2 text-[7px] md:text-[9px] font-mono font-medium px-4 py-1.5 md:px-5 md:py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-100 tracking-[0.15em] uppercase whitespace-nowrap hover:bg-cyan-400/20 hover:text-white hover:border-cyan-300 hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all duration-300 active:scale-95">
             <Search className="w-3 h-3 md:w-3.5 md:h-3.5" strokeWidth={1.5} />
-            SEARCH
+            ENTER GATEWAY
           </Link>
         </motion.div>
 

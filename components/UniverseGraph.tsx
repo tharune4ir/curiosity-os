@@ -600,7 +600,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                         group.add(core);
 
                         // 3. Floating Holographic Data (SpriteText) — ALWAYS ON TOP
-                        const sprite = new SpriteText(node.name || "");
+                        const sprite = new SpriteText(node.canonical_name || node.name || "");
                         sprite.color = isActive ? 'rgba(255, 255, 255, 0.95)' : 'rgba(255, 255, 255, 0.6)';
                         sprite.textHeight = isActive ? 3.5 : 2.5;
                         sprite.fontFace = 'monospace';
@@ -659,7 +659,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                                     style={{ color: getCategoryColor(selectedNode.universe_category), filter: `drop-shadow(0 0 15px ${getCategoryColor(selectedNode.universe_category)}40)` }}
                                     className="text-xl font-bold tracking-[0.1em] uppercase m-0"
                                 >
-                                    {selectedNode.name}
+                                    {selectedNode.canonical_name || selectedNode.name}
                                 </h2>
                             </div>
                             <button
@@ -721,7 +721,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                                                     style={{ borderColor: catColor, color: catColor }}
                                                     className="bg-slate-950/40 hover:bg-slate-900/80 border px-3 py-1.5 rounded-md text-[10px] md:text-xs font-mono transition-all opacity-80 hover:opacity-100 hover:shadow-[0_0_15px_rgba(255,255,255,0.1)] text-left"
                                                 >
-                                                    {link}
+                                                    {targetNode.canonical_name || targetNode.name}
                                                 </button>
                                             );
                                         })}
@@ -770,7 +770,7 @@ export default function UniverseGraph({ graphData, storageNamespace = "possibili
                                             className="flex items-center justify-between w-full p-4 rounded-xl hover:bg-slate-800/50 transition-colors group text-left border border-transparent hover:border-cyan-500/20"
                                         >
                                             <span className="text-sm text-slate-300 group-hover:text-cyan-300 font-mono">
-                                                {node.name}
+                                                {node.canonical_name || node.name}
                                             </span>
                                             {unlockedNodes.has(node.id) && (
                                                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />

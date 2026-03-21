@@ -48,7 +48,8 @@ export default function BottomDock() {
                 </Link>
 
                 {/* AI Agent */}
-                <button
+                <Link
+                    href="/another_point_of_view"
                     className="relative flex items-center justify-center w-8 h-8 md:w-9 md:h-9 rounded-full border border-white/[0.06] bg-transparent text-slate-500 hover:text-cyan-300 hover:bg-slate-800/50 hover:border-cyan-500/20 hover:shadow-[0_0_10px_rgba(0,240,255,0.1)] transition-all duration-300"
                     onMouseEnter={() => setActiveTooltip("ai")}
                     onMouseLeave={() => setActiveTooltip(null)}
@@ -60,9 +61,8 @@ export default function BottomDock() {
                         activeTooltip === "ai" ? "opacity-100 translate-y-0" : "opacity-0 translate-y-1"
                     )}>
                         <span className="text-[9px] md:text-[10px] tracking-widest text-cyan-100 font-mono">CURIOSITY AI</span>
-                        <span className="text-[7px] md:text-[8px] text-cyan-400 font-mono tracking-widest bg-cyan-950/50 px-2 py-0.5 rounded border border-cyan-500/30">COMING SOON</span>
                     </div>
-                </button>
+                </Link>
 
             </div>
         </div>

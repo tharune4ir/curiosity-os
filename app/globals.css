@@ -20,7 +20,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-jetbrains-mono), monospace;
   position: relative;
-  overflow: hidden; 
+  overflow-x: hidden; 
   min-height: 100vh;
 }
 

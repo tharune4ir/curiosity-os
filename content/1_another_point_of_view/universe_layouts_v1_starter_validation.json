@@ -1,0 +1,14 @@
+{
+  "validated_against": "curiosity_os_universe_layouts_schema_v1.json",
+  "is_valid": true,
+  "error_count": 0,
+  "errors": [],
+  "layout_count": 4,
+  "node_count_per_layout": {
+    "overview-galaxy": 147,
+    "curriculum-flow": 147,
+    "wing-clusters": 147,
+    "sandbox-practice-map": 147
+  },
+  "master_universe_node_count": 147
+}

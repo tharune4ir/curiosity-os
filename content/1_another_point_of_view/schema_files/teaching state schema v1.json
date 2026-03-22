@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curiosity-os.local/schema/teaching_state_v1.json",
+  "title": "Curiosity OS Teaching State Schema v1",
+  "description": "Schema for dynamic teaching and progress state stored separately from the canonical universe graph.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "updated_at",
+    "states"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "curiosity-os.teaching-state.v1"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "node_id",
+          "status",
+          "coverage_stage",
+          "last_taught_on",
+          "mastery_estimate",
+          "remarks"
+        ],
+        "properties": {
+          "node_id": {
+            "type": "string",
+            "pattern": "^COS-[0-9]{4,}$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "not_started",
+              "planned",
+              "in_progress",
+              "covered",
+              "revisit_needed",
+              "mastered"
+            ]
+          },
+          "coverage_stage": {
+            "type": "string"
+          },
+          "last_taught_on": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "mastery_estimate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "remarks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "first_taught_on": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "next_review_on": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "classes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}

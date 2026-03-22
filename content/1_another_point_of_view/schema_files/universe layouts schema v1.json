@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://curiosity-os.local/schema/universe_layouts_v1.json",
+  "title": "Curiosity OS Universe Layouts Schema v1",
+  "description": "Schema for saved graph layouts, coordinates, and named view presets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "updated_at",
+    "layouts"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "curiosity-os.layouts.v1"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "layouts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "layout_id",
+          "name",
+          "description",
+          "nodes"
+        ],
+        "properties": {
+          "layout_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "nodes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "node_id",
+                "x",
+                "y",
+                "z"
+              ],
+              "properties": {
+                "node_id": {
+                  "type": "string",
+                  "pattern": "^COS-[0-9]{4,}$"
+                },
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                },
+                "z": {
+                  "type": "number"
+                },
+                "cluster": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "pinned": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "filters": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -10,10 +10,9 @@
 - **UI & Styling:** React, Tailwind CSS, Framer Motion (for smooth 2D transitions & glassmorphic HUDs)
 - **3D Engine:** `react-force-graph-3d` (Three.js powered) for real-time node-link physics.
 - **Content Engine:** 
-  - **Source:** Directory-specific `master_universe.json` files.
-  - **Generator:** `scripts/generate-universe.js` (Custom Node.js script for Markdown batch-generation).
-  - **Parser:** `gray-matter` & `react-markdown` for Zettelkasten-style reading.
-- **Icons:** `lucide-react` with a massive custom `iconFallbackMap` in `UniverseGraph.tsx` to handle 100+ specialized conceptual icons.
+  - **Source of Truth:** Pure structured data split across 3 JSON files (Master Schema, Teaching State, and Layouts). Markdown wikilinks have been completely eradicated.
+  - **Generator:** Data parsed directly via the `app/another_point_of_view/page.tsx` React component.
+- **Icons:** `lucide-react` with a massive dynamic mapping to handle 100+ specialized conceptual icons.
 
 ---
 
@@ -34,10 +33,10 @@ Any AI or engineer replicating this project MUST adhere strictly to these physic
 The project originally featured nine separate conceptual universes. It has been stripped down and fundamentally re-architected into a "1+4 Core Engine" model for maximum density:
 
 ### The Central Core: "Another Point of View"
-A single, highly concentrated master directory (`content/1_another_point_of_view`) containing a `master_universe.json` file.
-- **Node Count:** Exactly 190 pre-validated conceptual nodes.
-- **Relational Data Mapping:** No longer relies on implicit Markdown wikilinks. Edges are drawn strictly from explicit explicit string arrays in the `linked_nodes` JSON property.
-- **Color-Coding Dimensions:** Nodes and edges are visually gamified based on a `universe_category` integer (1: Neon Cyan, 2: Emerald Green, 3: Deep Violet, 4: Amber/Gold).
+A highly concentrated Atomic Universe defined entirely in `content/1_another_point_of_view/schema_files/`.
+- **Node Count:** V1 Schema locked at 147 pre-validated conceptual atoms.
+- **Relational Data Mapping:** No longer relies on implicit Markdown wikilinks. Edges are strictly mapped via Top-Level typed edges (e.g., `builds_on`, `reinforces`, `practiced_in`).
+- **Color-Coding Dimensions:** Nodes and edges are visually gamified based on a taxonomy wing codes.
 
 ### The Four Orbitals (Conceptual Pillars)
 1. **The Cognitive Engine**
@@ -53,9 +52,10 @@ Total Intelligence Nodes: **190**
 
 ## 🗺️ Core Architecture & Component Logic
 
-### 1. The Home Gateway (`app/page.tsx`)
-- **NeuralCore3D:** A pulsing 3D wireframe energy core background overlaying cinematic space footage.
-- **The Core Orb Hub:** A single central gateway labeled "Another Point of View". Clicking "ENTER GATEWAY" plummets the user straight into the massive 190-node 3D mapping engine.
+### 1. The Home Gateway (`app/page.tsx` & `app/gateway/page.tsx`)
+- **NeuralCore3D:** A pulsing 3D wireframe energy core background overlaying cinematic space footage on `app/page.tsx`.
+- **The Core Orb Hub:** A single central orb labeled "Another Point of View". Clicking "ENTER GATEWAY" routes the user to `app/gateway/page.tsx`, the formal manifesto.
+- **The Manifesto (`/gateway`):** A beautiful scrolling thesis explaining the 4 Wings (Decode, Cognition, Relate, Sandbox) and why the OS exists, leading to a final CTA button "Explore the Core Graph" which boots up the 3D mapping engine.
 - **Density Layer:** A terminal-style log feed (`TerminalLogs`) and live UTC clock (`LiveTime`) providing real-time system feedback, hard-anchored to the bottom bounding boxes for flawless mobile OS clearance.
 
 ### 2. The Universe Engine (`components/UniverseGraph.tsx`)
@@ -81,26 +81,28 @@ The heavy-lifter for the 3D data-visualization:
 
 ---
 
-## 🧠 Data Schema Protocol (`master_universe.json`)
-The core architectural pivot removed the reliance on individual Markdown text blobs. All node mapping, descriptions, edges, and gamification properties are contained squarely within a pure massive array:
-```json
-[
-  {
-    "name": "Node Title String",
-    "universe_category": "2",
-    "domain": "Domain Name",
-    "description": "Raw text string detailing the node's conceptual data.",
-    "linked_nodes": [
-      "Exact Node Title Target 1",
-      "Exact Node Title Target 2"
-    ]
-  }
-]
-```
+## 🧠 Data Schema Protocol (The 3-File Split)
+The core architectural pivot removed the reliance on individual Markdown text files or single bloated JSONs. The architecture is strictly decoupled into 3 state files located in `content/1_another_point_of_view/schema_files/`:
 
-## 🔧 Automated Workflow & Content Scripts
-- **Static Generation Sandbox:** `npm run generate:universe` executes `scripts/generate-universe.js`, which reads the singular `content/1_another_point_of_view/master_universe.json` and parses it into individual static `.md` files in batch form, primarily used for offline raw backups.
-- **Engine Ingestion:** The `app/another_point_of_view/page.tsx` server component bypasses flat files entirely, using `fs` to natively parse the JSON master array directly into `ForceGraph3D`. Node IDs match their `name` keys exactly, making link-targeting hyper-resilient without regex hacking.
+1. **`master_universe_v1.json` (Immutable Infrastructure)**: Stores the 147 conceptual topological nodes, 5-part teaching descriptions, and physical network edges.
+2. **`teaching_state_v1_starter.json` (Volatile Progress)**: Stores the mentor's progress through the map. Records `status`, `mastery_estimate`, `last_taught_on`, and `remarks`.
+3. **`universe_layouts_v1_starter.json` (Visual Presets)**: Stores physical X/Y/Z mapping positions to retain curated cluster views.
+
+Please see the root `CURIOSITY_SCHEMA_V1.md` document for the absolute exhaustive TypeScript interfaces for these files.
+
+---
+
+## 🔄 The Teaching Cycle & Progress Tracking
+Curiosity OS has grown beyond a visualization tool into a complete **Teaching OS**.
+1. **Adding a Topic:** The Founder uses the AI to generate a valid schema node to inject into `master_universe_v1.json`. Upon UI refresh, it spawns instantly in 3D.
+2. **Session Building:** Using the global Bottom Dock and multi-select HUD, the Founder queues up specific atoms into a "Session Stack" before class.
+3. **Reporting Mastery:** After class, the Founder logs completion logic into `teaching_state_v1_starter.json`. Upon refresh, the visual graph gamifies and illuminates the completed nodes in brilliant neon colors. The OS physically tracks chronological cycles over time.
+
+---
+
+## 🚀 Next Horizon: Phase 5 (Supabase Integration)
+Currently, all graph and teaching states run cleanly from local JSON. The exact next evolutionary step is migrating these 3 files to live **Supabase PostgreSQL** tables. 
+- Supabase will become the "Cloud Memory" for the OS, enabling real-time remote fetching, cross-device persistence (like using an iPad while teaching), and eventual Multi-Tenant tracking for distinct cohorts of students.
 
 ---
 

@@ -132,7 +132,7 @@ export default function Home() {
           onClick={(e) => e.stopPropagation()}
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col w-48 h-48 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 shadow-[inset_0_2px_20px_rgba(255,255,255,0.1),_0_0_40px_rgba(0,240,255,0.3)] hover:border-cyan-400/50 hover:from-cyan-900/60 hover:to-slate-900/90 hover:shadow-[inset_0_2px_20px_rgba(255,255,255,0.2),_0_0_60px_rgba(0,240,255,0.5)] transition-colors duration-500 z-20 pointer-events-auto"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col w-64 h-64 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-slate-800/80 to-slate-950/90 backdrop-blur-xl border border-white/10 shadow-[inset_0_2px_20px_rgba(255,255,255,0.1),_0_0_40px_rgba(0,240,255,0.3)] hover:border-cyan-400/50 hover:from-cyan-900/60 hover:to-slate-900/90 hover:shadow-[inset_0_2px_20px_rgba(255,255,255,0.2),_0_0_60px_rgba(0,240,255,0.5)] transition-colors duration-500 z-20 pointer-events-auto"
         >
           <h1 className="text-center uppercase leading-snug" style={{ fontFamily: 'var(--font-outfit), sans-serif' }}>
             <span className="block text-[11px] md:text-lg tracking-[0.4em] font-light text-slate-300/80">ANOTHER</span>

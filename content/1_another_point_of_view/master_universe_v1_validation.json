@@ -1,0 +1,33 @@
+{
+  "schema_file": "/mnt/data/curiosity_os_master_universe_schema_v1.json",
+  "validated_at": "2026-03-22T00:00:00Z",
+  "is_valid_against_schema": true,
+  "checks": {
+    "unique_node_ids": true,
+    "unique_slugs": true,
+    "edge_references_valid_nodes": true,
+    "linked_node_ids_match_edge_neighborhood": true,
+    "wikilinks_unique_per_node": true,
+    "sequence_numbers_contiguous": true
+  },
+  "counts": {
+    "node_count": 147,
+    "edge_count": 381,
+    "node_type_counts": {
+      "topic": 97,
+      "embedded_topic": 7,
+      "practice_zone": 5,
+      "practice_atom": 30,
+      "outcome": 8
+    },
+    "wing_counts": {
+      "W1": 15,
+      "W2": 72,
+      "W3": 17,
+      "W4": 43
+    }
+  },
+  "hashes": {
+    "master_universe_sha256": "ed86769169c916b7fc89c7f44c82e7c121bce1f8d106ef34bfe2ed0550d021ea"
+  }
+}

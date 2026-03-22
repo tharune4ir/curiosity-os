@@ -1,0 +1,18 @@
+{
+  "curiosity_os_master_universe_schema_v1.json": {
+    "size_bytes": 15141,
+    "sha256": "5c43f81cc0cc6f6449b0130ff87bc2f34e332a7b3993bd9c9631f9bc4e86332c"
+  },
+  "curiosity_os_teaching_state_schema_v1.json": {
+    "size_bytes": 2317,
+    "sha256": "8f07975513ff22a1010d751411ee0ff71c6fd4457b3e589751f7a03031851151"
+  },
+  "curiosity_os_universe_layouts_schema_v1.json": {
+    "size_bytes": 2201,
+    "sha256": "c7a1fb6c30f5fcfe3613c6cc6a84d9e202b968547a0aaa1a83b821a272edcfa1"
+  },
+  "curiosity_os_schema_pack_v1_notes.md": {
+    "size_bytes": 840,
+    "sha256": "7b92e0505a53f9d5741ab3c01eeb39260486c9c946e5577293d28dfae5c5e41b"
+  }
+}

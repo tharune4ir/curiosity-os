@@ -1,0 +1,4758 @@
+{
+  "schema_version": "curiosity-os.layouts.v1",
+  "updated_at": "2026-03-22T11:47:59Z",
+  "layouts": [
+    {
+      "layout_id": "overview-galaxy",
+      "name": "Overview Galaxy",
+      "description": "High-level starter view with four wing galaxies and local subclusters for modules, public topics, and sandbox zones.",
+      "nodes": [
+        {
+          "node_id": "COS-0011",
+          "x": -631.399,
+          "y": 347.953,
+          "z": 45.0,
+          "cluster": "W1:3D Worldbuilding",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0010",
+          "x": -666.855,
+          "y": 458.854,
+          "z": 45.0,
+          "cluster": "W1:Blueprint Vision",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0013",
+          "x": -744.353,
+          "y": 545.745,
+          "z": 45.0,
+          "cluster": "W1:Clock Math",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0004",
+          "x": -850.493,
+          "y": 593.604,
+          "z": 45.0,
+          "cluster": "W1:Code of X",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0009",
+          "x": -966.922,
+          "y": 594.153,
+          "z": 45.0,
+          "cluster": "W1:Enemy Move Parser",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0001",
+          "x": -1073.509,
+          "y": 547.299,
+          "z": 45.0,
+          "cluster": "W1:Feed Hacker",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0005",
+          "x": -1151.824,
+          "y": 461.143,
+          "z": 45.0,
+          "cluster": "W1:Growth Loops",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0007",
+          "x": -1188.325,
+          "y": 350.582,
+          "z": 45.0,
+          "cluster": "W1:Logic Locks",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0012",
+          "x": -1176.701,
+          "y": 234.733,
+          "z": 45.0,
+          "cluster": "W1:Mind Rotation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0003",
+          "x": -1118.963,
+          "y": 133.628,
+          "z": 45.0,
+          "cluster": "W1:Odds Engine",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0014",
+          "x": -1025.092,
+          "y": 64.748,
+          "z": 45.0,
+          "cluster": "W1:Prime Armor",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0008",
+          "x": -911.322,
+          "y": 40.003,
+          "z": 45.0,
+          "cluster": "W1:Search Space",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0015",
+          "x": -797.322,
+          "y": 63.673,
+          "z": 45.0,
+          "cluster": "W1:Secret Message Lab",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0002",
+          "x": -702.806,
+          "y": 131.663,
+          "z": 45.0,
+          "cluster": "W1:Signal vs Noise",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0006",
+          "x": -644.116,
+          "y": 232.219,
+          "z": 45.0,
+          "cluster": "W1:Street Math",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0081",
+          "x": 1247.897,
+          "y": 429.037,
+          "z": -115.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0082",
+          "x": 1166.604,
+          "y": 466.865,
+          "z": -101.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0083",
+          "x": 1212.793,
+          "y": 373.252,
+          "z": -87.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0084",
+          "x": 1241.97,
+          "y": 473.479,
+          "z": -73.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0085",
+          "x": 1136.998,
+          "y": 416.496,
+          "z": -59.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0086",
+          "x": 1268.647,
+          "y": 390.393,
+          "z": -45.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0087",
+          "x": 1189.206,
+          "y": 498.569,
+          "z": -115.0,
+          "cluster": "W2:External Thinking, Dialogue & Synthesis",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0026",
+          "x": 1065.548,
+          "y": 589.616,
+          "z": -115.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0027",
+          "x": 984.255,
+          "y": 627.443,
+          "z": -101.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0028",
+          "x": 1030.443,
+          "y": 533.83,
+          "z": -87.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0029",
+          "x": 1059.62,
+          "y": 634.057,
+          "z": -73.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0030",
+          "x": 954.648,
+          "y": 577.074,
+          "z": -59.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0031",
+          "x": 1086.298,
+          "y": 550.971,
+          "z": -45.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0032",
+          "x": 1006.856,
+          "y": 659.147,
+          "z": -115.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0033",
+          "x": 992.362,
+          "y": 525.719,
+          "z": -101.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0034",
+          "x": 1093.179,
+          "y": 614.314,
+          "z": -87.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0035",
+          "x": 944.205,
+          "y": 623.193,
+          "z": -73.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0036",
+          "x": 1062.846,
+          "y": 509.911,
+          "z": -59.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0037",
+          "x": 1051.885,
+          "y": 673.582,
+          "z": -45.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0038",
+          "x": 949.409,
+          "y": 545.492,
+          "z": -115.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0039",
+          "x": 1111.495,
+          "y": 570.72,
+          "z": -101.0,
+          "cluster": "W2:Learning Engine, Memory & Mastery",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0016",
+          "x": 826.309,
+          "y": 547.168,
+          "z": -115.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0017",
+          "x": 745.016,
+          "y": 584.995,
+          "z": -101.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0018",
+          "x": 791.205,
+          "y": 491.382,
+          "z": -87.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0019",
+          "x": 820.382,
+          "y": 591.61,
+          "z": -73.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0020",
+          "x": 715.41,
+          "y": 534.627,
+          "z": -59.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0021",
+          "x": 847.06,
+          "y": 508.524,
+          "z": -45.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0022",
+          "x": 767.618,
+          "y": 616.7,
+          "z": -115.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0023",
+          "x": 753.124,
+          "y": 483.272,
+          "z": -101.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0024",
+          "x": 853.94,
+          "y": 571.867,
+          "z": -87.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0025",
+          "x": 704.967,
+          "y": 580.745,
+          "z": -73.0,
+          "cluster": "W2:Mental Defense & Bias Immunity",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0040",
+          "x": 710.333,
+          "y": 333.658,
+          "z": -115.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0041",
+          "x": 629.041,
+          "y": 371.486,
+          "z": -101.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0042",
+          "x": 675.229,
+          "y": 277.873,
+          "z": -87.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0043",
+          "x": 704.406,
+          "y": 378.1,
+          "z": -73.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0044",
+          "x": 599.434,
+          "y": 321.117,
+          "z": -59.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0045",
+          "x": 731.084,
+          "y": 295.014,
+          "z": -45.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0046",
+          "x": 651.642,
+          "y": 403.19,
+          "z": -115.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0047",
+          "x": 637.148,
+          "y": 269.762,
+          "z": -101.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0048",
+          "x": 737.964,
+          "y": 358.357,
+          "z": -87.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0049",
+          "x": 588.991,
+          "y": 367.235,
+          "z": -73.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0050",
+          "x": 707.632,
+          "y": 253.954,
+          "z": -59.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0051",
+          "x": 696.67,
+          "y": 417.625,
+          "z": -45.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0052",
+          "x": 594.195,
+          "y": 289.534,
+          "z": -115.0,
+          "cluster": "W2:Probability, Decisions & Trade-Offs",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0053",
+          "x": 804.952,
+          "y": 109.864,
+          "z": -115.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0054",
+          "x": 723.66,
+          "y": 147.691,
+          "z": -101.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0055",
+          "x": 769.848,
+          "y": 54.078,
+          "z": -87.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0056",
+          "x": 799.025,
+          "y": 154.305,
+          "z": -73.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0057",
+          "x": 694.053,
+          "y": 97.322,
+          "z": -59.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0058",
+          "x": 825.703,
+          "y": 71.219,
+          "z": -45.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0059",
+          "x": 746.261,
+          "y": 179.395,
+          "z": -115.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0060",
+          "x": 731.767,
+          "y": 45.967,
+          "z": -101.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0061",
+          "x": 832.583,
+          "y": 134.562,
+          "z": -87.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0062",
+          "x": 683.61,
+          "y": 143.441,
+          "z": -73.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0063",
+          "x": 802.251,
+          "y": 30.159,
+          "z": -59.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0064",
+          "x": 791.289,
+          "y": 193.83,
+          "z": -45.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0065",
+          "x": 688.814,
+          "y": 65.74,
+          "z": -115.0,
+          "cluster": "W2:Problem-Solving, Logic & Scientific Reasoning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0074",
+          "x": 1038.916,
+          "y": 44.306,
+          "z": -115.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0075",
+          "x": 957.623,
+          "y": 82.133,
+          "z": -101.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0076",
+          "x": 1003.812,
+          "y": -11.48,
+          "z": -87.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0077",
+          "x": 1032.988,
+          "y": 88.748,
+          "z": -73.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0078",
+          "x": 928.016,
+          "y": 31.765,
+          "z": -59.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0079",
+          "x": 1059.666,
+          "y": 5.661,
+          "z": -45.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0080",
+          "x": 980.224,
+          "y": 113.837,
+          "z": -115.0,
+          "cluster": "W2:Research, Truth & Source Evaluation",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0066",
+          "x": 1236.045,
+          "y": 186.351,
+          "z": -115.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0067",
+          "x": 1154.752,
+          "y": 224.179,
+          "z": -101.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0068",
+          "x": 1200.941,
+          "y": 130.566,
+          "z": -87.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0069",
+          "x": 1230.117,
+          "y": 230.793,
+          "z": -73.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0070",
+          "x": 1125.145,
+          "y": 173.81,
+          "z": -59.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0071",
+          "x": 1256.795,
+          "y": 147.707,
+          "z": -45.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0072",
+          "x": 1177.353,
+          "y": 255.883,
+          "z": -115.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0073",
+          "x": 1162.86,
+          "y": 122.455,
+          "z": -101.0,
+          "cluster": "W2:Systems, Complexity & Incentives",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0093",
+          "x": -631.399,
+          "y": -292.047,
+          "z": -115.0,
+          "cluster": "W3:Active Listening / Empathy",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0091",
+          "x": -701.037,
+          "y": -133.628,
+          "z": -115.0,
+          "cluster": "W3:Assertiveness / Boundaries",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0098",
+          "x": -782.33,
+          "y": -95.8,
+          "z": -101.0,
+          "cluster": "W3:Assertiveness / Boundaries",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0089",
+          "x": -850.493,
+          "y": -46.396,
+          "z": -115.0,
+          "cluster": "W3:Clear Communication",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0102",
+          "x": -931.785,
+          "y": -8.569,
+          "z": -101.0,
+          "cluster": "W3:Clear Communication",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0096",
+          "x": -1022.678,
+          "y": -63.673,
+          "z": -115.0,
+          "cluster": "W3:Cooperation & Fairness",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0100",
+          "x": -1103.97,
+          "y": -25.845,
+          "z": -101.0,
+          "cluster": "W3:Cooperation & Fairness",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0101",
+          "x": -1057.782,
+          "y": -119.458,
+          "z": -87.0,
+          "cluster": "W3:Cooperation & Fairness",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0095",
+          "x": -1151.824,
+          "y": -178.857,
+          "z": -115.0,
+          "cluster": "W3:Manipulation / Red-Flag Detection",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0104",
+          "x": -1233.116,
+          "y": -141.03,
+          "z": -101.0,
+          "cluster": "W3:Manipulation / Red-Flag Detection",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0094",
+          "x": -1188.601,
+          "y": -347.953,
+          "z": -115.0,
+          "cluster": "W3:Peer Pressure / Conformity Defense",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0099",
+          "x": -1269.894,
+          "y": -310.126,
+          "z": -101.0,
+          "cluster": "W3:Peer Pressure / Conformity Defense",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0090",
+          "x": -1118.963,
+          "y": -506.372,
+          "z": -115.0,
+          "cluster": "W3:Reliability / Follow-Through",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0103",
+          "x": -1200.255,
+          "y": -468.545,
+          "z": -101.0,
+          "cluster": "W3:Reliability / Follow-Through",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0097",
+          "x": -969.507,
+          "y": -593.604,
+          "z": -115.0,
+          "cluster": "W3:Reputation / Social Capital",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0092",
+          "x": -797.322,
+          "y": -576.327,
+          "z": -115.0,
+          "cluster": "W3:Self-Regulation in Relationships",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0088",
+          "x": -668.176,
+          "y": -461.143,
+          "z": -115.0,
+          "cluster": "W3:Social Calibration",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0107",
+          "x": 1247.897,
+          "y": -210.963,
+          "z": 85.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0121",
+          "x": 1166.604,
+          "y": -173.135,
+          "z": 99.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0122",
+          "x": 1212.793,
+          "y": -266.748,
+          "z": 113.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0123",
+          "x": 1241.97,
+          "y": -166.521,
+          "z": 127.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0124",
+          "x": 1136.998,
+          "y": -223.504,
+          "z": 141.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0125",
+          "x": 1268.647,
+          "y": -249.607,
+          "z": 155.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0126",
+          "x": 1189.206,
+          "y": -141.431,
+          "z": 85.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0109",
+          "x": 1167.684,
+          "y": -103.602,
+          "z": 85.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0133",
+          "x": 1086.392,
+          "y": -65.774,
+          "z": 99.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0134",
+          "x": 1132.58,
+          "y": -159.387,
+          "z": 113.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0135",
+          "x": 1161.757,
+          "y": -59.16,
+          "z": 127.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0136",
+          "x": 1056.785,
+          "y": -116.143,
+          "z": 141.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0137",
+          "x": 1188.435,
+          "y": -142.246,
+          "z": 155.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0138",
+          "x": 1108.993,
+          "y": -34.07,
+          "z": 85.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0139",
+          "x": 1094.499,
+          "y": -167.498,
+          "z": 99.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0143",
+          "x": 1046.766,
+          "y": -45.815,
+          "z": 85.0,
+          "cluster": "W4:Confidence Through Action",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0147",
+          "x": 912.844,
+          "y": -50.84,
+          "z": 85.0,
+          "cluster": "W4:Curiosity Through Lived Experience",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0141",
+          "x": 796.597,
+          "y": -117.527,
+          "z": 85.0,
+          "cluster": "W4:Embodiment of Cognition Concepts",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0140",
+          "x": 724.656,
+          "y": -230.598,
+          "z": 85.0,
+          "cluster": "W4:Embodiment of Decode Concepts",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0142",
+          "x": 713.503,
+          "y": -364.15,
+          "z": 85.0,
+          "cluster": "W4:Embodiment of Relate Concepts",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0146",
+          "x": 765.691,
+          "y": -487.588,
+          "z": 85.0,
+          "cluster": "W4:Emotional and Social Flexibility",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0106",
+          "x": 869.266,
+          "y": -572.633,
+          "z": 85.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0115",
+          "x": 787.974,
+          "y": -534.805,
+          "z": 99.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0116",
+          "x": 834.162,
+          "y": -628.418,
+          "z": 113.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0117",
+          "x": 863.339,
+          "y": -528.191,
+          "z": 127.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0118",
+          "x": 758.367,
+          "y": -585.174,
+          "z": 141.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0119",
+          "x": 890.017,
+          "y": -611.277,
+          "z": 155.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0120",
+          "x": 810.575,
+          "y": -503.101,
+          "z": 85.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0144",
+          "x": 1000.5,
+          "y": -599.803,
+          "z": 85.0,
+          "cluster": "W4:Play-Based Learning",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0105",
+          "x": 1129.328,
+          "y": -562.874,
+          "z": 85.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0110",
+          "x": 1048.036,
+          "y": -525.046,
+          "z": 99.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0111",
+          "x": 1094.224,
+          "y": -618.659,
+          "z": 113.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0112",
+          "x": 1123.401,
+          "y": -518.432,
+          "z": 127.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0113",
+          "x": 1018.429,
+          "y": -575.415,
+          "z": 141.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0114",
+          "x": 1150.079,
+          "y": -601.518,
+          "z": 155.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0145",
+          "x": 1226.238,
+          "y": -470.305,
+          "z": 85.0,
+          "cluster": "W4:Teamwork Under Pressure",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0108",
+          "x": 1269.029,
+          "y": -343.303,
+          "z": 85.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0127",
+          "x": 1187.736,
+          "y": -305.476,
+          "z": 99.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0128",
+          "x": 1233.924,
+          "y": -399.089,
+          "z": 113.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0129",
+          "x": 1263.101,
+          "y": -298.862,
+          "z": 127.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0130",
+          "x": 1158.129,
+          "y": -355.844,
+          "z": 141.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0131",
+          "x": 1289.779,
+          "y": -381.948,
+          "z": 155.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0132",
+          "x": 1210.337,
+          "y": -273.772,
+          "z": 85.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        }
+      ],
+      "filters": {
+        "focus": "overview",
+        "group_by": "wing_then_local_cluster",
+        "default": true
+      }
+    },
+    {
+      "layout_id": "curriculum-flow",
+      "name": "Curriculum Flow",
+      "description": "Sequence-first layout for planning and progress tracking, ordered by sequence number with wing bands and type depth.",
+      "nodes": [
+        {
+          "node_id": "COS-0001",
+          "x": -3066.0,
+          "y": 378.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0002",
+          "x": -3024.0,
+          "y": 396.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0003",
+          "x": -2982.0,
+          "y": 414.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0004",
+          "x": -2940.0,
+          "y": 432.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0005",
+          "x": -2898.0,
+          "y": 450.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0006",
+          "x": -2856.0,
+          "y": 468.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0007",
+          "x": -2814.0,
+          "y": 486.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0008",
+          "x": -2772.0,
+          "y": 504.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0009",
+          "x": -2730.0,
+          "y": 522.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0010",
+          "x": -2688.0,
+          "y": 540.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0011",
+          "x": -2646.0,
+          "y": 558.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0012",
+          "x": -2604.0,
+          "y": 576.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0013",
+          "x": -2562.0,
+          "y": 594.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0014",
+          "x": -2520.0,
+          "y": 612.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0015",
+          "x": -2478.0,
+          "y": 630.0,
+          "z": 0.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0016",
+          "x": -2436.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0017",
+          "x": -2394.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0018",
+          "x": -2352.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0019",
+          "x": -2310.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0020",
+          "x": -2268.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0021",
+          "x": -2226.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0022",
+          "x": -2184.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0023",
+          "x": -2142.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0024",
+          "x": -2100.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0025",
+          "x": -2058.0,
+          "y": 138.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0026",
+          "x": -2016.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0027",
+          "x": -1974.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0028",
+          "x": -1932.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0029",
+          "x": -1890.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0030",
+          "x": -1848.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0031",
+          "x": -1806.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0032",
+          "x": -1764.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0033",
+          "x": -1722.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0034",
+          "x": -1680.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0035",
+          "x": -1638.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0036",
+          "x": -1596.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0037",
+          "x": -1554.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0038",
+          "x": -1512.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0039",
+          "x": -1470.0,
+          "y": 156.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0040",
+          "x": -1428.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0041",
+          "x": -1386.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0042",
+          "x": -1344.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0043",
+          "x": -1302.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0044",
+          "x": -1260.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0045",
+          "x": -1218.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0046",
+          "x": -1176.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0047",
+          "x": -1134.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0048",
+          "x": -1092.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0049",
+          "x": -1050.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0050",
+          "x": -1008.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0051",
+          "x": -966.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0052",
+          "x": -924.0,
+          "y": 174.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0053",
+          "x": -882.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0054",
+          "x": -840.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0055",
+          "x": -798.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0056",
+          "x": -756.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0057",
+          "x": -714.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0058",
+          "x": -672.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0059",
+          "x": -630.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0060",
+          "x": -588.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0061",
+          "x": -546.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0062",
+          "x": -504.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0063",
+          "x": -462.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0064",
+          "x": -420.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0065",
+          "x": -378.0,
+          "y": 192.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0066",
+          "x": -336.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0067",
+          "x": -294.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0068",
+          "x": -252.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0069",
+          "x": -210.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0070",
+          "x": -168.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0071",
+          "x": -126.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0072",
+          "x": -84.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0073",
+          "x": -42.0,
+          "y": 210.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0074",
+          "x": 0.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0075",
+          "x": 42.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0076",
+          "x": 84.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0077",
+          "x": 126.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0078",
+          "x": 168.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0079",
+          "x": 210.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0080",
+          "x": 252.0,
+          "y": 228.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0081",
+          "x": 294.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0082",
+          "x": 336.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0083",
+          "x": 378.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0084",
+          "x": 420.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0085",
+          "x": 462.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0086",
+          "x": 504.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0087",
+          "x": 546.0,
+          "y": 246.0,
+          "z": 0.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0088",
+          "x": 588.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0089",
+          "x": 630.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0090",
+          "x": 672.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0091",
+          "x": 714.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0092",
+          "x": 756.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0093",
+          "x": 798.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0094",
+          "x": 840.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0095",
+          "x": 882.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0096",
+          "x": 924.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0097",
+          "x": 966.0,
+          "y": -120.0,
+          "z": 0.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0098",
+          "x": 1008.0,
+          "y": -120.0,
+          "z": 180.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0099",
+          "x": 1050.0,
+          "y": -120.0,
+          "z": 165.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0100",
+          "x": 1092.0,
+          "y": -120.0,
+          "z": 195.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0101",
+          "x": 1134.0,
+          "y": -120.0,
+          "z": 195.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0102",
+          "x": 1176.0,
+          "y": -120.0,
+          "z": 135.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0103",
+          "x": 1218.0,
+          "y": -120.0,
+          "z": 150.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0104",
+          "x": 1260.0,
+          "y": -120.0,
+          "z": 150.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0105",
+          "x": 1302.0,
+          "y": -540.0,
+          "z": -60.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0106",
+          "x": 1344.0,
+          "y": -450.0,
+          "z": -60.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0107",
+          "x": 1386.0,
+          "y": -360.0,
+          "z": -60.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0108",
+          "x": 1428.0,
+          "y": -270.0,
+          "z": -60.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0109",
+          "x": 1470.0,
+          "y": -180.0,
+          "z": -60.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0110",
+          "x": 1512.0,
+          "y": -540.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0111",
+          "x": 1554.0,
+          "y": -540.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0112",
+          "x": 1596.0,
+          "y": -540.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0113",
+          "x": 1638.0,
+          "y": -540.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0114",
+          "x": 1680.0,
+          "y": -540.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0115",
+          "x": 1722.0,
+          "y": -450.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0116",
+          "x": 1764.0,
+          "y": -450.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0117",
+          "x": 1806.0,
+          "y": -450.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0118",
+          "x": 1848.0,
+          "y": -450.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0119",
+          "x": 1890.0,
+          "y": -450.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0120",
+          "x": 1932.0,
+          "y": -450.0,
+          "z": 76.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0121",
+          "x": 1974.0,
+          "y": -360.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0122",
+          "x": 2016.0,
+          "y": -360.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0123",
+          "x": 2058.0,
+          "y": -360.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0124",
+          "x": 2100.0,
+          "y": -360.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0125",
+          "x": 2142.0,
+          "y": -360.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0126",
+          "x": 2184.0,
+          "y": -360.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0127",
+          "x": 2226.0,
+          "y": -270.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0128",
+          "x": 2268.0,
+          "y": -270.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0129",
+          "x": 2310.0,
+          "y": -270.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0130",
+          "x": 2352.0,
+          "y": -270.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0131",
+          "x": 2394.0,
+          "y": -270.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0132",
+          "x": 2436.0,
+          "y": -270.0,
+          "z": 40.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0133",
+          "x": 2478.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0134",
+          "x": 2520.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0135",
+          "x": 2562.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0136",
+          "x": 2604.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0137",
+          "x": 2646.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0138",
+          "x": 2688.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0139",
+          "x": 2730.0,
+          "y": -180.0,
+          "z": 64.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0140",
+          "x": 2772.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0141",
+          "x": 2814.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0142",
+          "x": 2856.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0143",
+          "x": 2898.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0144",
+          "x": 2940.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0145",
+          "x": 2982.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0146",
+          "x": 3024.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0147",
+          "x": 3066.0,
+          "y": -470.0,
+          "z": 180.0,
+          "cluster": "W4",
+          "pinned": false
+        }
+      ],
+      "filters": {
+        "focus": "sequence",
+        "group_by": "wing_bands",
+        "good_for": "planning-and-progress"
+      }
+    },
+    {
+      "layout_id": "wing-clusters",
+      "name": "Wing Clusters",
+      "description": "Compact navigation view grouping nodes primarily by wing, with lighter secondary clustering inside each wing.",
+      "nodes": [
+        {
+          "node_id": "COS-0013",
+          "x": -445.0,
+          "y": 380.0,
+          "z": -30.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0014",
+          "x": -516.131,
+          "y": 413.099,
+          "z": -18.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0015",
+          "x": -475.716,
+          "y": 331.188,
+          "z": -6.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0010",
+          "x": -597.016,
+          "y": 589.232,
+          "z": -30.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0011",
+          "x": -668.147,
+          "y": 622.331,
+          "z": -18.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0012",
+          "x": -627.732,
+          "y": 540.42,
+          "z": -6.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0004",
+          "x": -842.984,
+          "y": 509.313,
+          "z": -30.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0005",
+          "x": -914.115,
+          "y": 542.412,
+          "z": -18.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0006",
+          "x": -873.7,
+          "y": 460.5,
+          "z": -6.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0001",
+          "x": -842.984,
+          "y": 250.687,
+          "z": -30.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0002",
+          "x": -914.115,
+          "y": 283.786,
+          "z": -18.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0003",
+          "x": -873.7,
+          "y": 201.875,
+          "z": -6.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0007",
+          "x": -597.016,
+          "y": 170.768,
+          "z": -30.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0008",
+          "x": -668.147,
+          "y": 203.867,
+          "z": -18.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0009",
+          "x": -627.732,
+          "y": 121.955,
+          "z": -6.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0081",
+          "x": 955.0,
+          "y": 380.0,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0082",
+          "x": 883.869,
+          "y": 413.099,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0083",
+          "x": 924.284,
+          "y": 331.188,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0084",
+          "x": 949.814,
+          "y": 418.886,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0085",
+          "x": 857.963,
+          "y": 369.027,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0086",
+          "x": 973.157,
+          "y": 346.186,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0087",
+          "x": 903.645,
+          "y": 440.84,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0026",
+          "x": 872.168,
+          "y": 552.003,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0027",
+          "x": 801.037,
+          "y": 585.102,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0028",
+          "x": 841.452,
+          "y": 503.191,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0029",
+          "x": 866.981,
+          "y": 590.889,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0030",
+          "x": 775.131,
+          "y": 541.029,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0031",
+          "x": 890.324,
+          "y": 518.189,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0032",
+          "x": 820.813,
+          "y": 612.843,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0033",
+          "x": 808.131,
+          "y": 496.094,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0034",
+          "x": 896.345,
+          "y": 573.614,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0035",
+          "x": 765.993,
+          "y": 581.383,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0036",
+          "x": 869.804,
+          "y": 482.261,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0037",
+          "x": 860.213,
+          "y": 625.474,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0038",
+          "x": 770.546,
+          "y": 513.395,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0039",
+          "x": 912.372,
+          "y": 535.47,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0016",
+          "x": 686.045,
+          "y": 594.484,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0017",
+          "x": 614.914,
+          "y": 627.583,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0018",
+          "x": 655.329,
+          "y": 545.672,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0019",
+          "x": 680.859,
+          "y": 633.371,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0020",
+          "x": 589.008,
+          "y": 583.511,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0021",
+          "x": 704.202,
+          "y": 560.67,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0022",
+          "x": 634.69,
+          "y": 655.324,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0023",
+          "x": 622.008,
+          "y": 538.575,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0024",
+          "x": 710.223,
+          "y": 616.096,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0025",
+          "x": 579.871,
+          "y": 623.864,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0040",
+          "x": 536.787,
+          "y": 475.454,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0041",
+          "x": 465.656,
+          "y": 508.553,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0042",
+          "x": 506.071,
+          "y": 426.642,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0043",
+          "x": 531.6,
+          "y": 514.341,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0044",
+          "x": 439.75,
+          "y": 464.481,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0045",
+          "x": 554.943,
+          "y": 441.641,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0046",
+          "x": 485.432,
+          "y": 536.294,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0047",
+          "x": 472.75,
+          "y": 419.545,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0048",
+          "x": 560.964,
+          "y": 497.066,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0049",
+          "x": 430.612,
+          "y": 504.834,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0050",
+          "x": 534.423,
+          "y": 405.713,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0051",
+          "x": 524.832,
+          "y": 548.925,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0052",
+          "x": 435.166,
+          "y": 436.846,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0053",
+          "x": 536.787,
+          "y": 284.546,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0054",
+          "x": 465.656,
+          "y": 317.645,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0055",
+          "x": 506.071,
+          "y": 235.733,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0056",
+          "x": 531.6,
+          "y": 323.432,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0057",
+          "x": 439.75,
+          "y": 273.572,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0058",
+          "x": 554.943,
+          "y": 250.732,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0059",
+          "x": 485.432,
+          "y": 345.386,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0060",
+          "x": 472.75,
+          "y": 228.636,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0061",
+          "x": 560.964,
+          "y": 306.157,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0062",
+          "x": 430.612,
+          "y": 313.925,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0063",
+          "x": 534.423,
+          "y": 214.804,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0064",
+          "x": 524.832,
+          "y": 358.016,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0065",
+          "x": 435.166,
+          "y": 245.937,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0074",
+          "x": 686.045,
+          "y": 165.516,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0075",
+          "x": 614.914,
+          "y": 198.615,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0076",
+          "x": 655.329,
+          "y": 116.703,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0077",
+          "x": 680.859,
+          "y": 204.402,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0078",
+          "x": 589.008,
+          "y": 154.542,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0079",
+          "x": 704.202,
+          "y": 131.702,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0080",
+          "x": 634.69,
+          "y": 226.356,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0066",
+          "x": 872.168,
+          "y": 207.997,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0067",
+          "x": 801.037,
+          "y": 241.096,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0068",
+          "x": 841.452,
+          "y": 159.185,
+          "z": -6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0069",
+          "x": 866.981,
+          "y": 246.884,
+          "z": 6.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0070",
+          "x": 775.131,
+          "y": 197.024,
+          "z": 18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0071",
+          "x": 890.324,
+          "y": 174.183,
+          "z": 30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0072",
+          "x": 820.813,
+          "y": 268.837,
+          "z": -30.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0073",
+          "x": 808.131,
+          "y": 152.088,
+          "z": -18.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0098",
+          "x": -445.0,
+          "y": -380.0,
+          "z": -30.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0099",
+          "x": -516.131,
+          "y": -346.901,
+          "z": -18.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0100",
+          "x": -475.716,
+          "y": -428.812,
+          "z": -6.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0101",
+          "x": -450.186,
+          "y": -341.114,
+          "z": 6.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0102",
+          "x": -542.037,
+          "y": -390.973,
+          "z": 18.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0103",
+          "x": -426.843,
+          "y": -413.814,
+          "z": 30.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0104",
+          "x": -496.355,
+          "y": -319.16,
+          "z": -30.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0088",
+          "x": -885.0,
+          "y": -380.0,
+          "z": -30.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0089",
+          "x": -956.131,
+          "y": -346.901,
+          "z": -18.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0090",
+          "x": -915.716,
+          "y": -428.812,
+          "z": -6.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0091",
+          "x": -890.186,
+          "y": -341.114,
+          "z": 6.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0092",
+          "x": -982.037,
+          "y": -390.973,
+          "z": 18.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0093",
+          "x": -866.843,
+          "y": -413.814,
+          "z": 30.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0094",
+          "x": -936.355,
+          "y": -319.16,
+          "z": -30.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0095",
+          "x": -949.037,
+          "y": -435.909,
+          "z": -18.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0096",
+          "x": -860.823,
+          "y": -358.389,
+          "z": -6.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0097",
+          "x": -991.175,
+          "y": -350.62,
+          "z": 6.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0140",
+          "x": 955.0,
+          "y": -380.0,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0141",
+          "x": 883.869,
+          "y": -346.901,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0142",
+          "x": 924.284,
+          "y": -428.812,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0143",
+          "x": 949.814,
+          "y": -341.114,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0144",
+          "x": 857.963,
+          "y": -390.973,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0145",
+          "x": 973.157,
+          "y": -413.814,
+          "z": 250.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0146",
+          "x": 903.645,
+          "y": -319.16,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0147",
+          "x": 890.963,
+          "y": -435.909,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0110",
+          "x": 625.0,
+          "y": -189.474,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0111",
+          "x": 553.869,
+          "y": -156.375,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0112",
+          "x": 594.284,
+          "y": -238.287,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0113",
+          "x": 619.814,
+          "y": -150.588,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0114",
+          "x": 527.963,
+          "y": -200.448,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0115",
+          "x": 643.157,
+          "y": -223.288,
+          "z": 250.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0116",
+          "x": 573.645,
+          "y": -128.634,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0117",
+          "x": 560.963,
+          "y": -245.384,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0118",
+          "x": 649.177,
+          "y": -167.863,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0119",
+          "x": 518.825,
+          "y": -160.095,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0120",
+          "x": 622.636,
+          "y": -259.216,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0121",
+          "x": 613.045,
+          "y": -116.004,
+          "z": 250.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0122",
+          "x": 523.379,
+          "y": -228.083,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0123",
+          "x": 665.204,
+          "y": -206.008,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0124",
+          "x": 545.715,
+          "y": -126.484,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0125",
+          "x": 580.105,
+          "y": -265.836,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0126",
+          "x": 659.583,
+          "y": -130.83,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0127",
+          "x": 499.078,
+          "y": -185.714,
+          "z": 250.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0128",
+          "x": 654.503,
+          "y": -253.664,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0129",
+          "x": 585.797,
+          "y": -98.572,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0130",
+          "x": 531.695,
+          "y": -259.343,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0131",
+          "x": 680.187,
+          "y": -177.34,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0132",
+          "x": 515.302,
+          "y": -137.501,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0133",
+          "x": 609.973,
+          "y": -278.256,
+          "z": 250.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0134",
+          "x": 635.243,
+          "y": -110.519,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0135",
+          "x": 489.967,
+          "y": -221.388,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0136",
+          "x": 685.318,
+          "y": -233.514,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0137",
+          "x": 549.464,
+          "y": -92.615,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0138",
+          "x": 554.463,
+          "y": -288.278,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0139",
+          "x": 682.945,
+          "y": -140.625,
+          "z": 250.0,
+          "cluster": "W4",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0105",
+          "x": 625.0,
+          "y": -570.526,
+          "z": 190.0,
+          "cluster": "W4",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0106",
+          "x": 553.869,
+          "y": -537.427,
+          "z": 202.0,
+          "cluster": "W4",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0107",
+          "x": 594.284,
+          "y": -619.338,
+          "z": 214.0,
+          "cluster": "W4",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0108",
+          "x": 619.814,
+          "y": -531.639,
+          "z": 226.0,
+          "cluster": "W4",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0109",
+          "x": 527.963,
+          "y": -581.499,
+          "z": 238.0,
+          "cluster": "W4",
+          "pinned": true
+        }
+      ],
+      "filters": {
+        "focus": "navigation",
+        "group_by": "wing",
+        "good_for": "quick-exploration"
+      }
+    },
+    {
+      "layout_id": "sandbox-practice-map",
+      "name": "Sandbox Practice Map",
+      "description": "Wing 4-centered layout that pins Chaos Zones as anchors and places other wings as supporting constellations around the sandbox.",
+      "nodes": [
+        {
+          "node_id": "COS-0105",
+          "x": 0.0,
+          "y": 420.0,
+          "z": 0,
+          "cluster": "W4:zone",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0106",
+          "x": -399.444,
+          "y": 129.787,
+          "z": 0,
+          "cluster": "W4:zone",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0107",
+          "x": -246.87,
+          "y": -339.787,
+          "z": 0,
+          "cluster": "W4:zone",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0108",
+          "x": 246.87,
+          "y": -339.787,
+          "z": 0,
+          "cluster": "W4:zone",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0109",
+          "x": 399.444,
+          "y": 129.787,
+          "z": 0,
+          "cluster": "W4:zone",
+          "pinned": true
+        },
+        {
+          "node_id": "COS-0110",
+          "x": 110.0,
+          "y": 420.0,
+          "z": -45.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0111",
+          "x": -97.333,
+          "y": 509.165,
+          "z": -27.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0112",
+          "x": 11.54,
+          "y": 288.505,
+          "z": -9.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0113",
+          "x": 80.314,
+          "y": 524.755,
+          "z": 9.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0114",
+          "x": -151.646,
+          "y": 393.176,
+          "z": 27.0,
+          "cluster": "W4:Skyline Outlaws",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0115",
+          "x": -289.444,
+          "y": 129.787,
+          "z": -45.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0116",
+          "x": -496.776,
+          "y": 218.952,
+          "z": -27.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0117",
+          "x": -387.904,
+          "y": -1.707,
+          "z": -9.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0118",
+          "x": -319.13,
+          "y": 234.542,
+          "z": 9.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0119",
+          "x": -551.09,
+          "y": 102.963,
+          "z": 27.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0120",
+          "x": -269.505,
+          "y": 47.131,
+          "z": 45.0,
+          "cluster": "W4:Hacksmith’s Workshop",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0121",
+          "x": -136.87,
+          "y": -339.787,
+          "z": -45.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0122",
+          "x": -344.202,
+          "y": -250.622,
+          "z": -27.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0123",
+          "x": -235.33,
+          "y": -471.282,
+          "z": -9.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0124",
+          "x": -166.556,
+          "y": -235.032,
+          "z": 9.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0125",
+          "x": -398.516,
+          "y": -366.611,
+          "z": 27.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0126",
+          "x": -116.931,
+          "y": -422.443,
+          "z": 45.0,
+          "cluster": "W4:Alliance Arena",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0127",
+          "x": 356.87,
+          "y": -339.787,
+          "z": -45.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0128",
+          "x": 149.537,
+          "y": -250.622,
+          "z": -27.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0129",
+          "x": 258.41,
+          "y": -471.282,
+          "z": -9.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0130",
+          "x": 327.184,
+          "y": -235.032,
+          "z": 9.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0131",
+          "x": 95.224,
+          "y": -366.611,
+          "z": 27.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0132",
+          "x": 376.808,
+          "y": -422.443,
+          "z": 45.0,
+          "cluster": "W4:Zen Nexus",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0133",
+          "x": 509.444,
+          "y": 129.787,
+          "z": -45.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0134",
+          "x": 302.111,
+          "y": 218.952,
+          "z": -27.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0135",
+          "x": 410.984,
+          "y": -1.707,
+          "z": -9.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0136",
+          "x": 479.758,
+          "y": 234.542,
+          "z": 9.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0137",
+          "x": 247.798,
+          "y": 102.963,
+          "z": 27.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0138",
+          "x": 529.382,
+          "y": 47.131,
+          "z": 45.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0139",
+          "x": 359.465,
+          "y": 278.507,
+          "z": -45.0,
+          "cluster": "W4:Chaos Carnival",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0140",
+          "x": 175.517,
+          "y": 95.885,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0141",
+          "x": 56.308,
+          "y": 191.91,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0142",
+          "x": -95.885,
+          "y": 175.517,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0143",
+          "x": -191.91,
+          "y": 56.308,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0144",
+          "x": -175.517,
+          "y": -95.885,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0145",
+          "x": -56.308,
+          "y": -191.91,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0146",
+          "x": 95.885,
+          "y": -175.517,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0147",
+          "x": 191.91,
+          "y": -56.308,
+          "z": 280,
+          "cluster": "W4:outcomes",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0001",
+          "x": -1120.0,
+          "y": 500.0,
+          "z": -35.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0002",
+          "x": -1273.737,
+          "y": 567.549,
+          "z": -21.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0003",
+          "x": -1191.257,
+          "y": 400.383,
+          "z": -7.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0004",
+          "x": -1139.156,
+          "y": 579.36,
+          "z": 7.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0005",
+          "x": -1318.166,
+          "y": 479.098,
+          "z": 21.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0006",
+          "x": -1098.749,
+          "y": 435.593,
+          "z": 35.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0007",
+          "x": -1231.153,
+          "y": 615.886,
+          "z": -35.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0008",
+          "x": -1255.309,
+          "y": 393.506,
+          "z": -21.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0009",
+          "x": -1087.281,
+          "y": 541.165,
+          "z": -7.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0010",
+          "x": -1329.408,
+          "y": 553.418,
+          "z": 7.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0011",
+          "x": -1140.662,
+          "y": 373.197,
+          "z": 21.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0012",
+          "x": -1158.1,
+          "y": 633.583,
+          "z": 35.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0013",
+          "x": -1321.13,
+          "y": 429.803,
+          "z": -35.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0014",
+          "x": -1063.265,
+          "y": 469.939,
+          "z": -21.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0015",
+          "x": -1280.518,
+          "y": 614.529,
+          "z": -7.0,
+          "cluster": "W1",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0016",
+          "x": 1278.405,
+          "y": 515.894,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0017",
+          "x": 1114.313,
+          "y": 551.553,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0018",
+          "x": 1228.359,
+          "y": 404.105,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0019",
+          "x": 1243.865,
+          "y": 589.866,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0020",
+          "x": 1088.342,
+          "y": 456.039,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0021",
+          "x": 1312.028,
+          "y": 456.992,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0022",
+          "x": 1146.446,
+          "y": 607.387,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0023",
+          "x": 1166.951,
+          "y": 384.641,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0024",
+          "x": 1302.294,
+          "y": 562.738,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0025",
+          "x": 1062.559,
+          "y": 526.644,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0026",
+          "x": 1283.347,
+          "y": 387.514,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0027",
+          "x": 1214.526,
+          "y": 639.244,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0028",
+          "x": 1095.231,
+          "y": 407.137,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0029",
+          "x": 1339.981,
+          "y": 497.703,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0030",
+          "x": 1098.334,
+          "y": 596.249,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0031",
+          "x": 1209.95,
+          "y": 360.354,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0032",
+          "x": 1299.42,
+          "y": 625.362,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0033",
+          "x": 1042.01,
+          "y": 474.719,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0034",
+          "x": 1333.574,
+          "y": 411.921,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0035",
+          "x": 1161.004,
+          "y": 655.175,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0036",
+          "x": 1123.936,
+          "y": 359.237,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0037",
+          "x": 1351.172,
+          "y": 552.413,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0038",
+          "x": 1053.126,
+          "y": 563.467,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0039",
+          "x": 1265.429,
+          "y": 353.99,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0040",
+          "x": 1250.383,
+          "y": 651.86,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0041",
+          "x": 1042.802,
+          "y": 412.313,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0042",
+          "x": 1375.144,
+          "y": 458.472,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0043",
+          "x": 1098.906,
+          "y": 648.93,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0044",
+          "x": 1173.943,
+          "y": 321.896,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0045",
+          "x": 1339.521,
+          "y": 613.727,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0046",
+          "x": 1020.3,
+          "y": 510.386,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0047",
+          "x": 1325.489,
+          "y": 370.956,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0048",
+          "x": 1194.636,
+          "y": 679.92,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0049",
+          "x": 1082.421,
+          "y": 363.709,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0050",
+          "x": 1378.762,
+          "y": 521.073,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0051",
+          "x": 1053.952,
+          "y": 605.214,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0052",
+          "x": 1240.69,
+          "y": 304.183,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0053",
+          "x": 1302.269,
+          "y": 671.875,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0054",
+          "x": 1008.49,
+          "y": 442.347,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0055",
+          "x": 1380.158,
+          "y": 413.149,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0056",
+          "x": 1125.825,
+          "y": 685.736,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0057",
+          "x": 1129.232,
+          "y": 312.939,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0058",
+          "x": 1378.54,
+          "y": 590.13,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0059",
+          "x": 1007.468,
+          "y": 554.144,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0060",
+          "x": 1305.393,
+          "y": 330.023,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0061",
+          "x": 1237.104,
+          "y": 696.528,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0062",
+          "x": 1039.888,
+          "y": 380.15,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0063",
+          "x": 1399.019,
+          "y": 480.22,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0064",
+          "x": 1066.611,
+          "y": 649.021,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0065",
+          "x": 1197.464,
+          "y": 280.015,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0066",
+          "x": 1350.468,
+          "y": 660.498,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0067",
+          "x": 980.635,
+          "y": 483.294,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0068",
+          "x": 1373.038,
+          "y": 364.14,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0069",
+          "x": 1164.179,
+          "y": 717.064,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0070",
+          "x": 1079.788,
+          "y": 315.747,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0071",
+          "x": 1413.101,
+          "y": 554.66,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0072",
+          "x": 1005.943,
+          "y": 603.643,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0073",
+          "x": 1273.082,
+          "y": 292.493,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0074",
+          "x": 1286.281,
+          "y": 702.375,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0075",
+          "x": 999.677,
+          "y": 409.057,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0076",
+          "x": 1409.143,
+          "y": 431.742,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0077",
+          "x": 1091.892,
+          "y": 691.605,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0078",
+          "x": 1150.288,
+          "y": 285.69,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0079",
+          "x": 1381.42,
+          "y": 624.446,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0080",
+          "x": 962.361,
+          "y": 533.584,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0081",
+          "x": 1352.542,
+          "y": 314.714,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0082",
+          "x": 1212.679,
+          "y": 739.665,
+          "z": -35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0083",
+          "x": 1028.759,
+          "y": 331.843,
+          "z": -21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0084",
+          "x": 1439.856,
+          "y": 508.322,
+          "z": -7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0085",
+          "x": 1017.517,
+          "y": 655.884,
+          "z": 7.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0086",
+          "x": 1229.26,
+          "y": 261.79,
+          "z": 21.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0087",
+          "x": 1339.333,
+          "y": 695.413,
+          "z": 35.0,
+          "cluster": "W2",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0088",
+          "x": 80.0,
+          "y": -1150.0,
+          "z": -35.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0089",
+          "x": -73.737,
+          "y": -1082.451,
+          "z": -21.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0090",
+          "x": 8.743,
+          "y": -1249.617,
+          "z": -7.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0091",
+          "x": 60.844,
+          "y": -1070.64,
+          "z": 7.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0092",
+          "x": -118.166,
+          "y": -1170.902,
+          "z": 21.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0093",
+          "x": 101.251,
+          "y": -1214.407,
+          "z": 35.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0094",
+          "x": -31.153,
+          "y": -1034.114,
+          "z": -35.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0095",
+          "x": -55.309,
+          "y": -1256.494,
+          "z": -21.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0096",
+          "x": 112.719,
+          "y": -1108.835,
+          "z": -7.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0097",
+          "x": -129.408,
+          "y": -1096.582,
+          "z": 7.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0098",
+          "x": 59.338,
+          "y": -1276.803,
+          "z": 21.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0099",
+          "x": 41.9,
+          "y": -1016.417,
+          "z": 35.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0100",
+          "x": -121.13,
+          "y": -1220.197,
+          "z": -35.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0101",
+          "x": 136.735,
+          "y": -1180.061,
+          "z": -21.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0102",
+          "x": -80.518,
+          "y": -1035.471,
+          "z": -7.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0103",
+          "x": -17.991,
+          "y": -1288.839,
+          "z": 7.0,
+          "cluster": "W3",
+          "pinned": false
+        },
+        {
+          "node_id": "COS-0104",
+          "x": 122.344,
+          "y": -1046.888,
+          "z": 21.0,
+          "cluster": "W3",
+          "pinned": false
+        }
+      ],
+      "filters": {
+        "focus": "sandbox",
+        "group_by": "zone-and-supporting-wings",
+        "good_for": "practice-design"
+      }
+    }
+  ]
+}

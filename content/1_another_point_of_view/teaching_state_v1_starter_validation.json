@@ -1,0 +1,28 @@
+{
+  "validated_against": "https://curiosity-os.local/schema/teaching_state_v1.json",
+  "is_valid": true,
+  "generated_at": "2026-03-22T11:42:05Z",
+  "state_count": 147,
+  "defaults": {
+    "status": "not_started",
+    "coverage_stage": "backlog",
+    "last_taught_on": null,
+    "first_taught_on": null,
+    "next_review_on": null,
+    "mastery_estimate": 0.0,
+    "remarks": "[]",
+    "classes": "[]"
+  },
+  "breakdown": {
+    "by_status": {
+      "not_started": 147
+    },
+    "by_wing": {
+      "W1": 15,
+      "W2": 72,
+      "W3": 17,
+      "W4": 43
+    }
+  },
+  "errors": []
+}

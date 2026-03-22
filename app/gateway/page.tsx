@@ -46,8 +46,8 @@ export default function GatewayManifesto() {
                             Curiosity OS is a new kind of learning architecture for students growing up in an AI-shaped world — one designed not around marks, memorization, or fragmented subjects, but around how a young person learns to <strong className="font-semibold text-slate-200">decode reality, build a better mind, function well with humans, and practice all of it in motion.</strong>
                         </p>
                         <p className="text-sm md:text-base text-slate-500 font-mono tracking-wide border-l-2 border-cyan-500/30 pl-4 mb-10 leading-relaxed">
-                            We are not trying to add one more subject to the system.<br/>
-                            We are trying to build the layer most students never receive:<br/>
+                            I am not trying to add one more subject to the system.<br/>
+                            I am trying to build the layer most students never receive:<br/>
                             <strong className="text-cyan-400 font-semibold mt-1 block">a stronger inner operating system.</strong>
                         </p>
 
@@ -467,7 +467,7 @@ export default function GatewayManifesto() {
                 <div className="mt-16 flex items-center gap-5">
                     <div className="w-14 h-14 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-slate-300 font-serif italic text-2xl shadow-[0_5px_15px_rgba(0,0,0,0.5)]">T</div>
                     <div>
-                        <div className="text-white font-medium text-lg">Tharun</div>
+                        <div className="text-white font-medium text-lg">Tharun Gajula</div>
                         <div className="text-xs font-mono text-slate-500 mt-1">Founder, Curiosity OS</div>
                     </div>
                 </div>
@@ -483,7 +483,7 @@ export default function GatewayManifesto() {
                 </p>
                 
                 <div className="flex flex-wrap items-center justify-center gap-6">
-                    <a href="mailto:hello@example.com" className="px-8 py-4 rounded-full bg-white text-slate-950 font-semibold text-sm tracking-wide transition-all hover:scale-105 hover:bg-cyan-100 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]">
+                    <a href="mailto:tharune4ir@gmail.com" className="px-8 py-4 rounded-full bg-white text-slate-950 font-semibold text-sm tracking-wide transition-all hover:scale-105 hover:bg-cyan-100 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]">
                         Get in touch
                     </a>
                     <Link href="/another_point_of_view" className="px-8 py-4 rounded-full border border-slate-700 hover:border-cyan-500/50 hover:bg-cyan-950/30 text-white font-medium text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(0,240,255,0)] hover:shadow-[0_0_15px_rgba(0,240,255,0.1)]">

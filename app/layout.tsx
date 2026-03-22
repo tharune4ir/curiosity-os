@@ -27,6 +27,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${jetbrainsMono.variable} ${outfit.variable} antialiased`}>
         {children}
+        <div className="fixed bottom-1 w-full flex justify-center z-[150] pointer-events-none pb-safe">
+            <span className="text-[9px] text-slate-600/60 font-mono tracking-widest uppercase md:text-[10px]">
+                © Renaforge Systems
+            </span>
+        </div>
         <BottomDock />
       </body>
     </html>

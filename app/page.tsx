@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Search } from "lucide-react";
+import { Search, Orbit } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -110,11 +110,12 @@ export default function Home() {
         <div className="absolute top-4 left-4 right-4 md:top-8 md:left-8 md:right-8 flex justify-between items-start pointer-events-none z-50">
           <div className="flex flex-col gap-0.5">
             <div className="flex items-center gap-2">
+              <Orbit className="w-4 h-4 md:w-5 md:h-5 text-cyan-400 opacity-80 drop-shadow-[0_0_8px_rgba(0,240,255,0.4)]" />
               <span className="text-sm md:text-base font-bold tracking-widest bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,240,255,0.3)]">
                 Curiosity-OS
               </span>
             </div>
-            <span className="text-[7px] md:text-[9px] text-slate-500/60 tracking-[0.3em] pl-[22px] md:pl-[24px] font-light">by Tharun</span>
+            <span className="text-[7px] md:text-[9px] text-slate-500/60 tracking-[0.3em] pl-[24px] md:pl-[28px] font-light">by Tharun</span>
           </div>
           <div className="font-mono text-[9px] md:text-[11px] text-slate-400 font-medium tracking-widest flex items-center gap-2 mt-1 md:mt-1.5">
             STATUS: <span className="text-emerald-400 font-bold flex items-center gap-2 drop-shadow-[0_0_4px_rgba(16,185,129,0.5)] before:content-[''] before:block before:w-1.5 before:h-1.5 md:before:w-2 md:before:h-2 before:rounded-full before:bg-emerald-500 before:shadow-[0_0_8px_rgba(16,185,129,0.8)] animate-pulse">CONCEPT (V 1.0)</span>

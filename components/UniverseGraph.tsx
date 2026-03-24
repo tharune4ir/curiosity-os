@@ -131,8 +131,15 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
         };
         const handleReset = () => {
              if (fgRef.current) {
-                 fgRef.current.zoomToFit(2000, 100);
+                 const isMobile = window.innerWidth < 768;
+                 fgRef.current.cameraPosition(
+                    { x: 0, y: 0, z: isMobile ? 1200 : 800 }, 
+                    { x: 0, y: 0, z: 0 }, 
+                    2000
+                 );
                  setSelectedNode(null);
+                 setSearchQuery('');
+                 setIsDirectoryOpen(false);
              }
         };
 
@@ -696,7 +703,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
             </div>
 
             {/* Universe Title HUD (Bottom Left) */}
-            <div className="fixed bottom-[140px] md:absolute md:bottom-10 left-6 md:left-10 z-[100] flex flex-col gap-1 pointer-events-none text-left">
+            <div className={`fixed transition-all duration-500 z-[100] flex flex-col gap-1 pointer-events-none text-left ${sessionStack.length > 0 ? 'bottom-[290px] md:bottom-[230px]' : 'bottom-[140px] md:bottom-10'} left-6 md:left-10`}>
                 <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">
                     {storageNamespace.replace('-', ' ')} UNIVERSE
                 </span>
@@ -706,7 +713,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
             </div>
 
             {/* Neural Ledger HUD (Bottom Right) */}
-            <div className="fixed bottom-[140px] md:absolute md:bottom-10 right-6 md:right-10 z-[100] flex flex-col items-end gap-1 pointer-events-none text-right">
+            <div className={`fixed transition-all duration-500 z-[100] flex flex-col items-end gap-1 pointer-events-none text-right ${sessionStack.length > 0 ? 'bottom-[290px] md:bottom-[230px]' : 'bottom-[140px] md:bottom-10'} right-6 md:right-10`}>
                 <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">Neural Pathways Unlocked</span>
                 <span className="text-xl md:text-2xl font-bold text-white tracking-widest">{unlockedNodes.size} <span className="text-sm text-slate-500">/ {graphData.nodes?.length || 0}</span></span>
                 <button
@@ -1009,26 +1016,27 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
             <AnimatePresence>
                 {sessionStack.length > 0 && (
                     <motion.div
-                        initial={{ y: '100%' }}
-                        animate={{ y: 0 }}
-                        exit={{ y: '100%' }}
-                        className="fixed bottom-0 left-0 right-0 h-48 md:h-32 bg-slate-950/90 backdrop-blur-xl border-t border-cyan-500/20 z-[90] p-4 flex flex-col md:flex-row items-center gap-6 shadow-[0_-10px_40px_rgba(0,0,0,0.5)]"
+                        initial={{ y: '100%', opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        exit={{ y: '100%', opacity: 0 }}
+                        transition={{ type: "spring", damping: 25, stiffness: 200 }}
+                        className="fixed bottom-[85px] left-2 right-2 md:left-6 md:right-6 md:bottom-[90px] rounded-2xl md:h-32 bg-slate-950/95 backdrop-blur-2xl border border-cyan-500/30 z-[150] p-4 flex flex-col md:flex-row items-center gap-6 shadow-[0_0_50px_rgba(0,0,0,0.8),_inset_0_0_20px_rgba(0,240,255,0.05)] pointer-events-auto max-h-[200px]"
                     >
-                        <div className="flex flex-col items-start gap-1 shrink-0 w-full md:w-[250px] border-b md:border-b-0 md:border-r border-slate-800 pb-4 md:pb-0">
-                            <h3 className="text-xs text-cyan-500 font-mono uppercase tracking-widest flex items-center gap-2"><Layers className="w-4 h-4"/> Session Stack</h3>
-                            <p className="text-[10px] text-slate-500 uppercase font-mono tracking-widest">{sessionStack.length} Nodes Selected</p>
+                        <div className="flex flex-col items-start gap-1 shrink-0 w-full md:w-[250px] border-b md:border-b-0 md:border-r border-slate-800 pb-3 md:pb-0">
+                            <h3 className="text-xs text-cyan-400 font-mono uppercase tracking-widest flex items-center gap-2 drop-shadow-[0_0_8px_rgba(0,240,255,0.5)]"><Layers className="w-4 h-4"/> Session Stack</h3>
+                            <p className="text-[10px] text-slate-400 uppercase font-mono tracking-widest">{sessionStack.length} Nodes Selected</p>
                             <button
                                 onClick={() => {
                                     alert("Lesson Plan Exported! (Mock)");
                                     setSessionStack([]);
                                 }}
-                                className="mt-2 bg-slate-800 hover:bg-cyan-900 border border-slate-700 hover:border-cyan-500/50 text-cyan-100 text-[10px] uppercase font-mono px-3 py-1.5 rounded transition-all w-full md:w-auto text-left flex justify-between"
+                                className="mt-2 bg-slate-800 hover:bg-cyan-900 border border-slate-700 hover:border-cyan-500/50 text-cyan-100 text-[10px] uppercase font-mono px-3 py-1.5 rounded transition-all w-full md:w-auto text-left flex justify-between group"
                             >
-                                Execute Session <CheckCircle2 className="w-3 h-3 ml-2"/>
+                                Execute Session <CheckCircle2 className="w-3 h-3 ml-2 group-hover:text-emerald-400 transition-colors"/>
                             </button>
                         </div>
                         
-                        <div className="flex-1 flex items-center gap-3 overflow-x-auto w-full custom-scrollbar pb-2 md:pb-0 hide-scrollbar">
+                        <div className="flex-1 flex items-center gap-3 overflow-x-auto overflow-y-hidden w-full custom-scrollbar pb-2 md:pb-0 h-full scroll-smooth">
                             {sessionStack.map((node, i) => (
                                 <div key={node.id} className="relative group shrink-0 flex items-center h-full">
                                     <div className="bg-slate-900 border border-slate-800 p-3 rounded-lg flex flex-col items-start min-w-[140px] h-full justify-between">

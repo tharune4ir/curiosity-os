@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a1e6f0926437a74",
+        "id": "3fd33ed250597bc1",
         "type": "tabs",
         "children": [
           {
-            "id": "ba701d43d4bca485",
+            "id": "0cfa229404083506",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "master_teaching_curriculum_reference.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "master_teaching_curriculum_reference"
             }
           }
         ]
@@ -176,7 +180,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "ba701d43d4bca485",
+  "active": "0cfa229404083506",
   "lastOpenFiles": [
     "4_fun/conflict-repair.md",
     "4_fun/compliment-raid.md",

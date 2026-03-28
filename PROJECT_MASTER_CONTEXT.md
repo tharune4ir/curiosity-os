@@ -1,7 +1,7 @@
 # PROJECT MASTER CONTEXT: CURIOSITY OS (The Neural Navigator)
 
 ## 📌 Executive Summary
-**CURIOSITY OS** is a massive, immersive 3D visually-gamified Neural Map and teaching engine. It maps exactly 147 unique conceptual pathways centralized around a single massive core ("Another Point of View"). Designed with a premium "Cyber-Laboratory" aesthetic (glassmorphism, neon cyan, high-contrast dark modes), it allows students and mentors to navigate a complex web of interconnected skills, philosophies, and capabilities using a 3D hyperspace interface.
+**CURIOSITY OS**, founded and engineered by **Tharun Gajula**, is a massive, immersive 3D visually-gamified Neural Map and teaching engine. It maps exactly 147 unique conceptual pathways centralized around a single massive core ("Another Point of View"). Designed with a premium "Cyber-Laboratory" aesthetic (glassmorphism, neon cyan, high-contrast dark modes), it allows students and mentors to navigate a complex web of interconnected skills, philosophies, and capabilities using a 3D hyperspace interface.
 
 ---
 
@@ -26,6 +26,7 @@ Any AI or engineer replicating this project MUST adhere strictly to these physic
   - **Headers & Massive Text:** `var(--font-outfit)` (Outfit) — lightweight, highly tracked (`tracking-[0.3em]`), geometric.
   - **Micro-Readouts & HUDs:** `font-mono` (Geist Mono) — used for all `text-[9px]` or `text-[10px]` technical labels perfectly echoing aviation/cyber instrumentation.
   - **Body Text:** Standard sans-serif (`Inter`) with `text-slate-300` and high leading (`leading-relaxed`).
+- **Legal/Copyright:** All interfaces are branded with **© Tharun Gajula** to maintain founder-led identity.
 
 ---
 
@@ -58,7 +59,11 @@ The heavy-lifter for the 3D data-visualization:
 - **Explicit Edge Generation:** Directly parses native JSON relational arrays to construct the force-directed graph architecture.
 - **Node Selection & Context Engine:** Multi-mode sidebar (Student / Mentor / Builder) that decrypts the physical relationships between concepts (e.g., automatically resolving Prerequisites and "Practiced In" targets).
 - **Session Stack UI:** A globally positioned horizontal slider on top of the navigation dock that allows the founder to click nodes and generate a "Class Session Plan," separating Opener, Core, and Reflection nodes.
-- **Fog of War (Gamification):** Nodes start as hollow shells and ignite into glowing cores only upon discovery. Progress is saved to `localStorage`.
+- **Fog of War & HUD Intelligence:** 
+  - **Neural Pathway Unlocked HUD:** Real-time tracking of discovery progress (e.g., `Nodes Discovered / 147`).
+  - **Omni-Directory (Search Console):** A full-screen searchable command palette to jump to any node instantly.
+  - **Wipe Memory:** A specialized diagnostic tool to reset all discovery progress for local testing.
+  - **Discovery Gamification:** Nodes start as hollow shells and ignite into glowing cores only upon discovery. Progress is saved to `localStorage`.
 
 ---
 

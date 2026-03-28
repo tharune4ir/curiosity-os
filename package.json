@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "generate-textbook": "node scripts/generate-textbook.js",
-    "generate:universe": "node scripts/generate-universe.js"
+    "generate:universe": "node scripts/generate-universe.js",
+    "validate:activities": "node scripts/validate-activities.js",
+    "build:activities": "node scripts/build-activities.js"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",

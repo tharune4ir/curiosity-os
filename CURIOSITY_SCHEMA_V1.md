@@ -7,10 +7,10 @@ Curiosity OS uses a true **topic-first atomic knowledge graph**.
 The curriculum itself is stable infrastructure. The teaching progress is dynamic state. 
 These are strictly decoupled into separate files.
 
-### The 3 Core Files
-1. `master_universe.json`: The immutable curriculum nodes, edges, taxonomy metadata, and descriptions.
-2. `teaching_state.json`: The volatile tracking state (dates, remarks, mastery).
-3. `universe_layouts.json`: Saved visual X/Y/Z mapping states.
+### The 3 Core Files (V1 Implementation)
+1. `master_universe_v1.json`: The immutable curriculum nodes, edges, taxonomy metadata, and descriptions.
+2. `teaching_state_v1_starter.json`: The volatile tracking state (dates, remarks, mastery).
+3. `universe_layouts_v1_starter.json`: Saved visual X/Y/Z mapping states.
 
 ---
 
@@ -86,15 +86,18 @@ interface MasterUniverse {
   };
   nodes: Node[];
   edges: Edge[];
-  indexes: {
-    by_id: Record<string, number>; // Maps COS-ID to array index
-    by_slug: Record<string, number>;
-    by_wing: Record<string, number[]>;
-    // ... other indexes
-  };
   meta: {
-    node_count: number;
-    edge_count: number;
+    node_count: number;  // Current V1 Baseline: 147
+    edge_count: number;  // Current V1 Baseline: 381
+    node_type_counts: {
+      topic: number;
+      embedded_topic: number;
+      practice_zone: number;
+      practice_atom: number;
+      outcome: number;
+    };
+    wing_counts: Record<string, number>;
+    notes: string;
   };
 }
 ```
@@ -214,10 +217,13 @@ type StatusEnum = "not_started" | "planned" | "in_progress" | "covered" | "revis
 interface TeachingState {
   node_id: string;              // Relates to master_universe COS-ID
   status: StatusEnum;
-  coverage_stage: string;       // e.g., "taught_once"
-  last_taught_on: string | null;// ISO Date
-  mastery_estimate: number;     // e.g., 0.68
+  coverage_stage: string;       // e.g., "backlog" or "taught_once"
+  mastery_estimate: number;     // 0.0 to 1.0
   remarks: string[];            // Live class-specific volatile notes
+  first_taught_on: string | null;
+  last_taught_on: string | null;
+  next_review_on: string | null;
+  classes: string[];            // Array of specific class session IDs/Dates
 }
 ```
 

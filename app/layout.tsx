@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   description: "Cognition OS Experience",
 };
 
+import { PlannerProvider } from "@/lib/planner-context";
+import { EvidenceProvider } from "@/lib/evidence-context";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,14 +28,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jetbrainsMono.variable} ${outfit.variable} antialiased`}>
-        {children}
-        <div className="fixed bottom-1 w-full flex justify-center z-[150] pointer-events-none pb-safe">
-            <span className="text-[9px] text-slate-600/60 font-mono tracking-widest uppercase md:text-[10px]">
-                © Renaforge Systems
-            </span>
-        </div>
-        <BottomDock />
+      <body className={`${jetbrainsMono.variable} ${outfit.variable} antialiased font-outfit`}>
+        <PlannerProvider>
+          <EvidenceProvider>
+            {children}
+          </EvidenceProvider>
+          <div className="fixed bottom-1 w-full flex justify-center z-[150] pointer-events-none pb-safe">
+              <span className="text-[9px] text-slate-600/60 font-mono tracking-widest uppercase md:text-[10px]">
+                  © Tharun Gajula
+              </span>
+          </div>
+          <BottomDock />
+        </PlannerProvider>
       </body>
     </html>
   );

@@ -1,110 +1,90 @@
-# PROJECT MASTER CONTEXT: CURIOSITY OS (The Neural Navigator)
+# PROJECT MASTER CONTEXT: CURIOSITY OS 2.0 (The Teacher Operating System)
 
-## 📌 Executive Summary
-**CURIOSITY OS**, founded and engineered by **Tharun Gajula**, is a massive, immersive 3D visually-gamified Neural Map and teaching engine. It maps exactly 147 unique conceptual pathways centralized around a single massive core ("Another Point of View"). Designed with a premium "Cyber-Laboratory" aesthetic (glassmorphism, neon cyan, high-contrast dark modes), it allows students and mentors to navigate a complex web of interconnected skills, philosophies, and capabilities using a 3D hyperspace interface.
+## 📌 Executive Summary (The Pivot to V2.0)
+**CURIOSITY OS 2.0**, founded and engineered by **Tharun Gajula**, is a professional **Teacher Operating System** specifically designed for educators, mentors, and schools working with students (Class 9–10 focus). 
+
+While V1 was a 3D conceptual map, **V2.0 is a workflow-first utility**. It transforms pedagogical theory into a high-fidelity classroom operating loop: **Browse → Plan → Run → Notice → Reflect → Adapt.** It is a "Cognitive Playbook" turned into a live facilitation companion.
 
 ---
 
-## 🛠️ Technology Stack
-- **Framework:** Next.js 15 (App Router)
-- **UI & Styling:** React, Tailwind CSS, Framer Motion (for smooth 2D transitions & glassmorphic HUDs)
-- **3D Engine:** `react-force-graph-3d` (Three.js powered) for real-time node-link physics.
-- **Content Engine:** 
-  - **Source of Truth:** Pure structured data split across 3 JSON files (Master Schema, Teaching State, and Layouts). Markdown wikilinks have been completely eradicated.
-  - **Generator:** Data parsed directly via the `app/another_point_of_view/page.tsx` React component.
-- **Icons:** `lucide-react` with a massive dynamic mapping to handle specialized conceptual icons.
+## 🛠️ The Core Product Loop (End-to-End)
+
+### 1. Browse: The Activity Library (`/activities`)
+A premium educator-facing playbook of high-thinking activities.
+- **Categorization**: Grouped by **Purpose** (e.g., Debate, Simulation, Thinking Lab) and **Mode** (Group, Individual).
+- **Metadata**: Each activity surfaces specific **Learning Outcomes**, **Prep Levels**, and **Energy States** before selection.
+
+### 2. Plan: The Planner Workspace (`/planner`)
+A queue-based planning layer where teachers build their session stack.
+- **Add to Queue**: Teachers can "save" activities for later or queue them for immediate classroom use.
+- **Contextualization**: Provides a bird's-eye view of upcoming facilitation requirements.
+
+### 3. Run: Live Facilitation Stage (`/activities/[slug]/run`)
+The "Calm Facilitation Companion" interface.
+- **Step-by-Step Navigation**: Guides the teacher through exact facilitation timing.
+- **Global Mission Timer**: A persistent, pulsing digital readout for classroom pace management.
+- **Tactical Toolbox**: A slide-out panel containing **Teacher Moves** (scripts), **Watch Fors** (signals), and **Failure Signals** (pitfalls).
+
+### 4. Notice: Evidence Capture (`Tactical Toolbox`)
+A real-time "Notice & Capture" layer integrated into the Run Mode.
+- **Evidence Tagging**: Teachers capture meaningful student thinking in real-time via clinical observation tags (e.g., `REASONING_LEAP`, `STALLED_LOGIC`).
+- **Step-Aware Log**: Observations are tied to the specific facilitation step in which they occurred.
+
+### 5. Reflect: Activity Run Reflection (`/runs/[id]/reflect`)
+A guided workspace for pedagogical sense-making after a run.
+- **Guided Prompts**: Replaced generic forms with professional educator-focused prompts:
+  - *"What worked well during this run?"*
+  - *"Where did student thinking stall or break down?"*
+- **Evidence Mirror**: Re-surfaces all captured observations from the run to ground the teacher's reflection in data.
+
+### 6. Adapt: Pedagogical Memory (`Activity Detail`)
+The closing of the pedagogical loop.
+- **Last Adaptation**: Surfaced at the top of the activity page, capturing exactly what the teacher planned to change for the next run.
+- **Activity History**: A chronological log of every previous run, its captured evidence, and its reflection notes.
 
 ---
 
 ## 🎨 Design System & Visual Palette
-Any AI or engineer replicating this project MUST adhere strictly to these physical design parameters:
-- **Core Backgrounds:** Pure deep-space void (`bg-[#020617]`) layered with mesh gradients (`from-slate-950/90 via-slate-950/40 to-transparent`).
-- **Glassmorphism (The 'Lab' Feel):** Panels use `bg-slate-950/60` or `bg-slate-900/40` combined heavily with `backdrop-blur-xl` and `backdrop-blur-2xl`. Borders are universally micro-thin (`border-white/10` or `border-white/[0.08]`).
-- **Primary Accent (Neon Cyan):** Used for standard data and tech-readouts. Glowing box-shadows are engineered via `shadow-[0_0_30px_rgba(0,240,255,0.2)]`. Text elements use `text-cyan-400` or `text-cyan-500`.
-- **Secondary Accent (Emerald Green):** Used exclusively to signify active status, verification, or system readiness (e.g., "ENTER" buttons, `CONCEPT (V 1.0)` badging). Engineered via `rgba(16,185,129,x)`.
-- **Typography Matrix:**
-  - **Headers & Massive Text:** `var(--font-outfit)` (Outfit) — lightweight, highly tracked (`tracking-[0.3em]`), geometric.
-  - **Micro-Readouts & HUDs:** `font-mono` (Geist Mono) — used for all `text-[9px]` or `text-[10px]` technical labels perfectly echoing aviation/cyber instrumentation.
-  - **Body Text:** Standard sans-serif (`Inter`) with `text-slate-300` and high leading (`leading-relaxed`).
-- **Legal/Copyright:** All interfaces are branded with **© Tharun Gajula** to maintain founder-led identity.
+- **Aesthetic**: **"Clinical-Grade Laboratory"**. Dark glassmorphism (`bg-slate-950/60`), cyan neon accents (`#00F0FF`), and high-contrast white typography.
+- **Mobile Resilience**:
+  - **Clickable Cards**: Activity cards are fully interactive surfaces on mobile (no hidden-hover links).
+  - **Drawer Sidebar**: The Tactical Toolbox transforms into a full-screen drawer overlay on smaller screens.
+  - **Scalable HUD**: Typography and padding are responsive (`p-6` to `p-10`) to maximize screen real-estate during live facilitation.
+- **Legal**: Every interface is branded with **© Tharun Gajula**.
 
 ---
 
-## 🌌 The Core Engine (The 4 Wings)
-The project architecture is a singular "1+4 Core Engine" model for maximum density.
+## 🗺️ Technical Architecture
 
-### The Central Core: "Another Point of View"
-A highly concentrated Atomic Universe defined entirely in `content/1_another_point_of_view/schema_files/`.
-- **Node Count:** V1 Schema locked at exactly 147 pre-validated conceptual atoms.
-- **Relational Data Mapping:** No longer relies on implicit directories or markdown files. Edges are strictly mapped via Top-Level typed edges (e.g., `builds_on`, `reinforces`, `practiced_in`).
+### 1. Framework & Routing
+- **Framework**: Next.js 15 (App Router).
+- **UI Engine**: Framer Motion for high-fidelity pedagogical state transitions.
+- **Routing Structure**: 
+  - `/gateway`: The product manifesto.
+  - `/activities`: The Playbook/Library.
+  - `/planner`: The Workspace.
+  - `/run`: The Live Facilitation Stage.
+  - `/reflect`: The Reflection Workspace.
 
-### The Four Wings (Taxonomy Pillars)
-Every concept falls under one of four foundational Wings:
-1. **W1 — Decode** (Understanding Reality)
-2. **W2 — Cognition** (Building the Mind)
-3. **W3 — Relate** (Functioning with Humans)
-4. **W4 — Sandbox** (High-Stakes Live Practice)
-
----
-
-## 🗺️ Core Architecture & Component Logic
-
-### 1. The Home Gateway (`app/page.tsx` & `app/gateway/page.tsx`)
-- **NeuralCore3D:** A pulsing 3D wireframe energy core background overlaying cinematic space footage on `app/page.tsx`.
-- **The Core Orb Hub:** A single central orb with the Orbit icon. Clicking "ENTER GATEWAY" routes the user to `app/gateway/page.tsx`.
-- **The Manifesto (`/gateway`):** A beautiful scrolling narrative explaining the 4 Wings (Decode, Cognition, Relate, Sandbox) and why the OS exists, leading to a final CTA button "Explore the Core Graph" which boots up the 3D mapping engine.
-
-### 2. The Universe Engine (`components/UniverseGraph.tsx`)
-The heavy-lifter for the 3D data-visualization:
-- **Explicit Edge Generation:** Directly parses native JSON relational arrays to construct the force-directed graph architecture.
-- **Node Selection & Context Engine:** Multi-mode sidebar (Student / Mentor / Builder) that decrypts the physical relationships between concepts (e.g., automatically resolving Prerequisites and "Practiced In" targets).
-- **Session Stack UI:** A globally positioned horizontal slider on top of the navigation dock that allows the founder to click nodes and generate a "Class Session Plan," separating Opener, Core, and Reflection nodes.
-- **Fog of War & HUD Intelligence:** 
-  - **Neural Pathway Unlocked HUD:** Real-time tracking of discovery progress (e.g., `Nodes Discovered / 147`).
-  - **Omni-Directory (Search Console):** A full-screen searchable command palette to jump to any node instantly.
-  - **Wipe Memory:** A specialized diagnostic tool to reset all discovery progress for local testing.
-  - **Discovery Gamification:** Nodes start as hollow shells and ignite into glowing cores only upon discovery. Progress is saved to `localStorage`.
+### 2. Data Infrastructure
+- **Content Source**: Static Markdown files with structured YAML frontmatter for activities.
+- **State Engines**:
+  - **`EvidenceProvider`**: Manages session history, captured observations, and pedagogical reflections.
+  - **`PlannerProvider`**: Manages the activity queue and saved state.
+- **Persistence**: 100% client-side `localStorage` (`curiosity_os_evidence_v1`). No backend sync required for initial pilot.
 
 ---
 
-## 🎨 Advanced UI/UX Space Mechanics & Polishing
-- **Interactive Double-Tap Navigation:** On touch displays, CSS `:hover` states fail. Therefore, clicking an orbital node intercepts routing and instead triggers the tooltip gateway interface.
-- **Microscopic HUD Typography:** Title typography in the Universe maps is strictly `text-[10px] text-cyan-500 font-mono uppercase tracking-widest`, mirroring realistic jet-fighter/tech instrumentation readouts.
-- **Global Contrast Glow:** Bottom Dock layouts utilize hyper-deep slate gradients (`bg-gradient-to-br from-slate-800/80 to-slate-950/90`) coupled with powerful cyan shadow underglows.
-- **Mobile Clearance Bounds:** Elements are gracefully snapped to physical offsets (like `bottom-[85px]`) rather than simple percentage heights, clearing the mobile native UI browsers flawlessly. Z-indexes are hyper-strict to prevent overlap.
+## 🌌 Legacy Core: The Neural Universe (V1)
+The **147-node Neural Map** remains the "Reasoning Engine" of the project.
+- **System Architecture**: Located at `/another_point_of_view`.
+- **Logic**: A 3D graph Powered by `react-force-graph-3d`, mapping the interconnected relationship of skills and philosophies.
+- **Status**: Currently documented as the **"Core Intelligence Layer"**—teachers see the activities (V2), while the OS manages the curriculum map (V1).
 
 ---
 
-## 🧠 Data Schema Protocol (The 3-File Split)
-The core architectural pivot removed the reliance on individual Markdown text files or single bloated JSONs. The architecture is strictly decoupled into 3 state files located in `content/1_another_point_of_view/`:
-
-1. **`master_universe_v1.json` (Immutable Infrastructure)**: Stores the 147 conceptual topological nodes, 5-part teaching descriptions, and physical network edges.
-2. **`teaching_state_v1_starter.json` (Volatile Progress)**: Stores the mentor's progress through the map. Records `status`, `mastery_estimate`, `last_taught_on`, and `remarks`.
-3. **`universe_layouts_v1_starter.json` (Visual Presets)**: Stores physical X/Y/Z mapping positions to retain curated cluster views.
-
-Please see the root `CURIOSITY_SCHEMA_V1.md` document for the absolute exhaustive TypeScript interfaces for these files.
-
----
-
-## 🔄 The Teaching Cycle & Progress Tracking
-Curiosity OS has grown beyond a visualization tool into a complete **Teaching OS**.
-1. **Adding a Topic:** The Founder uses the AI to generate a valid schema node to inject into `master_universe_v1.json`. Upon UI refresh, it spawns instantly in 3D.
-2. **Session Building:** Using the global Bottom Dock and multi-select HUD, the Founder queues up specific atoms into a "Session Stack" before class (Opener, Core, Practice, Reflection).
-3. **Reporting Mastery:** After class, the Founder logs completion logic into `teaching_state_v1_starter.json`. Upon refresh, the visual graph gamifies and illuminates the completed nodes in brilliant neon colors. The OS physically tracks chronological cycles over time.
-
----
-
-## 🚀 Next Horizon: Phase 5 (Supabase Integration)
-Currently, all graph and teaching states run cleanly from local JSON. The exact next evolutionary step is migrating these 3 files to live **Supabase PostgreSQL** tables. 
-- Supabase will become the "Cloud Memory" for the OS, enabling real-time remote fetching, cross-device persistence (like using an iPad while teaching), and eventual Multi-Tenant tracking for distinct cohorts of students.
-
----
-
-## 🚨 CRITICAL VERCEL DEPLOYMENT & BUILD RULES
-**MAJOR WARNING: NEVER TOUCH THE NEXT.JS OR ESLINT VERSIONS UNLESS EXPLICITLY INSTRUCTED.**
-
-1. **VERSION LOCK:** Do NOT change the `next`, `react`, `react-dom`, or `eslint` versions in `package.json`. The current combination completely bypasses the Turbopack memory leaks and Vercel caching bugs.
-2. **ESLINT CONFIG:** We are strictly using the flat config (`eslint.config.mjs`). Do NOT revert to legacy `.eslintrc.json`. If a dependency complains about missing legacy configs (e.g., `@humanwhocodes/config-array`), IGNORE IT during deployments.
-3. **TURBOPACK / CACHE ISSUES:** If Vercel throws strange "Unexpected token", "Turbopack", or "Memory leak / Inflight" errors during `vercel build`, it is a **Vercel Build Cache corruption**, not a code error.
-   - **Fix:** Go to Vercel Dashboard -> Deployments -> Redeploy -> **Uncheck "Use Build Cache"** and redeploy. 
-4. **LOCAL FIXES INSTEAD OF VERSION JUMPS:** If there is a Type error or ESLint error causing a Vercel build failure, fix the *TypeScript/Code* issue. Do **NOT** try to fix it by changing Next.js versions.
+## 🚨 CRITICAL DEPLOYMENT & BUILD RULES
+1. **VERSION LOCK**: NEVER change `next`, `react`, or `eslint` versions in `package.json`. Current versions are tuned to bypass Turbopack memory leaks.
+2. **ESLINT CONFIG**: Strictly use `eslint.config.mjs`. Do NOT revert to legacy `.eslintrc.json`.
+3. **TURBOPACK CACHE**: If Vercel build fails with "Turbopack" errors, redeploy with **"Use Build Cache" UNCHECKED**.
+筋

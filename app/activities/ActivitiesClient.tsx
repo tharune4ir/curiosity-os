@@ -161,7 +161,7 @@ export function ActivityLibraryClient({ initialActivities, collections }: any) {
   };
 
   return (
-    <div className="max-w-6xl mx-auto pb-32">
+    <div className="max-w-6xl mx-auto pb-48">
       
       {/* Featured Collections Section */}
       <section className="mb-16">

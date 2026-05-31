@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Sparkles, Search, RefreshCw, Command, BookOpen, Layers } from "lucide-react";
+import { Home, Sparkles, Search, RefreshCw, Command, BookOpen, Layers, Compass } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function BottomDock() {
@@ -13,6 +13,7 @@ export default function BottomDock() {
     const isUniverse = pathname?.includes('/another_point_of_view');
     const isMissions = pathname === '/activities' || pathname?.startsWith('/activities/');
     const isRunMode = pathname?.includes('/run');
+    const isVerseActive = pathname === '/verse' || pathname?.includes('/another_point_of_view');
 
     if (isRunMode) return null;
 
@@ -116,24 +117,24 @@ export default function BottomDock() {
                     </div>
                 </Link>
 
-                {/* Planner Workspace */}
+                {/* Curiosity Verse */}
                 <Link
-                    href="/planner"
+                    href="/verse"
                     className={cn(
                         "relative flex items-center justify-center w-8 h-8 md:w-11 md:h-11 rounded-full border transition-all duration-300",
-                        pathname === '/planner' 
+                        isVerseActive 
                             ? "border-cyan-500/30 bg-cyan-500/5 text-cyan-400 shadow-[0_0_15px_rgba(0,240,255,0.1)]" 
                             : "border-white/[0.06] bg-transparent text-slate-500 hover:text-cyan-300 hover:bg-slate-800/50 hover:border-cyan-500/20"
                     )}
-                    onMouseEnter={() => setActiveTooltip("planner")}
+                    onMouseEnter={() => setActiveTooltip("verse")}
                     onMouseLeave={() => setActiveTooltip(null)}
                 >
-                    <Layers className="w-4 h-4 md:w-5 md:h-5" strokeWidth={1.5} />
+                    <Compass className="w-4 h-4 md:w-5 md:h-5" strokeWidth={1.5} />
                     <div className={cn(
                         "absolute bottom-full left-1/2 -translate-x-1/2 mb-3 whitespace-nowrap bg-slate-950/90 px-4 py-2 rounded-md border border-cyan-500/50 shadow-[0_0_15px_rgba(0,240,255,0.2)] backdrop-blur-md transition-all duration-200 pointer-events-none",
-                        activeTooltip === "planner" ? "opacity-100 translate-y-0" : "opacity-0 translate-y-1"
+                        activeTooltip === "verse" ? "opacity-100 translate-y-0" : "opacity-0 translate-y-1"
                     )}>
-                        <span className="text-[10px] tracking-widest text-cyan-100 font-mono">PLANNER</span>
+                        <span className="text-[10px] tracking-widest text-cyan-100 font-mono">VERSE</span>
                     </div>
                 </Link>
 

@@ -14,7 +14,7 @@ export default async function ActivityLibrary() {
   ]);
 
   return (
-    <main className="min-h-screen bg-slate-950 pt-20 pb-32 px-4 md:px-8">
+    <main className="min-h-screen bg-slate-950 pt-20 pb-48 px-4 md:px-8">
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto mb-12 text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-outfit font-light text-white mb-6 tracking-tight">

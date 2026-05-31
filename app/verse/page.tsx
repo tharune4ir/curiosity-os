@@ -6,7 +6,7 @@ import { Orbit, Compass, Brain, Share2, Sparkles } from "lucide-react";
 
 export default function VerseGateway() {
     return (
-        <main className="min-h-screen bg-[#020617] text-slate-300 selection:bg-cyan-500/30 font-sans pb-36 overflow-x-hidden relative">
+        <main className="min-h-screen bg-[#020617] text-slate-300 selection:bg-cyan-500/30 font-sans pb-48 overflow-x-hidden relative">
             {/* Immersive radial glows */}
             <div className="absolute top-0 right-0 w-full h-[600px] bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-cyan-900/15 via-[#020617] to-transparent pointer-events-none z-0" />
             <div className="absolute bottom-20 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-950/10 to-transparent pointer-events-none z-0" />
@@ -22,12 +22,11 @@ export default function VerseGateway() {
                 >
                     <span className="text-[10px] font-mono tracking-[0.3em] text-cyan-400 uppercase">// THE_KNOWLEDGE_UNIVERSE</span>
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white mt-4 mb-6 leading-tight" style={{ fontFamily: 'var(--font-outfit), sans-serif' }}>
-                        Welcome to the <br />
-                        <span className="bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(0,240,255,0.3)]">Curiosity Verse</span>
+                        Curiosity Verse
                     </h1>
                     
                     <p className="text-base md:text-lg text-slate-400 mb-6 leading-relaxed font-light">
-                        The Curiosity Verse is a live, interactive 3D mapping of mental nodes, science paradigms, and systemic layers. It serves as a visual constellation of human learning, displaying how seemingly isolated ideas—from causality loop lines to psychological pressure defenses—connect across a cohesive grid.
+                        Curiosity Verse is the visual map behind Curiosity OS. Explore ideas, perspectives, and connected thinking nodes. Use it when you want to wander, connect, and see learning from another point of view.
                     </p>
 
                     <p className="text-slate-400 mb-8 leading-relaxed font-light">
@@ -39,22 +38,22 @@ export default function VerseGateway() {
                         <div className="flex items-start gap-3">
                             <Brain className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                             <div>
-                                <h4 className="text-sm font-semibold text-white">147 Interconnected Concepts</h4>
-                                <p className="text-xs text-slate-400 leading-relaxed font-light">Explore a vast galaxy of mapped thinking structures, systems, and observations.</p>
+                                <h4 className="text-sm font-semibold text-white">Interconnected Concepts</h4>
+                                <p className="text-xs text-slate-400 leading-relaxed font-light font-sans">Explore a vast galaxy of mapped thinking structures, systems, and observations.</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-3">
                             <Share2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                             <div>
                                 <h4 className="text-sm font-semibold text-white">Causal Relationship Mapping</h4>
-                                <p className="text-xs text-slate-400 leading-relaxed font-light">Click on nodes to illuminate their direct influences and trace compound causal relationships.</p>
+                                <p className="text-xs text-slate-400 leading-relaxed font-light font-sans">Click on nodes to illuminate their direct influences and trace compound causal relationships.</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-3">
                             <Sparkles className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                             <div>
                                 <h4 className="text-sm font-semibold text-white">Zero Learning Barriers</h4>
-                                <p className="text-xs text-slate-400 leading-relaxed font-light">No setup, no accounts, and no workflows. Just zoom, rotate, search, and learn.</p>
+                                <p className="text-xs text-slate-400 leading-relaxed font-light font-sans">No setup, no accounts, and no workflows. Just zoom, rotate, search, and learn.</p>
                             </div>
                         </div>
                     </div>
@@ -66,14 +65,14 @@ export default function VerseGateway() {
                             className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500/20 to-cyan-700/10 border border-cyan-500/40 hover:bg-cyan-500/30 hover:text-white text-cyan-100 font-mono text-xs tracking-widest uppercase hover:shadow-[0_0_20px_rgba(0,240,255,0.2)] transition-all active:scale-95"
                         >
                             <Orbit className="w-4 h-4 animate-spin-slow" />
-                            Enter 3D Curiosity Verse
+                            Enter Curiosity Verse
                         </Link>
                         
                         <Link 
                             href="/activities" 
                             className="inline-flex justify-center items-center px-6 py-4 rounded-full border border-slate-800 hover:border-slate-600 hover:bg-slate-900/60 text-slate-300 text-sm font-medium transition-all"
                         >
-                            Browse Activities instead
+                            Browse Activity Library
                         </Link>
                     </div>
                 </motion.div>

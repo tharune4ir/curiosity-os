@@ -35,8 +35,8 @@ export default async function ActivityDetail({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-slate-950 pt-24 pb-40 px-4 md:px-8 selection:bg-cyan-500/30">
-      <div className="max-w-4xl mx-auto">
+    <main className="min-h-screen bg-slate-950 pt-24 pb-48 px-4 md:px-8 selection:bg-cyan-500/30">
+      <div className="max-w-4xl mx-auto pb-16">
         
         {/* Back Navigation */}
         <Link 

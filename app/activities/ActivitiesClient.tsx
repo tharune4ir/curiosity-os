@@ -2,11 +2,9 @@
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
-import { Search, Filter, Clock, Zap, BookOpen, Layers, X, ArrowRight, Star, GraduationCap, ListPlus, Check } from "lucide-react";
+import { Search, Filter, Clock, Zap, BookOpen, Layers, X, ArrowRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { usePlanner } from "@/lib/planner-context";
 
 const COLLECTION_HINTS: Record<string, string> = {
   "reality-check-labs": "Read claims, graphs, and evidence more clearly",
@@ -26,13 +24,19 @@ interface ActivityCardProps {
 
 function ActivityCard({ activity, featured }: ActivityCardProps) {
   const router = useRouter();
-  const { toggleSave, isSaved, toggleQueue, isInQueue } = usePlanner();
-  const saved = isSaved(activity.id);
-  const inQueue = isInQueue(activity.id);
 
   const handleCardClick = () => {
     router.push(`/activities/${activity.slug}`);
   };
+
+  // Map modes nicely to readable text
+  const bestFor = useMemo(() => {
+    const m = activity.mode?.toLowerCase() || "";
+    if (m.includes("solo") || m.includes("individual")) return "Solo";
+    if (m.includes("pair") || m.includes("groups")) return "Groups & Pairs";
+    if (m.includes("class") || m.includes("classroom") || m.includes("mentor")) return "Teachers & Classrooms";
+    return "All Learners";
+  }, [activity.mode]);
 
   return (
     <motion.div
@@ -57,39 +61,9 @@ function ActivityCard({ activity, featured }: ActivityCardProps) {
         <span className="text-[9px] uppercase tracking-widest font-mono font-bold px-2.5 py-1 rounded-full border border-cyan-500/20 text-cyan-400 bg-cyan-500/5">
           {activity.purpose}
         </span>
-        <span className="text-[9px] uppercase tracking-widest font-mono font-medium px-2.5 py-1 rounded-full border border-white/5 text-slate-500 bg-white/5">
-          {activity.mode}
+        <span className="text-[9px] uppercase tracking-widest font-mono font-medium px-2.5 py-1 rounded-full border border-white/5 text-slate-400 bg-white/5">
+          Best for: {bestFor}
         </span>
-        {featured && (
-          <span className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest font-mono font-bold text-amber-500/80">
-            <Star className="w-3 h-3 fill-amber-500/50" />
-            Recommended
-          </span>
-        )}
-
-        {/* Action Controls - Right Aligned in Header */}
-        <div className="ml-auto flex items-center gap-1 relative z-10">
-           <button 
-             onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleSave(activity.id); }}
-             className={cn(
-               "p-2 rounded-full transition-all duration-200 border",
-               saved ? "bg-amber-500/10 border-amber-500/30 text-amber-500" : "bg-white/5 border-white/5 text-slate-500 hover:text-amber-400 hover:border-amber-400/20"
-             )}
-             title={saved ? "Remove from Saved" : "Save Activity"}
-           >
-             <Star className={cn("w-3.5 h-3.5", saved && "fill-current")} />
-           </button>
-           <button 
-             onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleQueue(activity.id); }}
-             className={cn(
-               "p-2 rounded-full transition-all duration-200 border",
-               inQueue ? "bg-cyan-500/10 border-cyan-500/30 text-cyan-400" : "bg-white/5 border-white/5 text-slate-500 hover:text-cyan-400 hover:border-cyan-400/20"
-             )}
-             title={inQueue ? "Remove from Queue" : "Add to Queue"}
-           >
-             {inQueue ? <Check className="w-3.5 h-3.5" /> : <ListPlus className="w-3.5 h-3.5" />}
-           </button>
-        </div>
       </div>
 
       <h3 className="text-xl font-outfit font-medium text-slate-100 mb-2.5 leading-tight group-hover:text-white transition-colors">
@@ -101,24 +75,22 @@ function ActivityCard({ activity, featured }: ActivityCardProps) {
       </p>
 
       {/* Logistics Strip */}
-      <div className="flex items-center gap-4 border-t border-white/5 pt-5 mt-auto">
-        <div className="flex items-center gap-1.5 text-[11px] text-slate-500 font-mono">
-          <Clock className="w-3.5 h-3.5 text-slate-600" />
-          <span>{activity.duration.typical}m</span>
+      <div className="flex items-center justify-between border-t border-white/5 pt-5 mt-auto">
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-1.5 text-[11px] text-slate-500 font-mono">
+            <Clock className="w-3.5 h-3.5 text-slate-600" />
+            <span>{activity.duration?.typical || 30}m</span>
+          </div>
+          <div className="flex items-center gap-1.5 text-[11px] text-slate-500 font-mono">
+            <Zap className="w-3.5 h-3.5 text-slate-600" />
+            <span className="uppercase">{activity.energy || "Medium"}</span>
+          </div>
         </div>
-        <div className="flex items-center gap-1.5 text-[11px] text-slate-500 font-mono">
-          <Zap className="w-3.5 h-3.5 text-slate-600" />
-          <span className="uppercase">{activity.energy}</span>
-        </div>
-        <div className="flex items-center gap-1.5 text-[11px] text-slate-500 font-mono">
-          <BookOpen className="w-3.5 h-3.5 text-slate-600" />
-          <span className="uppercase font-bold">{activity.prep} PREP</span>
-        </div>
-      </div>
 
-      {/* Action Indicator - Always visible indicator on mobile, hidden on hover desktop */}
-      <div className="absolute bottom-5 right-5 p-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 md:opacity-0 group-hover:opacity-100 transition-all duration-300">
-        <ArrowRight className="w-4 h-4" />
+        {/* CTA: Open Activity */}
+        <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-cyan-400 group-hover:text-cyan-300 transition-colors flex items-center gap-1">
+          Open Guide <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+        </span>
       </div>
     </motion.div>
   );
@@ -191,9 +163,9 @@ export function ActivityLibraryClient({ initialActivities, collections }: any) {
   return (
     <div className="max-w-6xl mx-auto pb-32">
       
-      {/* Featured Collections Section (Moved Higher) */}
+      {/* Featured Collections Section */}
       <section className="mb-16">
-        <h2 className="text-[10px] font-mono uppercase tracking-[0.3em] text-slate-500 mb-8 px-1">Browse by Theme</h2>
+        <h2 className="text-[10px] font-mono uppercase tracking-[0.3em] text-slate-500 mb-8 px-1">Browse by Category</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {collections.map((c: any) => (
             <button 
@@ -227,16 +199,13 @@ export function ActivityLibraryClient({ initialActivities, collections }: any) {
         </div>
       </section>
 
-      {/* Start Here / Reference Activities (Immediate Value) */}
+      {/* Flagship Curations */}
       {!selectedCollection && searchQuery === "" && (
         <section className="mb-16">
           <div className="flex flex-col mb-8 px-1">
-            <div className="flex items-center gap-3 mb-1">
-              <Star className="w-4 h-4 text-amber-500" />
-              <h2 className="text-sm md:text-base font-outfit font-medium text-slate-200">Start Here</h2>
-            </div>
+            <h2 className="text-sm md:text-base font-outfit font-medium text-slate-200">Recommended Challenges</h2>
             <p className="text-xs text-slate-500 font-outfit italic opacity-60">
-              Four strong activities to begin with
+              Four strong activities to begin your thinking practice
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -324,7 +293,7 @@ export function ActivityLibraryClient({ initialActivities, collections }: any) {
             <div className="flex items-center justify-between mb-8 px-1 border-b border-white/5 pb-6">
                <h2 className="text-xs font-mono uppercase tracking-[0.2em] text-slate-500">
                   {selectedCollection ? collections.find((c: any) => c.slug === selectedCollection)?.title : "Complete Library"}
-                  <span className="ml-4 text-cyan-500/50 font-bold">{filteredActivities.length} Results</span>
+                  <span className="ml-4 text-cyan-500/50 font-bold">{filteredActivities.length} Guides Mapped</span>
                </h2>
                {selectedCollection && (
                  <button onClick={() => setSelectedCollection(null)} className="text-[10px] font-mono text-cyan-400 uppercase tracking-widest hover:text-white transition-colors bg-cyan-500/5 border border-cyan-500/20 px-3 py-1 rounded-full">Clear Collection</button>
@@ -344,7 +313,7 @@ export function ActivityLibraryClient({ initialActivities, collections }: any) {
             animate={{ opacity: 1 }}
             className="flex flex-col items-center justify-center py-40 px-4 text-center bg-slate-900/40 border border-dashed border-white/10 rounded-[2.5rem] shadow-2xl"
           >
-            <Layers className="w-16 h-16 text-slate-800 mb-8 opacity-20" />
+            <BookOpen className="w-16 h-16 text-slate-800 mb-8 opacity-20" />
             <h3 className="text-2xl font-outfit text-slate-200 mb-3">No activities found</h3>
             <p className="text-sm text-slate-500 mb-10 max-w-sm leading-relaxed mx-auto">
               Try adjusting your search query or broadening your filters to explore other activities in the library.
@@ -359,20 +328,17 @@ export function ActivityLibraryClient({ initialActivities, collections }: any) {
         )}
       </div>
 
-      {/* Clean Footer (No Internal/Backend Jargon) */}
+      {/* Clean Footer */}
       <footer className="mt-40 pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 opacity-60 hover:opacity-100 transition-opacity">
         <div className="flex items-center gap-4">
-          <div className="w-10 h-10 rounded-full bg-slate-900 border border-white/5 flex items-center justify-center">
-             <GraduationCap className="w-5 h-5 text-slate-400" />
-          </div>
           <div>
             <p className="text-xs font-outfit text-slate-100 font-medium">Curiosity OS</p>
-            <p className="text-[10px] font-mono uppercase tracking-widest text-slate-500">Teacher Resource Library</p>
+            <p className="text-[10px] font-mono uppercase tracking-widest text-slate-500">Free & Open Thinking Library</p>
           </div>
         </div>
         <div className="flex gap-12 font-mono text-[10px] uppercase tracking-widest text-slate-600">
-           <span>Class 9–10 Optimized</span>
-           <span>Curated Reference Library</span>
+           <span>Free Exploration</span>
+           <span>No-Auth Static Guide</span>
         </div>
       </footer>
     </div>

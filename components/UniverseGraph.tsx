@@ -25,7 +25,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
     const [mounted, setMounted] = useState(false);
     const [selectedNode, setSelectedNode] = useState<any>(null);
     const [unlockedNodes, setUnlockedNodes] = useState<Set<string>>(new Set());
-    const [sessionStack, setSessionStack] = useState<any[]>([]);
+    const [displayType, setDisplayType] = useState<'graph' | 'list'>('graph');
     const [isDirectoryOpen, setIsDirectoryOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [viewMode, setViewMode] = useState<'student' | 'mentor' | 'builder'>('mentor');
@@ -63,8 +63,23 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                 groups["Related To"].push({ node: targetNode, edge: e, isOutgoing });
             }
         });
-        return groups;
     }, [selectedNode, graphData]);
+
+    const nodesByWing = useMemo(() => {
+        if (!graphData?.nodes) return {};
+        const groups: Record<string, any[]> = {
+            'W1': [],
+            'W2': [],
+            'W3': [],
+            'W4': []
+        };
+        graphData.nodes.forEach((node: any) => {
+            const wing = node.taxonomy?.wing_code || 'Other';
+            if (!groups[wing]) groups[wing] = [];
+            groups[wing].push(node);
+        });
+        return groups;
+    }, [graphData]);
 
     const handleNodeClick = useCallback((node: any) => {
         setSelectedNode(node);
@@ -616,94 +631,201 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
     };
 
     return (
-        <div className="relative w-screen h-screen overflow-hidden">
-            {/* Back to Home Button - Top Left */}
-            <div className="absolute top-6 left-6 md:top-10 md:left-10 z-40 flex items-center gap-4">
+        <div className="relative w-screen h-screen overflow-hidden bg-[#020617]">
+            {/* Back to Home & Control Panel - Top Left */}
+            <div className="absolute top-6 left-6 md:top-10 md:left-10 z-40 flex flex-col md:flex-row items-start md:items-center gap-4 pointer-events-auto">
                 <a
                     href="/"
-                    className="group flex items-center gap-2 text-cyan-400 font-mono text-xs tracking-widest bg-slate-900/60 backdrop-blur-md px-4 py-2 rounded-full border border-cyan-500/30 hover:bg-cyan-500/20 hover:text-white transition-all shadow-[0_0_15px_rgba(0,240,255,0.1)]"
+                    className="group flex items-center gap-2 text-cyan-400 font-mono text-xs tracking-widest bg-slate-900/60 backdrop-blur-md px-4 py-2 rounded-full border border-cyan-500/30 hover:bg-cyan-500/20 hover:text-white transition-all shadow-[0_0_15px_rgba(0,240,255,0.1)] animate-fade-in"
                 >
                     <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-                    <span className="hidden md:block">SYSTEM_RETURN</span>
+                    <span>SYSTEM_RETURN</span>
                 </a>
 
-                {/* View Mode Toggle */}
-                <div className="flex flex-wrap md:flex-nowrap items-center bg-slate-900/60 backdrop-blur-md rounded-2xl md:rounded-full border border-slate-700/50 p-1 mt-2 md:mt-0 gap-1 md:gap-0">
-                    {(['student', 'mentor', 'builder'] as const).map(mode => (
+                <div className="flex flex-wrap items-center gap-2">
+                    {/* View Mode Toggle */}
+                    <div className="flex items-center bg-slate-900/60 backdrop-blur-md rounded-full border border-slate-700/50 p-1 gap-1">
+                        {(['student', 'mentor', 'builder'] as const).map(mode => (
+                            <button
+                                key={mode}
+                                onClick={() => setViewMode(mode)}
+                                className={`px-3 py-1 rounded-full text-[10px] font-mono tracking-widest uppercase transition-all ${
+                                    viewMode === mode 
+                                    ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shadow-[0_0_10px_rgba(0,240,255,0.2)]' 
+                                    : 'text-slate-500 hover:text-slate-300'
+                                }`}
+                            >
+                                {mode}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* Display Type Toggle (3D Graph vs Directory List) */}
+                    <div className="flex items-center bg-slate-900/60 backdrop-blur-md rounded-full border border-slate-700/50 p-1 gap-1">
                         <button
-                            key={mode}
-                            onClick={() => setViewMode(mode)}
-                            className={`px-4 py-1.5 rounded-full text-[10px] font-mono tracking-widest uppercase transition-all ${
-                                viewMode === mode 
-                                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shadow-[0_0_10px_rgba(0,240,255,0.2)]' 
-                                : 'text-slate-500 hover:text-slate-300 border border-transparent'
+                            onClick={() => setDisplayType('graph')}
+                            className={`px-3 py-1 rounded-full text-[10px] font-mono tracking-widest uppercase transition-all flex items-center gap-1.5 ${
+                                displayType === 'graph'
+                                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shadow-[0_0_10px_rgba(0,240,255,0.2)]'
+                                : 'text-slate-500 hover:text-slate-300'
                             }`}
                         >
-                            {mode}
+                            <LucideIcons.Atom className="w-3.5 h-3.5" />
+                            <span>3D Universe</span>
                         </button>
-                    ))}
+                        <button
+                            onClick={() => setDisplayType('list')}
+                            className={`px-3 py-1 rounded-full text-[10px] font-mono tracking-widest uppercase transition-all flex items-center gap-1.5 ${
+                                displayType === 'list'
+                                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shadow-[0_0_10px_rgba(0,240,255,0.2)]'
+                                : 'text-slate-500 hover:text-slate-300'
+                            }`}
+                        >
+                            <LucideIcons.List className="w-3.5 h-3.5" />
+                            <span>List Directory</span>
+                        </button>
+                    </div>
+
+                    {/* Search/Omni Directory trigger */}
+                    <button
+                        onClick={() => setIsDirectoryOpen(true)}
+                        className="group flex items-center gap-2 text-slate-400 font-mono text-[10px] tracking-widest bg-slate-900/60 backdrop-blur-md px-4 py-2 rounded-full border border-slate-700/50 hover:bg-slate-800 hover:text-white transition-all"
+                    >
+                        <Search className="w-3.5 h-3.5 text-cyan-500 group-hover:scale-110 transition-transform" />
+                        <span>SEARCH</span>
+                    </button>
                 </div>
             </div>
 
-            <div className="absolute inset-0 z-0">
-                <ForceGraph3D
-                    ref={fgRef}
-                    graphData={graphData}
-                    backgroundColor="#020617"
-                    linkColor={() => "rgba(0, 240, 255, 0.1)"}
-                    linkDirectionalParticles={() => Math.random() > 0.5 ? 1 : 0}
-                    linkDirectionalParticleWidth={1}
-                    linkDirectionalParticleSpeed={0.015}
-                    linkDirectionalParticleColor={() => "#00F0FF"}
-                    onEngineStop={handleEngineStop}
-                    nodeThreeObject={(node: any) => {
-                        const group = new THREE.Group();
-                        const isActive = selectedNode?.id === node.id;
-                        const catColor = getCategoryColor(node.taxonomy?.wing_code);
+            {displayType === 'list' ? (
+                <div className="absolute inset-0 z-0 bg-[#020617] pt-40 md:pt-32 pb-24 px-6 md:px-12 overflow-y-auto custom-scrollbar pointer-events-auto">
+                    <div className="max-w-7xl mx-auto flex flex-col gap-12">
+                        {['W1', 'W2', 'W3', 'W4'].map(wingCode => {
+                            const wingNodes = nodesByWing[wingCode] || [];
+                            const wingColor = getCategoryColor(wingCode);
+                            const wingTitles: Record<string, string> = {
+                                W1: "Wing 1: Decode (Mental Operations & Tools)",
+                                W2: "Wing 2: Cognition (Observation & Self-Learning)",
+                                W3: "Wing 3: Relate (Interconnected Pathways & Systems)",
+                                W4: "Wing 4: Sandbox (Embodiment & Simulations)"
+                            };
+                            if (wingNodes.length === 0) return null;
+                            return (
+                                <div key={wingCode} className="flex flex-col gap-6">
+                                    <h2 
+                                        style={{ color: wingColor, textShadow: `0 0 20px ${wingColor}40` }}
+                                        className="text-sm md:text-base font-bold tracking-widest font-mono uppercase border-b border-slate-800 pb-3 flex items-center gap-2"
+                                    >
+                                        <Atom className="w-5 h-5 animate-pulse" />
+                                        {wingTitles[wingCode] || wingCode}
+                                    </h2>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                        {wingNodes.map((node: any) => {
+                                            const isUnlocked = unlockedNodes.has(node.id);
+                                            return (
+                                                <motion.div
+                                                    key={node.id}
+                                                    whileHover={{ scale: 1.02, translateY: -2 }}
+                                                    onClick={() => handleNodeClick(node)}
+                                                    style={{ borderColor: `${wingColor}20` }}
+                                                    className="bg-slate-900/40 hover:bg-slate-900/90 border rounded-2xl p-6 transition-all hover:border-cyan-500/40 cursor-pointer flex flex-col justify-between min-h-[190px] shadow-lg group relative overflow-hidden"
+                                                >
+                                                    <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-cyan-500/5 to-transparent rounded-bl-full pointer-events-none" />
+                                                    <div>
+                                                        <div className="flex items-center justify-between mb-3">
+                                                            <span style={{ color: wingColor }} className="text-[10px] font-mono tracking-widest uppercase bg-slate-950/60 px-2 py-0.5 rounded border border-white/5">
+                                                                {node.taxonomy?.concept_code || node.id}
+                                                            </span>
+                                                            {isUnlocked && (
+                                                                <span className="flex items-center gap-1 text-[9px] text-emerald-400 font-mono">
+                                                                    <CheckCircle2 className="w-3 h-3 animate-pulse" /> UNLOCKED
+                                                                </span>
+                                                            )}
+                                                        </div>
+                                                        <h3 className="text-base font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors font-mono">
+                                                            {node.display_title || node.title}
+                                                        </h3>
+                                                        <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed font-sans mb-4">
+                                                            {node.content?.meaning || "A core concept node in the Curiosity OS visual knowledge universe."}
+                                                        </p>
+                                                    </div>
+                                                    <div className="flex items-center justify-between pt-3 border-t border-slate-800/60 mt-auto">
+                                                        <span className="text-[10px] text-slate-500 font-mono uppercase">
+                                                            {node.activities?.length || 0} Practical Activities
+                                                        </span>
+                                                        <span className="text-cyan-400 font-mono text-[10px] tracking-wider group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                                                            EXPLORE_NODE &rarr;
+                                                        </span>
+                                                    </div>
+                                                </motion.div>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            ) : (
+                <div className="absolute inset-0 z-0 pointer-events-auto">
+                    <ForceGraph3D
+                        ref={fgRef}
+                        graphData={graphData}
+                        backgroundColor="#020617"
+                        linkColor={() => "rgba(0, 240, 255, 0.1)"}
+                        linkDirectionalParticles={() => Math.random() > 0.5 ? 1 : 0}
+                        linkDirectionalParticleWidth={1}
+                        linkDirectionalParticleSpeed={0.015}
+                        linkDirectionalParticleColor={() => "#00F0FF"}
+                        onEngineStop={handleEngineStop}
+                        nodeThreeObject={(node: any) => {
+                            const group = new THREE.Group();
+                            const isActive = selectedNode?.id === node.id;
+                            const catColor = getCategoryColor(node.taxonomy?.wing_code);
 
-                        // 1. The Mathematical Shell (Wireframe Icosahedron)
-                        const shellGeo = new THREE.IcosahedronGeometry(isActive ? 8 : 6, 1);
-                        const shellMat = new THREE.MeshBasicMaterial({
-                            color: catColor,
-                            wireframe: true,
-                            transparent: true,
-                            opacity: isActive ? 0.3 : 0.15
-                        });
-                        const shell = new THREE.Mesh(shellGeo, shellMat);
-                        group.add(shell);
+                            // 1. The Mathematical Shell (Wireframe Icosahedron)
+                            const shellGeo = new THREE.IcosahedronGeometry(isActive ? 8 : 6, 1);
+                            const shellMat = new THREE.MeshBasicMaterial({
+                                color: catColor,
+                                wireframe: true,
+                                transparent: true,
+                                opacity: isActive ? 0.3 : 0.15
+                            });
+                            const shell = new THREE.Mesh(shellGeo, shellMat);
+                            group.add(shell);
 
-                        // 2. The Quantum Core (Smooth solid center)
-                        const coreGeo = new THREE.SphereGeometry(isActive ? 3 : 2, 16, 16);
-                        const isUnlocked = unlockedNodes.has(node.id);
-                        const coreMat = new THREE.MeshBasicMaterial({
-                            color: isActive ? '#FFFFFF' : (isUnlocked ? catColor : '#002244'),
-                            transparent: !isUnlocked && !isActive,
-                            opacity: isActive || isUnlocked ? 1 : 0.6
-                        });
-                        const core = new THREE.Mesh(coreGeo, coreMat);
-                        group.add(core);
+                            // 2. The Quantum Core (Smooth solid center)
+                            const coreGeo = new THREE.SphereGeometry(isActive ? 3 : 2, 16, 16);
+                            const isUnlocked = unlockedNodes.has(node.id);
+                            const coreMat = new THREE.MeshBasicMaterial({
+                                color: isActive ? '#FFFFFF' : (isUnlocked ? catColor : '#002244'),
+                                transparent: !isUnlocked && !isActive,
+                                opacity: isActive || isUnlocked ? 1 : 0.6
+                            });
+                            const core = new THREE.Mesh(coreGeo, coreMat);
+                            group.add(core);
 
-                        // 3. Floating Holographic Data (SpriteText) — ALWAYS ON TOP
-                        const sprite = new SpriteText(node.display_title || node.title || "");
-                        sprite.color = isActive ? 'rgba(255, 255, 255, 0.95)' : 'rgba(255, 255, 255, 0.6)';
-                        sprite.textHeight = isActive ? 3.5 : 2.5;
-                        sprite.fontFace = 'monospace';
-                        sprite.position.set(0, isActive ? 12 : 10, 0);
-                        // CRITICAL: Disable depth testing so text renders ON TOP of ALL geometry
-                        sprite.material.depthTest = false;
-                        sprite.material.depthWrite = false;
-                        sprite.renderOrder = 999; // Draw last, always visible
-                        group.add(sprite);
+                            // 3. Floating Holographic Data (SpriteText) — ALWAYS ON TOP
+                            const sprite = new SpriteText(node.display_title || node.title || "");
+                            sprite.color = isActive ? 'rgba(255, 255, 255, 0.95)' : 'rgba(255, 255, 255, 0.6)';
+                            sprite.textHeight = isActive ? 3.5 : 2.5;
+                            sprite.fontFace = 'monospace';
+                            sprite.position.set(0, isActive ? 12 : 10, 0);
+                            sprite.material.depthTest = false;
+                            sprite.material.depthWrite = false;
+                            sprite.renderOrder = 999;
+                            group.add(sprite);
 
-                        return group;
-                    }}
-                    showNavInfo={false}
-                    onNodeClick={handleNodeClick}
-                />
-            </div>
+                            return group;
+                        }}
+                        showNavInfo={false}
+                        onNodeClick={handleNodeClick}
+                    />
+                </div>
+            )}
 
             {/* Universe Title HUD (Bottom Left) */}
-            <div className={`fixed transition-all duration-500 z-[100] flex flex-col gap-1 pointer-events-none text-left ${sessionStack.length > 0 ? 'bottom-[290px] md:bottom-[230px]' : 'bottom-[140px] md:bottom-10'} left-6 md:left-10`}>
+            <div className="fixed bottom-10 left-6 md:left-10 transition-all duration-500 z-[100] flex flex-col gap-1 pointer-events-none text-left">
                 <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">
                     {storageNamespace.replace('-', ' ')} UNIVERSE
                 </span>
@@ -713,7 +835,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
             </div>
 
             {/* Neural Ledger HUD (Bottom Right) */}
-            <div className={`fixed transition-all duration-500 z-[100] flex flex-col items-end gap-1 pointer-events-none text-right ${sessionStack.length > 0 ? 'bottom-[290px] md:bottom-[230px]' : 'bottom-[140px] md:bottom-10'} right-6 md:right-10`}>
+            <div className="fixed bottom-10 right-6 md:right-10 transition-all duration-500 z-[100] flex flex-col items-end gap-1 pointer-events-none text-right">
                 <span className="text-[9px] md:text-[10px] text-cyan-500 font-mono tracking-widest uppercase">Neural Pathways Unlocked</span>
                 <span className="text-xl md:text-2xl font-bold text-white tracking-widest">{unlockedNodes.size} <span className="text-sm text-slate-500">/ {graphData.nodes?.length || 0}</span></span>
                 <button
@@ -734,7 +856,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                         exit={{ x: '100%' }}
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
                         style={{ borderLeftColor: getCategoryColor(selectedNode.universe_category) }}
-                        className="absolute top-0 right-0 h-full w-full md:w-[450px] bg-slate-950/80 backdrop-blur-2xl border-l-[2px] shadow-[-20px_0_50px_rgba(0,0,0,0.5)] p-8 overflow-y-auto z-[100] flex flex-col gap-6"
+                        className="fixed top-0 right-0 h-full w-full md:w-[450px] bg-slate-950/90 backdrop-blur-2xl border-l-[2px] shadow-[-20px_0_50px_rgba(0,0,0,0.5)] p-8 overflow-y-auto z-[100] flex flex-col gap-6 pointer-events-auto custom-scrollbar"
                     >
                         <div className="flex justify-between items-start mb-2">
                             <div className="flex items-center gap-4 mb-2 pb-4">
@@ -784,31 +906,16 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                         )}
 
                         <div className="prose prose-invert prose-cyan max-w-none">
-                            {/* Session Builder Actions */}
-                            <div className="flex items-center justify-start gap-3 mb-6">
-                                <button
-                                    onClick={() => {
-                                        if (sessionStack.find(n => n.id === selectedNode.id)) {
-                                            setSessionStack(prev => prev.filter(n => n.id !== selectedNode.id));
-                                        } else {
-                                            setSessionStack(prev => [...prev, selectedNode]);
-                                        }
-                                    }}
-                                    className={`px-4 py-2 rounded-lg text-[10px] font-mono tracking-widest uppercase transition-all flex items-center gap-2 border ${
-                                        sessionStack.find(n => n.id === selectedNode.id)
-                                        ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/40'
-                                        : 'bg-slate-900/50 text-slate-400 border-slate-700/50 hover:bg-slate-800'
-                                    }`}
-                                >
-                                    {sessionStack.find(n => n.id === selectedNode.id) ? <CheckCircle2 className="w-4 h-4" /> : <Layers className="w-4 h-4" />}
-                                    {sessionStack.find(n => n.id === selectedNode.id) ? 'In Session Stack' : 'Add to Lesson Plan'}
-                                </button>
+                            {/* Static Info Identifier */}
+                            <div className="flex items-center gap-2 mb-6 text-[10px] font-mono tracking-widest text-cyan-400 uppercase bg-cyan-950/30 border border-cyan-800/30 px-3 py-1.5 rounded-lg">
+                                <LucideIcons.CheckSquare className="w-3.5 h-3.5 text-emerald-400" />
+                                <span>Static Knowledge Node</span>
                             </div>
 
                             {selectedNode.content && (
                                 <div>
                                     {selectedNode.content.hook && (
-                                        <p className="text-xl font-light italic opacity-90 mb-6 font-sans">"{selectedNode.content.hook}"</p>
+                                        <p className="text-lg font-light italic opacity-90 mb-6 font-sans">"{selectedNode.content.hook}"</p>
                                     )}
                                     <h3 className="text-[10px] md:text-xs uppercase tracking-widest text-slate-500 mb-2 font-mono">Meaning</h3>
                                     <p className="text-sm text-slate-300 mb-6 font-sans leading-relaxed">{selectedNode.content.meaning}</p>
@@ -846,7 +953,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
 
                             {/* Teaching Intelligence Progress Block */}
                             {selectedNode.state && (
-                                <div className="mt-4 mb-6 p-5 rounded-xl border border-dashed bg-slate-900/30" 
+                                <div className="mt-4 mb-6 p-5 rounded-xl border border-dashed bg-slate-900/30 animate-fade-in" 
                                      style={{ borderColor: selectedNode.state.status === 'covered' || selectedNode.state.status === 'mastered' ? '#10b98150' : '#47556950' }}>
                                     
                                     <div className="flex justify-between items-start mb-4">
@@ -905,15 +1012,11 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                                 </div>
                             )}
 
-
                             {/* Semantic Edge Relationships (Mentor & Builder Modes) */}
                             {viewMode !== 'student' && groupedEdges && (
                                 <div className="mt-8 border-t border-white/10 pt-6 block">
                                     {groupedEdges && Object.entries(groupedEdges).map(([groupName, items]) => {
                                         if (items.length === 0) return null;
-                                        
-                                        // Builders see everything. Mentors hide "Embedded In" unless viewing W3? 
-                                        // Actually let's just show all active semantic groups for Mentor.
                                         return (
                                             <div key={groupName} className="mb-6">
                                                 <h3
@@ -926,7 +1029,7 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                                                     {items.map(({ node: targetNode, edge, isOutgoing }) => {
                                                         const catColor = getCategoryColor(targetNode.taxonomy?.wing_code);
                                                         return (
-                                                            <div key={`${targetNode.id}-${edge.type}-${isOutgoing ? 'out' : 'in'}`} className="relative group/link">
+                                                            <div key={`${targetNode.id}-${edge.type}-${isOutgoing ? 'out' : 'in'}`} className="relative group/link animate-fade-in">
                                                                 <button
                                                                     onClick={(e) => {
                                                                         e.preventDefault();
@@ -941,7 +1044,6 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                                                                     )}
                                                                 </button>
                                                                 
-                                                                {/* Hover Context Preview */}
                                                                 {edge.reason && (
                                                                     <div className="absolute bottom-full left-0 mb-2 w-48 p-2 bg-slate-900 border border-slate-700 rounded shadow-xl opacity-0 group-hover/link:opacity-100 transition-opacity pointer-events-none z-50 text-[9px] text-slate-300 font-sans leading-relaxed">
                                                                         <span className="text-cyan-400 font-mono uppercase block mb-1">{edge.type.replace('_', ' ')}</span>
@@ -970,11 +1072,11 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.95 }}
-                            className="w-full max-w-2xl max-h-[80vh] bg-slate-950/90 border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.8)] rounded-2xl flex flex-col overflow-hidden"
+                            className="w-full max-w-2xl max-h-[80vh] bg-slate-950/90 border border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.8)] rounded-2xl flex flex-col overflow-hidden pointer-events-auto"
                         >
                             {/* The Search Header */}
                             <div className="flex items-center gap-4 p-6 border-b border-white/10 bg-slate-900/50">
-                                <Command className="w-5 h-5 text-cyan-500" />
+                                <Command className="w-5 h-5 text-cyan-500 animate-pulse" />
                                 <input
                                     autoFocus
                                     type="text"
@@ -1011,58 +1113,6 @@ export default function UniverseGraph({ graphData, defaultLayout, storageNamespa
                     </div>
                 )}
             </AnimatePresence>
-
-            {/* Session Builder HUD (Bottom Drawer) */}
-            <AnimatePresence>
-                {sessionStack.length > 0 && (
-                    <motion.div
-                        initial={{ y: '100%', opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
-                        exit={{ y: '100%', opacity: 0 }}
-                        transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                        className="fixed bottom-[85px] left-2 right-2 md:left-6 md:right-6 md:bottom-[90px] rounded-2xl md:h-32 bg-slate-950/95 backdrop-blur-2xl border border-cyan-500/30 z-[150] p-4 flex flex-col md:flex-row items-center gap-6 shadow-[0_0_50px_rgba(0,0,0,0.8),_inset_0_0_20px_rgba(0,240,255,0.05)] pointer-events-auto max-h-[200px]"
-                    >
-                        <div className="flex flex-col items-start gap-1 shrink-0 w-full md:w-[250px] border-b md:border-b-0 md:border-r border-slate-800 pb-3 md:pb-0">
-                            <h3 className="text-xs text-cyan-400 font-mono uppercase tracking-widest flex items-center gap-2 drop-shadow-[0_0_8px_rgba(0,240,255,0.5)]"><Layers className="w-4 h-4"/> Session Stack</h3>
-                            <p className="text-[10px] text-slate-400 uppercase font-mono tracking-widest">{sessionStack.length} Nodes Selected</p>
-                            <button
-                                onClick={() => {
-                                    alert("Lesson Plan Exported! (Mock)");
-                                    setSessionStack([]);
-                                }}
-                                className="mt-2 bg-slate-800 hover:bg-cyan-900 border border-slate-700 hover:border-cyan-500/50 text-cyan-100 text-[10px] uppercase font-mono px-3 py-1.5 rounded transition-all w-full md:w-auto text-left flex justify-between group"
-                            >
-                                Execute Session <CheckCircle2 className="w-3 h-3 ml-2 group-hover:text-emerald-400 transition-colors"/>
-                            </button>
-                        </div>
-                        
-                        <div className="flex-1 flex items-center gap-3 overflow-x-auto overflow-y-hidden w-full custom-scrollbar pb-2 md:pb-0 h-full scroll-smooth">
-                            {sessionStack.map((node, i) => (
-                                <div key={node.id} className="relative group shrink-0 flex items-center h-full">
-                                    <div className="bg-slate-900 border border-slate-800 p-3 rounded-lg flex flex-col items-start min-w-[140px] h-full justify-between">
-                                        <div className="text-[9px] text-slate-500 mb-1 font-mono uppercase">
-                                            {i === 0 ? 'Opener' : i === sessionStack.length - 1 ? 'Reflection' : 'Core'}
-                                        </div>
-                                        <div className="text-xs text-slate-300 font-bold max-w-[120px] truncate" style={{ color: getCategoryColor(node.taxonomy?.wing_code) }}>
-                                            {node.display_title || node.title}
-                                        </div>
-                                    </div>
-                                    {i < sessionStack.length - 1 && (
-                                        <div className="mx-2 shrink-0 w-4 h-[1px] bg-slate-700"></div>
-                                    )}
-                                    <button 
-                                        onClick={() => setSessionStack(prev => prev.filter(n => n.id !== node.id))}
-                                        className="absolute -top-2 -right-2 bg-rose-500/20 text-rose-400 rounded-full p-1 opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur hover:bg-rose-500 hover:text-white"
-                                    >
-                                        <X className="w-3 h-3" />
-                                    </button>
-                                </div>
-                            ))}
-                        </div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
-
         </div>
     );
 }

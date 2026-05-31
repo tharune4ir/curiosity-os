@@ -4,7 +4,7 @@ import { ActivityLibraryClient } from "./ActivitiesClient";
 
 export const metadata = {
   title: "Activity Library // Curiosity OS",
-  description: "Teacher-facing mission library for deeper thinking and real-world capability.",
+  description: "Free and open thinking playbooks for students, parents, and curious minds.",
 };
 
 export default async function ActivityLibrary() {
@@ -24,7 +24,7 @@ export default async function ActivityLibrary() {
           Find activities you can run to build stronger thinking, discussion, judgment, and real-world capability.
         </p>
         <p className="text-sm text-slate-500 mt-4 font-outfit font-medium italic opacity-70">
-          For Class 9–10 teachers and mentors
+          Free & open guides for curious students, teachers, parents, and self-learners.
         </p>
       </section>
 

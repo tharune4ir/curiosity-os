@@ -1,6 +1,4 @@
-import { getRunData } from "@/lib/activities";
-import { notFound } from "next/navigation";
-import { RunModeClient } from "./RunModeClient";
+import { redirect } from "next/navigation";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -8,11 +6,5 @@ interface PageProps {
 
 export default async function RunModePage({ params }: PageProps) {
   const { slug } = await params;
-  const activity = await getRunData(slug);
-
-  if (!activity) {
-    notFound();
-  }
-
-  return <RunModeClient activity={activity} />;
+  redirect(`/activities/${slug}`);
 }

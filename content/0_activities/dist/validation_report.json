@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-06-19T18:31:42.649Z",
+  "summary": {
+    "total_issues": 11,
+    "errors": 11,
+    "warnings": 0
+  },
+  "details": [
+    {
+      "file": "cos2_a04_growth-loops-compounding-simulator.md",
+      "msg": "Invalid mode_category: Simulation",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a09_bias-court-same-facts-different-story.md",
+      "msg": "Invalid mode_category: Simulation",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a13_confidence-bayes-ladder-calibrate-certainty.md",
+      "msg": "Invalid cluster: bias_immunity",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a15_decision-clinic-tradeoffs-trees-premortems.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a16_practice-debug-error-log-patterns.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a17_evidence-ladder-claim-strength-ranking.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a18_systems-dominoes-causal-chains.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a19_research-hygiene-detect-p-hacking.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a23_truth-reliability-ledger-reputation.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a27_boundary-scripts-batna-say-no.md",
+      "msg": "Invalid mode_category: Workshop",
+      "type": "error"
+    },
+    {
+      "file": "cos2_a33_alliance-arena-communication-relay.md",
+      "msg": "Invalid cluster: synthesis_under_pressure",
+      "type": "error"
+    }
+  ]
+}

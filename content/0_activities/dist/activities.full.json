@@ -1,0 +1,4166 @@
+[
+  {
+    "id": "cos2_a01",
+    "slug": "feed-hacker-headline-autopsy",
+    "title": "Feed Hacker: Headline Autopsy",
+    "short_promise": "Students learn to open a viral claim like a mechanic opens an engine.",
+    "teacher_value_line": "A repeatable routine for teaching graph/claim skepticism without cynicism.",
+    "student_value_line": "I stop being controlled by loud charts and 'WhatsApp University' forward stats.",
+    "summary": "The teacher brings 3–5 'claims' (a chart, a headline, a viral statistic, an influencer snippet). Groups run a structured autopsy to inspect axis integrity, sample size, and missing context.",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Case File",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 60
+    },
+    "group_mode": "whole-class",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "pens"
+      ],
+      "ideal": [
+        "printed claim cards",
+        "projector for board screenshots"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Trap: Rapid trust vote on 3 conflicting claims."
+      },
+      {
+        "t": 20,
+        "step": "Group Autopsy Protocol: Rewrite, Inspect axes, Find denominator."
+      },
+      {
+        "t": 10,
+        "step": "Shareout: Decompile the 'Lens' (not just the answer)."
+      },
+      {
+        "t": 10,
+        "step": "Transfer: Pick a real-world claim for home autopsy."
+      }
+    ],
+    "teacher_moves": [
+      "The signal is the mechanism; the outcome is the headline. Teach them to see the mechanism.",
+      "When a student says 'this is fake,' ask 'Specifically what part of the assembly failed?'",
+      "Use the phrase 'Denominator Blindness' – it's a sticky concept for Class 9/10."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'experts agree' instead of 'check the sample'.",
+      "Cynicism ('everyone is lying') vs. Skepticism ('how was this measured?')."
+    ],
+    "observation_cues": [
+      "Evidence of 'rewriting' the claim into a precise, falsifiable sentence.",
+      "Identification of missing denominators or baseline comparisons."
+    ],
+    "common_failure_points": [
+      "recognition_addiction",
+      "false_confidence_through_vocabulary"
+    ],
+    "reflection_prompts": [
+      "What fooled you in the first 5 minutes?",
+      "What single question would you ask before sharing this on WhatsApp?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written stats instead of printed cards."
+    },
+    "follow_ups": [
+      "cos2_a02",
+      "cos2_a23"
+    ],
+    "status": "flagship",
+    "curation_tier": "flagship_36",
+    "version": "1.1.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "claim_forensics",
+        "evidence_hygiene",
+        "signal_noise_judgment"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A1-M01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W1-A1-M02",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M6-C03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ],
+      "failure_atlas_risks": [
+        "recognition_addiction",
+        "transfer_collapse"
+      ]
+    },
+    "body": "# Feed Hacker: Headline Autopsy\n\n## The Run Mode\n\n### 1. The Trap (5 min)\nShow 3 conflicting or sensationalized claims on the board.\n- **Example A (India Context):** \"New report says 90% of Indian teens prefer coding over sports.\" (Hidden: Survey done only in 3 private schools in Bangalore).\n- **Example B:** \"Amazing! This simple spice in your kitchen cures Diabetes in 3 days.\" (Hidden: No human trials; based on a single cell-culture observation).\n- **Example C:** \"Crime rate in the city has jumped by 50%!\" (Hidden: The city's population also grew by 60%).\n- **Ask:** \"Quick hands... who trusts Claim A? B? C? Why?\"\n\n### 2. The Autopsy Protocol (20 min)\nGroups have 20 minutes to \"crack open\" one claim using the **Autopsy Sheet**:\n1. **The Rewrite:** Write the claim in your own words, removing all \"emotional\" words (e.g., 'Amazing', 'Scary', 'Shocking').\n2. **Find the Denominator:** \"90% of teens\" — how many teens exactly? From where? What was the total sample?\n3. **The Mirror Test:** If the opposite of this claim were true, what would we see?\n4. **Axis Check (if chart provided):** Does the Y-axis start at zero? Is it stretched to make a small change look like a vertical cliff?\n\n### 3. The Decompile (10 min)\nThe teacher leads a decompile not on the \"answer,\" but on the **Mechanism of Deception**:\n- \"The headline is the bait; the denominator is the hook.\"\n- \"Visuals are designed to trigger your 'Recognition Addiction' – you see a chart and your brain skips the numbers to the shape.\"\n\n### 4. The Transfer (10 min)\nStudents pick one \"WhatsApp Forward\" or \"Instagram Ad\" they saw this week. \n- **The Mission:** Apply one \"Autopsy Tool\" to it and report back tomorrow.\n\n## Success Criteria\nStudents can identify the specific \"logical leak\" (e.g., selection bias, axis truncation) rather than just saying \"I don't believe it.\"\n筋\nations."
+  },
+  {
+    "id": "cos2_a02",
+    "slug": "signal-vs-noise-two-class-mystery",
+    "title": "Signal vs Noise: The Two-Class Mystery",
+    "short_promise": "Students learn why 'same average' can hide two opposite realities.",
+    "teacher_value_line": "A concrete, sticky way to teach spread/outliers and judgment under measurement.",
+    "student_value_line": "I stop getting fooled by a single number.",
+    "summary": "Students receive two 'class score cards' that share the same average but have different distributions. First they vote: 'Which class is stronger?' Then they must justify using distribution logic (spread, outliers, and what story could cause this).",
+    "purpose_category": "Reality Check",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "groups",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "simple number sets"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Vote: Which class is stronger?"
+      },
+      {
+        "t": 20,
+        "step": "Distribution Reconstruction: Mapping the spread."
+      },
+      {
+        "t": 15,
+        "step": "The Context Trap: How the 'best' answer changes."
+      }
+    ],
+    "teacher_moves": [
+      "The measure is not the territory; summary stats can lie by omission."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'average' and ignoring spread."
+    ],
+    "observation_cues": [
+      "Justification referencing outliers or spread."
+    ],
+    "common_failure_points": [
+      "measurement_blindness"
+    ],
+    "reflection_prompts": [
+      "What did the single number hide?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written score charts."
+    },
+    "follow_ups": [
+      "cos2_a29",
+      "cos2_a01"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "signal_noise_judgment",
+        "systems_incentives_sight"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A1-M02",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M5-C07",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M5-C08",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Signal vs Noise: The Two-Class Mystery\n\n## The Run Mode\n### 1. The Setup\nHand out scorecard data for Class A and Class B. \n- Class A: 50, 50, 50, 50, 50 (Average 50)\n- Class B: 0, 0, 50, 100, 100 (Average 50)\n\n### 2. The Mission\nStudents must decide: \"Which class is better for a teamwork-based project?\" and \"Which class is better for a top-5 competition?\" \n- Justify the choice without using the word 'average'.\n- Sketch the distribution on a simple number line.\n\n### 3. The Decompile\nFocus on the **Hidden Structure**:\n- A single number (the average) hides the variance.\n- Reality is often about the **distribution**, not the **summary statistic**."
+  },
+  {
+    "id": "cos2_a03",
+    "slug": "model-the-mess-data-plan-simulator",
+    "title": "Model the Mess: The Data Plan Simulator",
+    "short_promise": "Students turn a messy real-life problem into variables, constraints, and a model they can control.",
+    "teacher_value_line": "A bridge from 'school algebra' to 'life modeling' without extra syllabus load.",
+    "student_value_line": "I learn to control chaos by naming variables.",
+    "summary": "Students analyze a messy, familiar scenario (mobile data, lateness, study time) and define the inputs, outputs, and constraints. They then propose a simple equation or relationship to represent the problem.",
+    "purpose_category": "Reality Check",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "pairs",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "scenario cards"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Scenario: What's the problem?"
+      },
+      {
+        "t": 25,
+        "step": "Model Building: Variables, Inputs, Constraints."
+      },
+      {
+        "t": 15,
+        "step": "Run mutations: What happens if X changes?"
+      }
+    ],
+    "teacher_moves": [
+      "Variables are power, not just notation.",
+      "Lock the first model before giving the students advice."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'advice' rather than 'modeling' (e.g., 'he should sleep more' vs 'sleep = T - study')."
+    ],
+    "observation_cues": [
+      "Model sheet with variables, relationship, and mutation results."
+    ],
+    "common_failure_points": [
+      "vague_representation",
+      "advice_as_model"
+    ],
+    "reflection_prompts": [
+      "Which variable was the hardest to control?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written scenarios."
+    },
+    "follow_ups": [
+      "cos2_a04",
+      "cos2_a15"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "model_estimate",
+        "scientific_causal_reasoning"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A2-M04",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W1-A2-M06",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M4-C03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Model the Mess: The Data Plan Simulator\n\n## The Run Mode\n### 1. The Setup\nHand out a messy scenario card (e.g., \"I keep running out of mobile data,\" \"I'm always late,\" \"Test prep time disappears\").\n\n### 2. The Mission\nPairs must build a simple model:\n1. **Define Inputs:** List what changes (e.g., \"hours of video,\" \"background apps\").\n2. **Define Outputs:** What is the result? (e.g., \"data used\").\n3. **Identify Constraints:** What limits the model (e.g., \"budget,\" \"storage\").\n4. **Relationship:** Write a simple equation (e.g., `DataUsed = VideoTime * DataRate + Apps`).\n5. **Mutation:** If VideoTime doubles, what happens to the budget?\n\n### 3. The Decompile\nFocus on the **Power of Naming**:\n- Once you name the variables and their relationship, you can control the outcome.\n- Modeling is the tool that makes chaos legible."
+  },
+  {
+    "id": "cos2_a04",
+    "slug": "growth-loops-compounding-simulator",
+    "title": "Growth Loops: The 1% Compounding Simulator",
+    "short_promise": "Students experience why small gains beat heroic bursts.",
+    "teacher_value_line": "A non-preachy way to teach long-term thinking with numbers and behavior.",
+    "student_value_line": "I see why consistency quietly wins.",
+    "summary": "Groups simulate two students over 60 'days' with different study habits: one does rare bursts; the other does small, daily practice. They use tokens or tables to see how small consistent gains compound over time.",
+    "purpose_category": "Study Engine",
+    "mode_category": "Simulation",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 60
+    },
+    "group_mode": "groups",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "tokens or simple tables"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Rules: Burst vs. Consistency."
+      },
+      {
+        "t": 25,
+        "step": "Simulation: Managing 60 days of friction."
+      },
+      {
+        "t": 15,
+        "step": "The Reveal: Compounding and Time Preference."
+      }
+    ],
+    "teacher_moves": [
+      "Compounding applies to money, skills, reputation, and habits.",
+      "Don't pre-talk the 'moral' of the story; let the numbers do it."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'bursts' as a heroic ideal."
+    ],
+    "observation_cues": [
+      "Group simulation logs showing the divergence point."
+    ],
+    "common_failure_points": [
+      "time_preference_bias"
+    ],
+    "reflection_prompts": [
+      "Where did the growth feel slowest?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written counters."
+    },
+    "follow_ups": [
+      "cos2_a10",
+      "cos2_a34"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "compounding_loops",
+        "systems_incentives_sight"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A2-M05",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M3-C12",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M2-C14",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Growth Loops: The 1% Compounding Simulator\n\n## The Run Mode\n### 1. The Setup\nTwo students (A and B) are simulated for 60 days.\n- **Student A (Burst):** 10 points every 10 days.\n- **Student B (Loop):** 1 point every day, but it *compounds* (next day is 1% better).\n- Hand out simulation sheets to groups.\n\n### 2. The Mission\nGroups must run the simulation day by day.\n1. Add points to Student A.\n2. Add points to Student B using the compounding rule.\n3. Apply \"Friction Cards\" (e.g., \"Missed 2 days,\" \"Fatigue penalty\").\n\n### 3. The Decompile\nFocus on the **Power of Compounding**:\n- Small gains accumulated consistently beat major, infrequent bursts.\n- Time preference determines who cashes out early and who builds long-term assets."
+  },
+  {
+    "id": "cos2_a05",
+    "slug": "odds-engine-arena-expected-value",
+    "title": "Odds Engine Arena: Expected Value, Not Hype",
+    "short_promise": "Students learn to choose using expected value + risk language, not best-case stories.",
+    "teacher_value_line": "A fast way to make 'probability thinking' behavioral and discussable.",
+    "student_value_line": "I stop falling for flashy payoffs with terrible odds.",
+    "summary": "Teams start with equal 'bankroll' and face 8–10 choice rounds. Each round offers two bets with different payout, probability, and variance. Students must pick, justify, and see outcomes based on teacher-revealed results.",
+    "purpose_category": "Decision Gym",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 40,
+      "typical": 45,
+      "max": 50
+    },
+    "group_mode": "whole-class",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "tokens",
+        "printed 'bets'"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Rules: Best-case vs Average-case."
+      },
+      {
+        "t": 30,
+        "step": "The Engine: 8 rounds of risky choices."
+      },
+      {
+        "t": 10,
+        "step": "The Reveal: Expected Value vs Luck."
+      }
+    ],
+    "teacher_moves": [
+      "The average result over many plays defines the winner, not luck.",
+      "Focus on 'risk vs uncertainty'."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'best-case' thinking (high payoff, low probability)."
+    ],
+    "observation_cues": [
+      "Bet logs with justifications referencing 'what fooled us'."
+    ],
+    "common_failure_points": [
+      "expected_value_blindness"
+    ],
+    "reflection_prompts": [
+      "What made you pick the flashy bet that lost?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'bet' cards."
+    },
+    "follow_ups": [
+      "cos2_a13",
+      "cos2_a15"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "odds_updates_calibration",
+        "decision_craft"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A1-M03",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M3-C03",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M3-C10",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Odds Engine Arena: Expected Value, Not Hype\n\n## The Run Mode\n### 1. The Setup\nEach team starts with 100 tokens. \nTeacher displays two bets:\n- **Bet A:** 10 to win 20 (Prob: 80%)\n- **Bet B:** 10 to win 100 (Prob: 10%)\n\n### 2. The Mission\nTeams have 2 minutes per round to:\n1. Choose a bet.\n2. Write a one-sentence justification using \"average result\" or \"risk\".\n3. Teacher reveals result (use a d20 or similar). \n4. Update bankroll. Run 8-10 rounds.\n\n### 3. The Decompile\nFocus on **Expected Value (EV)**:\n- Luck can hide a bad bet in the short term, but it reveals the quality in the long term.\n- Variance can wipe you out even if the average is good."
+  },
+  {
+    "id": "cos2_a06",
+    "slug": "strategy-heist-logic-locks",
+    "title": "Strategy Heist: Logic Locks, Search Space, Enemy Moves",
+    "short_promise": "Students learn why some problems explode, and how strategists prune possibilities.",
+    "teacher_value_line": "A single activity that expresses the entire Decode 'Strategy Room'.",
+    "student_value_line": "I stop brute-forcing; I learn to narrow intelligently.",
+    "summary": "Teams must 'recover the stolen answer key' by solving a constrained puzzle where brute force is impossible. They use logic locks (must/can't statements) to prune the search space and anticipate 'enemy moves' (other team incentives).",
+    "purpose_category": "Decision Gym",
+    "mode_category": "Puzzle / Challenge",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 60
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "heist map",
+        "clue cards"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Search Space: How many ways can this fail?"
+      },
+      {
+        "t": 30,
+        "step": "Logic Locks: Pruning the mission."
+      },
+      {
+        "t": 20,
+        "step": "The Enemy Move: Anticipating incentives."
+      }
+    ],
+    "teacher_moves": [
+      "Lock the first logic before trying to solve the problem.",
+      "Strategy is not speed; it's pruning."
+    ],
+    "teacher_watch_fors": [
+      "Students trying to brute force (manual testing) rather than logical pruning."
+    ],
+    "observation_cues": [
+      "Pruning tables and strategy trees."
+    ],
+    "common_failure_points": [
+      "brute_force_failure",
+      "incentive_blindness"
+    ],
+    "reflection_prompts": [
+      "How many possibilities did you kill with one lock?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'logic rules'."
+    },
+    "follow_ups": [
+      "cos2_a18",
+      "cos2_a15"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition",
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "strategy_adversarial",
+        "decision_craft"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A3-M07",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W1-A3-M08",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A3-M09",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M3-C06",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Strategy Heist: Logic Locks, Search Space, Enemy Moves\n\n## The Run Mode\n### 1. The Setup\nShow a heist map with 10 potential routes, each with different gates. \n- Total search space: 2^10 (1024) combinations.\n- Hand out 'Logic Lock' clue cards.\n\n### 2. The Mission\nGroups have 30 minutes to:\n1. Identify 'Logic Locks' (e.g., 'Locked: Cannot pass through Gate A and Gate B').\n2. Prune the map: draw a tree or table of survivors.\n3. Mid-game twist: Another team (the enemy) is given a different incentive. \n4. Predict what they will do (adversarial modeling).\n\n### 3. The Decompile\nFocus on **Search Space and Logic**:\n- Brute forcing is for computers; strategists use **Pruning**.\n- The enemy move is about incentives, not vibes."
+  },
+  {
+    "id": "cos2_a07",
+    "slug": "architects-canvas-blueprint-rotation",
+    "title": "Architect’s Canvas Studio: Blueprint → 3D → Rotation",
+    "short_promise": "Students build spatial intelligence through a sequence of tactile micro-challenges.",
+    "teacher_value_line": "A practical way to develop geometry/spatial skill without turning it into proof lecture.",
+    "student_value_line": "I can 'see' shapes instead of guessing.",
+    "summary": "Run as three stations: (1) Blueprint Scale Trap (scaling a layout), (2) 3D Pack Problem (volume reasoning), (3) Net-to-Cube Prediction (mental rotation). Students must explain their 'rotation' before folding or building.",
+    "purpose_category": "Reality Check",
+    "mode_category": "Puzzle / Challenge",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 40,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "pairs",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "scissors",
+        "nets"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "Mental Rotation: Predicting the fold."
+      },
+      {
+        "t": 25,
+        "step": "Station Rotation: Pack, Scale, Map."
+      },
+      {
+        "t": 15,
+        "step": "The Reveal: Transfer to Blueprint Vision."
+      }
+    ],
+    "teacher_moves": [
+      "Lock before notes: point/gesture before writing.",
+      "Geometry is vision first, theorem second."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'guessing' rather than 'predicting' adjacency."
+    ],
+    "observation_cues": [
+      "Predicted faces vs. actual faces after folding."
+    ],
+    "common_failure_points": [
+      "mental_rotation_lapse"
+    ],
+    "reflection_prompts": [
+      "Which face of the cube was 'behind' the first one?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-drawn nets for mental-only rotation."
+    },
+    "follow_ups": [
+      "cos2_a31",
+      "cos2_a34"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Sandbox"
+      ],
+      "backend_capability_clusters": [
+        "spatial_intelligence",
+        "regulation_reflection"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A4-M10",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W1-A4-M11",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A4-M12",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W4-P02",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Architect’s Canvas Studio: Blueprint → 3D → Rotation\n\n## The Run Mode\n### 1. The Setup\nSet up three stations in the classroom:\n- **Station 1: Scaling Map** (Blueprint logic).\n- **Station 2: Pack Problem** (3D volume logic).\n- **Station 3: Net-to-Cube** (Mental rotation logic).\n\n### 2. The Mission\nPairs have 25 minutes to complete the challenges:\n1. **Net-to-Cube:** Predict which faces will touch without folding the paper yet. \n2. **The Fold:** Students fold and check their prediction. \n3. **Scaling:** Use similarity rules to resize a furniture layout for a smaller room.\n4. **Packing:** Draw a plan to fit 10 irregular items into a box with maximum efficiency.\n\n### 3. The Decompile\nFocus on **Spatial Vision**:\n- Spatial reasoning is the bridge between 2D representation and 3D reality.\n- Transfer use: Packing, navigation, design, and blueprint reading."
+  },
+  {
+    "id": "cos2_a08",
+    "slug": "digital-defense-cipher-quest",
+    "title": "Digital Defense: Cipher Quest (Cycles, Primes, Secrets)",
+    "short_promise": "Students experience how secrecy and verification work—without heavy math.",
+    "teacher_value_line": "A high-engagement gateway into cryptography intuition and 'digital defense' thinking.",
+    "student_value_line": "I understand why modern messaging feels like magic but isn't.",
+    "summary": "Students run a three-part quest: (1) crack a simple shift cipher using cyclic 'clock math,' (2) build 'prime locks' using factorization, (3) simulate secure messaging with tamper-evidence verification.",
+    "purpose_category": "Reality Check",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "group_mode": "whole-class",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "pens",
+        "cipher cards"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Secrecy Trap: How do you hide a message?"
+      },
+      {
+        "t": 25,
+        "step": "Cipher Quest: Crack, Lock, Verify."
+      },
+      {
+        "t": 15,
+        "step": "The Digital Mirror: How modern apps do this."
+      }
+    ],
+    "teacher_moves": [
+      "The secret is the key, not the algorithm.",
+      "Verification is more common than encryption in daily security."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'counting' shift-ciphers manually rather than 'cyclic logic'."
+    ],
+    "observation_cues": [
+      "Decoded messages + prime lock keys."
+    ],
+    "common_failure_points": [
+      "unverified_trust_lapse"
+    ],
+    "reflection_prompts": [
+      "What 'hash' or fingerprint would you check before trusting a message?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written ciphers."
+    },
+    "follow_ups": [
+      "cos2_a23",
+      "cos2_a01"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Decode",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "digital_defense",
+        "evidence_hygiene"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A5-M15",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W1-A5-M13",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A5-M14",
+          "weight": 0.4,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M6-C02",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Digital Defense: Cipher Quest (Cycles, Primes, Secrets)\n\n## The Run Mode\n### 1. The Setup\nShow a cipher board with three segments:\n- **Segment 1: Shift Cipher** (A → D, B → E...).\n- **Segment 2: Prime Lock** (Factoring 15 into 3 and 5).\n- **Segment 3: Tamper Check** (Adding digits to create a sum-check).\n\n### 2. The Mission\nIn groups, students must:\n1. Crack the Shift Cipher to reveal the \"Destination.\"\n2. Create their own \"Prime Lock\" (Product of two primes).\n3. Send a message with a \"Hash Check\" (The sum of the digits in the message).\n\n### 3. The Decompile\nFocus on **Secrecy vs. Verification**:\n- Secrecy is for privacy; **Verification** is for authenticity.\n- Modern security (passwords, banks) uses the same 'one-way logic' as your prime locks."
+  },
+  {
+    "id": "cos2_a09",
+    "slug": "bias-court-same-facts-different-story",
+    "title": "Bias Court: Same Facts, Different Story",
+    "short_promise": "Students catch how the mind 'lawyers' reality, then learn to interrupt it.",
+    "teacher_value_line": "A safe, structured way to make biases visible without shaming students.",
+    "student_value_line": "I can spot when my brain is defending, not learning.",
+    "summary": "Present an ambiguous case (rumor, social incident, data interpretation). Students quickly choose an initial verdict (the trap). More evidence is revealed in waves, and they must update their judgment publicly while explaining why.",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Simulation",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 40,
+      "typical": 45,
+      "max": 50
+    },
+    "group_mode": "whole-class",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "role cards"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Indictment: Fast verdict based on first impression."
+      },
+      {
+        "t": 25,
+        "step": "Bias Waves: Updating under evidence vs. ego."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Labeling the bias patterns."
+      }
+    ],
+    "teacher_moves": [
+      "Update without losing face: model the shift yourself.",
+      "Label the pattern, not the person."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on their first story (commitment & consistency)."
+    ],
+    "observation_cues": [
+      "Update Reasoning: Why did you change your mind?"
+    ],
+    "common_failure_points": [
+      "confirmation_bias_loop",
+      "availability_heuristic"
+    ],
+    "reflection_prompts": [
+      "What did your brain try to defend first?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written evidence waves."
+    },
+    "follow_ups": [
+      "cos2_a13",
+      "cos2_a21"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "evidence_hygiene",
+        "trust_boundaries_pressure"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M1-C01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M1-C09",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M1-C02",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-T01",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Bias Court: Same Facts, Different Story\n\n## The Run Mode\n### 1. The Setup\nHand out a 'Social Discovery' card (e.g., \"A teammate's code failed. Was it sabotage or a mistake?\"). \n- **The First Verdict:** Rapid show of hands.\n\n### 2. The Mission\nTeacher reveals 4 waves of 'Updates':\n- **Wave 1 (Vivid but weak):** \"He was seen laughing near the computer.\" (Availability bias).\n- **Wave 2 (Boring but important):** \"The logs show a hardware failure at 3:00 PM.\" (Data over vibes).\n- **Wave 3 (Commitment):** \"A senior says he did it.\" (Authority bias).\n- **Wave 4 (Pattern):** \"This has happened in 3 other classes.\" (Base rate logic).\n\n### 3. The Decompile\nFocus on **Cognitive Debugging**:\n- Your brain is a lawyer, not a judge.\n- The trap is **Commitment and Consistency**: once you say it, you want to defend it."
+  },
+  {
+    "id": "cos2_a10",
+    "slug": "working-memory-budget-brain-friendly-worksheet",
+    "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+    "short_promise": "Students learn why tasks feel hard and how to reduce unnecessary mental load.",
+    "teacher_value_line": "A classroom-ready way to teach cognitive load and improve study materials.",
+    "student_value_line": "I learn to make learning easier without making it shallow.",
+    "summary": "Students mark where they feel 'overloaded' on a real textbook page or worksheet. They redesign it using rules for split attention (keep related info together), chunking, and externalizing working memory (diagrams, step boxes).",
+    "purpose_category": "Study Engine",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "pairs",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "real worksheet/textbook page"
+      ]
+    },
+    "energy_level": "low-medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Overload Map: Where does it feel 'too much'?"
+      },
+      {
+        "t": 25,
+        "step": "Redesign: Split-attention, Chunking, Externalizing."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Why cognitive load matters."
+      }
+    ],
+    "teacher_moves": [
+      "Working memory is a bucket; don't fill it with the 'clutter' of the layout.",
+      "Lock the first design before giving the students the 'correct' layout."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'decorating' instead of 'structuring' for load."
+    ],
+    "observation_cues": [
+      "Before vs. After worksheet redesigns with justifications."
+    ],
+    "common_failure_points": [
+      "split_attention_trap",
+      "memory_overload"
+    ],
+    "reflection_prompts": [
+      "Which change made the hardest step feel clearer?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'messy' layouts."
+    },
+    "follow_ups": [
+      "cos2_a11",
+      "cos2_a12"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Sandbox"
+      ],
+      "backend_capability_clusters": [
+        "learning_engine",
+        "memory_strengthening"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M2-C01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M2-C02",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M2-C03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Working Memory Budget: Build a Brain-Friendly Worksheet\n\n## The Run Mode\n### 1. The Setup\nHand out a 'messy' worksheet or textbook page.\n- **The Load Map:** Students mark red (hard/noisy) and green (easy/clear).\n\n### 2. The Mission\nPairs have 25 minutes to rewrite/redesign the material:\n1. **Reduce Split Attention:** Move labels next to the parts they describe. \n2. **Chunking:** Group the 10 steps into 3 phases.\n3. **Externalize:** Add a small 'scratch box' where intermediate steps can be written.\n\n### 3. The Decompile\nFocus on **Cognitive Load**:\n- Hard learning is good; hard *reading* is unnecessary friction.\n- Your brain's 'bucket' (working memory) is small—protect it."
+  },
+  {
+    "id": "cos2_a11",
+    "slug": "attention-lock-sprint-single-tasking",
+    "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+    "short_promise": "Students feel the performance gap between divided attention and focused work—immediately.",
+    "teacher_value_line": "A fast, concrete intervention for attention leakage in classrooms.",
+    "student_value_line": "I experience why multitasking is fake competence.",
+    "summary": "Run two rounds of the same short task (math, reading, or copying). Round 1 includes interruptions and background chatter. Round 2 is a 'lock sprint': silence, single task, visible timer, and no switching. Students compare results and strain.",
+    "purpose_category": "Reset & Reflect",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 20,
+      "typical": 25,
+      "max": 30
+    },
+    "group_mode": "solo",
+    "prep_level": "none",
+    "materials": {
+      "minimal": [
+        "paper",
+        "timer optional"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "Round 1: Interruption & Noise (Divided Attention)."
+      },
+      {
+        "t": 5,
+        "step": "Round 2: Lock Sprint (Single-Tasking)."
+      },
+      {
+        "t": 15,
+        "step": "The Contrast: Accuracy, Speed, and Felt Strain."
+      }
+    ],
+    "teacher_moves": [
+      "Multitasking is fake competence; your brain is just switching fast.",
+      "Lock the first sprint before giving the students the 'why'."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'speed over accuracy' in round 1."
+    ],
+    "observation_cues": [
+      "Two-round scores showing the 'lock' boost."
+    ],
+    "common_failure_points": [
+      "attention_leakage",
+      "performance_myth"
+    ],
+    "reflection_prompts": [
+      "Where did your attention 'leak' the most?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'distractions'."
+    },
+    "follow_ups": [
+      "cos2_a34",
+      "cos2_a10"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Sandbox"
+      ],
+      "backend_capability_clusters": [
+        "learning_engine",
+        "regulation_reflection"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M2-C04",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W4-P20",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W4-P04",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Attention Lock Sprint: Single-Tasking Under Noise\n\n## The Run Mode\n### 1. The Setup\nRun two rounds using the same short list of tasks:\n- **Round 1 (Friction):** Background chatter, frequent interruptions by teacher.\n- **Round 2 (Lock):** Total silence, single task, visible timer.\n\n### 2. The Mission\nIn each round, students have 5 minutes to complete as many tasks as possible.\n1. Compare accuracy, speed, and felt strain.\n2. Sign an 'Attention Contract' for one week.\n\n### 3. The Decompile\nFocus on **Attention Control**:\n- Switching attention has a 'cost' that slows down the whole brain.\n- Single-tasking is the real superpower in a noisy world."
+  },
+  {
+    "id": "cos2_a12",
+    "slug": "retrieval-showdown-beat-illusion-competence",
+    "title": "Retrieval Showdown: Beat the Illusion of Competence",
+    "short_promise": "Students experience the 'Testing Effect' and why highlighting is a trap.",
+    "teacher_value_line": "A high-impact demo that changes how students study for exams tonight.",
+    "student_value_line": "I learn to stop wasting time on 'reading' and start 'retrieving'.",
+    "summary": "A two-round memory challenge. Round 1: Students 'study' a complex text by highlighting and rereading. Round 2: A different group 'studies' the same text by doing a 2-minute 'Free Recall' (dumping everything they remember to blank paper). They then take a quiz. Results consistently show the 'Retrieval' group winning, triggering a decompile on the Illusion of Competence.",
+    "purpose_category": "Study Engine",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 40,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "1-page complex text",
+        "blank paper",
+        "quiz questions"
+      ]
+    },
+    "energy_level": "medium-high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Setup: Split the class into 'Readers' and 'Retrievers'."
+      },
+      {
+        "t": 15,
+        "step": "Study Session: 10 mins of passive vs active study."
+      },
+      {
+        "t": 10,
+        "step": "The Showdown: A high-speed 10-question quiz."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Why the 'Retrievers' won."
+      }
+    ],
+    "teacher_moves": [
+      "The brain is a muscle that grows when it 'pulls' information out, not when it 'pours' it in.",
+      "Challenge the 'feeling' of learning: Reading feels easy, retrieval feels hard. Hard = Learning.",
+      "Explain the 'Illusion of Competence' – seeing a word makes you think you know it. It's a hallucination."
+    ],
+    "teacher_watch_fors": [
+      "Readers feeling confident before the quiz (the trap).",
+      "Retrievers feeling frustrated (the signal of actual learning)."
+    ],
+    "observation_cues": [
+      "Class score gap between Passive and Active study groups.",
+      "Student reflections on the 'difficulty' of free recall."
+    ],
+    "common_failure_points": [
+      "illusion_of_competence_lapse",
+      "passive_note_taking_failure"
+    ],
+    "reflection_prompts": [
+      "Why did the 'harder' way lead to better results?",
+      "Where else in your life are you 'highlighting' when you should be 'retrieving'?"
+    ],
+    "adaptations": {
+      "low_resource": "Use a textbook page instead of printed handouts."
+    },
+    "follow_ups": [
+      "cos2_a14",
+      "cos2_a16",
+      "cos2_a10"
+    ],
+    "status": "flagship",
+    "curation_tier": "flagship_36",
+    "version": "1.1.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "learning_engine",
+        "memory_strengthening"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M4-C03",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M4-C04",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M2-C13",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ],
+      "failure_atlas_risks": [
+        "illusion_of_competence_lapse",
+        "transfer_collapse"
+      ]
+    },
+    "body": "# Retrieval Showdown: Beat the Illusion of Competence\n\n## The Run Mode\n\n### 1. The Setup (5 min)\nHand out a dense, one-page text on a topic students haven't covered yet (e.g., \"The Life Cycle of a Neutron Star\" or \"The History of the Silk Road\").\n- **Group A (The Readers):** Instructed to reread the text twice and highlight \"key terms.\"\n- **Group B (The Retrievers):** Instructed to read once (5 mins). Close the paper. Spend 5 minutes writing EVERYTHING you remember on a blank sheet. No looking back.\n\n### 2. The Study Session (15 min)\nRun the timer. \n- **Teacher Move:** Observe Group A. They will look calm, nodding, feeling like \"they got this.\"\n- **Teacher Move:** Observe Group B. They will look stressed, pausing, struggling to recall. \n- **Decompile Note:** \"Group B is currently building a stronger 'retrieval path' in their brains. Group A is just painting paper.\"\n\n### 3. The Showdown (10 min)\nCollect the texts. Hand out a 10-question factual and conceptual quiz.\n- Grade the quizzes immediately (peer-grading is fastest).\n- **The Reveal:** Write the average score for Group A and Group B on the board.\n- **Expected Result:** Group B will typically outperform Group A significantly.\n\n### 4. The Decompile (15 min)\nLead a discussion on **The Illusion of Competence**:\n- \"When you reread something, it looks 'familiar.' Your brain says, 'I know this.' But you don't know the content—you just recognize the words.\"\n- \"Highlighting is easy; retrieval is hard. Hard = Progress.\"\n- **The Takeaway:** If your study feels easy, you're probably not learning. If it feels like a 'workout,' it's working.\n\n## Success Criteria\nStudents move from \"This feels good\" to \"I am retrieving effectively.\"\nArtifact: Quiz score comparison chart + Individual 'Free Recall' sheets.\n筋"
+  },
+  {
+    "id": "cos2_a13",
+    "slug": "confidence-bayes-ladder-calibrate-certainty",
+    "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+    "short_promise": "Students learn to match confidence to reality and update with evidence instead of ego.",
+    "teacher_value_line": "A simple routine for building honest confidence and belief-updating.",
+    "student_value_line": "I learn when to say 'I'm 60% sure,' and how to improve that.",
+    "summary": "Students answer questions and attach a confidence % to each. Next, they compute over/under-confidence patterns. Finally, they update their confidence based on new 'Bayes-style' evidence waves provided by the teacher.",
+    "purpose_category": "Decision Gym",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "solo",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "question set"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Prediction: Answer + Confidence %."
+      },
+      {
+        "t": 15,
+        "step": "The Calibration: Scoring result vs. certainty."
+      },
+      {
+        "t": 15,
+        "step": "The Bayes Update: Shifting based on new evidence."
+      }
+    ],
+    "teacher_moves": [
+      "Update without shame; pride is for ego, updating is for accuracy.",
+      "Focus on 'base rate neglect'."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'always 100% sure' regardless of knowledge."
+    ],
+    "observation_cues": [
+      "Calibration sheets + update reasoning."
+    ],
+    "common_failure_points": [
+      "overconfidence_bias",
+      "ego_protection_failure"
+    ],
+    "reflection_prompts": [
+      "What 'base rate' did you ignore when making your first bet?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written question sets."
+    },
+    "follow_ups": [
+      "cos2_a15",
+      "cos2_a09"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "odds_updates_calibration",
+        "bias_immunity"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M3-C08",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M1-C06",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A1-M03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Confidence & Bayes Ladder: Calibrate Your Certainty\n\n## The Run Mode\n### 1. The Setup\nShow a list of 10 trivia or estimation questions (e.g., \"How many people live in Delhi?\", \"Which city is further north?\").\n- **The Catch:** Students must provide both an answer and a **Confidence Score (0-100%)**.\n\n### 2. The Mission\n1. **Calibration:** Students mark their answers and calculate their \"Calibration Delta.\" (Am I overconfident or underconfident?)\n2. **Bayes Wave:** The teacher reveals a \"Base Rate\" hint (e.g., \"70% of northern cities share this climate trait\").\n3. **Update:** Students update their confidence score for specific questions.\n\n### 3. The Decompile\nFocus on **Precision Humility**:\n- Truth-seeking is about accurately rating what you know.\n- The Bayes Update is how smart minds stay updated with reality."
+  },
+  {
+    "id": "cos2_a14",
+    "slug": "interleaving-shuffle-lab-hidden-differences",
+    "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+    "short_promise": "Students learn discrimination: choosing the right method when problems look similar.",
+    "teacher_value_line": "A practical way to reduce 'formula grabbing' and build transfer.",
+    "student_value_line": "I learn to recognize what type of problem I’m in.",
+    "summary": "Students practice a skill in two formats: blocked (same type repeated) vs. interleaved (mixed types). They record how they feel (blocked feels smooth) and then test transfer (interleaved wins).",
+    "purpose_category": "Study Engine",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 25,
+      "typical": 35,
+      "max": 45
+    },
+    "group_mode": "pairs",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "problem deck"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Blocked Sprint: Massed practice of one type."
+      },
+      {
+        "t": 15,
+        "step": "The Interleaved Shuffle: Mixing types and strategies."
+      },
+      {
+        "t": 15,
+        "step": "The Reveal: Transfer test results."
+      }
+    ],
+    "teacher_moves": [
+      "Interleaving feels harder but builds the ability to select the right strategy.",
+      "Discrimination is a higher-level skill than execution."
+    ],
+    "teacher_watch_fors": [
+      "Students frustrated during the shuffle compared to the smooth blocked phase."
+    ],
+    "observation_cues": [
+      "Performance logs + reflection on felt difficulty vs. actual retention."
+    ],
+    "common_failure_points": [
+      "premature_formula_grab",
+      "fluency_illusion"
+    ],
+    "reflection_prompts": [
+      "Which round felt like you were actually 'thinking' instead of 'copying'?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written problem sets."
+    },
+    "follow_ups": [
+      "cos2_a12",
+      "cos2_a16"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "memory_strengthening",
+        "scientific_causal_reasoning"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M2-C07",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M2-C08",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M4-C07",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Interleaving Shuffle Lab: Spot the Hidden Differences\n\n## The Run Mode\n\n### 1. The Setup\nHand out two 'Problem Decks' (e.g., Geometry Area, Physics Vectors, or Sentence Correction).\n- **Deck A (Blocked):** 10 problems of the same type.\n- **Deck B (Interleaved):** 10 problems of three different types mixed together.\n\n### 2. The Mission\nPairs study and practice:\n1. Complete Blocked Deck A and note the 'Felt Ease'.\n2. Complete Interleaved Deck B and note the 'Struggle'.\n3. Run a **Transfer Test** with 3 completely new problems that look ambiguous.\n\n### 3. The Decompile\nFocus on **Strategic Selection**:\n- Blocked practice builds 'Fluency' in execution.\n- Interleaved practice builds the ability to **Select** the right tool.\n- Discrimination is what wins on exams and in real life."
+  },
+  {
+    "id": "cos2_a15",
+    "slug": "decision-clinic-tradeoffs-trees-premortems",
+    "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+    "short_promise": "Students learn to plan decisions with branches, costs, uncertainty, and failure routes.",
+    "teacher_value_line": "A decision-making protocol teachers can apply to academics, careers, and group work.",
+    "student_value_line": "I learn to choose without panic and regret fantasies.",
+    "summary": "Teams take a real-world decision (retake exam, choose project partner, join competition) and build a decision tree with branches, probabilities, and opportunity costs. They then run a 'pre-mortem' to identify failure routes.",
+    "purpose_category": "Decision Gym",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 60
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "decision worksheets"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Decision: Defining the messy choice."
+      },
+      {
+        "t": 25,
+        "step": "The Tree: Mapping branches, costs, and side effects."
+      },
+      {
+        "t": 15,
+        "step": "The Pre-Mortem: What could go wrong?"
+      },
+      {
+        "t": 10,
+        "step": "The Decision Rule: Naming the protocol."
+      }
+    ],
+    "teacher_moves": [
+      "Avoid fake precision; use ranges or 'rough probabilities' instead.",
+      "If it's a decision with high variance, map the 'worst-case' branch."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'best-case' thinking and ignoring opportunity costs."
+    ],
+    "observation_cues": [
+      "Decision trees + pre-mortem lists + stated decision rules."
+    ],
+    "common_failure_points": [
+      "opportunity_cost_blindness",
+      "overconfidence_bias"
+    ],
+    "reflection_prompts": [
+      "What did you give up by choosing the 'safe' branch?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written decision templates."
+    },
+    "follow_ups": [
+      "cos2_a29",
+      "cos2_a18"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode",
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "decision_craft",
+        "odds_updates_calibration",
+        "systems_incentives_sight"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M3-C06",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M3-C07",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M3-C03",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M5-C03",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Decision Clinic: Trade-Offs, Trees, and Pre-Mortems\n\n## The Run Mode\n### 1. The Setup\nEach group picks a 'Decision Scenario' (e.g., \"Join the debate team or focus on boards,\" \"Partner with a friend or a high-performer\").\n\n### 2. The Mission\nGroups work in 15-minute bursts to:\n1. **Branching:** Draw a tree showing the 2-3 main paths. \n2. **Costing:** Attach 'Time' and 'Stress' costs + one **Opportunity Cost** (\"What else could I have done?\").\n3. **Second-Order Effects:** \"If I join the team, what happens to my gym time?\" \n4. **Pre-Mortem:** \"It's 6 months from now and the decision failed. What was the cause?\"\n\n### 3. The Decompile\nFocus on **Rigorous Choosing**:\n- Avoid emotional spirals by building **Decision Infrastructure**.\n- The 'Correct' choice is the one that accounts for the most likely failure routes."
+  },
+  {
+    "id": "cos2_a16",
+    "slug": "practice-debug-error-log-patterns",
+    "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+    "short_promise": "Students stop saying 'I made a silly mistake' and start identifying their own failure patterns.",
+    "teacher_value_line": "A routine for transforming mistakes into data-driven improvement.",
+    "student_value_line": "I learn to debug my own brain.",
+    "summary": "Students bring a recent test or worksheet with errors. Instead of 'fixing' them, they categorize them into an Error Log (e.g., 'Concept Gap,' 'Process Slip,' 'Read/Logic Error'). They then design a specific 'pre-flight check' to prevent that pattern.",
+    "purpose_category": "Study Engine",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "solo",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "recent test/worksheet"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Indictment: Listing mistakes without ego."
+      },
+      {
+        "t": 20,
+        "step": "Categorization: Building the Error Log."
+      },
+      {
+        "t": 15,
+        "step": "The Fix: Designing the Pre-Flight Check."
+      }
+    ],
+    "teacher_moves": [
+      "Mistakes are information, not character flaws.",
+      "A 'silly mistake' is just an error you haven't categorized yet."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'self-blame' instead of 'debugging'."
+    ],
+    "observation_cues": [
+      "Error log + identified failure modes + pre-flight checklist."
+    ],
+    "common_failure_points": [
+      "ego_protection_failure",
+      "generic_correction_bias"
+    ],
+    "reflection_prompts": [
+      "What was the most common 'signal' your brain ignored?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written error categories."
+    },
+    "follow_ups": [
+      "cos2_a10",
+      "cos2_a34"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Sandbox"
+      ],
+      "backend_capability_clusters": [
+        "learning_engine",
+        "regulation_reflection",
+        "scientific_causal_reasoning"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M2-C05",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W4-P18",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M4-C03",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')\n\n## The Run Mode\n### 1. The Setup\nBring a recent test or homework with errors.\n- **The Catch:** No 'X' marks. Just circles.\n\n### 2. The Mission\nStudents follow the **Practice Debug Protocol**:\n1. **Name the Error:** Give it a funny but precise name (e.g., 'The Sign Swapper,' 'The Unit Ghost,' 'The Read Slider').\n2. **Identify the Trigger:** What happened right before the error? (e.g., 'I was rushing,' 'I saw a similar word').\n3. **The Pre-Flight Check:** Write a 1-sentence reminder for next time (e.g., 'Check units BEFORE starting calc').\n\n### 3. The Decompile\nFocus on **Pattern Recognition**:\n- You don't make 100 random mistakes; you make 3-4 patterns repeatedly.\n- Debugging is how experts stay accurate under pressure.\n筋"
+  },
+  {
+    "id": "cos2_a17",
+    "slug": "evidence-ladder-claim-strength-ranking",
+    "title": "Evidence Ladder: Claim Strength Ranking",
+    "short_promise": "Students learn to rank claims by strength of evidence, not just loudness.",
+    "teacher_value_line": "A routine for teaching scientific thinking and source evaluation.",
+    "student_value_line": "I stop being swayed by 'someone said it' to 'here is the data'.",
+    "summary": "Students receive 5 claims on a specific topic (health, space, social incident). They must rank them on the **Evidence Ladder** (Personal Anecdote → Expert Quote → Single Study → Consensus/Systematic Review). They then justify why a single study can be wrong.",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "claim set"
+      ]
+    },
+    "energy_level": "low-medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Ladder: Defining the rungs of evidence."
+      },
+      {
+        "t": 20,
+        "step": "Ranking: Sorting the claims."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Why consensus matters."
+      }
+    ],
+    "teacher_moves": [
+      "Anecdotes are stories, not evidence; they hide the 'base rate'.",
+      "Evidence has different weights, not just 'true/false' labels."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'expert quotes' as the peak of the ladder."
+    ],
+    "observation_cues": [
+      "Evidence ranking sheets + justifications for 'the consensus rungs'."
+    ],
+    "common_failure_points": [
+      "anecdote_reliance",
+      "authority_bias"
+    ],
+    "reflection_prompts": [
+      "Which rung was the hardest to trust?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'claim' cards."
+    },
+    "follow_ups": [
+      "cos2_a19",
+      "cos2_a20"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "evidence_hygiene",
+        "claim_forensics",
+        "synthesis_under_disagreement"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M6-C01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W1-A4-M01",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M6-C02",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M6-C03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Evidence Ladder: Claim Strength Ranking\n\n## The Run Mode\n### 1. The Setup\nShow the **Evidence Ladder** graph:\n- **Rung 5 (Top):** Consensus / Systematic Review (Many studies agree).\n- **Rung 4:** Controlled Study (Replicated data).\n- **Rung 3:** Expert/Organization Quote (Based on data).\n- **Rung 2:** Observational Anecdote (\"I saw it once\").\n- **Rung 1 (Bottom):** Opinion / Speculation.\n\n### 2. The Mission\nGroups have 20 minutes to rank 5 claims about a topic (e.g., \"Drinking milk causes X,\" \"Social media leads to Y\").\n1. **Sort them:** Place each claim on a rung.\n2. **Justify:** Why is the specific study higher than the expert quote?\n3. **Challenge:** Find one way to move the lowest rung up the ladder.\n\n### 3. The Decompile\nFocus on **Information Quality**:\n- Don't just ask if it's true; ask **How strong is the evidence?**\n- Anecdotes are vivid but dangerous because they don't show the average result.\n筋"
+  },
+  {
+    "id": "cos2_a18",
+    "slug": "systems-dominoes-causal-chains",
+    "title": "Systems Dominoes: Causal Chains & Side Effects",
+    "short_promise": "Students learn to see the ripples of a single change—not just the immediate result.",
+    "teacher_value_line": "A fast way to teach second-order thinking and causal reasoning.",
+    "student_value_line": "I learn to anticipate what happens next.",
+    "summary": "Teams take a 'Change' (e.g., 'Free WiFi everywhere,' 'School starts at 10 AM,' 'No homework week'). They must map the causal dominoes: the direct result, the side effect, and the second-order ripple. They then identify one unintended consequence.",
+    "purpose_category": "Systems Lens",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "groups",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "scenario cards"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Change: What's the initial trigger?"
+      },
+      {
+        "t": 20,
+        "step": "The Chain: Mapping 3-4 steps of causality."
+      },
+      {
+        "t": 15,
+        "step": "The Reveal: Spotting the unintended consequence."
+      }
+    ],
+    "teacher_moves": [
+      "Every solution creates a new problem; find it before it finds you.",
+      "Focus on 'linear' vs 'complex' causality."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'best-case' results and ignoring trade-offs."
+    ],
+    "observation_cues": [
+      "Causal chain maps showing ripples beyond step 1."
+    ],
+    "common_failure_points": [
+      "second_order_blindness",
+      "linear_causality_bias"
+    ],
+    "reflection_prompts": [
+      "What was the most surprising '3rd-order' ripple?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'change' scenarios."
+    },
+    "follow_ups": [
+      "cos2_a29",
+      "cos2_a32"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Sandbox"
+      ],
+      "backend_capability_clusters": [
+        "systems_incentives_sight",
+        "scientific_causal_reasoning"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M5-C01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M5-C02",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W4-P06",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Systems Dominoes: Causal Chains & Side Effects\n\n## The Run Mode\n### 1. The Setup\nEach group picks a 'Causal Trigger' (e.g., \"Free transit for all,\" \"Ban all plastic,\" \"Everyone gets an A\").\n\n### 2. The Mission\nGroups draw a **Causal Domino Chain**:\n1. **Direct Result:** What happens immediately? \n2. **Side Effect:** What happens to related parts of the system? (e.g., \"Transit is free → Buses are crowded\").\n3. **Second-Order Ripple:** What happens *because* of the side effect? (e.g., \"Crowded buses → More people bike\").\n4. **Third-Order Surprise:** \"More people bike → City builds more paths → Bike shops flourish.\"\n\n### 3. The Decompile\nFocus on **Second-Order Thinking**:\n- Smart minds look beyond step 1.\n- Systems are connected; a pull here causes a push there.\n筋"
+  },
+  {
+    "id": "cos2_a19",
+    "slug": "research-hygiene-detect-p-hacking",
+    "title": "Research Hygiene: Detect P-Hacking & Tiny Samples",
+    "short_promise": "Students learn to spot the red flags of 'leaking research' before they believe the headline.",
+    "teacher_value_line": "A practical way to teach the 'Scientific Method' by showing where it fails.",
+    "student_value_line": "I learn to see why 'a study says' isn't enough.",
+    "summary": "Students receive 3–5 'Study Summaries' (e.g., 'Coffee cures X,' 'Sugar makes Y happen'). In a group search, they must label red flags: N=5 (tiny sample), P-Hacking (too many questions asked), Selection Bias, and Funding Bias.",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "study cards"
+      ]
+    },
+    "energy_level": "low-medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Headline Trap: Why do we trust 'The Study'?"
+      },
+      {
+        "t": 20,
+        "step": "Red Flag Search: N, P, Bias, and Selection."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: What makes a study 'healthy'?"
+      }
+    ],
+    "teacher_moves": [
+      "The process matters more than the result; a bad process yields a ghost result.",
+      "Sample size (N) is your first defense."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'experts agree' instead of 'check the sample'."
+    ],
+    "observation_cues": [
+      "Red flag logs for each study provided."
+    ],
+    "common_failure_points": [
+      "selection_bias_lapse",
+      "p_hacking_blindness"
+    ],
+    "reflection_prompts": [
+      "Which red flag was the most surprising?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'study' cards."
+    },
+    "follow_ups": [
+      "cos2_a17",
+      "cos2_a20"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "evidence_hygiene",
+        "claim_forensics",
+        "scientific_causal_reasoning"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W1-A4-M01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M6-C01",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M6-C03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Research Hygiene: Detect P-Hacking & Tiny Samples\n\n## The Run Mode\n### 1. The Setup\nShow 3 headline claims (e.g., \"Drinking juice makes kids score 10% higher!\"). \n- **The Catch:** The sample size is 6, and they were all from the same soccer team.\n\n### 2. The Mission\nGroups work together to \"clean up\" the research:\n1. **Find the 'N':** How many people were studied? \n2. **Find the 'P':** Was this the only thing they measured, or did they measure 100 things and pick the one that \"worked\"? (P-Hacking).\n3. **Funding:** Who paid for the juice study? (The Juice Growers Association).\n4. **Conclusion:** Decide: **Trust, Trash, or Retest.**\n\n### 3. The Decompile\nFocus on **Scientific Skepticism**:\n- Small samples are noisy; don't trust them without replication.\n- Incentives influence what gets published.\n筋"
+  },
+  {
+    "id": "cos2_a20",
+    "slug": "replication-consensus-truth-over-time",
+    "title": "Replication & Consensus: Truth Over Time",
+    "short_promise": "Students learn why 'one study' is never enough, and how truth stabilizes through replication.",
+    "teacher_value_line": "A fast way to teach scientific integrity and the 'Replication Crisis' concept.",
+    "student_value_line": "I learn to wait for the consensus before betting my life on a headline.",
+    "summary": "Students run a 'Replication Race': 5 groups study the same 'hidden' phenomenon (roll of a d20 with a hidden bias). Group  group results are shared one by one. Students see how the 'truth' shifts with each new sample until it stabilizes in consensus.",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 40,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "d20 or similar dice",
+        "consensus boards"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Hidden Truth: What is the real bias?"
+      },
+      {
+        "t": 25,
+        "step": "The Replication Race: 5 groups, 5 results."
+      },
+      {
+        "t": 15,
+        "step": "The Consensus: Final graph and truth-finding."
+      }
+    ],
+    "teacher_moves": [
+      "The first result is often an outlier; wait for the second, third, and fourth.",
+      "Focus on the 'Replication Crisis' in psychology/medicine."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'the first result' and ignoring the rest."
+    ],
+    "observation_cues": [
+      "Group graphs + final consensus chart."
+    ],
+    "common_failure_points": [
+      "outlier_bias",
+      "premature_conclusion_lapse"
+    ],
+    "reflection_prompts": [
+      "When did the 'truth' actually stabilize for you?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'study results'."
+    },
+    "follow_ups": [
+      "cos2_a17",
+      "cos2_a19"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "evidence_hygiene",
+        "scientific_causal_reasoning",
+        "synthesis_under_disagreement"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M6-C01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M6-C03",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A4-M01",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Replication & Consensus: Truth Over Time\n\n## The Run Mode\n### 1. The Setup\nEach of 5 groups is given the same \"Phenomenon\" (e.g., \"What is the average height of students in this school?\"). \n- **The Catch:** Each group only gets a small, biased sample (e.g., only the basketball team, only class 7, only class 10).\n\n### 2. The Mission\nGroups work in rounds:\n1. **Round 1:** Each group publishes its \"Result\" independently. (Results will be wildly different).\n2. **Round 2:** Groups see Group 1's result. Do they update their own? \n3. **Round 3:** All 5 groups publish results on a single **Consensus Board**.\n4. **Conclusion:** What is the \"Stable Truth\"?\n\n### 3. The Decompile\nFocus on **Scientific Consensus**:\n- One study is a signal; 5 studies are a consensus.\n- Outliers are normal in small samples.\n筋"
+  },
+  {
+    "id": "cos2_a21",
+    "slug": "steelman-argument-map-disagreement",
+    "title": "Steelman & Argument Map: Disagreement Studio",
+    "short_promise": "Students learn to build the strongest version of an opposing view before they critique it.",
+    "teacher_value_line": "A safe way to teach civil disagreement and critical thinking.",
+    "student_value_line": "I learn to win by out-thinking the other side's best version.",
+    "summary": "Students are given a controversial or ambiguous topic (e.g., 'Should school start later?', 'Is social media a net-positive?'). Instead of debating, they must **Steelman** the other side: build their strongest argument. Then they use an **Argument Map** to show the evidence for each branch.",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Writing Studio",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "group_mode": "pairs",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "argument maps"
+      ]
+    },
+    "energy_level": "medium-high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Topic: Defining the disagreement."
+      },
+      {
+        "t": 25,
+        "step": "The Steelman: Strongest version of 'The Other'."
+      },
+      {
+        "t": 15,
+        "step": "The Map: Connecting evidence to claims."
+      },
+      {
+        "t": 10,
+        "step": "The Shift: Finding common ground."
+      }
+    ],
+    "teacher_moves": [
+      "The Strawman is for cowards; the Steelman is for truth-seekers.",
+      "Focus on 'synthesis over debate'."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'winning' instead of 'mapping'."
+    ],
+    "observation_cues": [
+      "Steelman argument + Argument Map showing logical branches."
+    ],
+    "common_failure_points": [
+      "strawman_fallacy",
+      "emotional_reactivity_bias"
+    ],
+    "reflection_prompts": [
+      "What part of the other side's argument was the most logically sound?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written argument maps."
+    },
+    "follow_ups": [
+      "cos2_a22",
+      "cos2_a25"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "synthesis_under_disagreement",
+        "trust_boundaries_pressure"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M7-C01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M7-C02",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-T01",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A4-M01",
+          "weight": 0.4,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Steelman & Argument Map: Disagreement Studio\n\n## The Run Mode\n### 1. The Setup\nEach pair picks a topic with two strong sides. \n- **The Catch:** No debating until the Steelman phase is complete.\n\n### 2. The Mission\nPairs follow the **Steelman Protocol**:\n1. **The Argument:** Write one side's claim. \n2. **The Steelman:** Students rebuild the opposing claim into its most logical, evidence-based version. (e.g., \"If I were them, I would use this data to say...\").\n3. **The Argument Map:** Draw a tree showing the **Claim → Sub-claim → Evidence** for both sides.\n4. **Conclusion:** Find the one specific place where they disagree on **Values** vs. **Facts**.\n\n### 3. The Decompile\nFocus on **Cognitive Empathy**:\n- Understanding the other side doesn't mean agreeing with them.\n- Truth-seekers map the whole territory; debaters only map their own camp.\n筋"
+  },
+  {
+    "id": "cos2_a22",
+    "slug": "model-stack-builder-visual-notes",
+    "title": "Model Stack Builder: Visual Notes & Synthesis",
+    "short_promise": "Students learn to synthesize information into a visual 'Model Stack' instead of copying notes.",
+    "teacher_value_line": "A routine for teaching advanced note-taking and conceptual synthesis.",
+    "student_value_line": "I learn to build 'knowledge engines' instead of just lists.",
+    "summary": "Students are given a multi-layered topic (e.g., 'Why does this city exist?', 'Economic cycles,' 'Evolutionary traits'). They must build a **Model Stack**: (1) The Core Engine, (2) The Ingredients, (3) The Historical Force, (4) The Side Effects. Each layer is a visual model, not a list.",
+    "purpose_category": "Study Engine",
+    "mode_category": "Writing Studio",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "group_mode": "solo",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "model templates"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Stack: 4 layers of knowledge."
+      },
+      {
+        "t": 25,
+        "step": "Building the Engine: Layers 1 & 2."
+      },
+      {
+        "t": 15,
+        "step": "Historical Forces: Layers 3 & 4."
+      },
+      {
+        "t": 10,
+        "step": "The Decompile: Mapping the synthesis."
+      }
+    ],
+    "teacher_moves": [
+      "The Stack is for mastery; lists are for memorization.",
+      "Focus on 'synthesis over recall'."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'copying' rather than 'modeling' the engine."
+    ],
+    "observation_cues": [
+      "Model Stack Map showing 4 layers of synthesis."
+    ],
+    "common_failure_points": [
+      "passive_note_taking_lapse",
+      "fragmented_knowledge_failure"
+    ],
+    "reflection_prompts": [
+      "Which layer felt like it 'explained' the most of the story?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written model templates."
+    },
+    "follow_ups": [
+      "cos2_a10",
+      "cos2_a12"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Cognition",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "scientific_causal_reasoning",
+        "learning_engine",
+        "synthesis_under_disagreement"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M4-C03",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M4-C04",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M4-C05",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M2-C13",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Model Stack Builder: Visual Notes & Synthesis\n\n## The Run Mode\n### 1. The Setup\nShow the **Model Stack** template:\n1. **Core Engine:** What is the main cause? \n2. **Ingredients:** What is it made of? \n3. **Historical Force:** What happened in the past? \n4. **Side Effects:** What happens to others?\n\n### 2. The Mission\nIn pairs, students take a topic (e.g., 'The Rise of the Internet,' 'Photosynthesis,' 'The Industrial Revolution'):\n1. **Identify the Core:** What is the 'engine' that makes it happen? \n2. **Layering:** Fill in the ingredients and historical forces. \n3. **Synthesis:** Connect the layers. \n4. **Conclusion:** State the final model in one visual diagram.\n\n### 3. The Decompile\nFocus on **Conceptual Synthesis**:\n- Knowledge is a stack of related models, not a flat list.\n- Synthesis is how you 'own' information and move it to long-term memory.\n筋"
+  },
+  {
+    "id": "cos2_a23",
+    "slug": "truth-reliability-ledger-reputation",
+    "title": "Truth & Reliability Ledger: Reputation is a Score",
+    "short_promise": "Students learn that trust is built on repeatable reliability, not just vibes.",
+    "teacher_value_line": "A routine for building classroom accountability and trust logic.",
+    "student_value_line": "I learn to build a reputation that people can bet on.",
+    "summary": "Students learn to track **Reliability**: the gap between 'Word' and 'Action.' They use a simple ledger to track 3 self-declared promises and observe the result. The decompile focuses on 'The Trust Equation' (Competence + Reliability + Intimacy / Self-Orientation).",
+    "purpose_category": "Truth & Evidence",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "solo",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "ledger templates"
+      ]
+    },
+    "energy_level": "low-medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Trust Equation: What makes someone 'reliable'?"
+      },
+      {
+        "t": 15,
+        "step": "The Ledger: Tracking Word vs. Action."
+      },
+      {
+        "t": 20,
+        "step": "The Decompile: Reputation as a long-term asset."
+      }
+    ],
+    "teacher_moves": [
+      "Trust is built in drops and lost in buckets.",
+      "Reliability is the most predictable part of trust."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'likability' as a proxy for 'reliability'."
+    ],
+    "observation_cues": [
+      "Reliability ledger + student reflection on the 'Word-Action Gap'."
+    ],
+    "common_failure_points": [
+      "reliability_blindness",
+      "reputation_negligence"
+    ],
+    "reflection_prompts": [
+      "What is one 'Word' you gave this week that didn't have an 'Action'?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written ledger templates."
+    },
+    "follow_ups": [
+      "cos2_a24",
+      "cos2_a26"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Relate",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "trust_boundaries_pressure",
+        "cooperation_repair"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T09",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-E03",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-E04",
+          "weight": 0.8,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Truth & Reliability Ledger: Reputation is a Score\n\n## The Run Mode\n### 1. The Setup\nShow the **Trust Equation**:\n- `Trust = (Reliability + Competence + Intimacy) / Self-Orientation`\n\n### 2. The Mission\nStudents create their own **Reliability Ledger**:\n1. **The Word:** Write 3 simple promises for the next 48 hours (e.g., \"I will finish X,\" \"I will arrive Y minutes early,\" \"I will reply to Z\").\n2. **The Action:** At the end of 48 hours, mark: **Completed, Delayed, or Abandoned.**\n3. **The Score:** Calculate your \"Reliability Ratio.\" (The percentage of 'Words' that became 'Actions').\n\n### 3. The Decompile\nFocus on **Reputation and Trust**:\n- Reliability is the easiest way to stand out in a noisy world.\n- A high reliability score makes you 'low friction' for teammates and mentors.\n筋"
+  },
+  {
+    "id": "cos2_a24",
+    "slug": "calibration-radar-social-cues",
+    "title": "Calibration Radar: Social Cue Reading & Adjustment",
+    "short_promise": "Students learn to read the room and adjust their 'volume' before they lose the audience.",
+    "teacher_value_line": "A safe, non-awkward routine for teaching social sensitivity and self-regulation.",
+    "student_value_line": "I learn to see when my 'presence' is too loud or too quiet.",
+    "summary": "Students observe a simulated social scene (video or roleplay) and use the **Calibration Radar** (Attention, Energy, Safety, Power) to 'rate the room.' They then propose one adjustment for the 'Social Actor' to stay aligned with the group.",
+    "purpose_category": "People & Pressure",
+    "mode_category": "Simulation / Roleplay",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "groups",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "radar templates"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Scene: What's the 'vibe' right now?"
+      },
+      {
+        "t": 15,
+        "step": "The Radar: Rating 4 dimensions of cue-reading."
+      },
+      {
+        "t": 10,
+        "step": "The Update: Adjusting the social volume."
+      },
+      {
+        "t": 10,
+        "step": "The Decompile: Reading the 'unsaid'."
+      }
+    ],
+    "teacher_moves": [
+      "The unsaid is as loud as the spoken; read the room first.",
+      "Calibration is a thinking skill, not just a feeling one."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'judgment' rather than 'calibration'."
+    ],
+    "observation_cues": [
+      "Radar ratings + proposed social adjustments."
+    ],
+    "common_failure_points": [
+      "social_blindness_lapse",
+      "over_dominance_bias"
+    ],
+    "reflection_prompts": [
+      "When was the last time you 'read' an energy shift in a room?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written radar templates."
+    },
+    "follow_ups": [
+      "cos2_a25",
+      "cos2_a26"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Relate",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "trust_boundaries_pressure",
+        "cooperation_repair"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T01",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-E07",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-E06",
+          "weight": 0.8,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Calibration Radar: Social Cue Reading & Adjustment\n\n## The Run Mode\n### 1. The Setup\nShow a short social scenario (e.g., \"A group project where one person is doing 90% of the talking\").\n\n### 2. The Mission\nGroups use the **Calibration Radar**:\n1. **Energy:** Is the group quiet or loud?\n2. **Attention:** Are they looking at the speaker or their phones?\n3. **Safety:** Do they seem comfortable sharing 'bad' ideas?\n4. **Power:** Who is 'steering' the group right now?\n5. **The Update:** Propose one specific change for the speaker: \"Lower the volume,\" \"Ask a question,\" \"Pause for 5 seconds.\"\n\n### 3. The Decompile\nFocus on **Social Sensitivity**:\n- Calibration is the bridge between intention and impact.\n- Reading the 'unsaid' is what makes a great teammate and leader.\n筋"
+  },
+  {
+    "id": "cos2_a25",
+    "slug": "rewrite-clinic-social-friction-clarity",
+    "title": "Rewrite Clinic: Social Friction & Clarity",
+    "short_promise": "Students learn to rewrite 'angry' or 'unclear' messages before they cause a social storm.",
+    "teacher_value_line": "A routine for teaching communication hygiene and 'thoughtful' responses.",
+    "student_value_line": "I learn to say the hard thing without the drama.",
+    "summary": "Students are given a 'Friction Message' (e.g., 'I'm out of the group, you guys are lazy'). They must rewrite it using three protocols: (1) Facts Only (remove labels), (2) The Request (add a specific ask), (3) The Why (brief context). They compare the 'storm probability' of each version.",
+    "purpose_category": "Trust & Teamwork",
+    "mode_category": "Writing Studio",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "pairs",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "friction message set"
+      ]
+    },
+    "energy_level": "low-medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Friction: Defining the social 'storm'."
+      },
+      {
+        "t": 20,
+        "step": "The Rewrite: Facts, Requests, and Whys."
+      },
+      {
+        "t": 15,
+        "step": "The Reveal: Storm Probability Rating."
+      }
+    ],
+    "teacher_moves": [
+      "The first message is for 당신 (you); the second is for the group.",
+      "Labels (lazy, mean, unfair) cause explosions; facts cause solutions."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'politeness' rather than 'clarity'."
+    ],
+    "observation_cues": [
+      "Rewrite logs with storm probability ratings."
+    ],
+    "common_failure_points": [
+      "labeling_trap",
+      "emotional_reactivity_bias"
+    ],
+    "reflection_prompts": [
+      "Which rewrite felt the most 'honest' without being 'mean'?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written friction messages."
+    },
+    "follow_ups": [
+      "cos2_a24",
+      "cos2_a33"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Relate",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "trust_boundaries_pressure",
+        "cooperation_repair"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T02",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-E01",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-E02",
+          "weight": 0.8,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Rewrite Clinic: Social Friction & Clarity\n\n## The Run Mode\n### 1. The Setup\nShow a highly emotional 'Friction Message' (e.g., \"I'm sick of doing all the work while you just sit there and play games. I'm telling the teacher!\").\n\n### 2. The Mission\nPairs work together to \"cool down\" the message using **The Rewrite Rules**:\n1. **Rule 1: No Labels.** Remove 'sick of,' 'just sit there,' and 'play games.' Use facts: \"I have finished 3 tasks, and you have finished 0.\"\n2. **Rule 2: Add a Request.** What do you want? \"Can you finish Task 4 by tomorrow 5 PM?\"\n3. **Rule 3: The Why.** Brief context: \"So we can submit on time for our marks.\"\n4. **Conclusion:** Rated 'Storm Probability' 1-10. Original: 9. Rewrite: 2.\n\n### 3. The Decompile\nFocus on **Communication Hygiene**:\n- Clarity is kindness.\n- Reactive messages are expensive; rewrites are free.\n筋"
+  },
+  {
+    "id": "cos2_a26",
+    "slug": "peer-pressure-shield-social-default",
+    "title": "Peer Pressure Shield: Social Default & Escape",
+    "short_promise": "Students learn to build their own 'social default' before the pressure hits.",
+    "teacher_value_line": "A safe, non-preachy way to teach peer pressure defense and trust logic.",
+    "student_value_line": "I learn to stay 'me' while staying social, without being the 'uncool' one.",
+    "summary": "Students practice identifying **High-Pressure Social Defaults** (e.g., 'Just one more game,' 'Tell him he's stupid'). They build their own **Escape Pods**: short, repeatable scripts and pre-vetted excuses that allow them to exit a situation without losing 'cool' or safety.",
+    "purpose_category": "People & Pressure",
+    "mode_category": "Simulation / Roleplay",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 60
+    },
+    "group_mode": "pairs",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "script cards"
+      ],
+      "ideal": [
+        "printed scenario cards",
+        "roleplay tokens"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Default Trap: What is the 'social current'?"
+      },
+      {
+        "t": 15,
+        "step": "The Escape Pod: Building the 3-second script."
+      },
+      {
+        "t": 15,
+        "step": "Simulation: Staying 'cool' under the pressure-current."
+      },
+      {
+        "t": 10,
+        "step": "The Reveal: Trust & Boundaries logic."
+      }
+    ],
+    "teacher_moves": [
+      "The social current is like gravity; you don't fight it with will, you fight it with a plan.",
+      "Don't pre-talk the 'moral'; let the students feel the pressure of the 'default' first.",
+      "Praise the 'Exit' strategy, not the 'Confrontation' strategy. Getting out is winning."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'explaining themselves' (long justifications are weak points).",
+      "One person dominating the roleplay (ensure equal 'Pressure' time)."
+    ],
+    "observation_cues": [
+      "Short, repeatable escape scripts (e.g., 'Nah, I'm good', 'Gotta go, parents calling').",
+      "Tone of voice: Neutral and bored is usually more effective than angry."
+    ],
+    "common_failure_points": [
+      "over_explanation_trap",
+      "peer_pressure_collapse"
+    ],
+    "reflection_prompts": [
+      "Which 'Escape Pod' script felt the most like something you would actually say?",
+      "How did your body feel when you said 'No' for the first time?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'social pressure' scenarios."
+    },
+    "follow_ups": [
+      "cos2_a27",
+      "cos2_a28"
+    ],
+    "status": "flagship",
+    "curation_tier": "flagship_36",
+    "version": "1.1.0",
+    "internal": {
+      "backend_primary_wing": "Relate",
+      "backend_secondary_wings": [
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "trust_boundaries_pressure",
+        "regulation_reflection"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T04",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-E01",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A3-M08",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ],
+      "failure_atlas_risks": [
+        "peer_pressure_collapse",
+        "emotional_reactivity_bias"
+      ]
+    },
+    "body": "# Peer Pressure Shield: Social Default & Escape\n\n## The Run Mode\n\n### 1. The Setup (5 min)\nIntroduce the **Social Current**.\n- **Definition:** The unspoken \"what we all do\" in a group.\n- **Example (India Context):** Everyone in the group is bunking a project meeting to watch a cricket match or go to the canteen. You actually want to do the project, but saying that makes you the \"party pooper.\"\n- **Ask:** \"What is the hardest 'social default' you've faced this month? Don't name names.\"\n\n### 2. The Escape Pod (15 min)\nPairs build their own **Escape Pods** for 3 specific Indian school scenarios:\n1. **The 'One More' Pressure:** \"Stay out for one more hour,\" or \"Play one more round of BGMI/Valorant.\"\n2. **The 'Gossip' Pressure:** \"Did you hear what X said about Y? Tell me something about X too.\"\n3. **The 'Risky Joke' Pressure:** Doing something risky in the corridor or classroom for a 'dare'.\n- **Rules:** The script must be under 5 words. No \"Because...\" (No justifications).\n- **Examples:** \"Nah, I've got a hard stop.\" \"I'm good, thanks.\" \"Can't today, catch ya later.\"\n\n### 3. Simulation (15 min)\nOne student is \"The Pressure\" (subtle persuasion). The other is \"The Shield.\"\n- **The Shield's Goal:** Repeat their Escape Pod script 3 times. They must stay calm and bored.\n- **The Pressure's Goal:** Try to get a justification. \"But why? Are you scared? Only 5 minutes!\"\n- **Switch roles after 3 minutes.**\n\n### 4. The Reveal (10 min)\nDecompile the **Trust & Boundaries** logic:\n- Real friends respect your \"hard stop.\"\n- People-pleasers lose trust because they're unpredictable. Boundary-setters gain trust because they're reliable.\n- \"No\" is a complete sentence.\n\n## Success Criteria\nStudents can demonstrate a calm, short \"No\" under moderate peer pressure without offering a long excuse.\nArtifact: A set of 3 \"Personal Escape Pod\" scripts written on cards.\n筋"
+  },
+  {
+    "id": "cos2_a27",
+    "slug": "boundary-scripts-batna-say-no",
+    "title": "Boundary Scripts + BATNA: Say No Cleanly",
+    "short_promise": "Students learn how alternatives create calm, and how to refuse without drama.",
+    "teacher_value_line": "A negotiation-lite tool that improves group projects and personal safety.",
+    "student_value_line": "Having options makes me harder to trap.",
+    "summary": "Students list common 'trap situations' (unfair group work, borrowing money, pressure to share answers). They build a BATNA (Best Alternative To a Negotiated Agreement) for each and write short, repeatable boundary scripts. Teacher decompiles: alternatives create emotional regulation; boundaries collapse when options feel scarce.",
+    "purpose_category": "People & Pressure",
+    "mode_category": "Workshop",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "pairs",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "worksheet"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Trap: Where do we lose our boundaries?"
+      },
+      {
+        "t": 20,
+        "step": "The BATNA: Building the alternative."
+      },
+      {
+        "t": 15,
+        "step": "The Script: Writing the short refusal."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Options = Power."
+      }
+    ],
+    "teacher_moves": [
+      "Negotiation is about alternatives, not just arguments.",
+      "If you don't have a BATNA, you don't have a choice."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'being mean' rather than 'setting boundaries'."
+    ],
+    "observation_cues": [
+      "BATNA lists + boundary scripts."
+    ],
+    "common_failure_points": [
+      "scarce_option_blindness",
+      "over_explanation_trap"
+    ],
+    "reflection_prompts": [
+      "What was the most 'calm' boundary script you wrote today?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written scenarios."
+    },
+    "follow_ups": [
+      "cos2_a26",
+      "cos2_a28"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Relate",
+      "backend_secondary_wings": [
+        "Decode",
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "trust_boundaries_pressure",
+        "strategy_adversarial"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T04",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-E01",
+          "weight": 0.6,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-T03",
+          "weight": 0.8,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Boundary Scripts + BATNA: Say No Cleanly\n\n## The Run Mode\n### 1. The Setup\nShow a scenario: \"Someone asks to borrow your notes right before an exam. You don't have time to explain everything again.\"\n- **The Ask:** How do you say no without making them angry?\n\n### 2. The Mission\nPairs work together to build **BATNAs and Scripts**:\n1. **Identify the 'Trap':** What is the pressure? (Borrowing, Gossip, Unfair Work).\n2. **Build the BATNA:** \"If they get angry, what is my fallback?\" \"I can still sit with my other friends.\" \"I can focus on my own study.\"\n3. **The Script:** Write a 5-word boundary script. (e.g., \"I've gotta focus now.\" \"I'm not doing that today.\" \"Maybe another time.\")\n4. **The Swap:** Challenge another pair to 'break' your boundary without being aggressive.\n\n### 3. The Decompile\nFocus on **Power and Alternatives**:\n- Boundaries only collapse when we feel like we have no other options.\n- The **Best Alternative To a Negotiated Agreement (BATNA)** is the real engine of social safety.\n筋"
+  },
+  {
+    "id": "cos2_a28",
+    "slug": "listening-lab-paraphrase-clarify-confirm",
+    "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+    "short_promise": "Students learn to listen accurately before reacting, replying, or escalating.",
+    "teacher_value_line": "A low-risk activity that improves discussion quality, conflict handling, and group-work maturity.",
+    "student_value_line": "I learn how to show I understood before I argue, fix, or respond.",
+    "summary": "Students work in triads through short dialogue cards and mini-friction scenarios. The listener must first paraphrase what they heard, then ask one clarifying question, and only then offer a response. An observer tracks interruption, distortion, assumption-jumps, and whether the speaker feels accurately understood. The debrief frames listening as reality-matching, not passive politeness.",
+    "purpose_category": "Trust & Teamwork",
+    "mode_category": "Lab",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 40,
+      "max": 45
+    },
+    "group_mode": "triads",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "paper",
+        "scenario slips",
+        "observer checklist"
+      ]
+    },
+    "energy_level": "medium",
+    "facilitation_difficulty": 2,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "Why listening fails: reply mode vs understand mode"
+      },
+      {
+        "t": 12,
+        "step": "Round 1: Paraphrase before reply"
+      },
+      {
+        "t": 12,
+        "step": "Round 2: Clarify the missing piece"
+      },
+      {
+        "t": 8,
+        "step": "Observer feedback: where meaning got distorted"
+      },
+      {
+        "t": 8,
+        "step": "The Decompile: listening as trust-building and conflict prevention"
+      }
+    ],
+    "teacher_moves": [
+      "Your job is not to agree first. Your job is to understand accurately first.",
+      "Paraphrase the meaning, not just repeat the words.",
+      "A clarifying question is better than an assumption."
+    ],
+    "teacher_watch_fors": [
+      "Students rushing to advice, correction, or debate before showing understanding.",
+      "Paraphrases that sound accurate but quietly distort the speaker’s meaning.",
+      "Observers focusing on confidence instead of accuracy."
+    ],
+    "observation_cues": [
+      "Quality of paraphrases: Did the speaker say, 'Yes, that’s what I meant'?",
+      "Clarifying questions that actually reduce ambiguity.",
+      "Reduced interruption and fewer assumption-jumps across rounds."
+    ],
+    "common_failure_points": [
+      "assumption_jump",
+      "interrupt_and_fix",
+      "performative_listening"
+    ],
+    "reflection_prompts": [
+      "What was hardest: paraphrasing, clarifying, or waiting before replying?",
+      "When does misunderstanding come from speed rather than bad intent?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written dialogue prompts and oral observer feedback instead of printed slips."
+    },
+    "follow_ups": [
+      "cos2_a25",
+      "cos2_a36"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Relate",
+      "backend_secondary_wings": [
+        "Cognition",
+        "Sandbox"
+      ],
+      "backend_capability_clusters": [
+        "trust_boundaries_pressure",
+        "cooperation_repair"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T03",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-T02",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-E03",
+          "weight": 0.7,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M7-C02",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Listening Lab: Paraphrase, Clarify, Confirm\n\n## The Run Mode\n\n### 1. The Setup\nPut students in triads:\n- **Speaker**\n- **Listener**\n- **Observer**\n\nGive each triad a short dialogue or friction card. Example:\n- “I did most of the group project and no one noticed.”\n- “You always interrupt me when I’m explaining.”\n- “I wasn’t trying to ignore you — I just didn’t understand what you meant.”\n\nThe observer gets a tiny checklist:\n- Did the listener interrupt?\n- Did the listener paraphrase accurately?\n- Did the listener ask a real clarifying question?\n- Did the speaker confirm they felt understood?\n\n### 2. The Activity\n\n#### Round 1 — Paraphrase before reply\nThe speaker talks for 30–45 seconds.\n\nThe listener may **not** reply with opinion, advice, or defense yet.\n\nThey must first say:\n- “What I’m hearing is…”\n- “So you’re saying…”\n- “You seem to mean…”\n\nThe speaker then answers:\n- “Yes, that’s right”\nor\n- “Not exactly — what I mean is…”\n\n#### Round 2 — Clarify the missing piece\nNow the listener asks **one clarifying question**:\n- “What part of that bothered you most?”\n- “What did you expect instead?”\n- “Was it the words, the tone, or the timing?”\n\nOnly after the answer can the listener respond.\n\n#### Round 3 — Observer feedback\nThe observer names:\n- where meaning got distorted\n- whether the paraphrase matched the meaning\n- whether the clarifying question improved understanding\n- whether the listener slipped into “fixing mode” too quickly\n\nThen roles rotate.\n\n### 3. The Decompile\n\nFocus on **accurate listening as a real skill**:\n\n- Many conflicts grow because people reply to their assumption, not to what was actually meant.\n- Paraphrasing slows down distortion.\n- Clarifying questions reduce false certainty.\n- Accurate listening does not mean agreement. It means reality-matching before response.\n- Trust grows when people feel understood correctly, even when disagreement remains.\n\nClose with one transfer question:\n\n**Where in school life would this one habit prevent the most unnecessary conflict?**\n筋"
+  },
+  {
+    "id": "cos2_a29",
+    "slug": "goodhart-simulator-metrics-targets",
+    "title": "Goodhart Simulator: When Metrics Become Targets",
+    "short_promise": "Students see how 'measuring' can corrupt behavior when the measure becomes the goal.",
+    "teacher_value_line": "A powerful systems lesson that upgrades school culture around marks and incentives.",
+    "student_value_line": "I understand why chasing one number can ruin the real goal.",
+    "summary": "Teams run a 'school improvement' mini-game. Initially the goal is meaningful (learning). Then the teacher introduces a target metric (marks, attendance %, homework count). Teams quickly optimize the metric (gaming behavior), and the real goal degrades. Debrief makes the law unforgettable: when a measure becomes a target, it stops measuring the thing you cared about.",
+    "purpose_category": "Systems Lens",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "group_mode": "groups",
+    "prep_level": "low-medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "tokens/counters"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Goal: Building a 'Quality School'."
+      },
+      {
+        "t": 25,
+        "step": "The Metric: Gaming the numbers."
+      },
+      {
+        "t": 15,
+        "step": "The Crash: Seeing the truth through the metric."
+      },
+      {
+        "t": 10,
+        "step": "The Decompile: Goodhart's Law in the wild."
+      }
+    ],
+    "teacher_moves": [
+      "The metric is not the mission; you get what you measure, but not what you want.",
+      "Don't stop the 'gaming' until the end; let it collapse the system first."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'doing it right' vs 'gaming the score'."
+    ],
+    "observation_cues": [
+      "Gaming strategies + reflection on measurement corruption."
+    ],
+    "common_failure_points": [
+      "metric_fixation_bias",
+      "systems_incentive_blindness"
+    ],
+    "reflection_prompts": [
+      "When did you stop caring about 'learning' and start caring about the score?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'metric targets'."
+    },
+    "follow_ups": [
+      "cos2_a18",
+      "cos2_a15"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Cognition",
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "systems_incentives_sight",
+        "signal_noise_judgment"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W2-M5-C08",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M5-C07",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M5-C02",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Goodhart Simulator: When Metrics Become Targets\n\n## The Run Mode\n### 1. The Setup\nEach group has a 'School' with 4 dimensions: **Learning**, **Wellbeing**, **Innovation**, and **Grades**. \n- **The Initial Mission:** Improve the school by choosing 'Actions' (e.g., \"Add library,\" \"Run a workshop\").\n\n### 2. The Mission\nTeacher introduces a **High-Stakes Metric**: \"A donor will only give money to the school with the highest **Homework Submission Count**.\"\n1. **The Gaming:** Groups pivot. They ignore 'Wellbeing' and 'Innovation' to maximize 'Homework Count'.\n2. **Result:** Homework count hits the moon. Final school quality (Learning) drops by 50%.\n3. **Reveal:** The donor pull-out.\n\n### 3. The Decompile\nFocus on **Goodhart's Law**:\n- When a measure becomes a target, it ceases to be a good measure.\n- Human systems are easily gamed; watch the incentives, not the headlines.\n筋"
+  },
+  {
+    "id": "cos2_a30",
+    "slug": "skyline-outlaws-risk-ladder-judgment",
+    "title": "Skyline Outlaws: Risk Ladder Course",
+    "short_promise": "Students train risk assessment and attention under motion in a safe mission format.",
+    "teacher_value_line": "A structured outdoor/space activity that builds judgment, not chaos.",
+    "student_value_line": "I learn to rate risk before acting on hype.",
+    "summary": "Teams face a sequence of movement challenges (balance line, controlled jump, timed navigation) designed with safety margins. Before each challenge, they must do a 'risk rating' (consequence, control, fallback) and assign roles (spotter, leader, timekeeper). Teacher is strict: no one moves without a risk plan.",
+    "purpose_category": "Reset & Reflect",
+    "mode_category": "Outdoor Mission",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 60,
+      "max": 75
+    },
+    "group_mode": "groups",
+    "prep_level": "medium-high",
+    "materials": {
+      "minimal": [
+        "cones",
+        "rope",
+        "chalk",
+        "risk cards"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 4,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Safety Protocol: Consequence, Control, Fallback."
+      },
+      {
+        "t": 35,
+        "step": "The Course: 4 stations of movement + judgment."
+      },
+      {
+        "t": 15,
+        "step": "The Reveal: Risk rating vs Actual performance."
+      },
+      {
+        "t": 10,
+        "step": "The Decompile: Calm under motion."
+      }
+    ],
+    "teacher_moves": [
+      "No movement without a risk plan; slowing down is part of the 'outlaw' mission.",
+      "Focus on 'judging' the physical limits of the group."
+    ],
+    "teacher_watch_fors": [
+      "Students rushing to 'finish' and ignoring 'roles' or 'safety'."
+    ],
+    "observation_cues": [
+      "Risk rating sheets + team role assignments + observed calm."
+    ],
+    "common_failure_points": [
+      "risk_underestimation_bias",
+      "attention_leakage_under_motion"
+    ],
+    "reflection_prompts": [
+      "When did you feel the 'hype' take over the 'plan'?"
+    ],
+    "adaptations": {
+      "low_resource": "Use indoor corridor or classroom obstacle version."
+    },
+    "follow_ups": [
+      "cos2_a34",
+      "cos2_a31"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Decode",
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "regulation_reflection",
+        "decision_craft",
+        "cooperation_repair"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W4-P03",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W4-P04",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M3-C05",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Skyline Outlaws: Risk Ladder Course\n\n## The Run Mode\n### 1. The Setup\nSet up 4 physical challenges (use cones/tape/rope):\n- **Balance Line** (Tightrope tape).\n- **Control Jump** (Small, specific target).\n- **Timed Navigation** (Obstacle course).\n- **Stability Hold** (Plank/Hold).\n\n### 2. The Mission\nGroups work in teams with roles (Leader, Spotter, Risk Analyst, Operator).\n1. **The Assessment:** Before any move, the Risk Analyst rating: **Consequence** (how bad?), **Control** (how skilled?), **Fallback** (what's the safety?).\n2. **The Execution:** The Operator moves only when the team gives the 'Go'.\n3. **The Score:** Groups gain points for 'Accuracy' of their risk ratings, not just for finishing.\n\n### 3. The Decompile\nFocus on **Risk Judgment**:\n- Outlaws survive by being more prepared, not by being more reckless.\n- Calm under motion is the bridge between thinking and acting.\n筋"
+  },
+  {
+    "id": "cos2_a31",
+    "slug": "skyline-outlaws-spatial-hunt",
+    "title": "Skyline Outlaws: Spatial Treasure Hunt",
+    "short_promise": "Students practice spatial logic and navigation as a thinking skill.",
+    "teacher_value_line": "A high-engagement way to build spatial reasoning and teamwork without tech.",
+    "student_value_line": "I learn to plan routes instead of rushing.",
+    "summary": "Teams receive a simple map or clues about locations. They must plan a route that minimizes time while respecting constraints (no-go zones, 'one-way' paths, hidden penalties). The trap is rushing; the best teams win by representation (sketching route) and planning. Debrief ties to blueprint vision and spatial logic as transferable skills.",
+    "purpose_category": "Reality Check",
+    "mode_category": "Outdoor Mission",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 40,
+      "typical": 50,
+      "max": 60
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "map cards",
+        "tokens",
+        "compass optional"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Map: Reading the space and constraints."
+      },
+      {
+        "t": 15,
+        "step": "Route Planning: Drawing the 'invisible' map."
+      },
+      {
+        "t": 20,
+        "step": "The Mission: Navigating the corridors/yard."
+      },
+      {
+        "t": 10,
+        "step": "The Decompile: Spatial logic as a tool."
+      }
+    ],
+    "teacher_moves": [
+      "The plan is the speed; don't run until the route is locked.",
+      "Focus on 'mental rotation' and 'scaling' in the field."
+    ],
+    "teacher_watch_fors": [
+      "Students rushing to 'run' and ignoring the optimal route."
+    ],
+    "observation_cues": [
+      "Route maps + rationale for chosen path + accuracy vs plan."
+    ],
+    "common_failure_points": [
+      "rushing_bias_lapse",
+      "spatial_orientation_collapse"
+    ],
+    "reflection_prompts": [
+      "Where did the map 'lie' versus the reality?"
+    ],
+    "adaptations": {
+      "low_resource": "Use indoor corridor version with floor numbers."
+    },
+    "follow_ups": [
+      "cos2_a07",
+      "cos2_a18"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "spatial_intelligence",
+        "decision_craft"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W4-P02",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W4-P01",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A4-M10",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Skyline Outlaws: Spatial Treasure Hunt\n\n## The Run Mode\n### 1. The Setup\nHand out a 'Low-Fi Map' of the classroom/hallway/yard.\n- **Constraints:** No-go zones (red tape), one-way paths (arrows), and 'Hidden Targets'.\n\n### 2. The Mission\nIn groups of 4:\n1. **The Representation Phase (15 min):** Teams must redraw the map to include their predicted 'Efficiency Path'. No movement allowed yet.\n2. **The Run (20 min):** Teams navigate to find tokens at specific coordinates.\n3. **The Score:** Calculated by: `(Tokens Found) / (Time Taken) * (Path Accuracy)`.\n\n### 3. The Decompile\nFocus on **Spatial Intelligence**:\n- The map is an abstraction; navigation is the test of the abstraction.\n- High-level planning kills low-level chaos.\n筋"
+  },
+  {
+    "id": "cos2_a32",
+    "slug": "hacksmiths-workshop-scrap-to-system",
+    "title": "Hacksmith’s Workshop: Scrap-to-System",
+    "short_promise": "Students turn physical scrap into a functioning causal system.",
+    "teacher_value_line": "A low-cost, high-engagement way to teach systems thinking and causal logging.",
+    "student_value_line": "I learn that thinking isn't just in my head—it's in how I build things.",
+    "summary": "Students are given a 'Scrap Box' (cardboard, rubber bands, plastic bottles, tape). Their mission: Build a machine that achieves a specific goal (e.g., 'The 10-Second Delay Coin Run'). They must maintain a **Causal Build Log**, documenting every 'If-Then' failure and fix.",
+    "purpose_category": "Sandbox: Make & Tinker",
+    "mode_category": "Build / Make",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "20-40"
+    },
+    "duration_minutes": {
+      "min": 60,
+      "typical": 75,
+      "max": 90
+    },
+    "group_mode": "groups",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "cardboard boxes",
+        "rubber bands",
+        "tape",
+        "string",
+        "empty bottles"
+      ],
+      "ideal": [
+        "hot glue guns",
+        "PVC pipes",
+        "marbles",
+        "stopwatches"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 4,
+    "flow_steps": [
+      {
+        "t": 10,
+        "step": "The Prompt: A physical goal that 'feels' impossible with scrap."
+      },
+      {
+        "t": 45,
+        "step": "Build & Log: Iterating through causal failures."
+      },
+      {
+        "t": 10,
+        "step": "The Demo: One-try success ceremony."
+      },
+      {
+        "t": 10,
+        "step": "The Decompile: Mapping the system layers."
+      }
+    ],
+    "teacher_moves": [
+      "The logic is in the material. If it fails, the material is telling you the truth.",
+      "Don't fix it for them. Ask: 'What is the bottleneck in this causal chain?'",
+      "Praise the 'Log of Failures' more than the final beauty of the machine."
+    ],
+    "teacher_watch_fors": [
+      "Groups getting 'analysis paralysis' (too much talking, not enough taping).",
+      "Students blaming the material ('the tape is bad') instead of the design."
+    ],
+    "observation_cues": [
+      "Entries in the Build Log: 'We tried X, but Y happened, so we adjusted Z'.",
+      "Self-correction in group dynamics: Identify those focused on 'stability' vs. 'function'."
+    ],
+    "common_failure_points": [
+      "over_engineering_bias",
+      "fragile_design_collapse"
+    ],
+    "reflection_prompts": [
+      "What was the single most helpful failure in your log?",
+      "If you had to build this 10x bigger, what part would break first?"
+    ],
+    "adaptations": {
+      "low_resource": "Use only paper and tape (The Paper Bridge challenge)."
+    },
+    "follow_ups": [
+      "cos2_a18",
+      "cos2_a29"
+    ],
+    "status": "flagship",
+    "curation_tier": "flagship_36",
+    "version": "1.1.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Cognition",
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "systems_incentives_sight",
+        "scientific_causal_reasoning"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W4-A2-M03",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W2-M5-C12",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-T01-C03",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ],
+      "failure_atlas_risks": [
+        "fragile_design_collapse",
+        "collaboration_clash"
+      ]
+    },
+    "body": "# Hacksmith’s Workshop: Scrap-to-System\n\n## The Run Mode\n\n### 1. The Prompt (10 min)\nPresent the **System Constraint**.\n- **The Mission:** Build a \"Gravity-Powered Delivery Device\" that moves a 50-rupee coin across a 2-meter gap without anyone touching it.\n- **The Twist:** It must take *exactly* 10 seconds. Not 9, not 11.\n- **The Scrap Box:** Every group gets the same set of \"junk\" (cardboard tubes, plastic caps, thread, safety pins).\n\n### 2. Build & Log (45 min)\nStudents build while maintaining the **Causal Build Log**.\n- **Log Entry Format:** \n    - *Attempt #X*\n    - *What we changed:* (e.g., Added friction to the ramp using a rubber band).\n    - *What happened:* (e.g., Coin stopped entirely).\n    - *The Insight:* (e.g., Friction is too high; need a 'step' design instead).\n- **Teacher Move:** Walk around and point at the logs. \"Where is the failure logic? Show me the pivot.\"\n\n### 3. The Demo (10 min)\nOne try per group. The class watches the clock.\n- **Award:** Best \"Log of Failed Logic\" (The group that learned the most).\n- **Award:** The \"Golden Scrap\" (The most robust system).\n\n### 4. The Decompile (10 min)\nTranslate the physical build to **Systems Thinking**:\n- \"A system is a set of parts that work together to achieve a goal. If you change one part (the ramp), it affects the whole (the time).\"\n- \"Feedback loops: The coin falling too fast was the signal. Your adjustment was the response.\"\n- \"Fragility: Which part of your machine is the 'Single Point of Failure'?\"\n\n## Success Criteria\nStudents can point to a specific causal link in their machine (e.g., \"If this thread breaks, the whole system stops\") and have a log of at least 3 failed iterations.\nArtifact: The functioning Scrap Machine + The completed Causal Build Log.\n筋"
+  },
+  {
+    "id": "cos2_a33",
+    "slug": "alliance-arena-communication-relay",
+    "title": "Alliance Arena: Communication Under Load Relay",
+    "short_promise": "Students learn to communicate clearly when speed and stress rise.",
+    "teacher_value_line": "A teamwork drill that reveals real communication breakdowns teachers can coach.",
+    "student_value_line": "I learn what clarity feels like under pressure.",
+    "summary": "Teams must transmit instructions through a chain with constraints (cannot repeat exact words, limited time, one teammate blindfolded, etc.). Miscommunication causes failures; teams iterate. Debrief identifies what worked: short sentences, checking understanding, role clarity, calm tone.",
+    "purpose_category": "Trust & Teamwork",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "group_mode": "teams",
+    "prep_level": "low-medium",
+    "materials": {
+      "minimal": [
+        "cards",
+        "objects",
+        "blindfold optional"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Protocol: Short, clear, confirmed."
+      },
+      {
+        "t": 25,
+        "step": "The Relay: 3 rounds of increasing load."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Clarity as a tool."
+      }
+    ],
+    "teacher_moves": [
+      "The signal is fine; the noise is the stress.",
+      "Confirmation is the most powerful part of the communication loop."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'blaming' each other for the breakdown."
+    ],
+    "observation_cues": [
+      "Iteration improvements + teacher observation notes."
+    ],
+    "common_failure_points": [
+      "unchecked_assumption_bias",
+      "information_overload_collapse"
+    ],
+    "reflection_prompts": [
+      "Where did the signal break down first?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'instruction' cards."
+    },
+    "follow_ups": [
+      "cos2_a25",
+      "cos2_a36"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Relate",
+        "Cognition"
+      ],
+      "backend_capability_clusters": [
+        "cooperation_repair",
+        "synthesis_under_pressure"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W4-P14",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-T02",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W2-M7-C07",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Alliance Arena: Communication Under Load Relay\n\n## The Run Mode\n### 1. The Setup\nEach team has 3-4 roles in a chain: **The Coder (gives the signal)**, **The Relay (repeats it)**, **The Operator (executes it)**.\n\n### 2. The Mission\nTeams must transmit a \"Code\" (e.g., \"3 cups up, 2 pens left\") through the chain with constraints:\n1. **Round 1 (Calm):** 30 seconds, no noise.\n2. **Round 2 (Noise):** 15 seconds, music or group chatter.\n3. **Round 3 (Constraint):** Blindfolded operator or relay cannot use specific words.\n\n### 3. The Decompile\nFocus on **Communication Clarity**:\n- Stress shrinks the \"attention window.\"\n- Confirmation (\"Did you copy?\") is the only way to catch errors before they explode.\n筋"
+  },
+  {
+    "id": "cos2_a34",
+    "slug": "zen-nexus-emotional-reset-diffuse",
+    "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+    "short_promise": "Students learn how to downshift and recover clarity after friction.",
+    "teacher_value_line": "A non-therapy, structured reset that improves learning readiness.",
+    "student_value_line": "I learn how to reset instead of spiraling.",
+    "summary": "Teacher leads a 4-step protocol: (1) body downshift (breathing + posture), (2) dump thoughts to paper (no polishing), (3) name one pattern noticed ('what triggered me?'), (4) choose one next action. This is framed as skill training, not emotional exposure. Close with optional sharing in pairs with strict boundaries.",
+    "purpose_category": "Reset & Reflect",
+    "mode_category": "Reflection Studio",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 15,
+      "typical": 20,
+      "max": 30
+    },
+    "group_mode": "solo",
+    "prep_level": "none",
+    "materials": {
+      "minimal": [
+        "paper",
+        "notebooks"
+      ]
+    },
+    "energy_level": "low",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "Body Downshift: Breathing + Posture."
+      },
+      {
+        "t": 7,
+        "step": "Brain Dump: Facts + Feelings without logic."
+      },
+      {
+        "t": 5,
+        "step": "Naming the Pattern: The 'Why' of the trigger."
+      },
+      {
+        "t": 3,
+        "step": "One Next Action: The 'What' of the resolution."
+      }
+    ],
+    "teacher_moves": [
+      "The reset is a capability, not a chore.",
+      "Don't force sharing; the work is inside the private paper."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'judgment' rather than 'noticing'."
+    ],
+    "observation_cues": [
+      "Completion of the 4-step private protocol."
+    ],
+    "common_failure_points": [
+      "avoidance_bias",
+      "over_emotional_fixation"
+    ],
+    "reflection_prompts": [
+      "Where did the 'tension' live in your body before the dump?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written steps."
+    },
+    "follow_ups": [
+      "cos2_a11",
+      "cos2_a16"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Cognition",
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "regulation_reflection",
+        "learning_engine"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W4-P21",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W4-P18",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W4-P20",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W1-A4-M10",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Zen Nexus: Emotional Reset + Diffuse Thinking Protocol\n\n## The Run Mode\n### 1. The Setup\nA quiet, 15-minute sanctuary after a stressful event (e.g., test, argument, transition).\n\n### 2. The Mission\nIndividuals follow the **4-Step Reset**:\n1. **Downshift:** Find a comfortable posture. 3 deep, controlled breaths.\n2. **Dump:** Fill half a page with whatever's in your head. No grammar, no spelling, no logic. Just get it out.\n3. **Name:** Circle 1 word that describes the \"Triggering Pattern.\" (e.g., \"Unexpected change,\" \"Loud noise,\" \"Unfair feedback\").\n4. **Act:** Write 1 small thing you will do next. (e.g., \"Ask a question,\" \"Drink water,\" \"Check my notes\").\n\n### 3. The Decompile\nFocus on **Attention and Regulation**:\n- You can't think clearly while your \"Red Alert\" is on.\n- The dump \"clears the buffer\" of your working memory.\n- Naming the pattern turns an \"emotion\" into \"data.\"\n筋"
+  },
+  {
+    "id": "cos2_a35",
+    "slug": "chaos-carnival-rhythm-improv",
+    "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+    "short_promise": "Students practice social cue reading and collaboration through playful constraints.",
+    "teacher_value_line": "A safe 'fun' activity that actually trains timing, collaboration, and self-expression.",
+    "student_value_line": "I learn to sync with others without losing myself.",
+    "summary": "Class runs rhythm-and-response games where rules force turn-taking, listening, and adapting (e.g., pass a rhythm pattern, improvise one move that others mirror). Teacher use it as social cue training: notice timing, over-dominance, freeze under pressure, repair after mistakes.",
+    "purpose_category": "Trust & Teamwork",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "group_mode": "whole-class",
+    "prep_level": "low",
+    "materials": {
+      "minimal": [
+        "open space",
+        "clapping/rhythm"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Sync: Simple rhythm pass."
+      },
+      {
+        "t": 20,
+        "step": "The Chaos: Improv + Mirroring with constraints."
+      },
+      {
+        "t": 15,
+        "step": "The Repair: Recovering from the 'Mess'."
+      }
+    ],
+    "teacher_moves": [
+      "Mistakes are just inputs; keep the rhythm moving.",
+      "Focus on 'timing' and 'adjacency'."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'doing it right' rather than 'staying in sync'."
+    ],
+    "observation_cues": [
+      "Timing improvement + team-sync behavior + repair speed."
+    ],
+    "common_failure_points": [
+      "social_timing_collapse",
+      "over_dominance_bias"
+    ],
+    "reflection_prompts": [
+      "When did you stop 'thinking' and start 'syncing'?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written 'rhythm rules'."
+    },
+    "follow_ups": [
+      "cos2_a24",
+      "cos2_a33"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Relate"
+      ],
+      "backend_capability_clusters": [
+        "cooperation_repair",
+        "regulation_reflection"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W4-P25",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W4-P26",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W4-P28",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-T01",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Chaos Carnival: Rhythm, Improv, Turn-Taking\n\n## The Run Mode\n### 1. The Setup\nWhole class stands in a circle. \n- **The Initial Sync:** Pass a simple clap rhythm around the circle.\n\n### 2. The Mission\nTeacher introduces **The Chaos Rules**:\n1. **Rule 1: Mirroring.** One student makes a small movement; everyone must mirror it perfectly within 2 seconds. \n2. **Rule 2: The Add-On.** Each person adds one sound or move to the sequence. \n3. **Rule 3: The Recovery.** When someone makes a mistake, everyone must clap once and say \"Again!\" loudly. No shaming; just repair.\n\n### 3. The Decompile\nFocus on **Social Sync and Repair**:\n- Synchronizing is how groups build trust.\n- Quick repair is more important than avoiding mistakes.\n- Reading the 'timing' of others is a superpower in a team.\n筋"
+  },
+  {
+    "id": "cos2_a36",
+    "slug": "alliance-arena-fair-play-protocol",
+    "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+    "short_promise": "Students experience why cooperation collapses and how fairness strategies stabilize trust.",
+    "teacher_value_line": "A practical cooperation lesson that makes group work better immediately.",
+    "student_value_line": "I learn how to cooperate without getting exploited.",
+    "summary": "Teams play an iterated cooperation game (Prisoner’s Dilemma) where choices create short-term advantage vs. long-term trust. Over rounds, students test strategies (cooperate-first, tit-for-tat, always defect). The teacher debriefs: trust logic, fairness reputation, and how repair moments matter.",
+    "purpose_category": "Trust & Teamwork",
+    "mode_category": "Game",
+    "class_fit": {
+      "grades": [
+        9,
+        10
+      ],
+      "typical_class_size": "25-50"
+    },
+    "duration_minutes": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "group_mode": "teams",
+    "prep_level": "medium",
+    "materials": {
+      "minimal": [
+        "paper",
+        "tokens/score sheets"
+      ]
+    },
+    "energy_level": "high",
+    "facilitation_difficulty": 3,
+    "flow_steps": [
+      {
+        "t": 5,
+        "step": "The Rules: Advantage vs. Trust."
+      },
+      {
+        "t": 30,
+        "step": "The Game: 10 rounds of iterated choice."
+      },
+      {
+        "t": 15,
+        "step": "The Decompile: Tit-for-Tat and Fairness."
+      },
+      {
+        "t": 5,
+        "step": "The Shift: How to repair a defected relationship."
+      }
+    ],
+    "teacher_moves": [
+      "The first round defines the 'vibe'; the second round defines the 'trust'.",
+      "Don't pre-talk the 'moral'; let the teams 'defect' and feel the crash."
+    ],
+    "teacher_watch_fors": [
+      "Students stuck on 'always defecting' as a 'smart' move."
+    ],
+    "observation_cues": [
+      "Round-by-round strategies + reflection on trust collapse."
+    ],
+    "common_failure_points": [
+      "defection_spiral_bias",
+      "fairness_blindness"
+    ],
+    "reflection_prompts": [
+      "What was the single choice that 'broke' the trust in your game?"
+    ],
+    "adaptations": {
+      "low_resource": "Use board-written score charts."
+    },
+    "follow_ups": [
+      "cos2_a23",
+      "cos2_a32"
+    ],
+    "status": "pilot",
+    "curation_tier": "flagship_36",
+    "version": "1.0.0",
+    "internal": {
+      "backend_primary_wing": "Sandbox",
+      "backend_secondary_wings": [
+        "Relate",
+        "Decode"
+      ],
+      "backend_capability_clusters": [
+        "cooperation_repair",
+        "systems_incentives_sight"
+      ],
+      "backend_node_hooks": [
+        {
+          "node_code": "W3-T09",
+          "weight": 1,
+          "role": "core"
+        },
+        {
+          "node_code": "W3-E03",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W3-E04",
+          "weight": 0.8,
+          "role": "support"
+        },
+        {
+          "node_code": "W4-P12",
+          "weight": 0.6,
+          "role": "support"
+        }
+      ],
+      "evidence_dimensions_targeted": [
+        "generate",
+        "notice",
+        "represent",
+        "reason",
+        "transfer",
+        "reflect"
+      ]
+    },
+    "body": "# Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)\n\n## The Run Mode\n### 1. The Setup\nTwo teams (A and B) must choose \"Cooperate\" (Both get 3 points) or \"Defect\" (Winner gets 5, Loser gets 0). \n- If both defect, both get 1 point.\n- **The Catch:** 10 iterated rounds.\n\n### 2. The Mission\nTeams have 2 minutes per round to:\n1. Make a silent choice (C or D).\n2. Report results publicly.\n3. Update scores.\n4. **Mid-Game Twist:** A 1-minute \"Peace Talk\" after Round 5.\n\n### 3. The Decompile\nFocus on **Trust Logic and Fairness**:\n- Cooperate-First is the optimal social start; Tit-for-Tat is the optimal social defense.\n- Defection creates a \"Spiral of Death\" where everyone loses.\n- Fairness is what makes systems stable over 100 rounds.\n筋"
+  }
+]

@@ -1,0 +1,823 @@
+{
+  "summary": {
+    "total_activities": 36
+  },
+  "by_wing": {
+    "Decode": {
+      "count": 8,
+      "clusters": {
+        "claim_forensics": 1,
+        "evidence_hygiene": 2,
+        "signal_noise_judgment": 2,
+        "systems_incentives_sight": 2,
+        "model_estimate": 1,
+        "scientific_causal_reasoning": 1,
+        "compounding_loops": 1,
+        "odds_updates_calibration": 1,
+        "decision_craft": 2,
+        "strategy_adversarial": 1,
+        "spatial_intelligence": 1,
+        "regulation_reflection": 1,
+        "digital_defense": 1
+      }
+    },
+    "Cognition": {
+      "count": 14,
+      "clusters": {
+        "evidence_hygiene": 4,
+        "trust_boundaries_pressure": 2,
+        "learning_engine": 5,
+        "memory_strengthening": 3,
+        "regulation_reflection": 2,
+        "odds_updates_calibration": 2,
+        "bias_immunity": 1,
+        "scientific_causal_reasoning": 6,
+        "decision_craft": 1,
+        "systems_incentives_sight": 2,
+        "claim_forensics": 2,
+        "synthesis_under_disagreement": 4
+      }
+    },
+    "Relate": {
+      "count": 6,
+      "clusters": {
+        "trust_boundaries_pressure": 6,
+        "cooperation_repair": 4,
+        "regulation_reflection": 1,
+        "strategy_adversarial": 1
+      }
+    },
+    "Sandbox": {
+      "count": 8,
+      "clusters": {
+        "systems_incentives_sight": 3,
+        "signal_noise_judgment": 1,
+        "regulation_reflection": 3,
+        "decision_craft": 2,
+        "cooperation_repair": 4,
+        "spatial_intelligence": 1,
+        "scientific_causal_reasoning": 1,
+        "synthesis_under_pressure": 1,
+        "learning_engine": 1
+      }
+    }
+  },
+  "by_node": {
+    "W1-A1-M01": [
+      {
+        "id": "cos2_a01",
+        "title": "Feed Hacker: Headline Autopsy",
+        "weight": 1
+      }
+    ],
+    "W1-A1-M02": [
+      {
+        "id": "cos2_a01",
+        "title": "Feed Hacker: Headline Autopsy",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a02",
+        "title": "Signal vs Noise: The Two-Class Mystery",
+        "weight": 1
+      }
+    ],
+    "W2-M6-C03": [
+      {
+        "id": "cos2_a01",
+        "title": "Feed Hacker: Headline Autopsy",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a17",
+        "title": "Evidence Ladder: Claim Strength Ranking",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a19",
+        "title": "Research Hygiene: Detect P-Hacking & Tiny Samples",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a20",
+        "title": "Replication & Consensus: Truth Over Time",
+        "weight": 0.8
+      }
+    ],
+    "W2-M5-C07": [
+      {
+        "id": "cos2_a02",
+        "title": "Signal vs Noise: The Two-Class Mystery",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a29",
+        "title": "Goodhart Simulator: When Metrics Become Targets",
+        "weight": 0.8
+      }
+    ],
+    "W2-M5-C08": [
+      {
+        "id": "cos2_a02",
+        "title": "Signal vs Noise: The Two-Class Mystery",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a29",
+        "title": "Goodhart Simulator: When Metrics Become Targets",
+        "weight": 1
+      }
+    ],
+    "W1-A2-M04": [
+      {
+        "id": "cos2_a03",
+        "title": "Model the Mess: The Data Plan Simulator",
+        "weight": 1
+      }
+    ],
+    "W1-A2-M06": [
+      {
+        "id": "cos2_a03",
+        "title": "Model the Mess: The Data Plan Simulator",
+        "weight": 0.6
+      }
+    ],
+    "W2-M4-C03": [
+      {
+        "id": "cos2_a03",
+        "title": "Model the Mess: The Data Plan Simulator",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a12",
+        "title": "Retrieval Showdown: Beat the Illusion of Competence",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a16",
+        "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+        "weight": 0.4
+      },
+      {
+        "id": "cos2_a22",
+        "title": "Model Stack Builder: Visual Notes & Synthesis",
+        "weight": 1
+      }
+    ],
+    "W1-A2-M05": [
+      {
+        "id": "cos2_a04",
+        "title": "Growth Loops: The 1% Compounding Simulator",
+        "weight": 1
+      }
+    ],
+    "W2-M3-C12": [
+      {
+        "id": "cos2_a04",
+        "title": "Growth Loops: The 1% Compounding Simulator",
+        "weight": 0.6
+      }
+    ],
+    "W2-M2-C14": [
+      {
+        "id": "cos2_a04",
+        "title": "Growth Loops: The 1% Compounding Simulator",
+        "weight": 0.6
+      }
+    ],
+    "W1-A1-M03": [
+      {
+        "id": "cos2_a05",
+        "title": "Odds Engine Arena: Expected Value, Not Hype",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a13",
+        "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+        "weight": 0.6
+      }
+    ],
+    "W2-M3-C03": [
+      {
+        "id": "cos2_a05",
+        "title": "Odds Engine Arena: Expected Value, Not Hype",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a15",
+        "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+        "weight": 0.6
+      }
+    ],
+    "W2-M3-C10": [
+      {
+        "id": "cos2_a05",
+        "title": "Odds Engine Arena: Expected Value, Not Hype",
+        "weight": 0.6
+      }
+    ],
+    "W1-A3-M07": [
+      {
+        "id": "cos2_a06",
+        "title": "Strategy Heist: Logic Locks, Search Space, Enemy Moves",
+        "weight": 1
+      }
+    ],
+    "W1-A3-M08": [
+      {
+        "id": "cos2_a06",
+        "title": "Strategy Heist: Logic Locks, Search Space, Enemy Moves",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a26",
+        "title": "Peer Pressure Shield: Social Default & Escape",
+        "weight": 0.6
+      }
+    ],
+    "W1-A3-M09": [
+      {
+        "id": "cos2_a06",
+        "title": "Strategy Heist: Logic Locks, Search Space, Enemy Moves",
+        "weight": 0.6
+      }
+    ],
+    "W2-M3-C06": [
+      {
+        "id": "cos2_a06",
+        "title": "Strategy Heist: Logic Locks, Search Space, Enemy Moves",
+        "weight": 0.4
+      },
+      {
+        "id": "cos2_a15",
+        "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+        "weight": 1
+      }
+    ],
+    "W1-A4-M10": [
+      {
+        "id": "cos2_a07",
+        "title": "Architect’s Canvas Studio: Blueprint → 3D → Rotation",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a31",
+        "title": "Skyline Outlaws: Spatial Treasure Hunt",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a34",
+        "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+        "weight": 0.6
+      }
+    ],
+    "W1-A4-M11": [
+      {
+        "id": "cos2_a07",
+        "title": "Architect’s Canvas Studio: Blueprint → 3D → Rotation",
+        "weight": 0.6
+      }
+    ],
+    "W1-A4-M12": [
+      {
+        "id": "cos2_a07",
+        "title": "Architect’s Canvas Studio: Blueprint → 3D → Rotation",
+        "weight": 0.6
+      }
+    ],
+    "W4-P02": [
+      {
+        "id": "cos2_a07",
+        "title": "Architect’s Canvas Studio: Blueprint → 3D → Rotation",
+        "weight": 0.4
+      },
+      {
+        "id": "cos2_a31",
+        "title": "Skyline Outlaws: Spatial Treasure Hunt",
+        "weight": 1
+      }
+    ],
+    "W1-A5-M15": [
+      {
+        "id": "cos2_a08",
+        "title": "Digital Defense: Cipher Quest (Cycles, Primes, Secrets)",
+        "weight": 1
+      }
+    ],
+    "W1-A5-M13": [
+      {
+        "id": "cos2_a08",
+        "title": "Digital Defense: Cipher Quest (Cycles, Primes, Secrets)",
+        "weight": 0.6
+      }
+    ],
+    "W1-A5-M14": [
+      {
+        "id": "cos2_a08",
+        "title": "Digital Defense: Cipher Quest (Cycles, Primes, Secrets)",
+        "weight": 0.4
+      }
+    ],
+    "W2-M6-C02": [
+      {
+        "id": "cos2_a08",
+        "title": "Digital Defense: Cipher Quest (Cycles, Primes, Secrets)",
+        "weight": 0.4
+      },
+      {
+        "id": "cos2_a17",
+        "title": "Evidence Ladder: Claim Strength Ranking",
+        "weight": 0.6
+      }
+    ],
+    "W2-M1-C01": [
+      {
+        "id": "cos2_a09",
+        "title": "Bias Court: Same Facts, Different Story",
+        "weight": 1
+      }
+    ],
+    "W2-M1-C09": [
+      {
+        "id": "cos2_a09",
+        "title": "Bias Court: Same Facts, Different Story",
+        "weight": 0.8
+      }
+    ],
+    "W2-M1-C02": [
+      {
+        "id": "cos2_a09",
+        "title": "Bias Court: Same Facts, Different Story",
+        "weight": 0.6
+      }
+    ],
+    "W3-T01": [
+      {
+        "id": "cos2_a09",
+        "title": "Bias Court: Same Facts, Different Story",
+        "weight": 0.4
+      },
+      {
+        "id": "cos2_a21",
+        "title": "Steelman & Argument Map: Disagreement Studio",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a24",
+        "title": "Calibration Radar: Social Cue Reading & Adjustment",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a35",
+        "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+        "weight": 0.6
+      }
+    ],
+    "W2-M2-C01": [
+      {
+        "id": "cos2_a10",
+        "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+        "weight": 1
+      }
+    ],
+    "W2-M2-C02": [
+      {
+        "id": "cos2_a10",
+        "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+        "weight": 0.8
+      }
+    ],
+    "W2-M2-C03": [
+      {
+        "id": "cos2_a10",
+        "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+        "weight": 0.6
+      }
+    ],
+    "W2-M2-C04": [
+      {
+        "id": "cos2_a11",
+        "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+        "weight": 1
+      }
+    ],
+    "W4-P20": [
+      {
+        "id": "cos2_a11",
+        "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a34",
+        "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+        "weight": 0.8
+      }
+    ],
+    "W4-P04": [
+      {
+        "id": "cos2_a11",
+        "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a30",
+        "title": "Skyline Outlaws: Risk Ladder Course",
+        "weight": 0.8
+      }
+    ],
+    "W2-M4-C04": [
+      {
+        "id": "cos2_a12",
+        "title": "Retrieval Showdown: Beat the Illusion of Competence",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a22",
+        "title": "Model Stack Builder: Visual Notes & Synthesis",
+        "weight": 0.8
+      }
+    ],
+    "W2-M2-C13": [
+      {
+        "id": "cos2_a12",
+        "title": "Retrieval Showdown: Beat the Illusion of Competence",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a22",
+        "title": "Model Stack Builder: Visual Notes & Synthesis",
+        "weight": 0.6
+      }
+    ],
+    "W2-M3-C08": [
+      {
+        "id": "cos2_a13",
+        "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+        "weight": 1
+      }
+    ],
+    "W2-M1-C06": [
+      {
+        "id": "cos2_a13",
+        "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+        "weight": 0.6
+      }
+    ],
+    "W2-M2-C07": [
+      {
+        "id": "cos2_a14",
+        "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+        "weight": 1
+      }
+    ],
+    "W2-M2-C08": [
+      {
+        "id": "cos2_a14",
+        "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+        "weight": 0.6
+      }
+    ],
+    "W2-M4-C07": [
+      {
+        "id": "cos2_a14",
+        "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+        "weight": 0.4
+      }
+    ],
+    "W2-M3-C07": [
+      {
+        "id": "cos2_a15",
+        "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+        "weight": 0.8
+      }
+    ],
+    "W2-M5-C03": [
+      {
+        "id": "cos2_a15",
+        "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+        "weight": 0.4
+      }
+    ],
+    "W2-M2-C05": [
+      {
+        "id": "cos2_a16",
+        "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+        "weight": 1
+      }
+    ],
+    "W4-P18": [
+      {
+        "id": "cos2_a16",
+        "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a34",
+        "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+        "weight": 0.8
+      }
+    ],
+    "W2-M6-C01": [
+      {
+        "id": "cos2_a17",
+        "title": "Evidence Ladder: Claim Strength Ranking",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a19",
+        "title": "Research Hygiene: Detect P-Hacking & Tiny Samples",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a20",
+        "title": "Replication & Consensus: Truth Over Time",
+        "weight": 1
+      }
+    ],
+    "W1-A4-M01": [
+      {
+        "id": "cos2_a17",
+        "title": "Evidence Ladder: Claim Strength Ranking",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a19",
+        "title": "Research Hygiene: Detect P-Hacking & Tiny Samples",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a20",
+        "title": "Replication & Consensus: Truth Over Time",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a21",
+        "title": "Steelman & Argument Map: Disagreement Studio",
+        "weight": 0.4
+      }
+    ],
+    "W2-M5-C01": [
+      {
+        "id": "cos2_a18",
+        "title": "Systems Dominoes: Causal Chains & Side Effects",
+        "weight": 1
+      }
+    ],
+    "W2-M5-C02": [
+      {
+        "id": "cos2_a18",
+        "title": "Systems Dominoes: Causal Chains & Side Effects",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a29",
+        "title": "Goodhart Simulator: When Metrics Become Targets",
+        "weight": 0.6
+      }
+    ],
+    "W4-P06": [
+      {
+        "id": "cos2_a18",
+        "title": "Systems Dominoes: Causal Chains & Side Effects",
+        "weight": 0.6
+      }
+    ],
+    "W2-M7-C01": [
+      {
+        "id": "cos2_a21",
+        "title": "Steelman & Argument Map: Disagreement Studio",
+        "weight": 1
+      }
+    ],
+    "W2-M7-C02": [
+      {
+        "id": "cos2_a21",
+        "title": "Steelman & Argument Map: Disagreement Studio",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a28",
+        "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+        "weight": 0.6
+      }
+    ],
+    "W2-M4-C05": [
+      {
+        "id": "cos2_a22",
+        "title": "Model Stack Builder: Visual Notes & Synthesis",
+        "weight": 0.8
+      }
+    ],
+    "W3-T09": [
+      {
+        "id": "cos2_a23",
+        "title": "Truth & Reliability Ledger: Reputation is a Score",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a36",
+        "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+        "weight": 1
+      }
+    ],
+    "W3-E03": [
+      {
+        "id": "cos2_a23",
+        "title": "Truth & Reliability Ledger: Reputation is a Score",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a28",
+        "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+        "weight": 0.7
+      },
+      {
+        "id": "cos2_a36",
+        "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+        "weight": 0.8
+      }
+    ],
+    "W3-E04": [
+      {
+        "id": "cos2_a23",
+        "title": "Truth & Reliability Ledger: Reputation is a Score",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a36",
+        "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+        "weight": 0.8
+      }
+    ],
+    "W3-E07": [
+      {
+        "id": "cos2_a24",
+        "title": "Calibration Radar: Social Cue Reading & Adjustment",
+        "weight": 0.8
+      }
+    ],
+    "W3-E06": [
+      {
+        "id": "cos2_a24",
+        "title": "Calibration Radar: Social Cue Reading & Adjustment",
+        "weight": 0.8
+      }
+    ],
+    "W3-T02": [
+      {
+        "id": "cos2_a25",
+        "title": "Rewrite Clinic: Social Friction & Clarity",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a28",
+        "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a33",
+        "title": "Alliance Arena: Communication Under Load Relay",
+        "weight": 0.8
+      }
+    ],
+    "W3-E01": [
+      {
+        "id": "cos2_a25",
+        "title": "Rewrite Clinic: Social Friction & Clarity",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a26",
+        "title": "Peer Pressure Shield: Social Default & Escape",
+        "weight": 0.6
+      },
+      {
+        "id": "cos2_a27",
+        "title": "Boundary Scripts + BATNA: Say No Cleanly",
+        "weight": 0.6
+      }
+    ],
+    "W3-E02": [
+      {
+        "id": "cos2_a25",
+        "title": "Rewrite Clinic: Social Friction & Clarity",
+        "weight": 0.8
+      }
+    ],
+    "W3-T04": [
+      {
+        "id": "cos2_a26",
+        "title": "Peer Pressure Shield: Social Default & Escape",
+        "weight": 1
+      },
+      {
+        "id": "cos2_a27",
+        "title": "Boundary Scripts + BATNA: Say No Cleanly",
+        "weight": 1
+      }
+    ],
+    "W3-T03": [
+      {
+        "id": "cos2_a27",
+        "title": "Boundary Scripts + BATNA: Say No Cleanly",
+        "weight": 0.8
+      },
+      {
+        "id": "cos2_a28",
+        "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+        "weight": 1
+      }
+    ],
+    "W4-P03": [
+      {
+        "id": "cos2_a30",
+        "title": "Skyline Outlaws: Risk Ladder Course",
+        "weight": 1
+      }
+    ],
+    "W2-M3-C05": [
+      {
+        "id": "cos2_a30",
+        "title": "Skyline Outlaws: Risk Ladder Course",
+        "weight": 0.6
+      }
+    ],
+    "W4-P01": [
+      {
+        "id": "cos2_a31",
+        "title": "Skyline Outlaws: Spatial Treasure Hunt",
+        "weight": 0.8
+      }
+    ],
+    "W4-A2-M03": [
+      {
+        "id": "cos2_a32",
+        "title": "Hacksmith’s Workshop: Scrap-to-System",
+        "weight": 1
+      }
+    ],
+    "W2-M5-C12": [
+      {
+        "id": "cos2_a32",
+        "title": "Hacksmith’s Workshop: Scrap-to-System",
+        "weight": 0.8
+      }
+    ],
+    "W3-T01-C03": [
+      {
+        "id": "cos2_a32",
+        "title": "Hacksmith’s Workshop: Scrap-to-System",
+        "weight": 0.6
+      }
+    ],
+    "W4-P14": [
+      {
+        "id": "cos2_a33",
+        "title": "Alliance Arena: Communication Under Load Relay",
+        "weight": 1
+      }
+    ],
+    "W2-M7-C07": [
+      {
+        "id": "cos2_a33",
+        "title": "Alliance Arena: Communication Under Load Relay",
+        "weight": 0.6
+      }
+    ],
+    "W4-P21": [
+      {
+        "id": "cos2_a34",
+        "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+        "weight": 1
+      }
+    ],
+    "W4-P25": [
+      {
+        "id": "cos2_a35",
+        "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+        "weight": 1
+      }
+    ],
+    "W4-P26": [
+      {
+        "id": "cos2_a35",
+        "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+        "weight": 0.8
+      }
+    ],
+    "W4-P28": [
+      {
+        "id": "cos2_a35",
+        "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+        "weight": 0.8
+      }
+    ],
+    "W4-P12": [
+      {
+        "id": "cos2_a36",
+        "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+        "weight": 0.6
+      }
+    ]
+  }
+}

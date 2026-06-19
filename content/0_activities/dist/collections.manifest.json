@@ -1,0 +1,499 @@
+[
+  {
+    "id": "cos2_c01",
+    "slug": "reality-check-labs",
+    "title": "Reality Check Labs",
+    "description": "Build immunity to manipulation and weak claims early. Boost classroom culture of 'show me the mechanism'.",
+    "why_it_exists": "In an AI-shaped world, the ability to open a claim like a mechanic opens an engine is the most essential defense.",
+    "included_activity_ids": [
+      "cos2_a01",
+      "cos2_a02",
+      "cos2_a03",
+      "cos2_a05",
+      "cos2_a17",
+      "cos2_a19",
+      "cos2_a23"
+    ],
+    "featured_activity_id": "cos2_a01",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a01",
+        "title": "Feed Hacker: Headline Autopsy",
+        "slug": "feed-hacker-headline-autopsy",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a02",
+        "title": "Signal vs Noise: The Two-Class Mystery",
+        "slug": "signal-vs-noise-two-class-mystery",
+        "purpose": "Reality Check"
+      },
+      {
+        "id": "cos2_a03",
+        "title": "Model the Mess: The Data Plan Simulator",
+        "slug": "model-the-mess-data-plan-simulator",
+        "purpose": "Reality Check"
+      },
+      {
+        "id": "cos2_a05",
+        "title": "Odds Engine Arena: Expected Value, Not Hype",
+        "slug": "odds-engine-arena-expected-value",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a17",
+        "title": "Evidence Ladder: Claim Strength Ranking",
+        "slug": "evidence-ladder-claim-strength-ranking",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a19",
+        "title": "Research Hygiene: Detect P-Hacking & Tiny Samples",
+        "slug": "research-hygiene-detect-p-hacking",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a23",
+        "title": "Truth & Reliability Ledger: Reputation is a Score",
+        "slug": "truth-reliability-ledger-reputation",
+        "purpose": "Truth & Evidence"
+      }
+    ],
+    "body": "# Reality Check Labs: The Defense Suite\n\nThis collection is designed to be the \"immune system\" of the Curiosity OS. It starts with simple headline autopsies and moves into the deeper logic of statistics and evidence.\n\n## Learning Objectives\n- Detect axis truncation and denominator blindness.\n- Distinguish between a 'signal' and 'noise' in a distribution.\n- Rank claims by evidence strength instead of loudness.\n- Understand the 'Reliability Ratio' in reputation."
+  },
+  {
+    "id": "cos2_c02",
+    "slug": "build-the-study-engine",
+    "title": "Build the Study Engine",
+    "description": "Directly improve marks and confidence without 'content' tutoring. High-intensity memory and attention.",
+    "why_it_exists": "Curiosity OS is a support to schooling. This collection turns the learning science backend into specific, performance-boosting study habits.",
+    "included_activity_ids": [
+      "cos2_a10",
+      "cos2_a11",
+      "cos2_a12",
+      "cos2_a14",
+      "cos2_a16",
+      "cos2_a04"
+    ],
+    "featured_activity_id": "cos2_a12",
+    "ordering_logic": "intentional",
+    "activities": [
+      {
+        "id": "cos2_a10",
+        "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+        "slug": "working-memory-budget-brain-friendly-worksheet",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a11",
+        "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+        "slug": "attention-lock-sprint-single-tasking",
+        "purpose": "Reset & Reflect"
+      },
+      {
+        "id": "cos2_a12",
+        "title": "Retrieval Showdown: Beat the Illusion of Competence",
+        "slug": "retrieval-showdown-beat-illusion-competence",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a14",
+        "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+        "slug": "interleaving-shuffle-lab-hidden-differences",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a16",
+        "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+        "slug": "practice-debug-error-log-patterns",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a04",
+        "title": "Growth Loops: The 1% Compounding Simulator",
+        "slug": "growth-loops-compounding-simulator",
+        "purpose": "Study Engine"
+      }
+    ],
+    "body": "# Build the Study Engine: Memory, Attention, Habits\n\nThis collection targets the most common failures in learning: rereading, multitasking, and ignoring error patterns.\n\n## Learning Objectives\n- Master **Retrieval Practice** as the primary study tool.\n- Understand and reduce **Cognitive Load** in study materials.\n- Implement a 15-minute **Attention Lock** sprint.\n- Categorize mistakes into a **DEBUG Log** instead of a 'silly' bucket.\n- Experience the power of **Compounding Habits** vs. Burst study.\n筋"
+  },
+  {
+    "id": "cos2_c02",
+    "slug": "build-the-study-engine",
+    "title": "Build the Study Engine",
+    "description": "Directly improve marks and confidence without 'content' tutoring. High-intensity memory and attention.",
+    "why_it_exists": "Curiosity OS is a support to schooling. This collection turns the learning science backend into specific, performance-boosting study habits.",
+    "included_activity_ids": [
+      "cos2_a10",
+      "cos2_a11",
+      "cos2_a12",
+      "cos2_a14",
+      "cos2_a16",
+      "cos2_a04"
+    ],
+    "featured_activity_id": "cos2_a12",
+    "ordering_logic": "intentional",
+    "activities": [
+      {
+        "id": "cos2_a10",
+        "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+        "slug": "working-memory-budget-brain-friendly-worksheet",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a11",
+        "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+        "slug": "attention-lock-sprint-single-tasking",
+        "purpose": "Reset & Reflect"
+      },
+      {
+        "id": "cos2_a12",
+        "title": "Retrieval Showdown: Beat the Illusion of Competence",
+        "slug": "retrieval-showdown-beat-illusion-competence",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a14",
+        "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+        "slug": "interleaving-shuffle-lab-hidden-differences",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a16",
+        "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+        "slug": "practice-debug-error-log-patterns",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a04",
+        "title": "Growth Loops: The 1% Compounding Simulator",
+        "slug": "growth-loops-compounding-simulator",
+        "purpose": "Study Engine"
+      }
+    ],
+    "body": "# Build the Study Engine: Memory, Attention, Habits\n\nThis collection targets the most common failures in learning: rereading, multitasking, and ignoring error patterns.\n\n## Learning Objectives\n- Master **Retrieval Practice** as the primary study tool.\n- Understand and reduce **Cognitive Load** in study materials.\n- Implement a 15-minute **Attention Lock** sprint.\n- Categorize mistakes into a **DEBUG Log** instead of a 'silly' bucket.\n- Experience the power of **Compounding Habits** vs. Burst study.\n筋\n<!-- slide -->\n---\nid: cos2_c03\nslug: decision-gym\ntitle: \"Decision Gym\"\ndescription: \"Teens face trade-offs constantly. Teach regret-aware planning, trees, and probability.\"\nwhy_it_exists: \"Decision making is the most expensive thing a mind does. A decision gym trains the 'muscles' of trade-off calculation before the pressure is high.\"\nincluded_activity_ids: [\"cos2_a05\", \"cos2_a13\", \"cos2_a15\", \"cos2_a18\", \"cos2_a29\"]\nfeatured_activity_id: \"cos2_a15\"\nordering_logic: \"flexible\"\n---\n\n# Decision Gym: The Strategic Thinking Suite\n\nThis collection moves students from \"story-based\" choosing to \"evidence-based\" deciding.\n\n## Learning Objectives\n- Map a choice as a **Decision Tree** with branches and costs.\n- Attach **Confidence %** to declarations and update with Bayes logic.\n- Understand the **Expected Value (EV)** of a bet vs its flashy story.\n- Identify **Second-Order Effects** of a single policy change.\n- Spot **Goodhart's Law** when chasing a single number.\n筋\n<!-- slide -->\n---\nid: cos2_c04\nslug: truth-disagreement-studio\ntitle: \"Truth & Disagreement Studio\"\ndescription: \"Preserve truth-seeking culture while avoiding toxic debates. Strengthen writing-as-thinking.\"\nwhy_it_exists: \"Disagreement is a signal of missing information, not an invitation to an argument. Building a truth-seeking studio preserves the classroom's curiosity.\"\nincluded_activity_ids: [\"cos2_a09\", \"cos2_a17\", \"cos2_a20\", \"cos2_a21\", \"cos2_a22\", \"cos2_a25\"]\nfeatured_activity_id: \"cos2_a21\"\nordering_logic: \"flexible\"\n---\n\n# Truth & Disagreement Studio: Synthesis & Steelman\n\nThis collection is about mapping the disagreement territory and finding the 'Deep Truth'.\n\n## Learning Objectives\n- **Steelman** the opposing view before critique.\n- Draw an **Argument Map** of an ambiguous debate.\n- Rank claims on the **Evidence Ladder** (consensus vs anecdote).\n- Build a **Model Stack** of complex historical or scientific forces.\n- Update a verdict publicly in **Bias Court** as new facts arrive.\n筋\n<!-- slide -->\n---\nid: cos2_c05\nslug: people-pressure-defense\ntitle: \"People & Pressure Defense\"\ndescription: \"Relate is explicitly defensive and maturity-building. High school survival tools.\"\nwhy_it_exists: \"Social pressure is the primary reason why teens abandon their own goals. Defense is as essential as cooperation.\"\nincluded_activity_ids: [\"cos2_a24\", \"cos2_a26\", \"cos2_a27\"]\nfeatured_activity_id: \"cos2_a26\"\nordering_logic: \"flexible\"\n---\n\n# People & Pressure Defense: The Social Shield\n\nThis collection provides tactical scripts and cues for staying safe and staying 'you' in a group.\n\n## Learning Objectives\n- Calibrate **Presence** using the Calibration Radar.\n- Deploy a 5-word **Escape Pod** script under peer pressure.\n- Build a **BATNA** (Best Alternative) for a social trap.\n- Use **Boundary Scripts** to say NO without escalating.\n筋\n<!-- slide -->\n---\nid: cos2_c06\nslug: trust-teamwork-upgrades\ntitle: \"Trust & Teamwork Upgrades\"\ndescription: \"Improve group outcomes and classroom functioning. Reliability and cooperation.\"\nwhy_it_exists: \"Group work is notoriously difficult. These upgrades provide the 'logic' of cooperation and the 'mechanics' of repair.\"\nincluded_activity_ids: [\"cos2_a25\", \"cos2_a33\", \"cos2_a36\", \"cos2_a32\", \"cos2_a28\"]\nfeatured_activity_id: \"cos2_a36\"\nordering_logic: \"intentional\"\n---\n\n# Trust & Teamwork Upgrades: Logic of Cooperation\n\nThis collection is about building the 'Alliance Arena' in the classroom.\n\n## Learning Objectives\n- Rewrite a friction message to lower **Storm Probability**.\n- Communicate under load using **Clear-Confirm** loops.\n- Use **Tit-for-Tat** and Fairness protocols in games.\n- Accuracy-match meaning using **Paraphrase, Clarify, Confirm** loops.\n筋\n<!-- slide -->\n---\nid: cos2_c07\nslug: sandbox-make-tinker\ntitle: \"Sandbox: Make & Tinker\"\ndescription: \"Turn concepts into competence. Build confidence through action and systems sight.\"\nwhy_it_exists: \"Without action, curiosity drifts into a cerebral trap. Tinkering builds the causal vision needed for real capability.\"\nincluded_activity_ids: [\"cos2_a32\", \"cos2_a29\", \"cos2_a18\", \"cos2_a04\"]\nfeatured_activity_id: \"cos2_a32\"\nordering_logic: \"flexible\"\n---\n\n# Sandbox: Make & Tinker (Systems Build)\n\nThis collection turns objects and scrappy materials into systems logic.\n\n## Learning Objectives\n- Build a **Scrap-to-System** machine with a causal build log.\n- Experience **Outlier Noise** in a live data trial.\n- See the **Domino Ripple** of a single pulley or lever choice.\n- Understand **Incentive Designs** in physical objects.\n筋\n<!-- slide -->\n---\nid: cos2_c08\nslug: sandbox-move-play-reset\ntitle: \"Sandbox: Move, Play, Reset\"\ndescription: \"Regulation and social flexibility. Keeps the Operating System embodied.\"\nwhy_it_exists: \"Embodiment is the primary antidote to 'Transfer Collapse'. We move to learn, and we play to calibrate.\"\nincluded_activity_ids: [\"cos2_a30\", \"cos2_a31\", \"cos2_a34\", \"cos2_a35\"]\nfeatured_activity_id: \"cos2_a34\"\nordering_logic: \"flexible\"\n---\n\n# Sandbox: Move, Play, Reset (Embodied Regulation)\n\nThis collection is about calm, motion, and the timing of a group.\n\n## Learning Objectives\n- Rate physical **Risk** before moving into the 'Outlaw' zone.\n- Navigate a **Spatial Hunt** using map representation vs reality.\n- Run a structured **Zen Reset** after a stress peak.\n- Practice **Social Timing** in the Chaos Carnival.\n筋"
+  },
+  {
+    "id": "cos2_c03",
+    "slug": "decision-gym",
+    "title": "Decision Gym",
+    "description": "Teens face trade-offs constantly. Teach regret-aware planning, trees, and probability.",
+    "why_it_exists": "Decision making is the most expensive thing a mind does. A decision gym trains the 'muscles' of trade-off calculation before the pressure is high.",
+    "included_activity_ids": [
+      "cos2_a05",
+      "cos2_a13",
+      "cos2_a15",
+      "cos2_a18",
+      "cos2_a29"
+    ],
+    "featured_activity_id": "cos2_a15",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a05",
+        "title": "Odds Engine Arena: Expected Value, Not Hype",
+        "slug": "odds-engine-arena-expected-value",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a13",
+        "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+        "slug": "confidence-bayes-ladder-calibrate-certainty",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a15",
+        "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+        "slug": "decision-clinic-tradeoffs-trees-premortems",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a18",
+        "title": "Systems Dominoes: Causal Chains & Side Effects",
+        "slug": "systems-dominoes-causal-chains",
+        "purpose": "Systems Lens"
+      },
+      {
+        "id": "cos2_a29",
+        "title": "Goodhart Simulator: When Metrics Become Targets",
+        "slug": "goodhart-simulator-metrics-targets",
+        "purpose": "Systems Lens"
+      }
+    ],
+    "body": "# Decision Gym: The Strategic Thinking Suite\n\nThis collection moves students from \"story-based\" choosing to \"evidence-based\" deciding.\n\n## Learning Objectives\n- Map a choice as a **Decision Tree** with branches and costs.\n- Attach **Confidence %** to declarations and update with Bayes logic.\n- Understand the **Expected Value (EV)** of a bet vs its flashy story.\n- Identify **Second-Order Effects** of a single policy change.\n- Spot **Goodhart's Law** when chasing a single number.\n筋"
+  },
+  {
+    "id": "cos2_c03",
+    "slug": "decision-gym",
+    "title": "Decision Gym",
+    "description": "Teens face trade-offs constantly. Teach regret-aware planning, trees, and probability.",
+    "why_it_exists": "Decision making is the most expensive thing a mind does. A decision gym trains the 'muscles' of trade-off calculation before the pressure is high.",
+    "included_activity_ids": [
+      "cos2_a05",
+      "cos2_a13",
+      "cos2_a15",
+      "cos2_a18",
+      "cos2_a29"
+    ],
+    "featured_activity_id": "cos2_a15",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a05",
+        "title": "Odds Engine Arena: Expected Value, Not Hype",
+        "slug": "odds-engine-arena-expected-value",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a13",
+        "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+        "slug": "confidence-bayes-ladder-calibrate-certainty",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a15",
+        "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+        "slug": "decision-clinic-tradeoffs-trees-premortems",
+        "purpose": "Decision Gym"
+      },
+      {
+        "id": "cos2_a18",
+        "title": "Systems Dominoes: Causal Chains & Side Effects",
+        "slug": "systems-dominoes-causal-chains",
+        "purpose": "Systems Lens"
+      },
+      {
+        "id": "cos2_a29",
+        "title": "Goodhart Simulator: When Metrics Become Targets",
+        "slug": "goodhart-simulator-metrics-targets",
+        "purpose": "Systems Lens"
+      }
+    ],
+    "body": "# Decision Gym: The Strategic Thinking Suite\n\nThis collection moves students from \"story-based\" choosing to \"evidence-based\" deciding.\n\n## Learning Objectives\n- Map a choice as a **Decision Tree** with branches and costs.\n- Attach **Confidence %** to declarations and update with Bayes logic.\n- Understand the **Expected Value (EV)** of a bet vs its flashy story.\n- Identify **Second-Order Effects** of a single policy change.\n- Spot **Goodhart's Law** when chasing a single number.\n筋\n<!-- slide -->\n---\nid: cos2_c04\nslug: truth-disagreement-studio\ntitle: \"Truth & Disagreement Studio\"\ndescription: \"Preserve truth-seeking culture while avoiding toxic debates. Strengthen writing-as-thinking.\"\nwhy_it_exists: \"Disagreement is a signal of missing information, not an invitation to an argument. Building a truth-seeking studio preserves the classroom's curiosity.\"\nincluded_activity_ids: [\"cos2_a09\", \"cos2_a17\", \"cos2_a20\", \"cos2_a21\", \"cos2_a22\", \"cos2_a25\"]\nfeatured_activity_id: \"cos2_a21\"\nordering_logic: \"flexible\"\n---\n\n# Truth & Disagreement Studio: Synthesis & Steelman\n\nThis collection is about mapping the disagreement territory and finding the 'Deep Truth'.\n\n## Learning Objectives\n- **Steelman** the opposing view before critique.\n- Draw an **Argument Map** of an ambiguous debate.\n- Rank claims on the **Evidence Ladder** (consensus vs anecdote).\n- Build a **Model Stack** of complex historical or scientific forces.\n- Update a verdict publicly in **Bias Court** as new facts arrive.\n筋\n<!-- slide -->\n---\nid: cos2_c05\nslug: people-pressure-defense\ntitle: \"People & Pressure Defense\"\ndescription: \"Relate is explicitly defensive and maturity-building. High school survival tools.\"\nwhy_it_exists: \"Social pressure is the primary reason why teens abandon their own goals. Defense is as essential as cooperation.\"\nincluded_activity_ids: [\"cos2_a24\", \"cos2_a26\", \"cos2_a27\"]\nfeatured_activity_id: \"cos2_a26\"\nordering_logic: \"flexible\"\n---\n\n# People & Pressure Defense: The Social Shield\n\nThis collection provides tactical scripts and cues for staying safe and staying 'you' in a group.\n\n## Learning Objectives\n- Calibrate **Presence** using the Calibration Radar.\n- Deploy a 5-word **Escape Pod** script under peer pressure.\n- Build a **BATNA** (Best Alternative) for a social trap.\n- Use **Boundary Scripts** to say NO without escalating.\n筋\n<!-- slide -->\n---\nid: cos2_c06\nslug: trust-teamwork-upgrades\ntitle: \"Trust & Teamwork Upgrades\"\ndescription: \"Improve group outcomes and classroom functioning. Reliability and cooperation.\"\nwhy_it_exists: \"Group work is notoriously difficult. These upgrades provide the 'logic' of cooperation and the 'mechanics' of repair.\"\nincluded_activity_ids: [\"cos2_a25\", \"cos2_a33\", \"cos2_a36\", \"cos2_a32\", \"cos2_a28\"]\nfeatured_activity_id: \"cos2_a36\"\nordering_logic: \"intentional\"\n---\n\n# Trust & Teamwork Upgrades: Logic of Cooperation\n\nThis collection is about building the 'Alliance Arena' in the classroom.\n\n## Learning Objectives\n- Rewrite a friction message to lower **Storm Probability**.\n- Communicate under load using **Clear-Confirm** loops.\n- Use **Tit-for-Tat** and Fairness protocols in games.\n- Accuracy-match meaning using **Paraphrase, Clarify, Confirm** loops.\n筋\n<!-- slide -->\n---\nid: cos2_c07\nslug: sandbox-make-tinker\ntitle: \"Sandbox: Make & Tinker\"\ndescription: \"Turn concepts into competence. Build confidence through action and systems sight.\"\nwhy_it_exists: \"Without action, curiosity drifts into a cerebral trap. Tinkering builds the causal vision needed for real capability.\"\nincluded_activity_ids: [\"cos2_a32\", \"cos2_a29\", \"cos2_a18\", \"cos2_a04\"]\nfeatured_activity_id: \"cos2_a32\"\nordering_logic: \"flexible\"\n---\n\n# Sandbox: Make & Tinker (Systems Build)\n\nThis collection turns objects and scrappy materials into systems logic.\n\n## Learning Objectives\n- Build a **Scrap-to-System** machine with a causal build log.\n- Experience **Outlier Noise** in a live data trial.\n- See the **Domino Ripple** of a single pulley or lever choice.\n- Understand **Incentive Designs** in physical objects.\n筋\n<!-- slide -->\n---\nid: cos2_c08\nslug: sandbox-move-play-reset\ntitle: \"Sandbox: Move, Play, Reset\"\ndescription: \"Regulation and social flexibility. Keeps the Operating System embodied.\"\nwhy_it_exists: \"Embodiment is the primary antidote to 'Transfer Collapse'. We move to learn, and we play to calibrate.\"\nincluded_activity_ids: [\"cos2_a30\", \"cos2_a31\", \"cos2_a34\", \"cos2_a35\"]\nfeatured_activity_id: \"cos2_a34\"\nordering_logic: \"flexible\"\n---\n\n# Sandbox: Move, Play, Reset (Embodied Regulation)\n\nThis collection is about calm, motion, and the timing of a group.\n\n## Learning Objectives\n- Rate physical **Risk** before moving into the 'Outlaw' zone.\n- Navigate a **Spatial Hunt** using map representation vs reality.\n- Run a structured **Zen Reset** after a stress peak.\n- Practice **Social Timing** in the Chaos Carnival.\n筋"
+  },
+  {
+    "id": "cos2_c04",
+    "slug": "truth-disagreement-studio",
+    "title": "Truth & Disagreement Studio",
+    "description": "Preserve truth-seeking culture while avoiding toxic debates. Strengthen writing-as-thinking.",
+    "why_it_exists": "Disagreement is a signal of missing information, not an invitation to an argument. Building a truth-seeking studio preserves the classroom's curiosity.",
+    "included_activity_ids": [
+      "cos2_a09",
+      "cos2_a17",
+      "cos2_a20",
+      "cos2_a21",
+      "cos2_a22",
+      "cos2_a25"
+    ],
+    "featured_activity_id": "cos2_a21",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a09",
+        "title": "Bias Court: Same Facts, Different Story",
+        "slug": "bias-court-same-facts-different-story",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a17",
+        "title": "Evidence Ladder: Claim Strength Ranking",
+        "slug": "evidence-ladder-claim-strength-ranking",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a20",
+        "title": "Replication & Consensus: Truth Over Time",
+        "slug": "replication-consensus-truth-over-time",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a21",
+        "title": "Steelman & Argument Map: Disagreement Studio",
+        "slug": "steelman-argument-map-disagreement",
+        "purpose": "Truth & Evidence"
+      },
+      {
+        "id": "cos2_a22",
+        "title": "Model Stack Builder: Visual Notes & Synthesis",
+        "slug": "model-stack-builder-visual-notes",
+        "purpose": "Study Engine"
+      },
+      {
+        "id": "cos2_a25",
+        "title": "Rewrite Clinic: Social Friction & Clarity",
+        "slug": "rewrite-clinic-social-friction-clarity",
+        "purpose": "Trust & Teamwork"
+      }
+    ],
+    "body": "# Truth & Disagreement Studio: Synthesis & Steelman\n\nThis collection is about mapping the disagreement territory and finding the 'Deep Truth'.\n\n## Learning Objectives\n- **Steelman** the opposing view before critique.\n- Draw an **Argument Map** of an ambiguous debate.\n- Rank claims on the **Evidence Ladder** (consensus vs anecdote).\n- Build a **Model Stack** of complex historical or scientific forces.\n- Update a verdict publicly in **Bias Court** as new facts arrive.\n筋"
+  },
+  {
+    "id": "cos2_c05",
+    "slug": "people-pressure-defense",
+    "title": "People & Pressure Defense",
+    "description": "Relate is explicitly defensive and maturity-building. High school survival tools.",
+    "why_it_exists": "Social pressure is the primary reason why teens abandon their own goals. Defense is as essential as cooperation.",
+    "included_activity_ids": [
+      "cos2_a24",
+      "cos2_a26",
+      "cos2_a27"
+    ],
+    "featured_activity_id": "cos2_a26",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a24",
+        "title": "Calibration Radar: Social Cue Reading & Adjustment",
+        "slug": "calibration-radar-social-cues",
+        "purpose": "People & Pressure"
+      },
+      {
+        "id": "cos2_a26",
+        "title": "Peer Pressure Shield: Social Default & Escape",
+        "slug": "peer-pressure-shield-social-default",
+        "purpose": "People & Pressure"
+      },
+      {
+        "id": "cos2_a27",
+        "title": "Boundary Scripts + BATNA: Say No Cleanly",
+        "slug": "boundary-scripts-batna-say-no",
+        "purpose": "People & Pressure"
+      }
+    ],
+    "body": "# People & Pressure Defense: The Social Shield\n\nThis collection provides tactical scripts and cues for staying safe and staying 'you' in a group.\n\n## Learning Objectives\n- Calibrate **Presence** using the Calibration Radar.\n- Deploy a 5-word **Escape Pod** script under peer pressure.\n- Build a **BATNA** (Best Alternative) for a social trap.\n- Use **Boundary Scripts** to say NO without escalating.\n筋"
+  },
+  {
+    "id": "cos2_c06",
+    "slug": "trust-teamwork-upgrades",
+    "title": "Trust & Teamwork Upgrades",
+    "description": "Improve group outcomes and classroom functioning. Reliability and cooperation.",
+    "why_it_exists": "Group work is notoriously difficult. These upgrades provide the 'logic' of cooperation and the 'mechanics' of repair.",
+    "included_activity_ids": [
+      "cos2_a25",
+      "cos2_a33",
+      "cos2_a36",
+      "cos2_a32",
+      "cos2_a28"
+    ],
+    "featured_activity_id": "cos2_a36",
+    "ordering_logic": "intentional",
+    "activities": [
+      {
+        "id": "cos2_a25",
+        "title": "Rewrite Clinic: Social Friction & Clarity",
+        "slug": "rewrite-clinic-social-friction-clarity",
+        "purpose": "Trust & Teamwork"
+      },
+      {
+        "id": "cos2_a33",
+        "title": "Alliance Arena: Communication Under Load Relay",
+        "slug": "alliance-arena-communication-relay",
+        "purpose": "Trust & Teamwork"
+      },
+      {
+        "id": "cos2_a36",
+        "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+        "slug": "alliance-arena-fair-play-protocol",
+        "purpose": "Trust & Teamwork"
+      },
+      {
+        "id": "cos2_a32",
+        "title": "Hacksmith’s Workshop: Scrap-to-System",
+        "slug": "hacksmiths-workshop-scrap-to-system",
+        "purpose": "Sandbox: Make & Tinker"
+      },
+      {
+        "id": "cos2_a28",
+        "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+        "slug": "listening-lab-paraphrase-clarify-confirm",
+        "purpose": "Trust & Teamwork"
+      }
+    ],
+    "body": "# Trust & Teamwork Upgrades: Logic of Cooperation\n\nThis collection is about building the 'Alliance Arena' in the classroom.\n\n## Learning Objectives\n- Rewrite a friction message to lower **Storm Probability**.\n- Communicate under load using **Clear-Confirm** loops.\n- Use **Tit-for-Tat** and Fairness protocols in games.\n- Accuracy-match meaning using **Paraphrase, Clarify, Confirm** loops.\n筋"
+  },
+  {
+    "id": "cos2_c07",
+    "slug": "sandbox-make-tinker",
+    "title": "Sandbox: Make & Tinker",
+    "description": "Turn concepts into competence. Build confidence through action and systems sight.",
+    "why_it_exists": "Without action, curiosity drifts into a cerebral trap. Tinkering builds the causal vision needed for real capability.",
+    "included_activity_ids": [
+      "cos2_a32",
+      "cos2_a29",
+      "cos2_a18",
+      "cos2_a04"
+    ],
+    "featured_activity_id": "cos2_a32",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a32",
+        "title": "Hacksmith’s Workshop: Scrap-to-System",
+        "slug": "hacksmiths-workshop-scrap-to-system",
+        "purpose": "Sandbox: Make & Tinker"
+      },
+      {
+        "id": "cos2_a29",
+        "title": "Goodhart Simulator: When Metrics Become Targets",
+        "slug": "goodhart-simulator-metrics-targets",
+        "purpose": "Systems Lens"
+      },
+      {
+        "id": "cos2_a18",
+        "title": "Systems Dominoes: Causal Chains & Side Effects",
+        "slug": "systems-dominoes-causal-chains",
+        "purpose": "Systems Lens"
+      },
+      {
+        "id": "cos2_a04",
+        "title": "Growth Loops: The 1% Compounding Simulator",
+        "slug": "growth-loops-compounding-simulator",
+        "purpose": "Study Engine"
+      }
+    ],
+    "body": "# Sandbox: Make & Tinker (Systems Build)\n\nThis collection turns objects and scrappy materials into systems logic.\n\n## Learning Objectives\n- Build a **Scrap-to-System** machine with a causal build log.\n- Experience **Outlier Noise** in a live data trial.\n- See the **Domino Ripple** of a single pulley or lever choice.\n- Understand **Incentive Designs** in physical objects.\n筋"
+  },
+  {
+    "id": "cos2_c08",
+    "slug": "sandbox-move-play-reset",
+    "title": "Sandbox: Move, Play, Reset",
+    "description": "Regulation and social flexibility. Keeps the Operating System embodied.",
+    "why_it_exists": "Embodiment is the primary antidote to 'Transfer Collapse'. We move to learn, and we play to calibrate.",
+    "included_activity_ids": [
+      "cos2_a30",
+      "cos2_a31",
+      "cos2_a34",
+      "cos2_a35"
+    ],
+    "featured_activity_id": "cos2_a34",
+    "ordering_logic": "flexible",
+    "activities": [
+      {
+        "id": "cos2_a30",
+        "title": "Skyline Outlaws: Risk Ladder Course",
+        "slug": "skyline-outlaws-risk-ladder-judgment",
+        "purpose": "Reset & Reflect"
+      },
+      {
+        "id": "cos2_a31",
+        "title": "Skyline Outlaws: Spatial Treasure Hunt",
+        "slug": "skyline-outlaws-spatial-hunt",
+        "purpose": "Reality Check"
+      },
+      {
+        "id": "cos2_a34",
+        "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+        "slug": "zen-nexus-emotional-reset-diffuse",
+        "purpose": "Reset & Reflect"
+      },
+      {
+        "id": "cos2_a35",
+        "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+        "slug": "chaos-carnival-rhythm-improv",
+        "purpose": "Trust & Teamwork"
+      }
+    ],
+    "body": "# Sandbox: Move, Play, Reset (Embodied Regulation)\n\nThis collection is about calm, motion, and the timing of a group.\n\n## Learning Objectives\n- Rate physical **Risk** before moving into the 'Outlaw' zone.\n- Navigate a **Spatial Hunt** using map representation vs reality.\n- Run a structured **Zen Reset** after a stress peak.\n- Practice **Social Timing** in the Chaos Carnival.\n筋"
+  }
+]

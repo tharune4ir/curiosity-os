@@ -1,22 +1,22 @@
 # SOURCE OF TRUTH // CURIOSITY OS
 
-> **Project Identity:** Curiosity OS // Digital Laboratory & Classroom Operating System
+> **Project Identity:** Curiosity OS // Open Learning Exploration System
 > **Lead Engineer & Owner:** Tharun Gajula
-> **Release Target:** Classroom Facilitation Suite 2.0 (Dual-Architecture)
+> **Release Target:** Static Open Learning Exploration System (Dual-Architecture)
 
 ---
 
 ## 1. Project Name & Description
-**Curiosity OS** is a premium, client-side digital laboratory and interactive classroom facilitation utility designed specifically for Class 9–10 educators in India. It empowers teachers to orchestrate scientifically rigorous interactive lessons by running structured pedagogical activities, tracking student cognitive milestones, capturing live observations, and guiding classroom adaptation based on pedagogical data.
+**Curiosity OS** is a premium, client-side open learning exploration system designed by Tharun Gajula. It helps students, teachers, parents, and curious learners train their curiosity, questioning, observation, reasoning, discussion, and self-learning through an interactive visual knowledge universe (**Curiosity Verse**) and a practical activity playbooks library.
 
 ---
 
 ## 2. Purpose & Problem Space
-Traditional Indian high-school classrooms (Grades 9–10) are heavily constrained by rote-memorization regimes and static lecture paradigms. **Curiosity OS** breaks this cycle by providing an interface that operates as a **Teacher Operating System** to:
-- **Eradicate Rote Learning:** Shifting from absolute factual recall to active observation, causal reasoning, and error debugging.
-- **Enable Classroom Orchestration:** Empowering teachers to manage active multi-stage exercises (labs, games, roleplay) with real-time timers and scaffolding tools.
-- **Support Evidence-Driven Teaching:** Providing a high-contrast HUD for tracking active evidence tagging of student behaviors (e.g., breakthroughs, participation dips, useful disagreements) to guide immediate adaptations.
-- **Support Professional Adaptation:** Building teacher capability via historical pedagogical reflection, letting teachers adapt curriculum templates to their local classroom reality.
+Curiosity OS shifts the learning experience from rote memorization and classroom compliance into active, self-driven inquiry. It is optimized as a free, open, and static web platform that provides:
+- **Curiosity Verse:** A visual map of concepts to help learners wander, connect ideas, and see knowledge from multiple points of view.
+- **Activity Library:** Free and open playbooks (Reality Checks, Study Engines, Decision Gyms, Trust & Teamwork) that anyone can run individually or in small groups to build practical thinking habits.
+- **Scaffolding for Guides:** Dynamic HUD steps, timers, and "Notice & Capture" tools allowing mentors, parents, or group guides to facilitate collaborative thought exercises seamlessly.
+- **Zero-Friction Accessibility:** Runs fully client-side with no logins, database overhead, or progress tracking, ensuring data privacy and offline accessibility in high-latency environments.
 
 ---
 
@@ -40,7 +40,7 @@ Curiosity OS is engineered to strictly prevent Next.js/React peer dependency iss
 - **React Markdown:** `^10.1.0` (Render raw MD activity bodies)
 - **Remark GFM:** `^4.0.1` (GitHub Flavored Markdown parsing extension)
 
-### 3.4. 3D Visualizer & Physics Space (Legacy V1 Support)
+### 3.4. 3D Visualizer & Physics Space (Curiosity Verse Map)
 - **Three.js:** `^0.183.1` (Core 3D engine)
 - **React Three Fiber:** `^9.5.0` (R3F renderer context)
 - **React Three Drei:** `^10.7.7` (R3F helper components)
@@ -55,7 +55,7 @@ Curiosity OS is engineered to strictly prevent Next.js/React peer dependency iss
 ---
 
 ## 4. Zero-Knowledge Setup & Operational Commands
-Curiosity OS runs as a zero-database, serverless, client-side React client. All session history is securely persisted inside the teacher's browser memory block.
+Curiosity OS runs as a zero-database, serverless, client-side React app. All session history is securely persisted inside the user's browser memory block via `localStorage`.
 
 ### 4.1. Prerequisites
 - **Node.js:** Active LTS version (`v18.x`, `v20.x`, or `v22.x`). Recommend `v20.x` for local parity.
@@ -78,25 +78,25 @@ Curiosity OS runs as a zero-database, serverless, client-side React client. All 
 The application features local builder pipelines that parse raw Markdown activity source files into optimized static client-side JSON files. Run these in sequence before executing the development server:
 
 - **Generate Activity Indexes:**
-  Parses raw activities under `/content/0_activities/activities/*.md` into JSON indices inside `/content/0_activities/dist/`.
-  ```bash
-  npm run build:activities
-  ```
+   Parses raw activities under `/content/0_activities/activities/*.md` into JSON indices inside `/content/0_activities/dist/`.
+   ```bash
+   npm run build:activities
+   ```
 - **Validate Content Schema Compliance:**
-  Validates required gray-matter keys and enum mappings in markdown activities to prevent runtime layout breaks.
-  ```bash
-  npm run validate:activities
-  ```
+   Validates required gray-matter keys and enum mappings in markdown activities to prevent runtime layout breaks.
+   ```bash
+   npm run validate:activities
+   ```
 - **Sync Neural Universe Markdown Nodes:**
-  Converts master JSON structures into flat markdown pages for WikiLink node traversal inside the legacy 3D universe.
-  ```bash
-  npm run generate:universe
-  ```
+   Converts master JSON structures into flat markdown pages for WikiLink node traversal inside the legacy 3D universe.
+   ```bash
+   npm run generate:universe
+   ```
 - **Generate Unified Textbook Guide (Development Tool):**
-  Merges active universes into a single textbook master markdown file.
-  ```bash
-  npm run generate-textbook
-  ```
+   Merges active universes into a single textbook master markdown file.
+   ```bash
+   npm run generate-textbook
+   ```
 
 ### 4.4. Running the Dev Server
 To start local hot-reloading:
@@ -115,38 +115,37 @@ npm run start
 ---
 
 ## 5. System Architecture
-Curiosity OS incorporates a decoupled dual-architecture that integrates the conceptual knowledge model (V1) with the real-time pedagogical execution engine (V2).
+Curiosity OS integrates the conceptual knowledge model (V1 Curiosity Verse) with a practical active learning facilitation engine.
 
 ```mermaid
 graph TD
-    subgraph Legacy V1 Neural Engine [V1 Conceptual Engine]
+    subgraph Universe 3D Engine [V1 Conceptual Engine]
         UniverseJSON[master_universe_v1.json] --> |scripts/generate-universe.js| UniverseMD[Markdown Nodes]
         UniverseMD --> |React Force Graph 3D| Universe3D[3D Interactive Node Map]
     end
 
-    subgraph V2 Operational Workflow [V2 Activity Engine]
+    subgraph Operational Workflow [V2 Activity Engine]
         MD_Activities[content/0_activities/activities/*.md] --> |scripts/build-activities.js| DistJSON[content/0_activities/dist/activities.full.json]
-        DistJSON --> |lib/activities.ts| ActivityLibrary[Activity Library & Custom Planner]
-        ActivityLibrary --> |PlannerProvider| ActiveQueue[Active Planner Queue]
+        DistJSON --> |lib/activities.ts| ActivityLibrary[Activity Library]
+        ActivityLibrary --> |PlannerProvider| ActiveQueue[Active Queue / Play List]
     end
 
-    ActiveQueue --> |Start Session| LiveRun[Live Run HUD Stage]
-    LiveRun --> |EvidenceProvider| LiveNotice[Notice: Live Evidence Tags]
-    LiveNotice --> |Save Session| LocalStore[(localStorage)]
-    LocalStore --> |Hydration| GuidedReflect[Post-Run guided reflection]
+    ActiveQueue --> |Start Run| LiveRun[Live Run HUD Stage]
+    LiveRun --> |EvidenceProvider| LiveNotice[Notice: Live Evidence Cues]
+    LiveNotice --> |Save Run| LocalStore[(localStorage)]
+    LocalStore --> |Hydration| GuidedReflect[Post-Run reflection]
 ```
 
 ### 5.1. Dual Architecture Components
-1. **Legacy V1 Neural Universe (Semantic Knowledge Graph):**
-   A conceptual network mapping 147 learning nodes and 381 semantic links across 4 operational Wings (*Decode, Cognition, Relate, Sandbox*). Used to browse subject clusters.
-2. **V2 Interactive Facilitation Loop (Teacher Orchestrator):**
-   Shifted primary focus to a practical 6-stage loops system focused on classroom orchestration:
-   - **Browse:** Access the activity index to find targeted learning playbooks.
-   - **Plan:** Select activities into a localized "planner queue" for immediate use.
-   - **Run:** Launch a multi-step activity containing structural countdown timers, script slides, and active prompts.
-   - **Notice:** Trigger real-time evidence tags (e.g., breakthrough, social friction) directly mapped to pedagogical goals.
-   - **Reflect:** Guides teachers through guided reflections immediately after class.
-   - **Adapt:** Creates memory logs of local adaptations, helping teachers build confidence in tailoring content.
+1. **Curiosity Verse 3D Engine (Knowledge Graph):**
+   An immersive interactive graph mapping 147 learning nodes and 381 semantic links across 4 operational Wings (*Decode, Cognition, Relate, Sandbox*). Accessible at `/another_point_of_view` and `/verse`.
+2. **Interactive Activity System:**
+   Allows individuals and guides to run exercises step-by-step using a tactile interface:
+   - **Browse:** Access the activity index to find targeted playbooks.
+   - **Plan:** Select activities into a localized session queue ("Planner") for immediate access.
+   - **Run:** Launch a multi-step activity containing countdown timers and facilitate active discussion prompts.
+   - **Notice:** Note observations (e.g. breakthroughs, confusion, disagreements) with live timestamped tags.
+   - **Reflect:** Guide reflection questions at the end of an activity to lock in thinking progress.
 
 ---
 
@@ -157,70 +156,76 @@ curiosity-os/
 ├── app/                            # Next.js 16 App Router pages
 │   ├── globals.css                 # Base stylesheet containing Tailwind 4.0 variables
 │   ├── layout.tsx                  # Root Next.js layout setting fonts, BottomDock & providers
-│   ├── page.tsx                    # Landing dashboard (Browse & Plan entrance)
+│   ├── page.tsx                    # Landing dashboard / Main Portal
 │   ├── activities/
-│   │   ├── page.tsx                # Curation Playbook (Library View)
+│   │   ├── page.tsx                # Playbook Curation Library
 │   │   └── [slug]/
-│   │       ├── page.tsx            # Activity Details & Adaptation view
+│   │       ├── page.tsx            # Activity Details & Adaptation parameters
 │   │       ├── run/
-│   │       │   └── page.tsx        # Active Session HUD (Run & Notice loop)
+│   │       │   └── page.tsx        # Active Session HUD (Step Timers & Notice cues)
 │   │       └── runs/
 │   │           └── [sessionId]/
 │   │               └── reflect/
-│   │                   └── page.tsx # Guided Teacher Post-Run Reflection
-│   ├── legacy/                     # Retained routes supporting V1 Neural Maps
-│   │   └── gateway/                # Manifesto route for 3D exploration
-│   └── planner/
-│       └── page.tsx                # Class Session Planner View (Queue & Week tracker)
+│   │                   └── page.tsx # Interactive Guided Reflection
+│   ├── another_point_of_view/
+│   │   └── page.tsx                # Core 3D Interactive WebGL Graph Canvas (Curiosity Verse)
+│   ├── gateway/
+│   │   └── page.tsx                # Gateway: 'Start Here' guide & entry portal
+│   ├── paths/
+│   │   └── page.tsx                # Learning Paths (Structured exploration journeys)
+│   ├── planner/
+│   │   └── page.tsx                # Activity Sequence Planner View (Queue & Week tracker)
+│   └── verse/
+│       └── page.tsx                # Curiosity Verse landing and gateway portal
 ├── components/                     # Shared React UI components
-│   ├── BottomBar.tsx               # Minimal, glassmorphic dock menu navigation bar
+│   ├── BottomBar.tsx               # Floating, glassmorphic bottom navigation dock (ACTIVITIES, HOME, VERSE)
 │   ├── ThemeToggle.tsx             # Theme utilities
-│   └── ui/                         # Clean, atomic ui elements (buttons, badges)
-├── content/                        # Static Curriculums and Active Activity Markdown Playbooks
+│   └── ui/                         # Atomic, high-fidelity UI badges, buttons, cards
+├── content/                        # Markdown Playbooks & Static Curriculums
 │   ├── 0_activities/
-│   │   ├── activities/             # 36 Live playbooks (Markdown with Gray-Matter)
-│   │   ├── collections/            # Grouped activity pathways (MD files)
-│   │   ├── dist/                   # Output of content compilation pipelines (JSON index files)
-│   │   ├── enums/                  # activity-enums.ts containing category definitions
-│   │   ├── schemas/                # activity-metadata.ts validating content shape
-│   │   └── templates/              # activity-pilot.md starter blueprint
+│   │   ├── activities/             # 36 Flagship markdown playbook files
+│   │   ├── collections/            # Grouped category paths (MD format)
+│   │   ├── dist/                   # Compiled outputs of MD build pipelines (JSON format)
+│   │   ├── enums/                  # activity-enums.ts definitions
+│   │   ├── schemas/                # activity-metadata.ts shape definition
+│   │   └── templates/              # activity-pilot.md blueprint
 │   ├── 0_base_files_v2/
-│   │   └── deep-research-report.md # Multi-page pedagogical theory research document
-│   └── 1_another_point_of_view/    # V1 Static JSON nodes, layouts & validation references
-├── lib/                            # Application state contexts and data retrievers
-│   ├── activities.ts               # Core utility parser loading playbooks from Markdown/JSON
-│   ├── evidence-context.tsx        # Provider tracking live tags, session status & localStorage
-│   ├── planner-context.tsx         # Provider handling queue lists, sequence maps & bookmarks
-│   └── utils.ts                    # Class-name merger
+│   │   └── deep-research-report.md # Pedagogical theory research manual
+│   └── 1_another_point_of_view/    # V1 Conceptual JSON nodes & layouts
+├── lib/                            # Application state contexts and utilities
+│   ├── activities.ts               # Content parser loading Markdown files to memory
+│   ├── evidence-context.tsx        # Context handling live timers, notice events, and reflection logs
+│   ├── planner-context.tsx         # Context tracking planner queue structures
+│   └── utils.ts                    # Class-name configuration merger
 ├── scripts/                        # Automation & builder utilities
 │   ├── build-activities.js         # MD -> Optimized JSON indexer script
 │   ├── generate-textbook.js        # Compiles textbook markdown reference sheets
 │   ├── generate-universe.js        # Synthesizes JSON node clusters into MD assets
-│   └── validate-activities.js      # Robust content checks for the 36-flagship activities
+│   └── validate-activities.js      # Schema validator for playbooks
 ├── package.json                    # Project locked configurations and scripts
 ├── postcss.config.mjs              # PostCSS setup mapping Tailwind
-├── tailwind.config.ts              # Local styling adjustments
-└── tsconfig.json                   # TypeScript base rules configuration
+├── tailwind.config.ts              # Local styling overrides
+└── tsconfig.json                   # TypeScript compiler rules
 ```
 
 ---
 
-## 7. Features & Classroom Facilitation Loop
-The application centers around the daily workflow of active teaching:
+## 7. Core Features & Active Learning Loop
+The system revolves around three core interfaces supported by the floating bottom navigation bar:
 
-### 7.1. Curation Library (Browse & Plan)
-- **Library View (`/activities`):** Allows teachers to search and filter the 36 flagship activities by category (*Reality Check, Study Engine, Decision Gym, Truth & Evidence, Systems Lens, People & Pressure, Trust & Teamwork, Reset & Reflect, Sandbox*), prep levels (*No Prep, Low Prep, High Prep*), group mode (*Solo, Pairs, Small Group, Whole Class*), duration, and targeted evidence dimensions.
-- **Sequence Planner (`/planner`):** An interactive scheduling space where teachers can add/remove activities to their active Queue ("This Week") or create custom learning sequences for specific groups.
+### 7.1. Bottom Navigation Bar (`ACTIVITIES` // `HOME` // `VERSE`)
+- **Left Tab (ACTIVITIES):** Routes to the curated [Activity Library](/activities). Uses the `BookOpen` icon.
+- **Center Anchor (HOME):** Routes back to the main homepage dashboard (`/`). Uses a prominent, glowing cyan `Home` icon.
+- **Right Tab (VERSE):** Routes to the [Curiosity Verse](/verse) portal for WebGL conceptual graph browsing. Uses the `Compass` icon.
 
-### 7.2. Active Live Run HUD (`/activities/[slug]/run`)
-- **Countdown Timer Dashboard:** Guides teachers through specific steps mapped under `flow_steps` (e.g. 5m Setup → 15m Simulation → 10m Debrief). It features clean soundless flash cues.
-- **Step Scaffolding Sheets:** Displays immediate instructions ("Teacher Moves" and "Common Failure Points") for each step.
-- **Evidence Tagging Terminal (Notice Phase):** Allows the teacher to click on-the-fly evidence tag buttons (e.g. `Strong Reasoning`, `Confusion`, `Thoughtful Question`, `Social Friction`) during dynamic classroom play. The interface writes the action down along with the step index and exact millisecond timestamp.
+### 7.2. Curation Library (`/activities` & `/paths`)
+- **Categorized Playbooks:** Allows users to filter the 36 flagship activities by category (*Reality Check, Study Engine, Decision Gym, Truth & Evidence, Systems Lens, People & Pressure, Trust & Teamwork, Reset & Reflect, Sandbox*), prep levels (*No Prep, Low Prep, High Prep*), group mode (*Solo, Pairs, Small Group, Whole Class*), duration, and energy levels.
+- **Learning Paths (`/paths`):** Structured journeys (e.g. "Systems & Signals", "Trust & Pressure") guiding learners through progressive playbooks to build specific thinking habits.
 
-### 7.3. Guided Reflection Workspace (`/activities/[slug]/runs/[sessionId]/reflect`)
-- **Evidence Timeline:** Renders a list of all observations tagged during the run, showing precisely *when* and *in what step* they occurred.
-- **Structured Reflection Inputs:** Prompts the teacher to answer specific prompts: *What worked well? Where did student reasoning struggle? What local adaptations will you make next time?*
-- **Pedagogical Actions:** Prompts selection of followup actions (*Rerun with adaptation*, *Move to follow-up activity*, *Schedule later*).
+### 7.3. Step-by-Step Execution Mode (`/activities/[slug]/run`)
+- **Countdown HUD Timer:** Features clear visual progress indicators for each facilitation step (e.g., Setup → Simulation → Reflection).
+- **Tactical Toolbox:** Shows "Watch Fors", "Notice & Capture Cues", and "Teacher Moves" to aid anyone facilitating the exercise.
+- **Evidence Tagging Terminal:** Facilitators or individuals can capture micro-observations on-the-fly (e.g., `Breakthrough`, `Confusion`, `Thoughtful Question`, `Social Friction`) with milliseconds accuracy.
 
 ---
 
@@ -284,7 +289,7 @@ internal:
 ```
 
 ### 8.2. Evidence State Context API (`lib/evidence-context.tsx`)
-Manages live run recording and browser persistence:
+Manages active sessions and local storage persistence:
 
 #### Core Types
 ```typescript
@@ -317,15 +322,6 @@ export interface Session {
 }
 ```
 
-#### Context Interface Methods
-- `startSession(activityId, activityTitle): string` - Initialise an active session in local storage.
-- `endSession(sessionId, reflection?)` - Finalize the session, stamping the current time.
-- `updateSession(sessionId, updates)` - Performs dynamic partial edits to custom parameters.
-- `addEntry(entryData)` - Appends a structured observation directly to the live event log.
-- `deleteEntry(entryId)` - Removes an entry from the timeline.
-- `getEntriesForSession(sessionId)` - Queries all live tags associated with a run.
-- `getActiveSession()` - Fetches the currently running session parameters.
-
 ---
 
 ## 9. Design System & UI Specifications
@@ -349,43 +345,40 @@ Curiosity OS implements a highly stylized digital laboratory design system built
 ### 9.3. Animations (CSS & Framer Motion)
 - **Ring Expansion:** `@keyframes ring-expand` maps pulsing neon ripples for active running states.
 - **Shimmer Button Sweep:** Radial gradients that move across interactive headers.
-- **UI Navigation (BottomDock):** Glassmorphic horizontal bar locked to the screen base (`fixed bottom-4 z-[150]`), offering clear transition effects.
+- **Bottom Navigation Clearances:** Key content pages feature safety padding-bottom parameters (`pb-48` on `.min-h-screen` and `pb-16` / `pb-24` on nested container wrappers) to prevent layouts from being obscured by the bottom floating menu dock.
 
 ---
 
 ## 10. External Services, APIs, and Keys
-**Curiosity OS runs 100% locally.**
-- **No external API keys** (e.g., Stripe, Firebase, Supabase) are utilized or needed.
+**Curiosity OS runs 100% locally and serverless.**
+- **No external API keys** are utilized or needed.
 - **No Database connections** are established.
 - All dynamic actions and session observations rely exclusively on browser **`localStorage`** using the keys:
-  - `curiosity_os_planner_v1` (Queue and saved sequence models)
-  - `curiosity_os_evidence_v1` (Active session metrics and teacher reflections)
+  - `curiosity_os_planner_v1` (Queue and saved bookmarks)
+  - `curiosity_os_evidence_v1` (Active session metrics and reflections)
 
-This complete client-side sandboxing guarantees instantaneous load speeds in schools with poor connectivity and ensures 100% data privacy for student observation tags.
-
----
-
-## 11. Engineering Decisions & Design Rationale
-
-### 11.1. Decoupled Dual-Architecture Shifting
-- **Reasoning:** Phase 1 was built entirely around a complex 3D network graph mapping 147 abstract conceptual nodes. While visually stunning, classroom testing proved it was too theoretical for teacher lesson prep. Phase 2 introduced a structured **Workflows System** (Browse → Plan → Run → Notice → Reflect → Adapt). The legacy 3D universe is retained as an interactive "gateway concept library" at `/legacy/gateway`, while the primary workflow remains focused on practical tools.
-
-### 11.2. Client-Side Browser Storage Model
-- **Reasoning:** Indian classrooms frequently experience weak or intermittent network connections. Relying on remote databases (like Firebase or Supabase) risked freezing during live sessions. Persisting all data to local storage ensures zero latency, high reliability, and a completely zero-maintenance backend architecture.
-
-### 11.3. Strict Locked React & Next Versions
-- **Reasoning:** In earlier iterations, upgrading dependencies broke WebGL integration on React 19 or triggered Turbopack compilation memory leaks on Next 16. The dependencies are locked at Next `16.1.6` and React `19.2.3` to ensure compilation speed, WebGL performance in R3F, and hot-reload stability on developer computers.
-
-### 11.4. Pivot of Activity `cos2_a28`
-- **Reasoning:** The activity originally named "Red Flag Detective" focused on spotting controversial logical anomalies. To ensure classroom safety, it was evolved into **"Listening Lab: Paraphrase, Clarify, Confirm"**, which focuses on active validation, high-fidelity message transmission, and conversational clarity.
+This local-only client-side sandboxing guarantees immediate load speeds, complete offline functionality, and 100% data privacy for learners and facilitators.
 
 ---
 
-## 12. Known Gotchas, Potential Gotchas, and Roadmap
+## 11. Engineering Decisions & Rationale
 
-- **Browser Storage Deletions:** Because state resides exclusively in `localStorage`, clearing browser cache or cookies will wipe all evidence logs and sequence planners.
-- **JSON Output Mismatch:** If modifications are made to `/content/0_activities/activities/*.md`, the changes will not render in the UI until `npm run build:activities` is executed.
-- **WebGL Frame Drops:** In the legacy 3D map (`/legacy/gateway`), low-spec classroom laptops may experience lag. A warning and simple list mode are provided as fallback measures.
+### 11.1. Client-Side Browser Storage Model
+- **Reasoning:** Classrooms and remote spaces experience weak or intermittent network connections. Relying on remote databases risked freezes during live activity sessions. Browser storage ensures instantaneous, latency-free, and high-reliability operations under all local conditions.
+
+### 11.2. Strict Locked React & Next Versions
+- **Reasoning:** WebGL integration with React Three Fiber (R3F) and interactive force graph canvases are highly sensitive to framework upgrades. Keeping Next `16.1.6` and React `19.2.3` guarantees 3D performance stability and prevents Turbopack compilation leaks during rapid developer reload sessions.
+
+### 11.3. Surgical Shift to Open Static Portal
+- **Reasoning:** By removing planning workflows from the primary floating dock and foregrounding the **Curiosity Verse** and **Activity Library**, Curiosity OS sheds its legacy classroom management skin. It has been transformed into a simple, beautiful, and completely free static web playground for anyone wishing to develop reasoning and exploration skills.
+
+---
+
+## 12. Known Gotchas & Troubleshooting
+
+- **Browser Storage Clears:** Clearing cookies/local storage will clear all bookmarks, planner queues, and saved timeline reflection logs.
+- **Index Generation:** Modifications to markdown playbooks in `/content/0_activities/activities/*.md` will not show up in browser views until `npm run build:activities` is executed.
+- **3D Graphic Performance:** On low-spec devices, the 3D visualizer at `/another_point_of_view` may experience lagging. A visual alert warns users, and a simplified directory navigation is provided as a fallback.
 
 ---
 
@@ -480,8 +473,8 @@ Follow this checklist exactly to rebuild Curiosity OS from absolute scratch on a
 
 ### Phase 4: State Providers
 - [ ] **9.** Implement `lib/planner-context.tsx` with queue management, sequences, and local storage state hydration (`curiosity_os_planner_v1`).
-- [ ] **10.** Implement `lib/evidence-context.tsx` with session controls, event tagging, and local storage hydration (`curiosity_os_evidence_v1`).
-- [ ] **11.** Create the global layout in `app/layout.tsx`, nesting child components inside `PlannerProvider` and `EvidenceProvider`.
+- [ ] **10.** Implement `lib/evidence-context.tsx` with session controls, observation tagging, and local storage hydration (`curiosity_os_evidence_v1`).
+- [ ] **11.** Create the global layout in `app/layout.tsx`, nesting child components inside `PlannerProvider` and `EvidenceProvider` and including the BottomBar.tsx navigation dock.
 
 ### Phase 5: Content Compiler Utilities
 - [ ] **12.** Write `scripts/build-activities.js` to index the `/content/0_activities/activities/*.md` directory.
@@ -491,7 +484,7 @@ Follow this checklist exactly to rebuild Curiosity OS from absolute scratch on a
 ### Phase 6: Pages & Views
 - [ ] **15.** Implement the Interactive Dashboard page (`app/page.tsx`).
 - [ ] **16.** Create the Playbook Curation view (`app/activities/page.tsx`).
-- [ ] **17.** Build the Active Session HUD (`app/activities/[slug]/run/page.tsx`) mapping structural timers,Moves/Watch-fors, and evidence buttons.
+- [ ] **17.** Build the Active Run HUD (`app/activities/[slug]/run/page.tsx`) mapping structural timers,Moves/Watch-fors, and notice tag terminal.
 - [ ] **18.** Build the guided review layout (`app/activities/[slug]/runs/[sessionId]/reflect/page.tsx`) rendering marked observations and adaptation logs.
 - [ ] **19.** Copy the static assets and activity markdown files into the `content` folder.
 - [ ] **20.** Execute index builder commands:

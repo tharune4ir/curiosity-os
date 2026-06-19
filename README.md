@@ -1,63 +1,83 @@
-# COSMOS: Curiosity Operating System
-> **An immersive 3D Neural Map and Teaching Engine for the 21st-Century Polymath.**
+# Curiosity OS 🌌
+> **A static open learning portal and interactive 3D concept map designed to train better questioning, reasoning, and critical thinking.**
 
 ![Curiosity OS Banner](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072)
 
 ---
 
-## 🌌 Overview
-**Curiosity OS** is a high-fidelity, visually-gamified operating system designed by **Tharun Gajula**. It transforms static curriculum notes into a living, breathing 3D Neural Network. It is engineered to help students and mentors navigate the "Another Point of View" universe—a curated map of 147 conceptual atoms across four foundational wings.
+## 🎯 What is Curiosity OS?
+Traditional learning often emphasizes rote memorization and passive compliance. **Curiosity OS** shifts the learning experience back to active, self-driven inquiry. 
 
-### The 4 Wings (The Core Engine)
-1. **W1 — Decode:** The Reality Hacker's Toolkit (Data, Logic, Systems).
-2. **W2 — Cognition:** The mental OS (Philosophy, Learning, Memory).
-3. **W3 — Relate:** The Human Interface (Communication, Empathy, Leadership).
-4. **W4 — Sandbox:** High-stakes live practice and chaos zones.
+It is a completely free, serverless, and offline-friendly playground designed for students, teachers, parents, and self-learners to explore ideas and build deep thinking habits.
 
 ---
 
-## 🧪 The "Cyber-Laboratory" Aesthetic
-Curiosity OS is built with a strictly enforced premium design system:
-- **Glassmorphism:** High-blur (`backdrop-blur-2xl`) translucent panels.
-- **Neon HUDs:** Monospaced data readouts in **Neon Cyan**.
-- **Cinematic 3D:** Force-directed graph physics powered by `react-force-graph-3d`.
-- **Space-Grade Dark Mode:** Deep space voids (`#020617`) with mesh gradients.
+## ✨ Key Features
+
+* **🌌 The Curiosity Verse:** A beautifully rendered, interactive WebGL 3D network mapping 147 learning concepts. Zoom, rotate, search, and connect ideas across four thematic wings.
+* **📚 The Activity Library:** Access 36 flagship playbook challenges (including *Reality Checks*, *Study Engines*, *Decision Gyms*, and *Trust & Teamwork*) that you can practice solo, in pairs, or in groups.
+* **⏱️ Facilitation HUD & Timers:** Built-in step guides, timers, and facilitation moves to help parents or mentors lead active discussions and thought exercises seamlessly.
+* **📝 Evidence-Tagging Terminal:** Facilitators can capture thoughts, breakthroughs, confusion, and friction points on the fly with millisecond-accurate timestamp tagging.
+* **🔒 100% Client-Side Privacy:** No logins, no database connections, and no tracking. All session queue states and reflections are stored safely in your browser's local sandbox memory.
 
 ---
 
-## 🛠️ Technology Stack
-- **Core:** Next.js 15 (App Router), React 19
-- **3D Engine:** Three.js / react-force-graph-3d
-- **Animation:** Framer Motion
-- **Styling:** Tailwind CSS (Vanilla CSS focus for HUD components)
-- **Data:** Decoupled 3-file JSON architecture (Master, State, Layout)
+## 🧭 The 4 Pillars of Thinking
+
+Curiosity OS structures concepts into four primary wings:
+1. **W1 — Decode:** The Reality Hacker's Toolkit (Systems thinking, logic, and data).
+2. **W2 — Cognition:** The intellectual OS (Philosophy, memory, and cognitive biases).
+3. **W3 — Relate:** The Human Interface (Empathy, active listening, and communication under pressure).
+4. **W4 — Sandbox:** High-stakes live exercises and creative brainstorming fields.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Installation
-```bash
-git clone https://github.com/tharungajula2/curiosity-os.git
-cd curiosity-os
-npm install
-```
-
-### 2. Development
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) to enter the Gateway.
-
----
-
-## 🧠 Documentation & Schema
-For deep technical dives, refer to our internal specifications:
-- **[PROJECT_MASTER_CONTEXT.md](./PROJECT_MASTER_CONTEXT.md):** The architectural source of truth.
-- **[CURIOSITY_SCHEMA_V1.md](./CURIOSITY_SCHEMA_V1.md):** Exhaustive JSON type definitions for the graph.
+### Quick Start
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tharungajula2/curiosity-os.git
+   cd curiosity-os
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ---
 
-## ⚖️ License & Copyright
-© **Tharun Gajula** | All Rights Reserved.
-Built with intention for the next generation of thinkers.
+## ⚙️ Technical Details & Deployment Runbook
+
+For a comprehensive architectural blueprint, please refer to the detailed specification:
+* **[System Blueprint & Source of Truth](./CURIOSITY_OS_SOURCE_OF_TRUTH_2026-06-20.md)**
+
+### Local Build and Compilation Pipelines
+Curiosity OS features localized parsing compilers to generate static activity data structures. Run these in sequence before production deployments:
+
+* **Generate Activity Indexes:**
+  ```bash
+  npm run build:activities
+  ```
+* **Verify Metadata Validation:**
+  ```bash
+  npm run validate:activities
+  ```
+* **Sync Obsidian Traversal Nodes:**
+  ```bash
+  npm run generate:universe
+  ```
+* **Production Build:**
+  ```bash
+  npm run build
+  npm run start
+  ```
+
+---
+© **Tharun Gajula** | All Rights Reserved.  
+Built with intention to foster curiosity in the next generation of thinkers.

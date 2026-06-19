@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "cos2_a01",
+    "slug": "feed-hacker-headline-autopsy",
+    "title": "Feed Hacker: Headline Autopsy",
+    "purpose": "Truth & Evidence",
+    "mode": "Case File",
+    "status": "flagship",
+    "tier": "flagship_36",
+    "summary": "The teacher brings 3–5 'claims' (a chart, a headline, a viral statistic, an influencer snippet). Groups run a structured autopsy to inspect axis integrity, sample size, and missing context.",
+    "short_promise": "Students learn to open a viral claim like a mechanic opens an engine.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 60
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "pens"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a02",
+    "slug": "signal-vs-noise-two-class-mystery",
+    "title": "Signal vs Noise: The Two-Class Mystery",
+    "purpose": "Reality Check",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students receive two 'class score cards' that share the same average but have different distributions. First they vote: 'Which class is stronger?' Then they must justify using distribution logic (spread, outliers, and what story could cause this).",
+    "short_promise": "Students learn why 'same average' can hide two opposite realities.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "simple number sets"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a03",
+    "slug": "model-the-mess-data-plan-simulator",
+    "title": "Model the Mess: The Data Plan Simulator",
+    "purpose": "Reality Check",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students analyze a messy, familiar scenario (mobile data, lateness, study time) and define the inputs, outputs, and constraints. They then propose a simple equation or relationship to represent the problem.",
+    "short_promise": "Students turn a messy real-life problem into variables, constraints, and a model they can control.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "medium",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "scenario cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a04",
+    "slug": "growth-loops-compounding-simulator",
+    "title": "Growth Loops: The 1% Compounding Simulator",
+    "purpose": "Study Engine",
+    "mode": "Simulation",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Groups simulate two students over 60 'days' with different study habits: one does rare bursts; the other does small, daily practice. They use tokens or tables to see how small consistent gains compound over time.",
+    "short_promise": "Students experience why small gains beat heroic bursts.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 60
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "tokens or simple tables"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a05",
+    "slug": "odds-engine-arena-expected-value",
+    "title": "Odds Engine Arena: Expected Value, Not Hype",
+    "purpose": "Decision Gym",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams start with equal 'bankroll' and face 8–10 choice rounds. Each round offers two bets with different payout, probability, and variance. Students must pick, justify, and see outcomes based on teacher-revealed results.",
+    "short_promise": "Students learn to choose using expected value + risk language, not best-case stories.",
+    "duration": {
+      "min": 40,
+      "typical": 45,
+      "max": 50
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "tokens",
+      "printed 'bets'"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a06",
+    "slug": "strategy-heist-logic-locks",
+    "title": "Strategy Heist: Logic Locks, Search Space, Enemy Moves",
+    "purpose": "Decision Gym",
+    "mode": "Puzzle / Challenge",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams must 'recover the stolen answer key' by solving a constrained puzzle where brute force is impossible. They use logic locks (must/can't statements) to prune the search space and anticipate 'enemy moves' (other team incentives).",
+    "short_promise": "Students learn why some problems explode, and how strategists prune possibilities.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 60
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "heist map",
+      "clue cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a07",
+    "slug": "architects-canvas-blueprint-rotation",
+    "title": "Architect’s Canvas Studio: Blueprint → 3D → Rotation",
+    "purpose": "Reality Check",
+    "mode": "Puzzle / Challenge",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Run as three stations: (1) Blueprint Scale Trap (scaling a layout), (2) 3D Pack Problem (volume reasoning), (3) Net-to-Cube Prediction (mental rotation). Students must explain their 'rotation' before folding or building.",
+    "short_promise": "Students build spatial intelligence through a sequence of tactile micro-challenges.",
+    "duration": {
+      "min": 40,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "medium",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "scissors",
+      "nets"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a08",
+    "slug": "digital-defense-cipher-quest",
+    "title": "Digital Defense: Cipher Quest (Cycles, Primes, Secrets)",
+    "purpose": "Reality Check",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students run a three-part quest: (1) crack a simple shift cipher using cyclic 'clock math,' (2) build 'prime locks' using factorization, (3) simulate secure messaging with tamper-evidence verification.",
+    "short_promise": "Students experience how secrecy and verification work—without heavy math.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "pens",
+      "cipher cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Decode"
+  },
+  {
+    "id": "cos2_a09",
+    "slug": "bias-court-same-facts-different-story",
+    "title": "Bias Court: Same Facts, Different Story",
+    "purpose": "Truth & Evidence",
+    "mode": "Simulation",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Present an ambiguous case (rumor, social incident, data interpretation). Students quickly choose an initial verdict (the trap). More evidence is revealed in waves, and they must update their judgment publicly while explaining why.",
+    "short_promise": "Students catch how the mind 'lawyers' reality, then learn to interrupt it.",
+    "duration": {
+      "min": 40,
+      "typical": 45,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "role cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a10",
+    "slug": "working-memory-budget-brain-friendly-worksheet",
+    "title": "Working Memory Budget: Build a Brain-Friendly Worksheet",
+    "purpose": "Study Engine",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students mark where they feel 'overloaded' on a real textbook page or worksheet. They redesign it using rules for split attention (keep related info together), chunking, and externalizing working memory (diagrams, step boxes).",
+    "short_promise": "Students learn why tasks feel hard and how to reduce unnecessary mental load.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "low",
+    "energy": "low-medium",
+    "materials": [
+      "paper",
+      "real worksheet/textbook page"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a11",
+    "slug": "attention-lock-sprint-single-tasking",
+    "title": "Attention Lock Sprint: Single-Tasking Under Noise",
+    "purpose": "Reset & Reflect",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Run two rounds of the same short task (math, reading, or copying). Round 1 includes interruptions and background chatter. Round 2 is a 'lock sprint': silence, single task, visible timer, and no switching. Students compare results and strain.",
+    "short_promise": "Students feel the performance gap between divided attention and focused work—immediately.",
+    "duration": {
+      "min": 20,
+      "typical": 25,
+      "max": 30
+    },
+    "prep": "none",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "timer optional"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a12",
+    "slug": "retrieval-showdown-beat-illusion-competence",
+    "title": "Retrieval Showdown: Beat the Illusion of Competence",
+    "purpose": "Study Engine",
+    "mode": "Lab",
+    "status": "flagship",
+    "tier": "flagship_36",
+    "summary": "A two-round memory challenge. Round 1: Students 'study' a complex text by highlighting and rereading. Round 2: A different group 'studies' the same text by doing a 2-minute 'Free Recall' (dumping everything they remember to blank paper). They then take a quiz. Results consistently show the 'Retrieval' group winning, triggering a decompile on the Illusion of Competence.",
+    "short_promise": "Students experience the 'Testing Effect' and why highlighting is a trap.",
+    "duration": {
+      "min": 40,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "medium",
+    "energy": "medium-high",
+    "materials": [
+      "1-page complex text",
+      "blank paper",
+      "quiz questions"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a13",
+    "slug": "confidence-bayes-ladder-calibrate-certainty",
+    "title": "Confidence & Bayes Ladder: Calibrate Your Certainty",
+    "purpose": "Decision Gym",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students answer questions and attach a confidence % to each. Next, they compute over/under-confidence patterns. Finally, they update their confidence based on new 'Bayes-style' evidence waves provided by the teacher.",
+    "short_promise": "Students learn to match confidence to reality and update with evidence instead of ego.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "question set"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a14",
+    "slug": "interleaving-shuffle-lab-hidden-differences",
+    "title": "Interleaving Shuffle Lab: Spot the Hidden Differences",
+    "purpose": "Study Engine",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students practice a skill in two formats: blocked (same type repeated) vs. interleaved (mixed types). They record how they feel (blocked feels smooth) and then test transfer (interleaved wins).",
+    "short_promise": "Students learn discrimination: choosing the right method when problems look similar.",
+    "duration": {
+      "min": 25,
+      "typical": 35,
+      "max": 45
+    },
+    "prep": "medium",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "problem deck"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a15",
+    "slug": "decision-clinic-tradeoffs-trees-premortems",
+    "title": "Decision Clinic: Trade-Offs, Trees, and Pre-Mortems",
+    "purpose": "Decision Gym",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams take a real-world decision (retake exam, choose project partner, join competition) and build a decision tree with branches, probabilities, and opportunity costs. They then run a 'pre-mortem' to identify failure routes.",
+    "short_promise": "Students learn to plan decisions with branches, costs, uncertainty, and failure routes.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 60
+    },
+    "prep": "medium",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "decision worksheets"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a16",
+    "slug": "practice-debug-error-log-patterns",
+    "title": "Practice Debug: Error Log Patterns (Beyond 'Silly Mistakes')",
+    "purpose": "Study Engine",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students bring a recent test or worksheet with errors. Instead of 'fixing' them, they categorize them into an Error Log (e.g., 'Concept Gap,' 'Process Slip,' 'Read/Logic Error'). They then design a specific 'pre-flight check' to prevent that pattern.",
+    "short_promise": "Students stop saying 'I made a silly mistake' and start identifying their own failure patterns.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "recent test/worksheet"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a17",
+    "slug": "evidence-ladder-claim-strength-ranking",
+    "title": "Evidence Ladder: Claim Strength Ranking",
+    "purpose": "Truth & Evidence",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students receive 5 claims on a specific topic (health, space, social incident). They must rank them on the **Evidence Ladder** (Personal Anecdote → Expert Quote → Single Study → Consensus/Systematic Review). They then justify why a single study can be wrong.",
+    "short_promise": "Students learn to rank claims by strength of evidence, not just loudness.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "medium",
+    "energy": "low-medium",
+    "materials": [
+      "paper",
+      "claim set"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a18",
+    "slug": "systems-dominoes-causal-chains",
+    "title": "Systems Dominoes: Causal Chains & Side Effects",
+    "purpose": "Systems Lens",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams take a 'Change' (e.g., 'Free WiFi everywhere,' 'School starts at 10 AM,' 'No homework week'). They must map the causal dominoes: the direct result, the side effect, and the second-order ripple. They then identify one unintended consequence.",
+    "short_promise": "Students learn to see the ripples of a single change—not just the immediate result.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "scenario cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a19",
+    "slug": "research-hygiene-detect-p-hacking",
+    "title": "Research Hygiene: Detect P-Hacking & Tiny Samples",
+    "purpose": "Truth & Evidence",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students receive 3–5 'Study Summaries' (e.g., 'Coffee cures X,' 'Sugar makes Y happen'). In a group search, they must label red flags: N=5 (tiny sample), P-Hacking (too many questions asked), Selection Bias, and Funding Bias.",
+    "short_promise": "Students learn to spot the red flags of 'leaking research' before they believe the headline.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "medium",
+    "energy": "low-medium",
+    "materials": [
+      "paper",
+      "study cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a20",
+    "slug": "replication-consensus-truth-over-time",
+    "title": "Replication & Consensus: Truth Over Time",
+    "purpose": "Truth & Evidence",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students run a 'Replication Race': 5 groups study the same 'hidden' phenomenon (roll of a d20 with a hidden bias). Group  group results are shared one by one. Students see how the 'truth' shifts with each new sample until it stabilizes in consensus.",
+    "short_promise": "Students learn why 'one study' is never enough, and how truth stabilizes through replication.",
+    "duration": {
+      "min": 40,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "d20 or similar dice",
+      "consensus boards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a21",
+    "slug": "steelman-argument-map-disagreement",
+    "title": "Steelman & Argument Map: Disagreement Studio",
+    "purpose": "Truth & Evidence",
+    "mode": "Writing Studio",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students are given a controversial or ambiguous topic (e.g., 'Should school start later?', 'Is social media a net-positive?'). Instead of debating, they must **Steelman** the other side: build their strongest argument. Then they use an **Argument Map** to show the evidence for each branch.",
+    "short_promise": "Students learn to build the strongest version of an opposing view before they critique it.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "prep": "low",
+    "energy": "medium-high",
+    "materials": [
+      "paper",
+      "argument maps"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a22",
+    "slug": "model-stack-builder-visual-notes",
+    "title": "Model Stack Builder: Visual Notes & Synthesis",
+    "purpose": "Study Engine",
+    "mode": "Writing Studio",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students are given a multi-layered topic (e.g., 'Why does this city exist?', 'Economic cycles,' 'Evolutionary traits'). They must build a **Model Stack**: (1) The Core Engine, (2) The Ingredients, (3) The Historical Force, (4) The Side Effects. Each layer is a visual model, not a list.",
+    "short_promise": "Students learn to synthesize information into a visual 'Model Stack' instead of copying notes.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "model templates"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Cognition"
+  },
+  {
+    "id": "cos2_a23",
+    "slug": "truth-reliability-ledger-reputation",
+    "title": "Truth & Reliability Ledger: Reputation is a Score",
+    "purpose": "Truth & Evidence",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students learn to track **Reliability**: the gap between 'Word' and 'Action.' They use a simple ledger to track 3 self-declared promises and observe the result. The decompile focuses on 'The Trust Equation' (Competence + Reliability + Intimacy / Self-Orientation).",
+    "short_promise": "Students learn that trust is built on repeatable reliability, not just vibes.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "low-medium",
+    "materials": [
+      "paper",
+      "ledger templates"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Relate"
+  },
+  {
+    "id": "cos2_a24",
+    "slug": "calibration-radar-social-cues",
+    "title": "Calibration Radar: Social Cue Reading & Adjustment",
+    "purpose": "People & Pressure",
+    "mode": "Simulation / Roleplay",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students observe a simulated social scene (video or roleplay) and use the **Calibration Radar** (Attention, Energy, Safety, Power) to 'rate the room.' They then propose one adjustment for the 'Social Actor' to stay aligned with the group.",
+    "short_promise": "Students learn to read the room and adjust their 'volume' before they lose the audience.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "radar templates"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Relate"
+  },
+  {
+    "id": "cos2_a25",
+    "slug": "rewrite-clinic-social-friction-clarity",
+    "title": "Rewrite Clinic: Social Friction & Clarity",
+    "purpose": "Trust & Teamwork",
+    "mode": "Writing Studio",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students are given a 'Friction Message' (e.g., 'I'm out of the group, you guys are lazy'). They must rewrite it using three protocols: (1) Facts Only (remove labels), (2) The Request (add a specific ask), (3) The Why (brief context). They compare the 'storm probability' of each version.",
+    "short_promise": "Students learn to rewrite 'angry' or 'unclear' messages before they cause a social storm.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "low-medium",
+    "materials": [
+      "paper",
+      "friction message set"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Relate"
+  },
+  {
+    "id": "cos2_a26",
+    "slug": "peer-pressure-shield-social-default",
+    "title": "Peer Pressure Shield: Social Default & Escape",
+    "purpose": "People & Pressure",
+    "mode": "Simulation / Roleplay",
+    "status": "flagship",
+    "tier": "flagship_36",
+    "summary": "Students practice identifying **High-Pressure Social Defaults** (e.g., 'Just one more game,' 'Tell him he's stupid'). They build their own **Escape Pods**: short, repeatable scripts and pre-vetted excuses that allow them to exit a situation without losing 'cool' or safety.",
+    "short_promise": "Students learn to build their own 'social default' before the pressure hits.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 60
+    },
+    "prep": "low",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "script cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Relate"
+  },
+  {
+    "id": "cos2_a27",
+    "slug": "boundary-scripts-batna-say-no",
+    "title": "Boundary Scripts + BATNA: Say No Cleanly",
+    "purpose": "People & Pressure",
+    "mode": "Workshop",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students list common 'trap situations' (unfair group work, borrowing money, pressure to share answers). They build a BATNA (Best Alternative To a Negotiated Agreement) for each and write short, repeatable boundary scripts. Teacher decompiles: alternatives create emotional regulation; boundaries collapse when options feel scarce.",
+    "short_promise": "Students learn how alternatives create calm, and how to refuse without drama.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "worksheet"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Relate"
+  },
+  {
+    "id": "cos2_a28",
+    "slug": "listening-lab-paraphrase-clarify-confirm",
+    "title": "Listening Lab: Paraphrase, Clarify, Confirm",
+    "purpose": "Trust & Teamwork",
+    "mode": "Lab",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Students work in triads through short dialogue cards and mini-friction scenarios. The listener must first paraphrase what they heard, then ask one clarifying question, and only then offer a response. An observer tracks interruption, distortion, assumption-jumps, and whether the speaker feels accurately understood. The debrief frames listening as reality-matching, not passive politeness.",
+    "short_promise": "Students learn to listen accurately before reacting, replying, or escalating.",
+    "duration": {
+      "min": 35,
+      "typical": 40,
+      "max": 45
+    },
+    "prep": "low",
+    "energy": "medium",
+    "materials": [
+      "paper",
+      "scenario slips",
+      "observer checklist"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Relate"
+  },
+  {
+    "id": "cos2_a29",
+    "slug": "goodhart-simulator-metrics-targets",
+    "title": "Goodhart Simulator: When Metrics Become Targets",
+    "purpose": "Systems Lens",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams run a 'school improvement' mini-game. Initially the goal is meaningful (learning). Then the teacher introduces a target metric (marks, attendance %, homework count). Teams quickly optimize the metric (gaming behavior), and the real goal degrades. Debrief makes the law unforgettable: when a measure becomes a target, it stops measuring the thing you cared about.",
+    "short_promise": "Students see how 'measuring' can corrupt behavior when the measure becomes the goal.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "prep": "low-medium",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "tokens/counters"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a30",
+    "slug": "skyline-outlaws-risk-ladder-judgment",
+    "title": "Skyline Outlaws: Risk Ladder Course",
+    "purpose": "Reset & Reflect",
+    "mode": "Outdoor Mission",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams face a sequence of movement challenges (balance line, controlled jump, timed navigation) designed with safety margins. Before each challenge, they must do a 'risk rating' (consequence, control, fallback) and assign roles (spotter, leader, timekeeper). Teacher is strict: no one moves without a risk plan.",
+    "short_promise": "Students train risk assessment and attention under motion in a safe mission format.",
+    "duration": {
+      "min": 45,
+      "typical": 60,
+      "max": 75
+    },
+    "prep": "medium-high",
+    "energy": "high",
+    "materials": [
+      "cones",
+      "rope",
+      "chalk",
+      "risk cards"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a31",
+    "slug": "skyline-outlaws-spatial-hunt",
+    "title": "Skyline Outlaws: Spatial Treasure Hunt",
+    "purpose": "Reality Check",
+    "mode": "Outdoor Mission",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams receive a simple map or clues about locations. They must plan a route that minimizes time while respecting constraints (no-go zones, 'one-way' paths, hidden penalties). The trap is rushing; the best teams win by representation (sketching route) and planning. Debrief ties to blueprint vision and spatial logic as transferable skills.",
+    "short_promise": "Students practice spatial logic and navigation as a thinking skill.",
+    "duration": {
+      "min": 40,
+      "typical": 50,
+      "max": 60
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "map cards",
+      "tokens",
+      "compass optional"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a32",
+    "slug": "hacksmiths-workshop-scrap-to-system",
+    "title": "Hacksmith’s Workshop: Scrap-to-System",
+    "purpose": "Sandbox: Make & Tinker",
+    "mode": "Build / Make",
+    "status": "flagship",
+    "tier": "flagship_36",
+    "summary": "Students are given a 'Scrap Box' (cardboard, rubber bands, plastic bottles, tape). Their mission: Build a machine that achieves a specific goal (e.g., 'The 10-Second Delay Coin Run'). They must maintain a **Causal Build Log**, documenting every 'If-Then' failure and fix.",
+    "short_promise": "Students turn physical scrap into a functioning causal system.",
+    "duration": {
+      "min": 60,
+      "typical": 75,
+      "max": 90
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "cardboard boxes",
+      "rubber bands",
+      "tape",
+      "string",
+      "empty bottles"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a33",
+    "slug": "alliance-arena-communication-relay",
+    "title": "Alliance Arena: Communication Under Load Relay",
+    "purpose": "Trust & Teamwork",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams must transmit instructions through a chain with constraints (cannot repeat exact words, limited time, one teammate blindfolded, etc.). Miscommunication causes failures; teams iterate. Debrief identifies what worked: short sentences, checking understanding, role clarity, calm tone.",
+    "short_promise": "Students learn to communicate clearly when speed and stress rise.",
+    "duration": {
+      "min": 35,
+      "typical": 45,
+      "max": 55
+    },
+    "prep": "low-medium",
+    "energy": "high",
+    "materials": [
+      "cards",
+      "objects",
+      "blindfold optional"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a34",
+    "slug": "zen-nexus-emotional-reset-diffuse",
+    "title": "Zen Nexus: Emotional Reset + Diffuse Thinking Protocol",
+    "purpose": "Reset & Reflect",
+    "mode": "Reflection Studio",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teacher leads a 4-step protocol: (1) body downshift (breathing + posture), (2) dump thoughts to paper (no polishing), (3) name one pattern noticed ('what triggered me?'), (4) choose one next action. This is framed as skill training, not emotional exposure. Close with optional sharing in pairs with strict boundaries.",
+    "short_promise": "Students learn how to downshift and recover clarity after friction.",
+    "duration": {
+      "min": 15,
+      "typical": 20,
+      "max": 30
+    },
+    "prep": "none",
+    "energy": "low",
+    "materials": [
+      "paper",
+      "notebooks"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a35",
+    "slug": "chaos-carnival-rhythm-improv",
+    "title": "Chaos Carnival: Rhythm, Improv, Turn-Taking",
+    "purpose": "Trust & Teamwork",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Class runs rhythm-and-response games where rules force turn-taking, listening, and adapting (e.g., pass a rhythm pattern, improvise one move that others mirror). Teacher use it as social cue training: notice timing, over-dominance, freeze under pressure, repair after mistakes.",
+    "short_promise": "Students practice social cue reading and collaboration through playful constraints.",
+    "duration": {
+      "min": 30,
+      "typical": 40,
+      "max": 50
+    },
+    "prep": "low",
+    "energy": "high",
+    "materials": [
+      "open space",
+      "clapping/rhythm"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  },
+  {
+    "id": "cos2_a36",
+    "slug": "alliance-arena-fair-play-protocol",
+    "title": "Alliance Arena: Fair Play Protocol (Prisoner’s Dilemma Live)",
+    "purpose": "Trust & Teamwork",
+    "mode": "Game",
+    "status": "pilot",
+    "tier": "flagship_36",
+    "summary": "Teams play an iterated cooperation game (Prisoner’s Dilemma) where choices create short-term advantage vs. long-term trust. Over rounds, students test strategies (cooperate-first, tit-for-tat, always defect). The teacher debriefs: trust logic, fairness reputation, and how repair moments matter.",
+    "short_promise": "Students experience why cooperation collapses and how fairness strategies stabilize trust.",
+    "duration": {
+      "min": 45,
+      "typical": 55,
+      "max": 65
+    },
+    "prep": "medium",
+    "energy": "high",
+    "materials": [
+      "paper",
+      "tokens/score sheets"
+    ],
+    "evidence": [
+      "generate",
+      "notice",
+      "represent",
+      "reason",
+      "transfer",
+      "reflect"
+    ],
+    "wing": "Sandbox"
+  }
+]
